@@ -1,2 +1,5 @@
+# ignore all .kra files
+*.kra
+
 # ignore all files in any directory named datasheets
 datasheets/
