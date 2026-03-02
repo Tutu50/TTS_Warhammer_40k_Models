@@ -1,0 +1,944 @@
+{
+  "SaveName": "",
+  "Date": "",
+  "VersionNumber": "",
+  "GameMode": "",
+  "GameType": "",
+  "GameComplexity": "",
+  "Tags": [],
+  "Gravity": 0.5,
+  "PlayArea": 0.5,
+  "Table": "",
+  "Sky": "",
+  "Note": "",
+  "TabStates": {},
+  "LuaScript": "",
+  "LuaScriptState": "",
+  "XmlUI": "",
+  "ObjectStates": [
+    {
+      "GUID": "95f936",
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": -66.6459,
+        "posY": 1.6042074,
+        "posZ": -68.64741,
+        "rotX": 0.0164834186,
+        "rotY": 179.997574,
+        "rotZ": 0.08031626,
+        "scaleX": 0.276458263,
+        "scaleY": 1.0,
+        "scaleZ": 0.276458263
+      },
+      "Nickname": "COMMAND RE-ROLL - 1 CP",
+      "Description": "CORE – BATTLE TACTIC STRATAGEM\n\nWHEN: In any phase, just after you have made a Hit roll, a Wound roll, a Damage roll, a saving throw, an Advance roll, a Charge roll, a Desperate Escape test, a Hazardous test, or just after you have rolled the dice to determine the number of attacks made with a weapon, for an attack, model or unit from your army.\r\n\r\nEFFECT: You re-roll that roll, test or saving throw.",
+      "GMNotes": "",
+      "AltLookAngle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": false,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": true,
+      "CustomImage": {
+        "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/2046375698705422945/5861745BD850F58B86C7F6A986E5A96C68E53F7F/",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 0.1,
+          "MergeDistancePixels": 20.0,
+          "StandUp": false,
+          "Stackable": false
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "AttachedDecals": [
+        {
+          "Transform": {
+            "posX": -0.006093977,
+            "posY": -0.0599999428,
+            "posZ": -0.0121666221,
+            "rotX": 270.019775,
+            "rotY": 9.28654845E-05,
+            "rotZ": 0.0,
+            "scaleX": 3.61718249,
+            "scaleY": 3.61718249,
+            "scaleZ": 1.00000012
+          },
+          "CustomDecal": {
+            "Name": "Grey Reroll",
+            "ImageURL": "https://i.imgur.com/QyD6oYt.png",
+            "Size": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "GUID": "70dd7a",
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": 1.02002716,
+        "posY": -0.00142288208,
+        "posZ": 0.0,
+        "rotX": 0.0167638529,
+        "rotY": 179.957718,
+        "rotZ": 0.07991306,
+        "scaleX": 0.276458263,
+        "scaleY": 1.0,
+        "scaleZ": 0.276458263
+      },
+      "Nickname": "COUNTER-OFFENSIVE - 2 CP",
+      "Description": "CORE – STRATEGIC PLOY STRATAGEM\n\nWHEN: Fight phase, just after an enemy unit has fought.\r\n\r\nTARGET: One unit from your army that is within Engagement Range of one or more enemy units and that has not already been selected to fight this phase.\r\n\r\nEFFECT: Your unit fights next.",
+      "GMNotes": "",
+      "AltLookAngle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": false,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": true,
+      "CustomImage": {
+        "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/2046375698705414081/68382BE39C9535D4FF469FCADDB380B4F6E7D2B1/",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 0.1,
+          "MergeDistancePixels": 20.0,
+          "StandUp": false,
+          "Stackable": false
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "AttachedDecals": [
+        {
+          "Transform": {
+            "posX": 0.00442513032,
+            "posY": -0.05999996,
+            "posZ": -0.0157836024,
+            "rotX": 270.0,
+            "rotY": 0.285585254,
+            "rotZ": 0.0,
+            "scaleX": 3.61718249,
+            "scaleY": 3.61718035,
+            "scaleZ": 0.999999762
+          },
+          "CustomDecal": {
+            "Name": "Grey Fight",
+            "ImageURL": "https://i.imgur.com/piohnKp.png",
+            "Size": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "GUID": "3cf04e",
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": 2.03993988,
+        "posY": -0.00284481049,
+        "posZ": 5.340576E-05,
+        "rotX": 0.0168670472,
+        "rotY": 179.973831,
+        "rotZ": 0.08036116,
+        "scaleX": 0.276458263,
+        "scaleY": 1.0,
+        "scaleZ": 0.276458263
+      },
+      "Nickname": "EPIC CHALLENGE - 1 CP",
+      "Description": "CORE – EPIC DEED STRATAGEM\n\nWHEN: Fight phase, when a CHARACTER unit from your army that is within Engagement Range of one or more Attached units is selected to fight.\r\n\r\nTARGET: One CHARACTER model in your unit.\r\n\r\nEFFECT: Until the end of the phase, all melee attacks made by that model have the [PRECISION] ability.",
+      "GMNotes": "",
+      "AltLookAngle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": false,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": true,
+      "CustomImage": {
+        "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/2046375698705414081/68382BE39C9535D4FF469FCADDB380B4F6E7D2B1/",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 0.1,
+          "MergeDistancePixels": 20.0,
+          "StandUp": false,
+          "Stackable": false
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "AttachedDecals": [
+        {
+          "Transform": {
+            "posX": 0.00442513032,
+            "posY": -0.05999996,
+            "posZ": -0.0157836024,
+            "rotX": 270.0,
+            "rotY": 0.285585254,
+            "rotZ": 0.0,
+            "scaleX": 3.61718249,
+            "scaleY": 3.61718035,
+            "scaleZ": 0.999999762
+          },
+          "CustomDecal": {
+            "Name": "Grey Fight",
+            "ImageURL": "https://i.imgur.com/piohnKp.png",
+            "Size": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "GUID": "e2b81e",
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": 3.06016159,
+        "posY": -0.00426661968,
+        "posZ": 5.340576E-05,
+        "rotX": 0.0171613749,
+        "rotY": 179.973267,
+        "rotZ": 0.07958017,
+        "scaleX": 0.276458263,
+        "scaleY": 1.0,
+        "scaleZ": 0.276458263
+      },
+      "Nickname": "INSANE BRAVERY - 1 CP",
+      "Description": "CORE – EPIC DEED STRATAGEM\n\nWHEN: Battle-shock step of your Command phase, just before you take a Battle-shock test for a unit from your army.\r\n\r\nTARGET: A unit from your army that must take a Battle-shock test.\r\n\r\nEFFECT: Your unit automatically passes that Battle-shock test.\r\n\r\nRESTRICTIONS: You cannot use this Stratagem more than once per battle.\r\n",
+      "GMNotes": "",
+      "AltLookAngle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": false,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": true,
+      "CustomImage": {
+        "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/2046375698705403171/CCE51246F34D48F60CA847800AD685A569DEE57B/",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 0.1,
+          "MergeDistancePixels": 20.0,
+          "StandUp": false,
+          "Stackable": false
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "AttachedDecals": [
+        {
+          "Transform": {
+            "posX": -0.00310175912,
+            "posY": -0.0599999428,
+            "posZ": 0.00159338152,
+            "rotX": 270.0,
+            "rotY": 270.000122,
+            "rotZ": 0.0,
+            "scaleX": 3.61718249,
+            "scaleY": 3.617183,
+            "scaleZ": 1.0
+          },
+          "CustomDecal": {
+            "Name": "Grey Comm",
+            "ImageURL": "https://i.imgur.com/dB7mr6U.png",
+            "Size": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "GUID": "9689a2",
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": 3.059883,
+        "posY": -0.004567027,
+        "posZ": -1.02017212,
+        "rotX": 0.01715045,
+        "rotY": 179.958527,
+        "rotZ": 0.0799256,
+        "scaleX": 0.276458263,
+        "scaleY": 1.0,
+        "scaleZ": 0.276458263
+      },
+      "Nickname": "SMOKESCREEN - 1 CP",
+      "Description": "CORE – WARGEAR STRATAGEM\r\n\nWHEN: Your opponent’s Shooting phase, just after an enemy unit has selected its targets.\r\n\r\nTARGET: One SMOKE unit from your army that was selected as the target of one or more of the attacking unit’s attacks.\r\n\r\nEFFECT: Until the end of the phase, all models in your unit have the Benefit of Cover and the Stealth ability.",
+      "GMNotes": "",
+      "AltLookAngle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": false,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": true,
+      "CustomImage": {
+        "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/2046375698705420164/538B1BEE12CFD49B549317F1235FEE95A213CD30/",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 0.1,
+          "MergeDistancePixels": 19.9999981,
+          "StandUp": false,
+          "Stackable": false
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "AttachedDecals": [
+        {
+          "Transform": {
+            "posX": -0.009431315,
+            "posY": -0.0599999428,
+            "posZ": -0.00702021876,
+            "rotX": 270.019775,
+            "rotY": 4.148233E-05,
+            "rotZ": 0.0,
+            "scaleX": 3.61718249,
+            "scaleY": 3.617182,
+            "scaleZ": 1.00000012
+          },
+          "CustomDecal": {
+            "Name": "Grey Shoot",
+            "ImageURL": "https://i.imgur.com/hVcGOd2.png",
+            "Size": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "GUID": "114280",
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": 2.040039,
+        "posY": -0.003145218,
+        "posZ": -1.02020264,
+        "rotX": 0.0168733746,
+        "rotY": 179.974319,
+        "rotZ": 0.0798850358,
+        "scaleX": 0.276458263,
+        "scaleY": 1.0,
+        "scaleZ": 0.276458263
+      },
+      "Nickname": "GO TO GROUND - 1 CP",
+      "Description": "CORE – BATTLE TACTIC STRATAGEM\n\nWHEN: Your opponent’s Shooting phase, just after an enemy unit has selected its targets.\r\n\r\nTARGET: One INFANTRY unit from your army that was selected as the target of one or more of the attacking unit’s attacks.\r\n\r\nEFFECT: Until the end of the phase, all models in your unit have a 6+ invulnerable save and have the Benefit of Cover.",
+      "GMNotes": "",
+      "AltLookAngle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": false,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": true,
+      "CustomImage": {
+        "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/2046375698705420164/538B1BEE12CFD49B549317F1235FEE95A213CD30/",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 0.1,
+          "MergeDistancePixels": 19.9999981,
+          "StandUp": false,
+          "Stackable": false
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "AttachedDecals": [
+        {
+          "Transform": {
+            "posX": -0.009431315,
+            "posY": -0.0599999428,
+            "posZ": -0.00702021876,
+            "rotX": 270.019775,
+            "rotY": 4.148233E-05,
+            "rotZ": 0.0,
+            "scaleX": 3.61718249,
+            "scaleY": 3.617182,
+            "scaleZ": 1.00000012
+          },
+          "CustomDecal": {
+            "Name": "Grey Shoot",
+            "ImageURL": "https://i.imgur.com/hVcGOd2.png",
+            "Size": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "GUID": "0ea18c",
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": 1.02012634,
+        "posY": -0.00172317028,
+        "posZ": -1.02020264,
+        "rotX": 0.0170158148,
+        "rotY": 179.975357,
+        "rotZ": 0.07962544,
+        "scaleX": 0.276458263,
+        "scaleY": 1.0,
+        "scaleZ": 0.276458263
+      },
+      "Nickname": "FIRE OVERWATCH - 1 CP",
+      "Description": "CORE – STRATEGIC PLOY STRATAGEM\n\nWHEN: Your opponent’s Movement or Charge phase, just after an enemy unit is set up or when an enemy unit starts or ends a Normal, Advance, Fall Back or Charge move.\r\n\r\nTARGET: One unit from your army that is within 24\" of that enemy unit and that would be eligible to shoot if it were your Shooting phase.\r\n\r\nEFFECT: If that enemy unit is visible to your unit, your unit can shoot that enemy unit as if it were your Shooting phase.\r\n\r\nRESTRICTIONS: You cannot target a TITANIC unit with this Stratagem. Until the end of the phase, each time a model in your unit makes a ranged attack, an unmodified Hit roll of 6 is required to score a hit, irrespective of the attacking weapon’s Ballistic Skill or any modifiers. You can only use this Stratagem once per turn.",
+      "GMNotes": "",
+      "AltLookAngle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": false,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": true,
+      "CustomImage": {
+        "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/2046375698705410173/7020C52BF146C5622F052734E44FB6CDA267983C/",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 0.1,
+          "MergeDistancePixels": 20.0,
+          "StandUp": false,
+          "Stackable": false
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "AttachedDecals": [
+        {
+          "Transform": {
+            "posX": -0.00528135337,
+            "posY": -0.0599999353,
+            "posZ": -0.0206634365,
+            "rotX": 270.019775,
+            "rotY": 0.000102122678,
+            "rotZ": 0.0,
+            "scaleX": 3.61718249,
+            "scaleY": 3.617182,
+            "scaleZ": 1.00000012
+          },
+          "CustomDecal": {
+            "Name": "Grey Move",
+            "ImageURL": "https://i.imgur.com/7wOyrc4.png",
+            "Size": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "GUID": "4d08c2",
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": 0.000106811523,
+        "posY": -0.000301241875,
+        "posZ": -1.02018738,
+        "rotX": 0.0168750454,
+        "rotY": 179.978836,
+        "rotZ": 0.0799615,
+        "scaleX": 0.276458263,
+        "scaleY": 1.0,
+        "scaleZ": 0.276458263
+      },
+      "Nickname": "RAPID INGRESS - 1 CP",
+      "Description": "CORE – STRATEGIC PLOY STRATAGEM\n\nWHEN: End of your opponent’s Movement phase.\r\n\r\nTARGET: One unit from your army that is in Reserves.\r\n\r\nEFFECT: Your unit can arrive on the battlefield as if it were the Reinforcements step of your Movement phase.\r\n\r\nRESTRICTIONS: You cannot use this Stratagem to enable a unit to arrive on the battlefield during a battle round it would not normally be able to do so in.",
+      "GMNotes": "",
+      "AltLookAngle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": false,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": true,
+      "CustomImage": {
+        "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/2046375698705410173/7020C52BF146C5622F052734E44FB6CDA267983C/",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 0.1,
+          "MergeDistancePixels": 20.0,
+          "StandUp": false,
+          "Stackable": false
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "AttachedDecals": [
+        {
+          "Transform": {
+            "posX": -0.00528135337,
+            "posY": -0.0599999353,
+            "posZ": -0.0206634365,
+            "rotX": 270.019775,
+            "rotY": 0.000102122678,
+            "rotZ": 0.0,
+            "scaleX": 3.61718249,
+            "scaleY": 3.617182,
+            "scaleZ": 1.00000012
+          },
+          "CustomDecal": {
+            "Name": "Grey Move",
+            "ImageURL": "https://i.imgur.com/7wOyrc4.png",
+            "Size": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "GUID": "22c521",
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": 4.080494,
+        "posY": -0.00568950176,
+        "posZ": -5.340576E-05,
+        "rotX": 0.0168449823,
+        "rotY": 179.979782,
+        "rotZ": 0.0799188241,
+        "scaleX": 0.276458263,
+        "scaleY": 1.0,
+        "scaleZ": 0.276458263
+      },
+      "Nickname": "GRENADE - 1 CP",
+      "Description": "CORE – WARGEAR STRATAGEM\n\nWHEN: Your Shooting phase.\r\n\r\nTARGET: One GRENADES unit from your army that is not within Engagement Range of any enemy units and has not been selected to shoot this phase.\r\n\r\nEFFECT: Select one enemy unit that is not within Engagement Range of any units from your army and is within 8\" of and visible to your GRENADES unit. Roll six D6: for each 4+, that enemy unit suffers 1 mortal wound.",
+      "GMNotes": "",
+      "AltLookAngle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": false,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": true,
+      "CustomImage": {
+        "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/2046375698705418420/C2E75F981A9CE19165234377026F866AF7AFCB55/",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 0.1,
+          "MergeDistancePixels": 20.0,
+          "StandUp": false,
+          "Stackable": false
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "AttachedDecals": [
+        {
+          "Transform": {
+            "posX": -0.002456331,
+            "posY": -0.0599999428,
+            "posZ": -0.0255375449,
+            "rotX": 270.019775,
+            "rotY": 9.955909E-05,
+            "rotZ": 0.0,
+            "scaleX": 3.61718249,
+            "scaleY": 3.617183,
+            "scaleZ": 1.00000012
+          },
+          "CustomDecal": {
+            "Name": "Grey Shoot",
+            "ImageURL": "https://i.imgur.com/hVcGOd2.png",
+            "Size": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "GUID": "1d6c29",
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": 4.079998,
+        "posY": -0.0059889555,
+        "posZ": -1.0201416,
+        "rotX": 0.0169109516,
+        "rotY": 179.974228,
+        "rotZ": 0.0799596757,
+        "scaleX": 0.276458263,
+        "scaleY": 1.0,
+        "scaleZ": 0.276458263
+      },
+      "Nickname": "HEROIC INTERVENTION - 2 CP",
+      "Description": "CORE – STRATEGIC PLOY STRATAGEM\n\nWHEN: Your opponent’s Charge phase, just after an enemy unit ends a Charge move.\r\n\r\nTARGET: One unit from your army that is within 6\" of that enemy unit and would be eligible to declare a charge against that enemy unit if it were your Charge phase.\r\n\r\nEFFECT: Your unit now declares a charge that targets only that enemy unit, and you resolve that charge as if it were your Charge phase.\r\n\r\nRESTRICTIONS: You can only select a VEHICLE unit from your army if it is a WALKER. Note that even if this charge is successful, your unit does not receive any Charge bonus this turn.",
+      "GMNotes": "",
+      "AltLookAngle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": false,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": true,
+      "CustomImage": {
+        "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/2046375698705399510/25595D2841C593E764C7EC1A70CA4AEDBE38FC8E/",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 0.1,
+          "MergeDistancePixels": 20.0,
+          "StandUp": false,
+          "Stackable": false
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "AttachedDecals": [
+        {
+          "Transform": {
+            "posX": -0.0146289524,
+            "posY": -0.0599999428,
+            "posZ": -0.009662349,
+            "rotX": 270.019775,
+            "rotY": -5.96580721E-05,
+            "rotZ": 0.0,
+            "scaleX": 3.61718249,
+            "scaleY": 3.617182,
+            "scaleZ": 1.00000012
+          },
+          "CustomDecal": {
+            "Name": "Grey Charge",
+            "ImageURL": "https://i.imgur.com/jru7mJS.png",
+            "Size": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "GUID": "0cabef",
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": 5.100437,
+        "posY": -0.007110834,
+        "posZ": 5.340576E-05,
+        "rotX": 0.0167565979,
+        "rotY": 179.972855,
+        "rotZ": 0.08032364,
+        "scaleX": 0.276458263,
+        "scaleY": 1.0,
+        "scaleZ": 0.276458263
+      },
+      "Nickname": "TANK SHOCK - 1 CP",
+      "Description": "CORE – STRATEGIC PLOY STRATAGEM\n\nWHEN: Your Charge phase.\r\n\r\nTARGET: One VEHICLE unit from your army.\r\n\r\nEFFECT: Until the end of the phase, after your unit ends a Charge move, select one enemy unit within Engagement Range of it, then select one melee weapon your unit is equipped with. Roll a number of D6 equal to that weapon’s Strength characteristic. If that Strength characteristic is greater than that enemy unit’s Toughness characteristic, roll two additional D6. For each 5+, that enemy unit suffers 1 mortal wound (to a maximum of 6 mortal wounds).",
+      "GMNotes": "",
+      "AltLookAngle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": false,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": true,
+      "CustomImage": {
+        "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/2046375698705397522/F8C21ACF760F5A4FA815D6758CD2304430E14127/",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 0.1,
+          "MergeDistancePixels": 20.0,
+          "StandUp": false,
+          "Stackable": false
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "AttachedDecals": [
+        {
+          "Transform": {
+            "posX": -0.002478425,
+            "posY": -0.0599999428,
+            "posZ": 0.00739583839,
+            "rotX": 270.0,
+            "rotY": 3.11739022E-05,
+            "rotZ": 0.0,
+            "scaleX": 3.61718249,
+            "scaleY": 3.61718416,
+            "scaleZ": 1.0
+          },
+          "CustomDecal": {
+            "Name": "Grey Charge",
+            "ImageURL": "https://i.imgur.com/jru7mJS.png",
+            "Size": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "GUID": "4e7a45",
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": 5.0858345,
+        "posY": -0.007389426,
+        "posZ": -1.01263428,
+        "rotX": 0.0164895467,
+        "rotY": 179.978958,
+        "rotZ": 0.08004221,
+        "scaleX": 0.276458263,
+        "scaleY": 1.0,
+        "scaleZ": 0.276458263
+      },
+      "Nickname": "NEW ORDERS - 1 CP",
+      "Description": "CORE - STRATEGIC PLOY STRATAGEM\n\nWHEN: End of your Command phase.\n\nTARGET: One of your active Secondary Mission cards.\r\n\r\nEFFECT: Discard it and draw one new Secondary Mission card.\r\n\r\nRESTRICTIONS: You can only use this Stratagem once per battle.",
+      "GMNotes": "",
+      "AltLookAngle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": false,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": true,
+      "CustomImage": {
+        "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/2046375698705403171/CCE51246F34D48F60CA847800AD685A569DEE57B/",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 0.1,
+          "MergeDistancePixels": 20.0,
+          "StandUp": false,
+          "Stackable": false
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "AttachedDecals": [
+        {
+          "Transform": {
+            "posX": -0.00310175912,
+            "posY": -0.0599999428,
+            "posZ": 0.00159338152,
+            "rotX": 270.0,
+            "rotY": 270.000122,
+            "rotZ": 0.0,
+            "scaleX": 3.61718249,
+            "scaleY": 3.617183,
+            "scaleZ": 1.0
+          },
+          "CustomDecal": {
+            "Name": "Grey Comm",
+            "ImageURL": "https://i.imgur.com/dB7mr6U.png",
+            "Size": 1.0
+          }
+        }
+      ]
+    }
+  ]
+}

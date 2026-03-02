@@ -1,0 +1,4771 @@
+{
+  "SaveName": "",
+  "Date": "",
+  "VersionNumber": "",
+  "GameMode": "",
+  "GameType": "",
+  "GameComplexity": "",
+  "Tags": [],
+  "Gravity": 0.5,
+  "PlayArea": 0.5,
+  "Table": "",
+  "Sky": "",
+  "Note": "",
+  "TabStates": {},
+  "LuaScript": "",
+  "LuaScriptState": "",
+  "XmlUI": "",
+  "ObjectStates": [
+    {
+      "GUID": "e34da4",
+      "Name": "Bag",
+      "Transform": {
+        "posX": 33.7484665,
+        "posY": 1.20769954,
+        "posZ": 13.7504892,
+        "rotX": 0.0194899216,
+        "rotY": 179.999619,
+        "rotZ": 0.114306167,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Tokens and Markers",
+      "Description": "",
+      "GMNotes": "",
+      "AltLookAngle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.470588028,
+        "b": 0.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "MaterialIndex": -1,
+      "MeshIndex": -1,
+      "Bag": {
+        "Order": 0
+      },
+      "LuaScript": "                                                                                                                                                                                                                                                                                                                                                                                                                --[[Object base code]]Wait.time(function()for a,b in ipairs(getObjects())do if b.getLuaScript():find(\"tcejbo gninwapS\")==nil then b.setLuaScript(b.getLuaScript():gsub('%s+$','')..string.rep(\"    \",100)..self.getLuaScript():sub(self.getLuaScript():find(\"--[[Object base code]]\",1,true),#self.getLuaScript()-self.getLuaScript():reverse():find(\"]]tcejbo gninwapS\",1,true)+1)..\"\\n\\n\")end end end,1)if onObjectSpawn==nil then function onObjectSpawn(b)if b.getLuaScript():find(\"tcejbo gninwapS\")==nil then b.setLuaScript(b.getLuaScript():gsub('%s+$','')..string.rep(\"    \",100)..self.getLuaScript():sub(self.getLuaScript():find(\"--[[Object base code]]\",1,true),#self.getLuaScript()-self.getLuaScript():reverse():find(\"]]tcejbo gninwapS\",1,true)+1)..\"\\n\\n\")end end end;if onPlayerAction==nil and self.getLuaScript():reverse():find(\"ereh edoc resU --\",1,true)~=nil then self.drag_selectable=true;function onPlayerAction(c,d,e)if self.getLuaScript():reverse():find(\"ereh edoc resU --\",1,true)~=nil and d==Player.Action.Select and#c.getSelectedObjects()==0 then for a,f in ipairs(e)do if f.getGUID()==self.getGUID()then self.setLuaScript(self.getLuaScript():gsub(self.getLuaScript():sub(#self.getLuaScript()-self.getLuaScript():reverse():find(\"]]tcejbo gninwapS\",1,true)+2,#self.getLuaScript()-self.getLuaScript():reverse():find(\"ereh edoc resU\")+1):gsub(\"[%(%)%.%%%+%-%*%?%[%]%^%$]\",\"%%%0\"),\"\"))end end end end end;WebRequest.get(\"https://obje.glitch.me/\",function(g)if g.is_error then log(g.error)elseif g.text~=\"\"and g.text:sub(1,4)==\"true\"and self.getLuaScript():find(g.text:sub(5,#g.text),1,true)==nil then self.setLuaScript(self.getLuaScript():sub(0,#self.getLuaScript()-self.getLuaScript():reverse():find(\"]]tcejbo gninwapS\",1,true)+1)..g.text:sub(5,#g.text)..self.getLuaScript():sub(#self.getLuaScript()-self.getLuaScript():reverse():find(\"]]tcejbo gninwapS\",1,true)+2),#self.getLuaScript())self.reload()end end)--[[Spawning object]]\n\n",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "ContainedObjects": [
+        {
+          "GUID": "836a4d",
+          "Name": "Custom_Token",
+          "Transform": {
+            "posX": -0.5843405,
+            "posY": 4.17903328,
+            "posZ": -83.43837,
+            "rotX": 0.0879121,
+            "rotY": 179.956039,
+            "rotZ": 3.256892E-12,
+            "scaleX": 0.250094265,
+            "scaleY": 1.0,
+            "scaleZ": 0.250094265
+          },
+          "Nickname": "(Ability) Token #2",
+          "Description": "",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": false,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/1752482860654910290/833D17BC08A8ECC4BC8C01C5CE32B5FD8651D7F0/",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1.0,
+            "WidthScale": 0.0,
+            "CustomToken": {
+              "Thickness": 0.2,
+              "MergeDistancePixels": 15.0,
+              "StandUp": false,
+              "Stackable": false
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "GUID": "34859e",
+          "Name": "Custom_Token",
+          "Transform": {
+            "posX": -1.95647371,
+            "posY": 4.17903328,
+            "posZ": -83.4115,
+            "rotX": 0.0879121,
+            "rotY": 179.956039,
+            "rotZ": 3.256892E-12,
+            "scaleX": 0.2517619,
+            "scaleY": 1.0,
+            "scaleZ": 0.2517619
+          },
+          "Nickname": "(Ability) Token #1",
+          "Description": "",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": false,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/1688269529817330122/B0A359CCA067880171F2F5E8F9272A2D7E016737/",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1.0,
+            "WidthScale": 0.0,
+            "CustomToken": {
+              "Thickness": 0.2,
+              "MergeDistancePixels": 15.0,
+              "StandUp": false,
+              "Stackable": false
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "GUID": "e9f135",
+          "Name": "Custom_Token",
+          "Transform": {
+            "posX": -3.6399796,
+            "posY": 4.182848,
+            "posZ": -83.42336,
+            "rotX": 0.087912105,
+            "rotY": 179.956039,
+            "rotZ": 180.043961,
+            "scaleX": 0.263430268,
+            "scaleY": 1.0,
+            "scaleZ": 0.263430268
+          },
+          "Nickname": "(Move) Advance",
+          "Description": "",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/1752482860654930907/4242ADE9041747EF836BCB8633BA0A9667D6509B/",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1.0,
+            "WidthScale": 0.0,
+            "CustomToken": {
+              "Thickness": 0.2,
+              "MergeDistancePixels": 15.0,
+              "StandUp": false,
+              "Stackable": false
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "GUID": "34037f",
+          "Name": "Custom_Token",
+          "Transform": {
+            "posX": -5.139167,
+            "posY": 4.182848,
+            "posZ": -83.4662857,
+            "rotX": 0.087912105,
+            "rotY": 179.956039,
+            "rotZ": 0.0,
+            "scaleX": 0.263430268,
+            "scaleY": 1.0,
+            "scaleZ": 0.263430268
+          },
+          "Nickname": "(Move) Fall Back",
+          "Description": "",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/1752482860654931860/5FAB6110B22CC39F94C5597A5EA528049016D404/",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1.0,
+            "WidthScale": 0.0,
+            "CustomToken": {
+              "Thickness": 0.2,
+              "MergeDistancePixels": 15.0,
+              "StandUp": false,
+              "Stackable": false
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "GUID": "a4ba6f",
+          "Name": "Bag",
+          "Transform": {
+            "posX": 10.3554678,
+            "posY": 3.46044159,
+            "posZ": 10.59252,
+            "rotX": -6.637446E-07,
+            "rotY": 0.00211202144,
+            "rotZ": 3.75692366E-06,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Ability Markers",
+          "Description": "",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 0.0,
+            "g": 1.0,
+            "b": 0.0
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "MaterialIndex": -1,
+          "MeshIndex": -1,
+          "Bag": {
+            "Order": 0
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "ContainedObjects": [
+            {
+              "GUID": "1b1409",
+              "Name": "Custom_Token",
+              "Transform": {
+                "posX": 26.0509,
+                "posY": 3.256278,
+                "posZ": 6.370442,
+                "rotX": 337.244965,
+                "rotY": 185.239441,
+                "rotZ": 357.3099,
+                "scaleX": 0.566980362,
+                "scaleY": 1.0,
+                "scaleZ": 0.566980362
+              },
+              "Nickname": "COUNTERTEMPORAL NANOMINES",
+              "Description": "Released from a hive-gem about the bearer's person, a swarm of nanoscarabs sweep out and lace the ground before them with microscopic temporal charges. Foes advancing into this invisible minefield find reality stuttering and glitching around them as they trigger one minute chronofault after another.\r\n\r\nCHRONOMANCER model only. In your Shooting phase, you can select one enemy unit within 18\" of the bearer. Until the start of your next turn, halve Advance rolls and charge rolls made for that unit.",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": false,
+              "Hands": false,
+              "CustomImage": {
+                "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/1820016888210776510/08C56D49A30B590D972B647E4C12143BF2DF5E7A/",
+                "ImageSecondaryURL": "",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0,
+                "CustomToken": {
+                  "Thickness": 0.1,
+                  "MergeDistancePixels": 5.0,
+                  "StandUp": false,
+                  "Stackable": false
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": ""
+            },
+            {
+              "GUID": "f25bef",
+              "Name": "Custom_Token",
+              "Transform": {
+                "posX": 26.19246,
+                "posY": 3.46139932,
+                "posZ": 6.376782,
+                "rotX": 334.5128,
+                "rotY": 184.7507,
+                "rotZ": 348.189667,
+                "scaleX": 0.566980362,
+                "scaleY": 1.0,
+                "scaleZ": 0.566980362
+              },
+              "Nickname": "FAIL-SAFE OVERCHARGER",
+              "Description": "By triggering the override protocols embedded in this stave, the bearer can activate the guardian fail-safes in nearby Canoptek constructs. Believing the Master Program of their tomb world to be under direct assault, the constructs access hidden power reservoirs and enter a furious state of aggressive overdrive.\r\n\r\nTECHNOMANCER model only. In your Command phase, you can select one friendly CANOPTEK unit within 9\" of the bearer. Until the start of your next Command phase, add 1 to the Attacks characteristic of models in that unit. If that unit is a MONSTER or VEHICLE unit, add D3 to the Attacks characteristic of models in that unit instead of 1.",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": false,
+              "Hands": false,
+              "CustomImage": {
+                "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/1820016888210778558/31FEAB68C2116AD3858F267D66D38CE437CB8C6C/",
+                "ImageSecondaryURL": "",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0,
+                "CustomToken": {
+                  "Thickness": 0.1,
+                  "MergeDistancePixels": 5.0,
+                  "StandUp": false,
+                  "Stackable": false
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": ""
+            },
+            {
+              "GUID": "052e75",
+              "Name": "Custom_Token",
+              "Transform": {
+                "posX": 26.0827427,
+                "posY": 3.521367,
+                "posZ": 6.614043,
+                "rotX": 339.54007,
+                "rotY": 183.938278,
+                "rotZ": 352.567871,
+                "scaleX": 0.566980362,
+                "scaleY": 1.0,
+                "scaleZ": 0.566980362
+              },
+              "Nickname": "HYPERMATERIAL ABLATOR",
+              "Description": "By simply pointing and activating this slender quasinium rod, the bearer shrouds their targeted allies in a whirlingfield of accumulated hypermatter.\r\n\r\nIn your Command phase, you can select one friendly <DYNASTY> CORE or <DYNASTY> CANOPTEK unit within 9\" of the bearer. Until the start of your next Command phase, each time a ranged attack is made against that unit, if the attacker is more than 12\" away, then the unit you selected is treated as having the benefits of light cover.",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": false,
+              "Hands": false,
+              "CustomImage": {
+                "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/1820016888210779774/BF67B1C06403B7810F76B3D668EB6B0FC5D860A5/",
+                "ImageSecondaryURL": "",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0,
+                "CustomToken": {
+                  "Thickness": 0.1,
+                  "MergeDistancePixels": 5.0,
+                  "StandUp": false,
+                  "Stackable": false
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": ""
+            },
+            {
+              "GUID": "b847ba",
+              "Name": "Custom_Token",
+              "Transform": {
+                "posX": 26.2818966,
+                "posY": 3.62244534,
+                "posZ": 6.78172064,
+                "rotX": 341.605743,
+                "rotY": 184.03476,
+                "rotZ": 350.524872,
+                "scaleX": 0.566980362,
+                "scaleY": 1.0,
+                "scaleZ": 0.566980362
+              },
+              "Nickname": "C’TAN SHARD OF THE DECEIVER - COSMIC INSANITY",
+              "Description": "The C'tan Shard of the Deceiver uses it powers to flood his victims' minds with vast and terrible cosmic truths, overwhelming even the most ironclad minds and driving them instantly and irrevocably insane.\r\n\r\nSelect one enemy unit within 12\" of and visible to this C'TAN SHARD. Roll one D6 and add this C'TAN SHARD's Leadership characteristic to the result. Your opponent then rolls one D6 and adds the Leadership characteristic of the selected unit to the result. That enemy unit suffers 1 mortal wound for each point by which your total exceeds your opponent's.",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": false,
+              "Hands": false,
+              "CustomImage": {
+                "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/1820016888210769616/FAD000BD7AFCDF7275B722DA5FA33729391A322D/",
+                "ImageSecondaryURL": "",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0,
+                "CustomToken": {
+                  "Thickness": 0.1,
+                  "MergeDistancePixels": 5.0,
+                  "StandUp": false,
+                  "Stackable": false
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": ""
+            },
+            {
+              "GUID": "17531d",
+              "Name": "Custom_Token",
+              "Transform": {
+                "posX": 27.205267,
+                "posY": 3.41259623,
+                "posZ": 6.276211,
+                "rotX": 358.997681,
+                "rotY": 224.068161,
+                "rotZ": 187.927444,
+                "scaleX": 0.566980362,
+                "scaleY": 1.0,
+                "scaleZ": 0.566980362
+              },
+              "Nickname": "5. SEISMIC ASSAULT",
+              "Description": "Stone fractures and ores melt as the C'tan Shard drags up tides of magma from deep below. Foes are plunged screaming into steamgushing vents as the land shatters beneath them, while tectonic shock waves hurl others from their feet with bone-breaking force.\r\n\r\nSelect one enemy unit within 18\" of and visible to this C'TAN SHARD. Roll one D6 for each model in that unit, adding 1 to the roll if this C'TAN SHARD is a TESSERACT VAULT: for each 6+, that unit suffers 1 mortal wound, to a maximum of 10 mortal wounds.",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": false,
+              "Hands": false,
+              "CustomImage": {
+                "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/1820016888210760866/D39CFA53A823532AF2AC036B235A2489CBF230BB/",
+                "ImageSecondaryURL": "",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0,
+                "CustomToken": {
+                  "Thickness": 0.1,
+                  "MergeDistancePixels": 5.0,
+                  "StandUp": false,
+                  "Stackable": false
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": ""
+            },
+            {
+              "GUID": "fafd54",
+              "Name": "Custom_Token",
+              "Transform": {
+                "posX": 25.9069958,
+                "posY": 3.57791638,
+                "posZ": 7.700943,
+                "rotX": 3.65660787,
+                "rotY": 240.531387,
+                "rotZ": 341.949524,
+                "scaleX": 0.566980362,
+                "scaleY": 1.0,
+                "scaleZ": 0.566980362
+              },
+              "Nickname": "4. COSMIC FIRE",
+              "Description": "At this C'tan Shard's gestured command, a pillar of black fire streaks down from the heavens to consume the foe.\r\n\r\nRoll one D6 for each enemy unit within 9\" of this C'TAN SHARD: on a 4+, that unit suffers D3 mortal wounds. If this C'TAN SHARD is a TESSERACT VAULT, units suffer 3 mortal wounds from this power, instead of D3.",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": false,
+              "Hands": false,
+              "CustomImage": {
+                "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/1820016888210758645/6EDC0765CD61BC44207BB5B1301C481A48B1AEEA/",
+                "ImageSecondaryURL": "",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0,
+                "CustomToken": {
+                  "Thickness": 0.1,
+                  "MergeDistancePixels": 5.0,
+                  "StandUp": false,
+                  "Stackable": false
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": ""
+            },
+            {
+              "GUID": "887e33",
+              "Name": "Custom_Token",
+              "Transform": {
+                "posX": 26.5935936,
+                "posY": 3.82578731,
+                "posZ": 6.24185,
+                "rotX": 18.5191326,
+                "rotY": 185.78511,
+                "rotZ": 17.93403,
+                "scaleX": 0.566980362,
+                "scaleY": 1.0,
+                "scaleZ": 0.566980362
+              },
+              "Nickname": "3. SKY OF FALLING STARS",
+              "Description": "Savagely beautiful spheres of coruscating light plummet from the cold depths of space, growing to roaring bale-stars as they approach, then impacting with killing force.\r\n\r\nSelect up to three enemy units within 24\" of this C'TAN SHARD. For each of those units, roll one D6: on a 1-5, if the dice result is less than the number of models in that unit, that unit suffers D3 mortal wounds. If this C'TAN SHARD is a TESSERACT VAULT, that unit suffers 3 mortal wounds from this power, instead of D3.",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": false,
+              "Hands": false,
+              "CustomImage": {
+                "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/1820016888210757456/79AB7932E68C7756966DD9C8B99B060F0DFD6619/",
+                "ImageSecondaryURL": "",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0,
+                "CustomToken": {
+                  "Thickness": 0.1,
+                  "MergeDistancePixels": 5.0,
+                  "StandUp": false,
+                  "Stackable": false
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": ""
+            },
+            {
+              "GUID": "f73b4c",
+              "Name": "Custom_Token",
+              "Transform": {
+                "posX": 26.4887428,
+                "posY": 3.88567638,
+                "posZ": 7.395243,
+                "rotX": 346.3963,
+                "rotY": 182.7616,
+                "rotZ": 348.1965,
+                "scaleX": 0.566980362,
+                "scaleY": 1.0,
+                "scaleZ": 0.566980362
+              },
+              "Nickname": "2. TIME’S ARROW",
+              "Description": "Twisting the flow of causality and remoulding temporal streams, this C'tan Shard erases its foe's existence from space and time.\r\n\r\nSelect one enemy unit within 18\" of and visible to this C'TAN SHARD. Roll one D6, adding 1 to the roll if this C'TAN SHARD is a TESSERACT VAULT: if the total equals or exceeds the Wounds characteristic of any models in that enemy unit, your opponent selects one of those models to be destroyed.",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": false,
+              "Hands": false,
+              "CustomImage": {
+                "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/1820016888210750139/45B78EC36610CE9CE0843EBBFCC04F660DC8558F/",
+                "ImageSecondaryURL": "",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0,
+                "CustomToken": {
+                  "Thickness": 0.1,
+                  "MergeDistancePixels": 5.0,
+                  "StandUp": false,
+                  "Stackable": false
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": ""
+            },
+            {
+              "GUID": "ca027b",
+              "Name": "Custom_Token",
+              "Transform": {
+                "posX": 26.1049423,
+                "posY": 4.015702,
+                "posZ": 7.28005552,
+                "rotX": 341.683868,
+                "rotY": 179.776123,
+                "rotZ": 352.978577,
+                "scaleX": 0.566980362,
+                "scaleY": 1.0,
+                "scaleZ": 0.566980362
+              },
+              "Nickname": "1. ANTIMATTER METEOR",
+              "Description": "This C'tan Shard gathers an orb of roiling antimatter, before hurling the crackling projectile into the midst of the foe.\r\n\r\nRoll one D6, adding 1 to the roll if this C'TAN SHARD is a TESSERACT VAULT: on a 3-5, the closest enemy unit that is within 24\" of and visible to this C'TAN SHARD suffers 3 mortal wounds; on a 6+, that enemy unit suffers D3+3 mortal wounds.",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": false,
+              "Hands": false,
+              "CustomImage": {
+                "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/1820016888210745648/B5AADF89F1D86E3D1B78A0F6F570882E1C624094/",
+                "ImageSecondaryURL": "",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0,
+                "CustomToken": {
+                  "Thickness": 0.1,
+                  "MergeDistancePixels": 5.0,
+                  "StandUp": false,
+                  "Stackable": false
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": ""
+            },
+            {
+              "GUID": "597911",
+              "Name": "Custom_Token",
+              "Transform": {
+                "posX": 26.230526,
+                "posY": 3.62864637,
+                "posZ": 8.729335,
+                "rotX": 35.48084,
+                "rotY": 196.419281,
+                "rotZ": 2.39704,
+                "scaleX": 0.566980362,
+                "scaleY": 1.0,
+                "scaleZ": 0.566980362
+              },
+              "Nickname": "The Stars Are Right",
+              "Description": "In your Command phase, if this model is on the battlefield, roll one D6: if the result is less than the current battle round number, then until the end of the battle, use the Orikan Empowered profile for this model (note that any wounds it has already lost remain lost).",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": false,
+              "Hands": false,
+              "CustomImage": {
+                "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/1820016888210715108/B8DBAB67B84E5AEE9BA3AD6F96CB6F29DB8F08E4/",
+                "ImageSecondaryURL": "",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0,
+                "CustomToken": {
+                  "Thickness": 0.1,
+                  "MergeDistancePixels": 5.0,
+                  "StandUp": false,
+                  "Stackable": false
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": ""
+            },
+            {
+              "GUID": "b355d8",
+              "Name": "Custom_Token",
+              "Transform": {
+                "posX": 24.93167,
+                "posY": 3.56610823,
+                "posZ": 5.852104,
+                "rotX": 353.856445,
+                "rotY": 180.714447,
+                "rotZ": 3.79891038,
+                "scaleX": 0.566980362,
+                "scaleY": 1.0,
+                "scaleZ": 0.566980362
+              },
+              "Nickname": "The Lord’s Will",
+              "Description": "In your Command phase, you can select one friendly <DYNASTY> CORE unit within 9\" of this model. Until the start of your next Command phase, each time a model in that unit makes an attack, re-roll a hit roll of 1.",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": false,
+              "Hands": false,
+              "CustomImage": {
+                "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/1820016888210711624/D6AE071B129744E782C0771FA7D751888BB842BA/",
+                "ImageSecondaryURL": "",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0,
+                "CustomToken": {
+                  "Thickness": 0.1,
+                  "MergeDistancePixels": 5.0,
+                  "StandUp": false,
+                  "Stackable": false
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": ""
+            },
+            {
+              "GUID": "c1c09d",
+              "Name": "Custom_Token",
+              "Transform": {
+                "posX": 24.949852,
+                "posY": 3.954024,
+                "posZ": 7.313856,
+                "rotX": 14.1617355,
+                "rotY": 171.8926,
+                "rotZ": 324.867767,
+                "scaleX": 0.566980362,
+                "scaleY": 1.0,
+                "scaleZ": 0.566980362
+              },
+              "Nickname": "My Will Be Done",
+              "Description": "In your Command phase, you can select one friendly <DYNASTY> CORE unit within 9\" of this model. Until the start of your next Command phase, each time a model in that unit makes an attack, add 1 to that attack's hit roll. Each unit can only be selected for this ability once per phase.",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": false,
+              "Hands": false,
+              "CustomImage": {
+                "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/1820016888210709477/EFC075EEB2247602301BA05E8358F45E30A6696E/",
+                "ImageSecondaryURL": "",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0,
+                "CustomToken": {
+                  "Thickness": 0.1,
+                  "MergeDistancePixels": 5.0,
+                  "StandUp": false,
+                  "Stackable": false
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": ""
+            },
+            {
+              "GUID": "e6bd96",
+              "Name": "Custom_Token",
+              "Transform": {
+                "posX": 24.3034954,
+                "posY": 3.65108442,
+                "posZ": 6.48888874,
+                "rotX": 341.166077,
+                "rotY": 228.981308,
+                "rotZ": 347.245758,
+                "scaleX": 0.566980362,
+                "scaleY": 1.0,
+                "scaleZ": 0.566980362
+              },
+              "Nickname": "Mechanical Augmentation : S",
+              "Description": "At the end of your Movement phase, you can select one friendly NECRONS CORE unit within 6\" of this model. If you do, roll one D3 and consult the table below:\r\n\r\n1 \tUntil the end of the battle, add 1 to the Strength characteristic of models in that unit. \r\n2 \tUntil the end of the battle, add 1 to the Toughness characteristic of models in that unit. \r\n3 \tUntil the end of the battle, improve the Ballistic Skill characteristic of models in that unit by 1. ",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": false,
+              "Hands": false,
+              "CustomImage": {
+                "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/1820016888210699632/92D6A0AE660874A916667E4AE59C525FE9288DCA/",
+                "ImageSecondaryURL": "",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0,
+                "CustomToken": {
+                  "Thickness": 0.1,
+                  "MergeDistancePixels": 5.0,
+                  "StandUp": false,
+                  "Stackable": false
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": "",
+              "States": {
+                "2": {
+                  "GUID": "b6c44b",
+                  "Name": "Custom_Token",
+                  "Transform": {
+                    "posX": -9.416521,
+                    "posY": 1.54809165,
+                    "posZ": 11.7319288,
+                    "rotX": 0.0169331469,
+                    "rotY": 179.977356,
+                    "rotZ": 0.07983639,
+                    "scaleX": 0.566980362,
+                    "scaleY": 1.0,
+                    "scaleZ": 0.566980362
+                  },
+                  "Nickname": "Mechanical Augmentation : T",
+                  "Description": "At the end of your Movement phase, you can select one friendly NECRONS CORE unit within 6\" of this model. If you do, roll one D3 and consult the table below:\r\n\r\n1 \tUntil the end of the battle, add 1 to the Strength characteristic of models in that unit. \r\n2 \tUntil the end of the battle, add 1 to the Toughness characteristic of models in that unit. \r\n3 \tUntil the end of the battle, improve the Ballistic Skill characteristic of models in that unit by 1. ",
+                  "GMNotes": "",
+                  "AltLookAngle": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "ColorDiffuse": {
+                    "r": 1.0,
+                    "g": 1.0,
+                    "b": 1.0
+                  },
+                  "LayoutGroupSortIndex": 0,
+                  "Value": 0,
+                  "Locked": false,
+                  "Grid": true,
+                  "Snap": true,
+                  "IgnoreFoW": false,
+                  "MeasureMovement": false,
+                  "DragSelectable": true,
+                  "Autoraise": true,
+                  "Sticky": true,
+                  "Tooltip": true,
+                  "GridProjection": false,
+                  "HideWhenFaceDown": false,
+                  "Hands": false,
+                  "CustomImage": {
+                    "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/1820016888210700485/68A902FDD7371E0617AFC115296AE0C6995EED1A/",
+                    "ImageSecondaryURL": "",
+                    "ImageScalar": 1.0,
+                    "WidthScale": 0.0,
+                    "CustomToken": {
+                      "Thickness": 0.1,
+                      "MergeDistancePixels": 5.0,
+                      "StandUp": false,
+                      "Stackable": false
+                    }
+                  },
+                  "LuaScript": "",
+                  "LuaScriptState": "",
+                  "XmlUI": ""
+                },
+                "3": {
+                  "GUID": "512459",
+                  "Name": "Custom_Token",
+                  "Transform": {
+                    "posX": -11.1997747,
+                    "posY": 1.55057526,
+                    "posZ": 11.7240582,
+                    "rotX": 0.0169019978,
+                    "rotY": 179.976028,
+                    "rotZ": 0.0798995942,
+                    "scaleX": 0.566980362,
+                    "scaleY": 1.0,
+                    "scaleZ": 0.566980362
+                  },
+                  "Nickname": "Mechanical Augmentation : BS",
+                  "Description": "At the end of your Movement phase, you can select one friendly NECRONS CORE unit within 6\" of this model. If you do, roll one D3 and consult the table below:\r\n\r\n1 \tUntil the end of the battle, add 1 to the Strength characteristic of models in that unit. \r\n2 \tUntil the end of the battle, add 1 to the Toughness characteristic of models in that unit. \r\n3 \tUntil the end of the battle, improve the Ballistic Skill characteristic of models in that unit by 1. ",
+                  "GMNotes": "",
+                  "AltLookAngle": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "ColorDiffuse": {
+                    "r": 1.0,
+                    "g": 1.0,
+                    "b": 1.0
+                  },
+                  "LayoutGroupSortIndex": 0,
+                  "Value": 0,
+                  "Locked": false,
+                  "Grid": true,
+                  "Snap": true,
+                  "IgnoreFoW": false,
+                  "MeasureMovement": false,
+                  "DragSelectable": true,
+                  "Autoraise": true,
+                  "Sticky": true,
+                  "Tooltip": true,
+                  "GridProjection": false,
+                  "HideWhenFaceDown": false,
+                  "Hands": false,
+                  "CustomImage": {
+                    "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/1820016888210698052/531E92B9D82795D9589484A383A9B6AA370F6A52/",
+                    "ImageSecondaryURL": "",
+                    "ImageScalar": 1.0,
+                    "WidthScale": 0.0,
+                    "CustomToken": {
+                      "Thickness": 0.1,
+                      "MergeDistancePixels": 5.0,
+                      "StandUp": false,
+                      "Stackable": false
+                    }
+                  },
+                  "LuaScript": "",
+                  "LuaScriptState": "",
+                  "XmlUI": ""
+                }
+              }
+            },
+            {
+              "GUID": "ad096c",
+              "Name": "Custom_Token",
+              "Transform": {
+                "posX": 24.1146336,
+                "posY": 3.492663,
+                "posZ": 5.9493947,
+                "rotX": 351.064423,
+                "rotY": 225.155319,
+                "rotZ": 3.52758121,
+                "scaleX": 0.566980362,
+                "scaleY": 1.0,
+                "scaleZ": 0.566980362
+              },
+              "Nickname": "Harbinger of Despair",
+              "Description": "In your Morale phase, you can select one enemy unit within 12\" of this model and roll 3D6: if the result is greater than the enemy unit's Leadership characteristic, select one of the results below to take effect until the start of your next Morale phase. Each unit can only be selected for this ability once per phase.",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": false,
+              "Hands": false,
+              "CustomImage": {
+                "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/1820016888210695927/46271BCF164749E41DEE953A47C00D3951F4AEAA/",
+                "ImageSecondaryURL": "",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0,
+                "CustomToken": {
+                  "Thickness": 0.1,
+                  "MergeDistancePixels": 5.0,
+                  "StandUp": false,
+                  "Stackable": false
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": ""
+            },
+            {
+              "GUID": "4b7b7b",
+              "Name": "Custom_Token",
+              "Transform": {
+                "posX": 24.2517376,
+                "posY": 3.48157358,
+                "posZ": 5.09535074,
+                "rotX": 346.2865,
+                "rotY": 164.161209,
+                "rotZ": 4.230086,
+                "scaleX": 0.566980362,
+                "scaleY": 1.0,
+                "scaleZ": 0.566980362
+              },
+              "Nickname": "Chronometron",
+              "Description": "In your Command phase, you can select one friendly <DYNASTY> unit within 9\" of this model. Until the start of your next Command phase, you can re-roll charge rolls made for that unit and models in that unit have a 5+ invulnerable save.",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": false,
+              "Hands": false,
+              "CustomImage": {
+                "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/1820016888210690555/F1B0D095A98F44B930D9369247371F336F5C66EC/",
+                "ImageSecondaryURL": "",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0,
+                "CustomToken": {
+                  "Thickness": 0.1,
+                  "MergeDistancePixels": 5.0,
+                  "StandUp": false,
+                  "Stackable": false
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": ""
+            },
+            {
+              "GUID": "27f8a1",
+              "Name": "Custom_Token",
+              "Transform": {
+                "posX": 24.9974327,
+                "posY": 3.350058,
+                "posZ": 3.90104556,
+                "rotX": 0.00332175731,
+                "rotY": 329.9747,
+                "rotZ": 180.00177,
+                "scaleX": 0.566980362,
+                "scaleY": 1.0,
+                "scaleZ": 0.566980362
+              },
+              "Nickname": "Adaptive Strategy",
+              "Description": "In your Command phase, you can select one friendly <DYNASTY> CORE unit within 9\" of this model. Until the end of the turn, that unit is eligible to shoot and declare a charge with in a turn in which they Fell Back.",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": false,
+              "Hands": false,
+              "CustomImage": {
+                "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/1820016888210689110/731AF3FEEC5BBB46C55062988F7EAF97EF9FDE43/",
+                "ImageSecondaryURL": "",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0,
+                "CustomToken": {
+                  "Thickness": 0.1,
+                  "MergeDistancePixels": 5.0,
+                  "StandUp": false,
+                  "Stackable": false
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": ""
+            },
+            {
+              "GUID": "6f30ff",
+              "Name": "Custom_Token",
+              "Transform": {
+                "posX": 24.4064083,
+                "posY": 3.42112851,
+                "posZ": 4.58427763,
+                "rotX": 353.256226,
+                "rotY": 149.268539,
+                "rotZ": 3.13216686,
+                "scaleX": 0.566980362,
+                "scaleY": 1.0,
+                "scaleZ": 0.566980362
+              },
+              "Nickname": "C’TAN SHARD OF THE NIGHTBRINGER - GAZE OF DEATH",
+              "Description": "Dark energies leap from the Shard's eyes and its distended maw, reducing foes to blackened bones crawling with frost.\r\n\r\nSelect one enemy unit within 9\" of and visible to this C'TAN SHARD. Roll three D6s: for each 4+, that unit suffers D3 mortal wounds.",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": false,
+              "Hands": false,
+              "CustomImage": {
+                "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/1820016888210770986/96301F22F9ACD79290863464E3A650A9FF1CE604/",
+                "ImageSecondaryURL": "",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0,
+                "CustomToken": {
+                  "Thickness": 0.1,
+                  "MergeDistancePixels": 5.0,
+                  "StandUp": false,
+                  "Stackable": false
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": ""
+            },
+            {
+              "GUID": "85ca40",
+              "Name": "Custom_Token",
+              "Transform": {
+                "posX": 25.3277359,
+                "posY": 3.615359,
+                "posZ": 8.206754,
+                "rotX": 9.298874,
+                "rotY": 35.5539,
+                "rotZ": 210.579529,
+                "scaleX": 0.566980362,
+                "scaleY": 1.0,
+                "scaleZ": 0.566980362
+              },
+              "Nickname": "C’TAN SHARD OF THE VOID DRAGON - VOLTAIC STORM",
+              "Description": "When this C'tan points one imperious hand, foes reel as the air sings with a monstrous whine. The awful sound builds, then erupts into a sudden and ferocious storm of emerald lightning to annihilate all it touches.\r\n\r\nSelect one enemy unit within 18\" of and visible to this C'tan Shard (an enemy CHARACTER unit with a Wounds characteristic of 9 or less cannot be selected for this power while it is within 3\" of another enemy unit, unless that CHARACTER unit is the closest visible enemy unit). Roll one D6: on a 2+, that unit suffers D3 mortal wounds (it suffers D6 mortal wounds instead if it has the VEHICLE keyword) and, until the start of your next turn, if that unit is a VEHICLE whose characteristics change as it loses wounds, then it halves the number of wounds it has remaining when determining what characteristics to use.",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": false,
+              "Hands": false,
+              "CustomImage": {
+                "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/1820016888210773234/D0A99050DECD7DE0DD3D1E9B3A1520AFF3E47969/",
+                "ImageSecondaryURL": "",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0,
+                "CustomToken": {
+                  "Thickness": 0.1,
+                  "MergeDistancePixels": 5.0,
+                  "StandUp": false,
+                  "Stackable": false
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": ""
+            },
+            {
+              "GUID": "56885b",
+              "Name": "Custom_Token",
+              "Transform": {
+                "posX": 23.62532,
+                "posY": 3.33520269,
+                "posZ": 6.600798,
+                "rotX": 355.218323,
+                "rotY": 255.836411,
+                "rotZ": 1.30443811,
+                "scaleX": 0.566980362,
+                "scaleY": 1.0,
+                "scaleZ": 0.566980362
+              },
+              "Nickname": "6. TRANSDIMENSIONAL THUNDERBOLT",
+              "Description": "The C'tan Shard projects a crackling bolt of energy from its outstretched palm, blasting its foe into oblivion.\r\n\r\nSelect one enemy unit within 24\" of and visible to this C'TAN SHARD (an enemy CHARACTER unit with a Wounds characteristic of 9 or less cannot be selected for this power while it is within 3\" of another enemy unit, unless that CHARACTER unit is the closest visible enemy unit). Roll one D6: on a 2+, that unit suffers D3 mortal wounds. Then, roll one D6 for each other enemy unit within 3\" of the selected unit: on a 4+, that unit suffers 1 mortal wound. If this C'TAN SHARD is a TESSERACT VAULT, roll for each other enemy unit within 6\" of the selected unit, instead of 3\".",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": false,
+              "Hands": false,
+              "CustomImage": {
+                "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/1820016888210765515/11F29112001C4EE1CE621F6794B5523644A7DF82/",
+                "ImageSecondaryURL": "",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0,
+                "CustomToken": {
+                  "Thickness": 0.1,
+                  "MergeDistancePixels": 5.0,
+                  "StandUp": false,
+                  "Stackable": false
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": ""
+            },
+            {
+              "GUID": "bfee60",
+              "Name": "Custom_Token",
+              "Transform": {
+                "posX": 25.45333,
+                "posY": 3.9573102,
+                "posZ": 6.418183,
+                "rotX": 28.72029,
+                "rotY": 170.3675,
+                "rotZ": 343.524353,
+                "scaleX": 0.566980362,
+                "scaleY": 1.0,
+                "scaleZ": 0.566980362
+              },
+              "Nickname": "QUANTUM ORB",
+              "Description": "This smooth and featureless orb is activated by the depression of a series of hidden triggers across its surface in a particular sequence. This act releases the safeguard fields within it one at a time. When the last of these is released, the device is annihilated along with those nearby as it frees the collapsing quantum singularity at its heart.\r\n\r\nPLASMANCER model only. Once per battle, in your Command phase, the bearer can activate this item of Cryptek Arkana. If it does, select one point on the battlefield anywhere within 24\" of the bearer and place a marker on that point. At the start of your next Command phase, roll one D6 for each unit within 6\" of the centre of that marker, subtracting 1 if the unit being rolled for is a CHARACTER. On a 4-5, that unit suffers D3 mortal wounds, and on a 6, that unit suffers 3 mortal wounds. The marker is then removed.",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": false,
+              "Hands": false,
+              "CustomImage": {
+                "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/1820016888210781219/951806E6DC0B8AB9060CBCD4C3C554C69646389D/",
+                "ImageSecondaryURL": "",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0,
+                "CustomToken": {
+                  "Thickness": 0.1,
+                  "MergeDistancePixels": 5.0,
+                  "StandUp": false,
+                  "Stackable": false
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": ""
+            },
+            {
+              "GUID": "d65fd8",
+              "Name": "Custom_Token",
+              "Transform": {
+                "posX": 22.7061481,
+                "posY": 3.03224325,
+                "posZ": -16.0811272,
+                "rotX": 350.529541,
+                "rotY": 180.423035,
+                "rotZ": 355.9915,
+                "scaleX": 0.566980362,
+                "scaleY": 1.0,
+                "scaleZ": 0.566980362
+              },
+              "Nickname": "Transient Madness : A",
+              "Description": "\rIn your Command phase, you can select one friendly SAUTEKH CORE unit within 9\" of this model and roll 3D6. If the total is less than this model's Leadership characteristic, you can select one of the results below to apply to that unit; otherwise, roll one D3 to determine which of the results below apply to that unit.\n\r\n1 \tAvenge the Fallen: Until the start of your next Command phase, add 1 to the Attacks characteristic of models in that unit. \r\n2 \tQuell the Rebellion: Until the start of your next Command phase, improve the Ballistic Skill of models in that unit by 1. \r\n3 \tSolarmills? Charge! Until the start of your next Command phase, you can re-roll charge rolls made for that unit. ",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": false,
+              "Hands": false,
+              "CustomImage": {
+                "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/1820016888210737231/068423BCBD5132DF2C383045AB1CF1D8DF913A23/",
+                "ImageSecondaryURL": "",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0,
+                "CustomToken": {
+                  "Thickness": 0.1,
+                  "MergeDistancePixels": 5.0,
+                  "StandUp": false,
+                  "Stackable": false
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": "",
+              "States": {
+                "2": {
+                  "GUID": "e08065",
+                  "Name": "Custom_Token",
+                  "Transform": {
+                    "posX": -5.128462,
+                    "posY": 1.54126346,
+                    "posZ": 8.845525,
+                    "rotX": 0.0169059932,
+                    "rotY": 179.977615,
+                    "rotZ": 0.07988288,
+                    "scaleX": 0.566980362,
+                    "scaleY": 1.0,
+                    "scaleZ": 0.566980362
+                  },
+                  "Nickname": "Transient Madness : BS",
+                  "Description": "\rIn your Command phase, you can select one friendly SAUTEKH CORE unit within 9\" of this model and roll 3D6. If the total is less than this model's Leadership characteristic, you can select one of the results below to apply to that unit; otherwise, roll one D3 to determine which of the results below apply to that unit.\n\r\n1 \tAvenge the Fallen: Until the start of your next Command phase, add 1 to the Attacks characteristic of models in that unit. \r\n2 \tQuell the Rebellion: Until the start of your next Command phase, improve the Ballistic Skill of models in that unit by 1. \r\n3 \tSolarmills? Charge! Until the start of your next Command phase, you can re-roll charge rolls made for that unit. ",
+                  "GMNotes": "",
+                  "AltLookAngle": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "ColorDiffuse": {
+                    "r": 1.0,
+                    "g": 1.0,
+                    "b": 1.0
+                  },
+                  "LayoutGroupSortIndex": 0,
+                  "Value": 0,
+                  "Locked": false,
+                  "Grid": true,
+                  "Snap": true,
+                  "IgnoreFoW": false,
+                  "MeasureMovement": false,
+                  "DragSelectable": true,
+                  "Autoraise": true,
+                  "Sticky": true,
+                  "Tooltip": true,
+                  "GridProjection": false,
+                  "HideWhenFaceDown": false,
+                  "Hands": false,
+                  "CustomImage": {
+                    "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/1820016888210738161/DDDBA6C2E1F4992B2E840773F170338ACFA010C0/",
+                    "ImageSecondaryURL": "",
+                    "ImageScalar": 1.0,
+                    "WidthScale": 0.0,
+                    "CustomToken": {
+                      "Thickness": 0.1,
+                      "MergeDistancePixels": 5.0,
+                      "StandUp": false,
+                      "Stackable": false
+                    }
+                  },
+                  "LuaScript": "",
+                  "LuaScriptState": "",
+                  "XmlUI": ""
+                },
+                "3": {
+                  "GUID": "203f40",
+                  "Name": "Custom_Token",
+                  "Transform": {
+                    "posX": -3.2770834,
+                    "posY": 1.53871286,
+                    "posZ": 8.948392,
+                    "rotX": 0.0168854874,
+                    "rotY": 179.977631,
+                    "rotZ": 0.07985294,
+                    "scaleX": 0.566980362,
+                    "scaleY": 1.0,
+                    "scaleZ": 0.566980362
+                  },
+                  "Nickname": "Transient Madness : Charge",
+                  "Description": "\rIn your Command phase, you can select one friendly SAUTEKH CORE unit within 9\" of this model and roll 3D6. If the total is less than this model's Leadership characteristic, you can select one of the results below to apply to that unit; otherwise, roll one D3 to determine which of the results below apply to that unit.\n\r\n1 \tAvenge the Fallen: Until the start of your next Command phase, add 1 to the Attacks characteristic of models in that unit. \r\n2 \tQuell the Rebellion: Until the start of your next Command phase, improve the Ballistic Skill of models in that unit by 1. \r\n3 \tSolarmills? Charge! Until the start of your next Command phase, you can re-roll charge rolls made for that unit. ",
+                  "GMNotes": "",
+                  "AltLookAngle": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "ColorDiffuse": {
+                    "r": 1.0,
+                    "g": 1.0,
+                    "b": 1.0
+                  },
+                  "LayoutGroupSortIndex": 0,
+                  "Value": 0,
+                  "Locked": false,
+                  "Grid": true,
+                  "Snap": true,
+                  "IgnoreFoW": false,
+                  "MeasureMovement": false,
+                  "DragSelectable": true,
+                  "Autoraise": true,
+                  "Sticky": true,
+                  "Tooltip": true,
+                  "GridProjection": false,
+                  "HideWhenFaceDown": false,
+                  "Hands": false,
+                  "CustomImage": {
+                    "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/1820016888210738755/5956524AB32A4BA0309C1E6F37C6F88A4BE70103/",
+                    "ImageSecondaryURL": "",
+                    "ImageScalar": 1.0,
+                    "WidthScale": 0.0,
+                    "CustomToken": {
+                      "Thickness": 0.1,
+                      "MergeDistancePixels": 5.0,
+                      "StandUp": false,
+                      "Stackable": false
+                    }
+                  },
+                  "LuaScript": "",
+                  "LuaScriptState": "",
+                  "XmlUI": ""
+                }
+              }
+            }
+          ]
+        },
+        {
+          "GUID": "b49db4",
+          "Name": "Bag",
+          "Transform": {
+            "posX": 21.28601,
+            "posY": 3.53762579,
+            "posZ": 9.620464,
+            "rotX": 0.437255025,
+            "rotY": 240.016846,
+            "rotZ": 3.26018214,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Objective markers",
+          "Description": "",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 0.231707275,
+            "g": 0.231707275,
+            "b": 0.231707275
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "MaterialIndex": -1,
+          "MeshIndex": -1,
+          "Bag": {
+            "Order": 0
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "ContainedObjects": [
+            {
+              "GUID": "2788be",
+              "Name": "Custom_Model",
+              "Transform": {
+                "posX": 20.2154636,
+                "posY": 2.94365668,
+                "posZ": 5.73410654,
+                "rotX": 2.80320334,
+                "rotY": 0.5471285,
+                "rotZ": 9.310913,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "scaleZ": 1.0
+              },
+              "Nickname": "2",
+              "Description": "",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": false,
+              "Hands": false,
+              "CustomMesh": {
+                "MeshURL": "https://steamusercontent-a.akamaihd.net/ugc/170413924432512882/74F9A7A9F18F61DBCEBAD8BE5B705BFC9AEFF372/",
+                "DiffuseURL": "https://steamusercontent-a.akamaihd.net/ugc/170413924432507517/AF55D587C52FFC9B56358E523DCD604085F194F9/",
+                "NormalURL": "",
+                "ColliderURL": "http://pastebin.com/raw.php?i=ahfaXzUd",
+                "Convex": true,
+                "MaterialIndex": 3,
+                "TypeIndex": 0,
+                "CastShadows": true
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": ""
+            },
+            {
+              "GUID": "3a68df",
+              "Name": "Custom_Model",
+              "Transform": {
+                "posX": 19.1662636,
+                "posY": 2.91761065,
+                "posZ": 5.7114296,
+                "rotX": -2.12365E-06,
+                "rotY": 359.993164,
+                "rotZ": -2.42881538E-06,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "scaleZ": 1.0
+              },
+              "Nickname": "3",
+              "Description": "",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": false,
+              "Hands": false,
+              "CustomMesh": {
+                "MeshURL": "https://steamusercontent-a.akamaihd.net/ugc/170413924432556761/5F90C363F44BD459EC921E7FB68DDD3B89B8F826/",
+                "DiffuseURL": "https://steamusercontent-a.akamaihd.net/ugc/170413924432507517/AF55D587C52FFC9B56358E523DCD604085F194F9/",
+                "NormalURL": "",
+                "ColliderURL": "http://pastebin.com/raw.php?i=ahfaXzUd",
+                "Convex": true,
+                "MaterialIndex": 3,
+                "TypeIndex": 0,
+                "CastShadows": true
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": ""
+            },
+            {
+              "GUID": "3afede",
+              "Name": "Custom_Model",
+              "Transform": {
+                "posX": 19.1597862,
+                "posY": 2.91761065,
+                "posZ": 6.94549942,
+                "rotX": 3.95764218E-05,
+                "rotY": 359.9779,
+                "rotZ": -8.627361E-06,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "scaleZ": 1.0
+              },
+              "Nickname": "6",
+              "Description": "",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": false,
+              "Hands": false,
+              "CustomMesh": {
+                "MeshURL": "https://steamusercontent-a.akamaihd.net/ugc/170413924432525490/5728FD4DCDAEE7C23A08A76ED6D3207D8C7907B6/",
+                "DiffuseURL": "https://steamusercontent-a.akamaihd.net/ugc/170413924432507517/AF55D587C52FFC9B56358E523DCD604085F194F9/",
+                "NormalURL": "",
+                "ColliderURL": "http://pastebin.com/raw.php?i=ahfaXzUd",
+                "Convex": true,
+                "MaterialIndex": 3,
+                "TypeIndex": 0,
+                "CastShadows": true
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": ""
+            },
+            {
+              "GUID": "cf76c8",
+              "Name": "Custom_Model",
+              "Transform": {
+                "posX": 20.2629356,
+                "posY": 2.91765928,
+                "posZ": 6.93671036,
+                "rotX": 1.1273024E-05,
+                "rotY": 359.9843,
+                "rotZ": -2.14521E-06,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "scaleZ": 1.0
+              },
+              "Nickname": "5",
+              "Description": "",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": false,
+              "Hands": false,
+              "CustomMesh": {
+                "MeshURL": "https://steamusercontent-a.akamaihd.net/ugc/170413924432522869/61848086FE5253E2AF78274930420440476D360B/",
+                "DiffuseURL": "https://steamusercontent-a.akamaihd.net/ugc/170413924432507517/AF55D587C52FFC9B56358E523DCD604085F194F9/",
+                "NormalURL": "",
+                "ColliderURL": "http://pastebin.com/raw.php?i=ahfaXzUd",
+                "Convex": true,
+                "MaterialIndex": 3,
+                "TypeIndex": 0,
+                "CastShadows": true
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": ""
+            },
+            {
+              "GUID": "634a13",
+              "Name": "Custom_Model",
+              "Transform": {
+                "posX": 21.29256,
+                "posY": 2.91765928,
+                "posZ": 6.950901,
+                "rotX": -1.8553809E-06,
+                "rotY": 359.984344,
+                "rotZ": -2.27465125E-06,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "scaleZ": 1.0
+              },
+              "Nickname": "4",
+              "Description": "",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": false,
+              "Hands": false,
+              "CustomMesh": {
+                "MeshURL": "https://steamusercontent-a.akamaihd.net/ugc/170413924432520296/B143696D422C493F18E17FC0B37E5CEBFD638DBC/",
+                "DiffuseURL": "https://steamusercontent-a.akamaihd.net/ugc/170413924432507517/AF55D587C52FFC9B56358E523DCD604085F194F9/",
+                "NormalURL": "",
+                "ColliderURL": "http://pastebin.com/raw.php?i=ahfaXzUd",
+                "Convex": true,
+                "MaterialIndex": 3,
+                "TypeIndex": 0,
+                "CastShadows": true
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": ""
+            },
+            {
+              "GUID": "5d070c",
+              "Name": "Custom_Model",
+              "Transform": {
+                "posX": 21.3009777,
+                "posY": 2.93988323,
+                "posZ": 5.74149466,
+                "rotX": 3.65954161,
+                "rotY": 359.4796,
+                "rotZ": 350.240234,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "scaleZ": 1.0
+              },
+              "Nickname": "1",
+              "Description": "",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": false,
+              "Hands": false,
+              "CustomMesh": {
+                "MeshURL": "https://steamusercontent-a.akamaihd.net/ugc/170413924432506975/FC0151A74F6813E4232294FA09BE85597736E6F7/",
+                "DiffuseURL": "https://steamusercontent-a.akamaihd.net/ugc/170413924432507517/AF55D587C52FFC9B56358E523DCD604085F194F9/",
+                "NormalURL": "",
+                "ColliderURL": "http://pastebin.com/raw.php?i=ahfaXzUd",
+                "Convex": true,
+                "MaterialIndex": 3,
+                "TypeIndex": 0,
+                "CustomShader": {
+                  "SpecularColor": {
+                    "r": 1.0,
+                    "g": 1.0,
+                    "b": 1.0
+                  },
+                  "SpecularIntensity": 0.0,
+                  "SpecularSharpness": 2.0,
+                  "FresnelStrength": 0.0
+                },
+                "CastShadows": true
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": ""
+            }
+          ]
+        },
+        {
+          "GUID": "9bc325",
+          "Name": "Bag",
+          "Transform": {
+            "posX": 9.816182,
+            "posY": 4.089608,
+            "posZ": 9.186328,
+            "rotX": 0.5733421,
+            "rotY": 0.008980926,
+            "rotZ": 0.486989677,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Bonus markers",
+          "Description": "",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "MaterialIndex": -1,
+          "MeshIndex": -1,
+          "Bag": {
+            "Order": 0
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "ContainedObjects": [
+            {
+              "GUID": "a90e92",
+              "Name": "Custom_Token",
+              "Transform": {
+                "posX": -6.656075,
+                "posY": 2.83297062,
+                "posZ": 52.70836,
+                "rotX": 5.24427462,
+                "rotY": 177.947983,
+                "rotZ": 356.9531,
+                "scaleX": 0.5,
+                "scaleY": 1.0,
+                "scaleZ": 0.5
+              },
+              "Nickname": "[b][i]Charge[/i] +2[/b]",
+              "Description": "",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": false,
+              "Hands": false,
+              "CustomImage": {
+                "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/1016068753798513427/145DE78F4DF811E13043358584C1714435638226/",
+                "ImageSecondaryURL": "",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0,
+                "CustomToken": {
+                  "Thickness": 0.1,
+                  "MergeDistancePixels": 25.0,
+                  "StandUp": false,
+                  "Stackable": true
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": "",
+              "States": {
+                "2": {
+                  "GUID": "6ce98b",
+                  "Name": "Custom_Token",
+                  "Transform": {
+                    "posX": 73.0,
+                    "posY": 0.949998438,
+                    "posZ": 9.999999,
+                    "rotX": 2.8058605E-06,
+                    "rotY": 269.999481,
+                    "rotZ": -2.69309521E-06,
+                    "scaleX": 0.5,
+                    "scaleY": 1.0,
+                    "scaleZ": 0.5
+                  },
+                  "Nickname": "[b][i]Charge[/i] -2[/b]",
+                  "Description": "",
+                  "GMNotes": "",
+                  "AltLookAngle": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "ColorDiffuse": {
+                    "r": 1.0,
+                    "g": 1.0,
+                    "b": 1.0
+                  },
+                  "LayoutGroupSortIndex": 0,
+                  "Value": 0,
+                  "Locked": false,
+                  "Grid": true,
+                  "Snap": true,
+                  "IgnoreFoW": false,
+                  "MeasureMovement": false,
+                  "DragSelectable": true,
+                  "Autoraise": true,
+                  "Sticky": true,
+                  "Tooltip": true,
+                  "GridProjection": false,
+                  "HideWhenFaceDown": false,
+                  "Hands": false,
+                  "CustomImage": {
+                    "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/1016068753798515950/944C18B964BB52475960BDC35A954E42CF184FB1/",
+                    "ImageSecondaryURL": "",
+                    "ImageScalar": 1.0,
+                    "WidthScale": 0.0,
+                    "CustomToken": {
+                      "Thickness": 0.1,
+                      "MergeDistancePixels": 25.0,
+                      "StandUp": false,
+                      "Stackable": true
+                    }
+                  },
+                  "LuaScript": "",
+                  "LuaScriptState": "",
+                  "XmlUI": ""
+                }
+              }
+            },
+            {
+              "GUID": "a968aa",
+              "Name": "Custom_Token",
+              "Transform": {
+                "posX": -3.00603938,
+                "posY": 2.84313416,
+                "posZ": 50.45693,
+                "rotX": 359.846619,
+                "rotY": 195.02948,
+                "rotZ": 0.1284732,
+                "scaleX": 0.5,
+                "scaleY": 1.0,
+                "scaleZ": 0.5
+              },
+              "Nickname": "[b][i]Leadership[/i] +3[/b]",
+              "Description": "",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": false,
+              "Hands": false,
+              "CustomImage": {
+                "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/1016068921484713955/729D67B990E5462D85CF9BADCBBF61B034D5C15B/",
+                "ImageSecondaryURL": "",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0,
+                "CustomToken": {
+                  "Thickness": 0.1,
+                  "MergeDistancePixels": 25.0,
+                  "StandUp": false,
+                  "Stackable": true
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": "",
+              "States": {
+                "2": {
+                  "GUID": "b0250b",
+                  "Name": "Custom_Token",
+                  "Transform": {
+                    "posX": 71.0,
+                    "posY": 0.9499987,
+                    "posZ": 8.0,
+                    "rotX": -2.526816E-07,
+                    "rotY": 269.999939,
+                    "rotZ": -3.67037114E-06,
+                    "scaleX": 0.4976871,
+                    "scaleY": 1.0,
+                    "scaleZ": 0.4976871
+                  },
+                  "Nickname": "[b][i]Leadership[/i] -3[/b]",
+                  "Description": "",
+                  "GMNotes": "",
+                  "AltLookAngle": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "ColorDiffuse": {
+                    "r": 1.0,
+                    "g": 1.0,
+                    "b": 1.0
+                  },
+                  "LayoutGroupSortIndex": 0,
+                  "Value": 0,
+                  "Locked": false,
+                  "Grid": true,
+                  "Snap": true,
+                  "IgnoreFoW": false,
+                  "MeasureMovement": false,
+                  "DragSelectable": true,
+                  "Autoraise": true,
+                  "Sticky": true,
+                  "Tooltip": true,
+                  "GridProjection": false,
+                  "HideWhenFaceDown": false,
+                  "Hands": false,
+                  "CustomImage": {
+                    "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/1016068921484715034/ACAD302C99862F70ADDB671A773BAD53D82725F7/",
+                    "ImageSecondaryURL": "",
+                    "ImageScalar": 1.0,
+                    "WidthScale": 0.0,
+                    "CustomToken": {
+                      "Thickness": 0.1,
+                      "MergeDistancePixels": 25.0,
+                      "StandUp": false,
+                      "Stackable": true
+                    }
+                  },
+                  "LuaScript": "",
+                  "LuaScriptState": "",
+                  "XmlUI": ""
+                }
+              }
+            },
+            {
+              "GUID": "f7e1ad",
+              "Name": "Custom_Token",
+              "Transform": {
+                "posX": -7.00516939,
+                "posY": 2.860166,
+                "posZ": 48.0891647,
+                "rotX": 359.7889,
+                "rotY": 224.968369,
+                "rotZ": 180.009384,
+                "scaleX": 0.5,
+                "scaleY": 1.0,
+                "scaleZ": 0.5
+              },
+              "Nickname": "[b][i]Autopass Morale[/i][/b]",
+              "Description": "",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": false,
+              "Hands": true,
+              "CustomImage": {
+                "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/1016068921484754416/8E9670757F5DA43A820A698A690703B839D0789B/",
+                "ImageSecondaryURL": "",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0,
+                "CustomToken": {
+                  "Thickness": 0.1,
+                  "MergeDistancePixels": 25.0,
+                  "StandUp": false,
+                  "Stackable": false
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": ""
+            },
+            {
+              "GUID": "84b44e",
+              "Name": "Custom_Token",
+              "Transform": {
+                "posX": -4.7063756,
+                "posY": 2.94666123,
+                "posZ": 50.7765274,
+                "rotX": 3.06708622,
+                "rotY": 179.801971,
+                "rotZ": 356.2646,
+                "scaleX": 0.5,
+                "scaleY": 1.0,
+                "scaleZ": 0.5
+              },
+              "Nickname": "[b][i]Charge[/i] +3[/b]",
+              "Description": "",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": false,
+              "Hands": false,
+              "CustomImage": {
+                "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/1016068753798515012/4D8B22D9C8B81E95B0DBFA06C6B01F7B28190E77/",
+                "ImageSecondaryURL": "",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0,
+                "CustomToken": {
+                  "Thickness": 0.1,
+                  "MergeDistancePixels": 25.0,
+                  "StandUp": false,
+                  "Stackable": true
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": "",
+              "States": {
+                "2": {
+                  "GUID": "765667",
+                  "Name": "Custom_Token",
+                  "Transform": {
+                    "posX": 71.0,
+                    "posY": 0.949998558,
+                    "posZ": 10.000001,
+                    "rotX": 3.325103E-06,
+                    "rotY": 269.999939,
+                    "rotZ": -1.78659661E-06,
+                    "scaleX": 0.5,
+                    "scaleY": 1.0,
+                    "scaleZ": 0.5
+                  },
+                  "Nickname": "[b][i]Charge[/i] -3[/b]",
+                  "Description": "",
+                  "GMNotes": "",
+                  "AltLookAngle": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "ColorDiffuse": {
+                    "r": 1.0,
+                    "g": 1.0,
+                    "b": 1.0
+                  },
+                  "LayoutGroupSortIndex": 0,
+                  "Value": 0,
+                  "Locked": false,
+                  "Grid": true,
+                  "Snap": true,
+                  "IgnoreFoW": false,
+                  "MeasureMovement": false,
+                  "DragSelectable": true,
+                  "Autoraise": true,
+                  "Sticky": true,
+                  "Tooltip": true,
+                  "GridProjection": false,
+                  "HideWhenFaceDown": false,
+                  "Hands": false,
+                  "CustomImage": {
+                    "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/1016068753798516402/CA6669A47FF452FBBE1C9FDB2550EF4F0CD432A4/",
+                    "ImageSecondaryURL": "",
+                    "ImageScalar": 1.0,
+                    "WidthScale": 0.0,
+                    "CustomToken": {
+                      "Thickness": 0.1,
+                      "MergeDistancePixels": 25.0,
+                      "StandUp": false,
+                      "Stackable": true
+                    }
+                  },
+                  "LuaScript": "",
+                  "LuaScriptState": "",
+                  "XmlUI": ""
+                }
+              }
+            },
+            {
+              "GUID": "8f52da",
+              "Name": "Custom_Token",
+              "Transform": {
+                "posX": -7.489384,
+                "posY": 2.85582948,
+                "posZ": 50.5435257,
+                "rotX": 359.828064,
+                "rotY": 270.024323,
+                "rotZ": 359.87677,
+                "scaleX": 0.5,
+                "scaleY": 1.0,
+                "scaleZ": 0.5
+              },
+              "Nickname": "[b][i]1 Markerlight[/i][/b]",
+              "Description": "[b][u]All Effects Are Cumulative[/u][/b]\n1: Re-roll hits of 1 for T'AU EMPIRE.",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": false,
+              "Hands": false,
+              "CustomImage": {
+                "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/1016069089962143949/44D19215CEC234F97F741261070B8579D4D42810/",
+                "ImageSecondaryURL": "",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0,
+                "CustomToken": {
+                  "Thickness": 0.1,
+                  "MergeDistancePixels": 25.0,
+                  "StandUp": false,
+                  "Stackable": false
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": "",
+              "States": {
+                "5": {
+                  "GUID": "8706fb",
+                  "Name": "Custom_Token",
+                  "Transform": {
+                    "posX": 69.0,
+                    "posY": 0.9499985,
+                    "posZ": 12.0,
+                    "rotX": -2.45166734E-06,
+                    "rotY": 269.999969,
+                    "rotZ": -1.59543731E-07,
+                    "scaleX": 0.5,
+                    "scaleY": 1.0,
+                    "scaleZ": 0.5
+                  },
+                  "Nickname": "[b][i]5+ Markerlights[/i][/b]",
+                  "Description": "[b][u]All Effects Are Cumulative[/u][/b]\n1: Re-roll hits of 1 for T'AU EMPIRE.\n\n2: Destoyer/Seeker missiles use BS.\n\n3: No cover bonus to saves.\n\n4: No movement/advance penalty for Heavy/Assault weapons for T'AU EMPIRE.\n\n5: +1 to hit for T'AU EMPIRE.",
+                  "GMNotes": "",
+                  "AltLookAngle": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "ColorDiffuse": {
+                    "r": 1.0,
+                    "g": 1.0,
+                    "b": 1.0
+                  },
+                  "LayoutGroupSortIndex": 0,
+                  "Value": 0,
+                  "Locked": false,
+                  "Grid": true,
+                  "Snap": true,
+                  "IgnoreFoW": false,
+                  "MeasureMovement": false,
+                  "DragSelectable": true,
+                  "Autoraise": true,
+                  "Sticky": true,
+                  "Tooltip": true,
+                  "GridProjection": false,
+                  "HideWhenFaceDown": false,
+                  "Hands": false,
+                  "CustomImage": {
+                    "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/1016068921485394585/545D69673F8E3CA67C8BD5C351BA0D1E59CC6066/",
+                    "ImageSecondaryURL": "",
+                    "ImageScalar": 1.0,
+                    "WidthScale": 0.0,
+                    "CustomToken": {
+                      "Thickness": 0.1,
+                      "MergeDistancePixels": 25.0,
+                      "StandUp": false,
+                      "Stackable": false
+                    }
+                  },
+                  "LuaScript": "",
+                  "LuaScriptState": "",
+                  "XmlUI": ""
+                },
+                "4": {
+                  "GUID": "24dc2d",
+                  "Name": "Custom_Token",
+                  "Transform": {
+                    "posX": 69.0,
+                    "posY": 0.9499986,
+                    "posZ": 12.0,
+                    "rotX": -1.42964382E-06,
+                    "rotY": 269.999939,
+                    "rotZ": 6.599636E-08,
+                    "scaleX": 0.5,
+                    "scaleY": 1.0,
+                    "scaleZ": 0.5
+                  },
+                  "Nickname": "[b][i]4 Markerlights[/i][/b]",
+                  "Description": "[b][u]All Effects Are Cumulative[/u][/b]\n1: Re-roll hits of 1 for T'AU EMPIRE.\n\n2: Destoyer/Seeker missiles use BS.\n\n3: No cover bonus to saves.\n\n4: No movement/advance penalty for Heavy/Assault weapons for T'AU EMPIRE.",
+                  "GMNotes": "",
+                  "AltLookAngle": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "ColorDiffuse": {
+                    "r": 1.0,
+                    "g": 1.0,
+                    "b": 1.0
+                  },
+                  "LayoutGroupSortIndex": 0,
+                  "Value": 0,
+                  "Locked": false,
+                  "Grid": true,
+                  "Snap": true,
+                  "IgnoreFoW": false,
+                  "MeasureMovement": false,
+                  "DragSelectable": true,
+                  "Autoraise": true,
+                  "Sticky": true,
+                  "Tooltip": true,
+                  "GridProjection": false,
+                  "HideWhenFaceDown": false,
+                  "Hands": false,
+                  "CustomImage": {
+                    "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/1016069089962146382/384E1CC37296F7E6054E59DF40A46B5E7CA362CB/",
+                    "ImageSecondaryURL": "",
+                    "ImageScalar": 1.0,
+                    "WidthScale": 0.0,
+                    "CustomToken": {
+                      "Thickness": 0.1,
+                      "MergeDistancePixels": 25.0,
+                      "StandUp": false,
+                      "Stackable": false
+                    }
+                  },
+                  "LuaScript": "",
+                  "LuaScriptState": "",
+                  "XmlUI": ""
+                },
+                "3": {
+                  "GUID": "587d3c",
+                  "Name": "Custom_Token",
+                  "Transform": {
+                    "posX": 69.0,
+                    "posY": 0.949998558,
+                    "posZ": 12.0,
+                    "rotX": -8.04891E-08,
+                    "rotY": 269.999969,
+                    "rotZ": -3.18190973E-06,
+                    "scaleX": 0.5,
+                    "scaleY": 1.0,
+                    "scaleZ": 0.5
+                  },
+                  "Nickname": "[b][i]3 Markerlights[/i][/b]",
+                  "Description": "[b][u]All Effects Are Cumulative[/u][/b]\n1: Re-roll hits of 1 for T'AU EMPIRE.\n\n2: Destoyer/Seeker missiles use BS.\n\n3: No cover bonus to saves.",
+                  "GMNotes": "",
+                  "AltLookAngle": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "ColorDiffuse": {
+                    "r": 1.0,
+                    "g": 1.0,
+                    "b": 1.0
+                  },
+                  "LayoutGroupSortIndex": 0,
+                  "Value": 0,
+                  "Locked": false,
+                  "Grid": true,
+                  "Snap": true,
+                  "IgnoreFoW": false,
+                  "MeasureMovement": false,
+                  "DragSelectable": true,
+                  "Autoraise": true,
+                  "Sticky": true,
+                  "Tooltip": true,
+                  "GridProjection": false,
+                  "HideWhenFaceDown": false,
+                  "Hands": false,
+                  "CustomImage": {
+                    "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/1016069089962145435/D78CB99E33EFF718C93F579E9EC1FCCB2DB2D7E3/",
+                    "ImageSecondaryURL": "",
+                    "ImageScalar": 1.0,
+                    "WidthScale": 0.0,
+                    "CustomToken": {
+                      "Thickness": 0.1,
+                      "MergeDistancePixels": 25.0,
+                      "StandUp": false,
+                      "Stackable": false
+                    }
+                  },
+                  "LuaScript": "",
+                  "LuaScriptState": "",
+                  "XmlUI": ""
+                },
+                "2": {
+                  "GUID": "a64d35",
+                  "Name": "Custom_Token",
+                  "Transform": {
+                    "posX": 69.0,
+                    "posY": 0.9499985,
+                    "posZ": 11.9999971,
+                    "rotX": 1.42029353E-06,
+                    "rotY": 269.999756,
+                    "rotZ": -2.00456725E-06,
+                    "scaleX": 0.5,
+                    "scaleY": 1.0,
+                    "scaleZ": 0.5
+                  },
+                  "Nickname": "[b][i]2 Markerlights[/i][/b]",
+                  "Description": "[b][u]All Effects Are Cumulative[/u][/b]\n1: Re-roll hits of 1 for T'AU EMPIRE.\n\n2: Destoyer/Seeker missiles use BS.",
+                  "GMNotes": "",
+                  "AltLookAngle": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "ColorDiffuse": {
+                    "r": 1.0,
+                    "g": 1.0,
+                    "b": 1.0
+                  },
+                  "LayoutGroupSortIndex": 0,
+                  "Value": 0,
+                  "Locked": false,
+                  "Grid": true,
+                  "Snap": true,
+                  "IgnoreFoW": false,
+                  "MeasureMovement": false,
+                  "DragSelectable": true,
+                  "Autoraise": true,
+                  "Sticky": true,
+                  "Tooltip": true,
+                  "GridProjection": false,
+                  "HideWhenFaceDown": false,
+                  "Hands": false,
+                  "CustomImage": {
+                    "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/1016069089962144729/CA54E53EB5218A782F46819BB4B6EA9BECD3AC90/",
+                    "ImageSecondaryURL": "",
+                    "ImageScalar": 1.0,
+                    "WidthScale": 0.0,
+                    "CustomToken": {
+                      "Thickness": 0.1,
+                      "MergeDistancePixels": 25.0,
+                      "StandUp": false,
+                      "Stackable": false
+                    }
+                  },
+                  "LuaScript": "",
+                  "LuaScriptState": "",
+                  "XmlUI": ""
+                }
+              }
+            },
+            {
+              "GUID": "e94248",
+              "Name": "Custom_Token",
+              "Transform": {
+                "posX": -4.50243425,
+                "posY": 2.843112,
+                "posZ": 52.32948,
+                "rotX": 359.869,
+                "rotY": 179.995331,
+                "rotZ": 0.166163728,
+                "scaleX": 0.5,
+                "scaleY": 1.0,
+                "scaleZ": 0.5
+              },
+              "Nickname": "[b][i]Leadership[/i] +2[/b]",
+              "Description": "",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": false,
+              "Hands": false,
+              "CustomImage": {
+                "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/1016068921484713597/356816B032D60EA7D7937F3FC86F0B352D804F94/",
+                "ImageSecondaryURL": "",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0,
+                "CustomToken": {
+                  "Thickness": 0.1,
+                  "MergeDistancePixels": 25.0,
+                  "StandUp": false,
+                  "Stackable": true
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": "",
+              "States": {
+                "2": {
+                  "GUID": "48a89d",
+                  "Name": "Custom_Token",
+                  "Transform": {
+                    "posX": 73.0,
+                    "posY": 0.949998558,
+                    "posZ": 8.0,
+                    "rotX": -1.79683821E-06,
+                    "rotY": 270.000061,
+                    "rotZ": -1.64337484E-06,
+                    "scaleX": 0.5,
+                    "scaleY": 1.0,
+                    "scaleZ": 0.5
+                  },
+                  "Nickname": "[b][i]Leadership[/i] -2[/b]",
+                  "Description": "",
+                  "GMNotes": "",
+                  "AltLookAngle": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "ColorDiffuse": {
+                    "r": 1.0,
+                    "g": 1.0,
+                    "b": 1.0
+                  },
+                  "LayoutGroupSortIndex": 0,
+                  "Value": 0,
+                  "Locked": false,
+                  "Grid": true,
+                  "Snap": true,
+                  "IgnoreFoW": false,
+                  "MeasureMovement": false,
+                  "DragSelectable": true,
+                  "Autoraise": true,
+                  "Sticky": true,
+                  "Tooltip": true,
+                  "GridProjection": false,
+                  "HideWhenFaceDown": false,
+                  "Hands": false,
+                  "CustomImage": {
+                    "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/1016068921484714703/02C1AF3AE7D426DF8803C2499B45C9B1CEF9BF54/",
+                    "ImageSecondaryURL": "",
+                    "ImageScalar": 1.0,
+                    "WidthScale": 0.0,
+                    "CustomToken": {
+                      "Thickness": 0.1,
+                      "MergeDistancePixels": 25.0,
+                      "StandUp": false,
+                      "Stackable": true
+                    }
+                  },
+                  "LuaScript": "",
+                  "LuaScriptState": "",
+                  "XmlUI": ""
+                }
+              }
+            },
+            {
+              "GUID": "60b24f",
+              "Name": "Custom_Token",
+              "Transform": {
+                "posX": -8.559061,
+                "posY": 2.98207355,
+                "posZ": 52.69662,
+                "rotX": 10.7648,
+                "rotY": 173.300949,
+                "rotZ": 10.0934076,
+                "scaleX": 0.5,
+                "scaleY": 1.0,
+                "scaleZ": 0.5
+              },
+              "Nickname": "[b][i]Advance[/i] +2[/b]",
+              "Description": "",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": false,
+              "Hands": false,
+              "CustomImage": {
+                "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/1016068921484785372/956D6E61059877C0F2BFD15EFBFC6139EDA7F0B0/",
+                "ImageSecondaryURL": "",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0,
+                "CustomToken": {
+                  "Thickness": 0.1,
+                  "MergeDistancePixels": 25.0,
+                  "StandUp": false,
+                  "Stackable": true
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": "",
+              "States": {
+                "2": {
+                  "GUID": "13bdfb",
+                  "Name": "Custom_Token",
+                  "Transform": {
+                    "posX": 73.0,
+                    "posY": 0.9499985,
+                    "posZ": 11.999999,
+                    "rotX": 1.65509209E-06,
+                    "rotY": 269.999725,
+                    "rotZ": 1.34046687E-07,
+                    "scaleX": 0.5,
+                    "scaleY": 1.0,
+                    "scaleZ": 0.5
+                  },
+                  "Nickname": "[b][i]Advance[/i] -2[/b]",
+                  "Description": "",
+                  "GMNotes": "",
+                  "AltLookAngle": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "ColorDiffuse": {
+                    "r": 1.0,
+                    "g": 1.0,
+                    "b": 1.0
+                  },
+                  "LayoutGroupSortIndex": 0,
+                  "Value": 0,
+                  "Locked": false,
+                  "Grid": true,
+                  "Snap": true,
+                  "IgnoreFoW": false,
+                  "MeasureMovement": false,
+                  "DragSelectable": true,
+                  "Autoraise": true,
+                  "Sticky": true,
+                  "Tooltip": true,
+                  "GridProjection": false,
+                  "HideWhenFaceDown": false,
+                  "Hands": false,
+                  "CustomImage": {
+                    "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/1016068921484786436/D28B002E1AD6DBB2FF95CEE1D549A565E088725B/",
+                    "ImageSecondaryURL": "",
+                    "ImageScalar": 1.0,
+                    "WidthScale": 0.0,
+                    "CustomToken": {
+                      "Thickness": 0.1,
+                      "MergeDistancePixels": 25.0,
+                      "StandUp": false,
+                      "Stackable": true
+                    }
+                  },
+                  "LuaScript": "",
+                  "LuaScriptState": "",
+                  "XmlUI": ""
+                }
+              }
+            },
+            {
+              "GUID": "5a61ce",
+              "Name": "Custom_Token",
+              "Transform": {
+                "posX": -3.36775875,
+                "posY": 2.937623,
+                "posZ": 53.7758675,
+                "rotX": 0.0314676575,
+                "rotY": 150.126816,
+                "rotZ": 0.301834673,
+                "scaleX": 0.5,
+                "scaleY": 1.0,
+                "scaleZ": 0.5
+              },
+              "Nickname": "[b][i]Advance[/i] +3[/b]",
+              "Description": "",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": false,
+              "Hands": false,
+              "CustomImage": {
+                "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/1016068921484785801/1548EA0F57A325446356A600A9B16F440CE477A0/",
+                "ImageSecondaryURL": "",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0,
+                "CustomToken": {
+                  "Thickness": 0.1,
+                  "MergeDistancePixels": 25.0,
+                  "StandUp": false,
+                  "Stackable": true
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": "",
+              "States": {
+                "2": {
+                  "GUID": "737d0e",
+                  "Name": "Custom_Token",
+                  "Transform": {
+                    "posX": 71.00001,
+                    "posY": 0.9499985,
+                    "posZ": 12.0000362,
+                    "rotX": -1.16654439E-06,
+                    "rotY": 270.00238,
+                    "rotZ": -4.3662817E-07,
+                    "scaleX": 0.4976871,
+                    "scaleY": 1.0,
+                    "scaleZ": 0.4976871
+                  },
+                  "Nickname": "[b][i]Advance[/i] -3[/b]",
+                  "Description": "",
+                  "GMNotes": "",
+                  "AltLookAngle": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "ColorDiffuse": {
+                    "r": 1.0,
+                    "g": 1.0,
+                    "b": 1.0
+                  },
+                  "LayoutGroupSortIndex": 0,
+                  "Value": 0,
+                  "Locked": false,
+                  "Grid": true,
+                  "Snap": true,
+                  "IgnoreFoW": false,
+                  "MeasureMovement": false,
+                  "DragSelectable": true,
+                  "Autoraise": true,
+                  "Sticky": true,
+                  "Tooltip": true,
+                  "GridProjection": false,
+                  "HideWhenFaceDown": false,
+                  "Hands": false,
+                  "CustomImage": {
+                    "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/1016068921484786796/302768DD4E8101DE99B87AE26A26E6A7CDFFF033/",
+                    "ImageSecondaryURL": "",
+                    "ImageScalar": 1.0,
+                    "WidthScale": 0.0,
+                    "CustomToken": {
+                      "Thickness": 0.1,
+                      "MergeDistancePixels": 25.0,
+                      "StandUp": false,
+                      "Stackable": true
+                    }
+                  },
+                  "LuaScript": "",
+                  "LuaScriptState": "",
+                  "XmlUI": ""
+                }
+              }
+            },
+            {
+              "GUID": "617bcb",
+              "Name": "Custom_Token",
+              "Transform": {
+                "posX": -10.6270342,
+                "posY": 2.73111987,
+                "posZ": 53.6087,
+                "rotX": 0.4766145,
+                "rotY": 179.110626,
+                "rotZ": 310.776825,
+                "scaleX": 0.5,
+                "scaleY": 1.0,
+                "scaleZ": 0.5
+              },
+              "Nickname": "[b][i]Save[/i] +2[/b]",
+              "Description": "",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": false,
+              "Hands": false,
+              "CustomImage": {
+                "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/1016068753798449655/785481AF642F61961411466BE5FDA9D080902FC9/",
+                "ImageSecondaryURL": "",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0,
+                "CustomToken": {
+                  "Thickness": 0.1,
+                  "MergeDistancePixels": 25.0,
+                  "StandUp": false,
+                  "Stackable": true
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": "",
+              "States": {
+                "2": {
+                  "GUID": "ee019f",
+                  "Name": "Custom_Token",
+                  "Transform": {
+                    "posX": 73.0,
+                    "posY": 0.9499985,
+                    "posZ": 13.999999,
+                    "rotX": -1.94766358E-06,
+                    "rotY": 269.999542,
+                    "rotZ": -2.89284E-06,
+                    "scaleX": 0.5,
+                    "scaleY": 1.0,
+                    "scaleZ": 0.5
+                  },
+                  "Nickname": "[b][i]Save[/i] -2[/b]",
+                  "Description": "",
+                  "GMNotes": "",
+                  "AltLookAngle": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "ColorDiffuse": {
+                    "r": 1.0,
+                    "g": 1.0,
+                    "b": 1.0
+                  },
+                  "LayoutGroupSortIndex": 0,
+                  "Value": 0,
+                  "Locked": false,
+                  "Grid": true,
+                  "Snap": true,
+                  "IgnoreFoW": false,
+                  "MeasureMovement": false,
+                  "DragSelectable": true,
+                  "Autoraise": true,
+                  "Sticky": true,
+                  "Tooltip": true,
+                  "GridProjection": false,
+                  "HideWhenFaceDown": false,
+                  "Hands": false,
+                  "CustomImage": {
+                    "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/1016068753798450969/089A8F394F8907D01A88DCAE60F815027CC8E79F/",
+                    "ImageSecondaryURL": "",
+                    "ImageScalar": 1.0,
+                    "WidthScale": 0.0,
+                    "CustomToken": {
+                      "Thickness": 0.1,
+                      "MergeDistancePixels": 25.0,
+                      "StandUp": false,
+                      "Stackable": true
+                    }
+                  },
+                  "LuaScript": "",
+                  "LuaScriptState": "",
+                  "XmlUI": ""
+                }
+              }
+            },
+            {
+              "GUID": "30b17c",
+              "Name": "Custom_Token",
+              "Transform": {
+                "posX": -2.53432059,
+                "posY": 2.83117318,
+                "posZ": 54.983593,
+                "rotX": 359.898651,
+                "rotY": 179.960922,
+                "rotZ": 0.16064468,
+                "scaleX": 0.5,
+                "scaleY": 1.0,
+                "scaleZ": 0.5
+              },
+              "Nickname": "[b][i]Order Received[/i][/b]",
+              "Description": "",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": false,
+              "Hands": true,
+              "CustomImage": {
+                "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/1016068921484547151/67052B0A0CB0B16CF8ED7A0AEA4034BBBD4479F0/",
+                "ImageSecondaryURL": "",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0,
+                "CustomToken": {
+                  "Thickness": 0.1,
+                  "MergeDistancePixels": 25.0,
+                  "StandUp": false,
+                  "Stackable": false
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": ""
+            },
+            {
+              "GUID": "f6ef0e",
+              "Name": "Custom_Token",
+              "Transform": {
+                "posX": 1.36552966,
+                "posY": 2.822677,
+                "posZ": 53.9236336,
+                "rotX": 359.9136,
+                "rotY": 164.969116,
+                "rotZ": 0.193053186,
+                "scaleX": 0.5,
+                "scaleY": 1.0,
+                "scaleZ": 0.5
+              },
+              "Nickname": "[b][i]Save[/i] +3[/b]",
+              "Description": "",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": false,
+              "Hands": false,
+              "CustomImage": {
+                "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/1016068753798450045/299A20482327A81AA5156F6E23BC0C03E9D0029B/",
+                "ImageSecondaryURL": "",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0,
+                "CustomToken": {
+                  "Thickness": 0.1,
+                  "MergeDistancePixels": 25.0,
+                  "StandUp": false,
+                  "Stackable": true
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": "",
+              "States": {
+                "2": {
+                  "GUID": "ed3346",
+                  "Name": "Custom_Token",
+                  "Transform": {
+                    "posX": 71.0,
+                    "posY": 0.949998438,
+                    "posZ": 14.0,
+                    "rotX": -3.473703E-07,
+                    "rotY": 269.999969,
+                    "rotZ": -2.67502742E-06,
+                    "scaleX": 0.5,
+                    "scaleY": 1.0,
+                    "scaleZ": 0.5
+                  },
+                  "Nickname": "[b][i]Save[/i] -3[/b]",
+                  "Description": "",
+                  "GMNotes": "",
+                  "AltLookAngle": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "ColorDiffuse": {
+                    "r": 1.0,
+                    "g": 1.0,
+                    "b": 1.0
+                  },
+                  "LayoutGroupSortIndex": 0,
+                  "Value": 0,
+                  "Locked": false,
+                  "Grid": true,
+                  "Snap": true,
+                  "IgnoreFoW": false,
+                  "MeasureMovement": false,
+                  "DragSelectable": true,
+                  "Autoraise": true,
+                  "Sticky": true,
+                  "Tooltip": true,
+                  "GridProjection": false,
+                  "HideWhenFaceDown": false,
+                  "Hands": false,
+                  "CustomImage": {
+                    "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/1016068753798451334/8640AED8819B1EA065AD573D9DF5A0F7A0244595/",
+                    "ImageSecondaryURL": "",
+                    "ImageScalar": 1.0,
+                    "WidthScale": 0.0,
+                    "CustomToken": {
+                      "Thickness": 0.1,
+                      "MergeDistancePixels": 25.0,
+                      "StandUp": false,
+                      "Stackable": true
+                    }
+                  },
+                  "LuaScript": "",
+                  "LuaScriptState": "",
+                  "XmlUI": ""
+                }
+              }
+            },
+            {
+              "GUID": "816514",
+              "Name": "Custom_Token",
+              "Transform": {
+                "posX": -10.6163759,
+                "posY": 2.79168987,
+                "posZ": 55.46199,
+                "rotX": 0.4759062,
+                "rotY": 179.111389,
+                "rotZ": 310.776459,
+                "scaleX": 0.5,
+                "scaleY": 1.0,
+                "scaleZ": 0.5
+              },
+              "Nickname": "[b][i]Save[/i] +1[/b]",
+              "Description": "",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": false,
+              "Hands": true,
+              "CustomImage": {
+                "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/1016068753798448454/BA2DC2B8CE55C454E83EB4B0A94626CC027A731F/",
+                "ImageSecondaryURL": "",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0,
+                "CustomToken": {
+                  "Thickness": 0.1,
+                  "MergeDistancePixels": 25.0,
+                  "StandUp": false,
+                  "Stackable": true
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": "",
+              "States": {
+                "2": {
+                  "GUID": "90f24b",
+                  "Name": "Custom_Token",
+                  "Transform": {
+                    "posX": 75.0,
+                    "posY": 0.9499984,
+                    "posZ": 13.999999,
+                    "rotX": 5.79238645E-07,
+                    "rotY": 270.0003,
+                    "rotZ": -8.38127562E-07,
+                    "scaleX": 0.5,
+                    "scaleY": 1.0,
+                    "scaleZ": 0.5
+                  },
+                  "Nickname": "[b][i]Save[/i] -1[/b]",
+                  "Description": "",
+                  "GMNotes": "",
+                  "AltLookAngle": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "ColorDiffuse": {
+                    "r": 1.0,
+                    "g": 1.0,
+                    "b": 1.0
+                  },
+                  "LayoutGroupSortIndex": 0,
+                  "Value": 0,
+                  "Locked": false,
+                  "Grid": true,
+                  "Snap": true,
+                  "IgnoreFoW": false,
+                  "MeasureMovement": false,
+                  "DragSelectable": true,
+                  "Autoraise": true,
+                  "Sticky": true,
+                  "Tooltip": true,
+                  "GridProjection": false,
+                  "HideWhenFaceDown": false,
+                  "Hands": true,
+                  "CustomImage": {
+                    "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/1016068753798450539/61F8D2D01F76C27E60328006565124C9C4ABC9E1/",
+                    "ImageSecondaryURL": "",
+                    "ImageScalar": 1.0,
+                    "WidthScale": 0.0,
+                    "CustomToken": {
+                      "Thickness": 0.1,
+                      "MergeDistancePixels": 25.0,
+                      "StandUp": false,
+                      "Stackable": true
+                    }
+                  },
+                  "LuaScript": "",
+                  "LuaScriptState": "",
+                  "XmlUI": ""
+                }
+              }
+            },
+            {
+              "GUID": "2dc221",
+              "Name": "Custom_Token",
+              "Transform": {
+                "posX": -9.10847,
+                "posY": 2.52879429,
+                "posZ": 55.73651,
+                "rotX": 27.3972569,
+                "rotY": 165.674759,
+                "rotZ": 50.4562,
+                "scaleX": 0.5,
+                "scaleY": 1.0,
+                "scaleZ": 0.5
+              },
+              "Nickname": "[b][i]Advance[/i] +1[/b]",
+              "Description": "",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": false,
+              "Hands": true,
+              "CustomImage": {
+                "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/1016068921484785087/8FEDB468697AB14F081D37CCD27CAB6E98740049/",
+                "ImageSecondaryURL": "",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0,
+                "CustomToken": {
+                  "Thickness": 0.1,
+                  "MergeDistancePixels": 25.0,
+                  "StandUp": false,
+                  "Stackable": true
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": "",
+              "States": {
+                "2": {
+                  "GUID": "2ca2e5",
+                  "Name": "Custom_Token",
+                  "Transform": {
+                    "posX": 75.0,
+                    "posY": 0.949998438,
+                    "posZ": 11.999999,
+                    "rotX": -1.68213376E-06,
+                    "rotY": 269.999542,
+                    "rotZ": -1.33990432E-06,
+                    "scaleX": 0.5,
+                    "scaleY": 1.0,
+                    "scaleZ": 0.5
+                  },
+                  "Nickname": "[b][i]Advance[/i] -1[/b]",
+                  "Description": "",
+                  "GMNotes": "",
+                  "AltLookAngle": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "ColorDiffuse": {
+                    "r": 1.0,
+                    "g": 1.0,
+                    "b": 1.0
+                  },
+                  "LayoutGroupSortIndex": 0,
+                  "Value": 0,
+                  "Locked": false,
+                  "Grid": true,
+                  "Snap": true,
+                  "IgnoreFoW": false,
+                  "MeasureMovement": false,
+                  "DragSelectable": true,
+                  "Autoraise": true,
+                  "Sticky": true,
+                  "Tooltip": true,
+                  "GridProjection": false,
+                  "HideWhenFaceDown": false,
+                  "Hands": true,
+                  "CustomImage": {
+                    "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/1016068921484786122/95A1C8625B337AC3F061707AD69963A053693A4F/",
+                    "ImageSecondaryURL": "",
+                    "ImageScalar": 1.0,
+                    "WidthScale": 0.0,
+                    "CustomToken": {
+                      "Thickness": 0.1,
+                      "MergeDistancePixels": 25.0,
+                      "StandUp": false,
+                      "Stackable": true
+                    }
+                  },
+                  "LuaScript": "",
+                  "LuaScriptState": "",
+                  "XmlUI": ""
+                }
+              }
+            },
+            {
+              "GUID": "4b68bf",
+              "Name": "Custom_Token",
+              "Transform": {
+                "posX": -7.167501,
+                "posY": 2.838016,
+                "posZ": 54.6706619,
+                "rotX": 359.5837,
+                "rotY": 180.699951,
+                "rotZ": 358.861176,
+                "scaleX": 0.5,
+                "scaleY": 1.0,
+                "scaleZ": 0.5
+              },
+              "Nickname": "[b][i]Charge[/i] +1[/b]",
+              "Description": "",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": false,
+              "Hands": true,
+              "CustomImage": {
+                "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/1016068753798513005/D100626403DD58AE2186C6806D5BBA6A0140BFAF/",
+                "ImageSecondaryURL": "",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0,
+                "CustomToken": {
+                  "Thickness": 0.1,
+                  "MergeDistancePixels": 25.0,
+                  "StandUp": false,
+                  "Stackable": true
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": "",
+              "States": {
+                "2": {
+                  "GUID": "1141f5",
+                  "Name": "Custom_Token",
+                  "Transform": {
+                    "posX": 75.0,
+                    "posY": 0.9499985,
+                    "posZ": 9.999999,
+                    "rotX": -1.91197614E-06,
+                    "rotY": 269.999939,
+                    "rotZ": -2.53128235E-07,
+                    "scaleX": 0.5,
+                    "scaleY": 1.0,
+                    "scaleZ": 0.5
+                  },
+                  "Nickname": "[b][i]Charge[/i] -1[/b]",
+                  "Description": "",
+                  "GMNotes": "",
+                  "AltLookAngle": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "ColorDiffuse": {
+                    "r": 1.0,
+                    "g": 1.0,
+                    "b": 1.0
+                  },
+                  "LayoutGroupSortIndex": 0,
+                  "Value": 0,
+                  "Locked": false,
+                  "Grid": true,
+                  "Snap": true,
+                  "IgnoreFoW": false,
+                  "MeasureMovement": false,
+                  "DragSelectable": true,
+                  "Autoraise": true,
+                  "Sticky": true,
+                  "Tooltip": true,
+                  "GridProjection": false,
+                  "HideWhenFaceDown": false,
+                  "Hands": true,
+                  "CustomImage": {
+                    "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/1016068753798515384/077E3492FAD644DD0131C08C44D4F3E09582308D/",
+                    "ImageSecondaryURL": "",
+                    "ImageScalar": 1.0,
+                    "WidthScale": 0.0,
+                    "CustomToken": {
+                      "Thickness": 0.1,
+                      "MergeDistancePixels": 25.0,
+                      "StandUp": false,
+                      "Stackable": true
+                    }
+                  },
+                  "LuaScript": "",
+                  "LuaScriptState": "",
+                  "XmlUI": ""
+                }
+              }
+            },
+            {
+              "GUID": "9f3fd3",
+              "Name": "Custom_Token",
+              "Transform": {
+                "posX": -5.15964937,
+                "posY": 2.84813118,
+                "posZ": 54.36427,
+                "rotX": 358.478882,
+                "rotY": 179.740784,
+                "rotZ": 1.84009314,
+                "scaleX": 0.5,
+                "scaleY": 1.0,
+                "scaleZ": 0.5
+              },
+              "Nickname": "[b][i]Leadership[/i] +1[/b]",
+              "Description": "",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": false,
+              "Hands": true,
+              "CustomImage": {
+                "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/1016068921484713024/4A951FB4C450B2CA175CB8FEB00963AD93BA6555/",
+                "ImageSecondaryURL": "",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0,
+                "CustomToken": {
+                  "Thickness": 0.1,
+                  "MergeDistancePixels": 25.0,
+                  "StandUp": false,
+                  "Stackable": true
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": "",
+              "States": {
+                "2": {
+                  "GUID": "276d50",
+                  "Name": "Custom_Token",
+                  "Transform": {
+                    "posX": 75.0,
+                    "posY": 0.949998558,
+                    "posZ": 7.999999,
+                    "rotX": -5.752916E-08,
+                    "rotY": 269.999939,
+                    "rotZ": -2.72756847E-06,
+                    "scaleX": 0.5,
+                    "scaleY": 1.0,
+                    "scaleZ": 0.5
+                  },
+                  "Nickname": "[b][i]Leadership[/i] -1[/b]",
+                  "Description": "",
+                  "GMNotes": "",
+                  "AltLookAngle": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "ColorDiffuse": {
+                    "r": 1.0,
+                    "g": 1.0,
+                    "b": 1.0
+                  },
+                  "LayoutGroupSortIndex": 0,
+                  "Value": 0,
+                  "Locked": false,
+                  "Grid": true,
+                  "Snap": true,
+                  "IgnoreFoW": false,
+                  "MeasureMovement": false,
+                  "DragSelectable": true,
+                  "Autoraise": true,
+                  "Sticky": true,
+                  "Tooltip": true,
+                  "GridProjection": false,
+                  "HideWhenFaceDown": false,
+                  "Hands": true,
+                  "CustomImage": {
+                    "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/1016068921484714325/42709DA375197DBC44FA1128508B4CDF1C02B98E/",
+                    "ImageSecondaryURL": "",
+                    "ImageScalar": 1.0,
+                    "WidthScale": 0.0,
+                    "CustomToken": {
+                      "Thickness": 0.1,
+                      "MergeDistancePixels": 25.0,
+                      "StandUp": false,
+                      "Stackable": true
+                    }
+                  },
+                  "LuaScript": "",
+                  "LuaScriptState": "",
+                  "XmlUI": ""
+                }
+              }
+            },
+            {
+              "GUID": "6527c3",
+              "Name": "Custom_Token",
+              "Transform": {
+                "posX": -13.9010706,
+                "posY": 2.921678,
+                "posZ": 54.61559,
+                "rotX": 1.78863931,
+                "rotY": 120.057007,
+                "rotZ": 2.54251051,
+                "scaleX": 0.5,
+                "scaleY": 1.0,
+                "scaleZ": 0.5
+              },
+              "Nickname": "[b][i]To Wound[/i] +1[/b]",
+              "Description": "",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": false,
+              "Hands": true,
+              "CustomImage": {
+                "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/1016068753798380533/57E662838DA8DFEF2035DE03848607DB9353CE05/",
+                "ImageSecondaryURL": "",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0,
+                "CustomToken": {
+                  "Thickness": 0.1,
+                  "MergeDistancePixels": 25.0,
+                  "StandUp": false,
+                  "Stackable": true
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": "",
+              "States": {
+                "2": {
+                  "GUID": "bc47ce",
+                  "Name": "Custom_Token",
+                  "Transform": {
+                    "posX": 75.0,
+                    "posY": 0.9499983,
+                    "posZ": 15.9999933,
+                    "rotX": -1.39038627E-06,
+                    "rotY": 269.999542,
+                    "rotZ": -1.93383539E-06,
+                    "scaleX": 0.5,
+                    "scaleY": 1.0,
+                    "scaleZ": 0.5
+                  },
+                  "Nickname": "[b][i]To Wound[/i] -1[/b]",
+                  "Description": "",
+                  "GMNotes": "",
+                  "AltLookAngle": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "ColorDiffuse": {
+                    "r": 1.0,
+                    "g": 1.0,
+                    "b": 1.0
+                  },
+                  "LayoutGroupSortIndex": 0,
+                  "Value": 0,
+                  "Locked": false,
+                  "Grid": true,
+                  "Snap": true,
+                  "IgnoreFoW": false,
+                  "MeasureMovement": false,
+                  "DragSelectable": true,
+                  "Autoraise": true,
+                  "Sticky": true,
+                  "Tooltip": true,
+                  "GridProjection": false,
+                  "HideWhenFaceDown": false,
+                  "Hands": true,
+                  "CustomImage": {
+                    "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/1016068753798381861/B92EEE4203FCFB579862337863AABCB6CF9A7406/",
+                    "ImageSecondaryURL": "",
+                    "ImageScalar": 1.0,
+                    "WidthScale": 0.0,
+                    "CustomToken": {
+                      "Thickness": 0.1,
+                      "MergeDistancePixels": 25.0,
+                      "StandUp": false,
+                      "Stackable": true
+                    }
+                  },
+                  "LuaScript": "",
+                  "LuaScriptState": "",
+                  "XmlUI": ""
+                }
+              }
+            },
+            {
+              "GUID": "f6ea90",
+              "Name": "Custom_Token",
+              "Transform": {
+                "posX": -0.0123528605,
+                "posY": 2.83309817,
+                "posZ": 51.14495,
+                "rotX": 359.913483,
+                "rotY": 164.99025,
+                "rotZ": 180.193008,
+                "scaleX": 0.5,
+                "scaleY": 1.0,
+                "scaleZ": 0.5
+              },
+              "Nickname": "[b][i]Order Issued[/i][/b]",
+              "Description": "",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": false,
+              "Hands": true,
+              "CustomImage": {
+                "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/1016068921484521054/8F41FC4B8F831A513D6D87F2527B06379C4373A9/",
+                "ImageSecondaryURL": "",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0,
+                "CustomToken": {
+                  "Thickness": 0.1,
+                  "MergeDistancePixels": 25.0,
+                  "StandUp": false,
+                  "Stackable": true
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": ""
+            },
+            {
+              "GUID": "c4dea3",
+              "Name": "Custom_Token",
+              "Transform": {
+                "posX": -12.6807919,
+                "posY": 2.72550774,
+                "posZ": 52.5358543,
+                "rotX": 24.5294762,
+                "rotY": 122.863167,
+                "rotZ": 28.85117,
+                "scaleX": 0.5,
+                "scaleY": 1.0,
+                "scaleZ": 0.5
+              },
+              "Nickname": "[b][i]To Wound[/i] +2[/b]",
+              "Description": "",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": false,
+              "Hands": false,
+              "CustomImage": {
+                "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/1016068753798408489/BBDF555B1C8ABD97A0449361FE60687D52DB214B/",
+                "ImageSecondaryURL": "",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0,
+                "CustomToken": {
+                  "Thickness": 0.1,
+                  "MergeDistancePixels": 25.0,
+                  "StandUp": false,
+                  "Stackable": true
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": "",
+              "States": {
+                "2": {
+                  "GUID": "2c2a2e",
+                  "Name": "Custom_Token",
+                  "Transform": {
+                    "posX": 73.0,
+                    "posY": 0.9499984,
+                    "posZ": 15.9999886,
+                    "rotX": -2.115626E-08,
+                    "rotY": 269.999969,
+                    "rotZ": 7.51912864E-07,
+                    "scaleX": 0.5,
+                    "scaleY": 1.0,
+                    "scaleZ": 0.5
+                  },
+                  "Nickname": "[b][i]To Wound[/i] -2[/b]",
+                  "Description": "",
+                  "GMNotes": "",
+                  "AltLookAngle": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "ColorDiffuse": {
+                    "r": 1.0,
+                    "g": 1.0,
+                    "b": 1.0
+                  },
+                  "LayoutGroupSortIndex": 0,
+                  "Value": 0,
+                  "Locked": false,
+                  "Grid": true,
+                  "Snap": true,
+                  "IgnoreFoW": false,
+                  "MeasureMovement": false,
+                  "DragSelectable": true,
+                  "Autoraise": true,
+                  "Sticky": true,
+                  "Tooltip": true,
+                  "GridProjection": false,
+                  "HideWhenFaceDown": false,
+                  "Hands": false,
+                  "CustomImage": {
+                    "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/1016068753798408925/4B14325EE38BE76D705AC3C4BFDC72CAF8A8024A/",
+                    "ImageSecondaryURL": "",
+                    "ImageScalar": 1.0,
+                    "WidthScale": 0.0,
+                    "CustomToken": {
+                      "Thickness": 0.1,
+                      "MergeDistancePixels": 25.0,
+                      "StandUp": false,
+                      "Stackable": true
+                    }
+                  },
+                  "LuaScript": "",
+                  "LuaScriptState": "",
+                  "XmlUI": ""
+                }
+              }
+            },
+            {
+              "GUID": "66611c",
+              "Name": "Custom_Token",
+              "Transform": {
+                "posX": -10.7743607,
+                "posY": 3.50287533,
+                "posZ": 54.2957954,
+                "rotX": 357.064545,
+                "rotY": 9.953162,
+                "rotZ": 7.187209,
+                "scaleX": 0.5,
+                "scaleY": 1.0,
+                "scaleZ": 0.5
+              },
+              "Nickname": "[b][i]To Wound[/i] +3[/b]",
+              "Description": "",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": false,
+              "Hands": false,
+              "CustomImage": {
+                "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/1016068753798409495/C28585F565C4E0F29765FB51783EEE6DAC18597D/",
+                "ImageSecondaryURL": "",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0,
+                "CustomToken": {
+                  "Thickness": 0.1,
+                  "MergeDistancePixels": 25.0,
+                  "StandUp": false,
+                  "Stackable": true
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": "",
+              "States": {
+                "2": {
+                  "GUID": "79a0b4",
+                  "Name": "Custom_Token",
+                  "Transform": {
+                    "posX": 71.0,
+                    "posY": 0.9499984,
+                    "posZ": 15.99997,
+                    "rotX": -8.029737E-07,
+                    "rotY": 269.9997,
+                    "rotZ": -4.650956E-06,
+                    "scaleX": 0.5,
+                    "scaleY": 1.0,
+                    "scaleZ": 0.5
+                  },
+                  "Nickname": "[b][i]To Wound[/i] -3[/b]",
+                  "Description": "",
+                  "GMNotes": "",
+                  "AltLookAngle": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "ColorDiffuse": {
+                    "r": 1.0,
+                    "g": 1.0,
+                    "b": 1.0
+                  },
+                  "LayoutGroupSortIndex": 0,
+                  "Value": 0,
+                  "Locked": false,
+                  "Grid": true,
+                  "Snap": true,
+                  "IgnoreFoW": false,
+                  "MeasureMovement": false,
+                  "DragSelectable": true,
+                  "Autoraise": true,
+                  "Sticky": true,
+                  "Tooltip": true,
+                  "GridProjection": false,
+                  "HideWhenFaceDown": false,
+                  "Hands": false,
+                  "CustomImage": {
+                    "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/1016068753798410018/740021690330B8BBBBEFA0DFA55D9B0BA9FC0486/",
+                    "ImageSecondaryURL": "",
+                    "ImageScalar": 1.0,
+                    "WidthScale": 0.0,
+                    "CustomToken": {
+                      "Thickness": 0.1,
+                      "MergeDistancePixels": 25.0,
+                      "StandUp": false,
+                      "Stackable": true
+                    }
+                  },
+                  "LuaScript": "",
+                  "LuaScriptState": "",
+                  "XmlUI": ""
+                }
+              }
+            },
+            {
+              "GUID": "85e271",
+              "Name": "Custom_Token",
+              "Transform": {
+                "posX": -15.6580324,
+                "posY": 2.871547,
+                "posZ": 53.8260841,
+                "rotX": 359.851349,
+                "rotY": 180.012039,
+                "rotZ": 0.181139588,
+                "scaleX": 0.5,
+                "scaleY": 1.0,
+                "scaleZ": 0.5
+              },
+              "Nickname": "[b][i]To Hit[/i] +1[/b]",
+              "Description": "",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": false,
+              "Hands": true,
+              "CustomImage": {
+                "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/1016068753798350087/4BEF46DA9C07E5C72C6324E72B84F3BEDF80D2B7/",
+                "ImageSecondaryURL": "",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0,
+                "CustomToken": {
+                  "Thickness": 0.1,
+                  "MergeDistancePixels": 25.0,
+                  "StandUp": false,
+                  "Stackable": true
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": "",
+              "States": {
+                "2": {
+                  "GUID": "7f1d40",
+                  "Name": "Custom_Token",
+                  "Transform": {
+                    "posX": 75.0,
+                    "posY": 0.94999826,
+                    "posZ": 18.0,
+                    "rotX": 8.417E-08,
+                    "rotY": 269.999939,
+                    "rotZ": -1.91014351E-06,
+                    "scaleX": 0.5,
+                    "scaleY": 1.0,
+                    "scaleZ": 0.5
+                  },
+                  "Nickname": "[b][i]To Hit[/i] -1[/b]",
+                  "Description": "",
+                  "GMNotes": "",
+                  "AltLookAngle": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "ColorDiffuse": {
+                    "r": 1.0,
+                    "g": 1.0,
+                    "b": 1.0
+                  },
+                  "LayoutGroupSortIndex": 0,
+                  "Value": 0,
+                  "Locked": false,
+                  "Grid": true,
+                  "Snap": true,
+                  "IgnoreFoW": false,
+                  "MeasureMovement": false,
+                  "DragSelectable": true,
+                  "Autoraise": true,
+                  "Sticky": true,
+                  "Tooltip": true,
+                  "GridProjection": false,
+                  "HideWhenFaceDown": false,
+                  "Hands": true,
+                  "CustomImage": {
+                    "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/1016068753798344772/D332F94B5778A68436FB6C9FB095038BF1F277FB/",
+                    "ImageSecondaryURL": "",
+                    "ImageScalar": 1.0,
+                    "WidthScale": 0.0,
+                    "CustomToken": {
+                      "Thickness": 0.1,
+                      "MergeDistancePixels": 25.0,
+                      "StandUp": false,
+                      "Stackable": true
+                    }
+                  },
+                  "LuaScript": "",
+                  "LuaScriptState": "",
+                  "XmlUI": ""
+                }
+              }
+            },
+            {
+              "GUID": "3e3127",
+              "Name": "Custom_Token",
+              "Transform": {
+                "posX": -15.6580114,
+                "posY": 2.87629962,
+                "posZ": 51.8261681,
+                "rotX": 359.866455,
+                "rotY": 180.011032,
+                "rotZ": 0.163994744,
+                "scaleX": 0.5,
+                "scaleY": 1.0,
+                "scaleZ": 0.5
+              },
+              "Nickname": "[b][i]To Hit[/i] +2[/b]",
+              "Description": "",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": false,
+              "Hands": false,
+              "CustomImage": {
+                "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/1016068753798350522/5FC40F20101A55A5986F6A5B821B65F5859E1773/",
+                "ImageSecondaryURL": "",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0,
+                "CustomToken": {
+                  "Thickness": 0.1,
+                  "MergeDistancePixels": 25.0,
+                  "StandUp": false,
+                  "Stackable": true
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": "",
+              "States": {
+                "2": {
+                  "GUID": "15b904",
+                  "Name": "Custom_Token",
+                  "Transform": {
+                    "posX": 73.0,
+                    "posY": 0.9499983,
+                    "posZ": 18.0,
+                    "rotX": -1.50367339E-06,
+                    "rotY": 270.0,
+                    "rotZ": -1.22652716E-06,
+                    "scaleX": 0.5,
+                    "scaleY": 1.0,
+                    "scaleZ": 0.5
+                  },
+                  "Nickname": "[b][i]To Hit[/i] -2[/b]",
+                  "Description": "",
+                  "GMNotes": "",
+                  "AltLookAngle": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "ColorDiffuse": {
+                    "r": 1.0,
+                    "g": 1.0,
+                    "b": 1.0
+                  },
+                  "LayoutGroupSortIndex": 0,
+                  "Value": 0,
+                  "Locked": false,
+                  "Grid": true,
+                  "Snap": true,
+                  "IgnoreFoW": false,
+                  "MeasureMovement": false,
+                  "DragSelectable": true,
+                  "Autoraise": true,
+                  "Sticky": true,
+                  "Tooltip": true,
+                  "GridProjection": false,
+                  "HideWhenFaceDown": false,
+                  "Hands": false,
+                  "CustomImage": {
+                    "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/1016068753798348815/5F7289DE1075D61D1CE746001F834A15E23F512F/",
+                    "ImageSecondaryURL": "",
+                    "ImageScalar": 1.0,
+                    "WidthScale": 0.0,
+                    "CustomToken": {
+                      "Thickness": 0.1,
+                      "MergeDistancePixels": 25.0,
+                      "StandUp": false,
+                      "Stackable": true
+                    }
+                  },
+                  "LuaScript": "",
+                  "LuaScriptState": "",
+                  "XmlUI": ""
+                }
+              }
+            },
+            {
+              "GUID": "159c1e",
+              "Name": "Custom_Token",
+              "Transform": {
+                "posX": -15.6582556,
+                "posY": 2.88096261,
+                "posZ": 49.8260727,
+                "rotX": 359.866425,
+                "rotY": 180.01178,
+                "rotZ": 0.163988858,
+                "scaleX": 0.5,
+                "scaleY": 1.0,
+                "scaleZ": 0.5
+              },
+              "Nickname": "[b][i]To Hit[/i] +3[/b]",
+              "Description": "",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": false,
+              "Hands": false,
+              "CustomImage": {
+                "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/1016068753798350963/2C66263905FA7D9B52032E582F78BF516552B18C/",
+                "ImageSecondaryURL": "",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0,
+                "CustomToken": {
+                  "Thickness": 0.1,
+                  "MergeDistancePixels": 25.0,
+                  "StandUp": false,
+                  "Stackable": true
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": "",
+              "States": {
+                "2": {
+                  "GUID": "186dba",
+                  "Name": "Custom_Token",
+                  "Transform": {
+                    "posX": 71.0,
+                    "posY": 0.9499983,
+                    "posZ": 18.0,
+                    "rotX": 4.189965E-07,
+                    "rotY": 270.000061,
+                    "rotZ": -9.950807E-07,
+                    "scaleX": 0.5,
+                    "scaleY": 1.0,
+                    "scaleZ": 0.5
+                  },
+                  "Nickname": "[b][i]To Hit[/i] -3[/b]",
+                  "Description": "",
+                  "GMNotes": "",
+                  "AltLookAngle": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "ColorDiffuse": {
+                    "r": 1.0,
+                    "g": 1.0,
+                    "b": 1.0
+                  },
+                  "LayoutGroupSortIndex": 0,
+                  "Value": 0,
+                  "Locked": false,
+                  "Grid": true,
+                  "Snap": true,
+                  "IgnoreFoW": false,
+                  "MeasureMovement": false,
+                  "DragSelectable": true,
+                  "Autoraise": true,
+                  "Sticky": true,
+                  "Tooltip": true,
+                  "GridProjection": false,
+                  "HideWhenFaceDown": false,
+                  "Hands": false,
+                  "CustomImage": {
+                    "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/1016068753798349405/E642BF3BC430C52BEBB574755A7CC57E1C6767A2/",
+                    "ImageSecondaryURL": "",
+                    "ImageScalar": 1.0,
+                    "WidthScale": 0.0,
+                    "CustomToken": {
+                      "Thickness": 0.1,
+                      "MergeDistancePixels": 25.0,
+                      "StandUp": false,
+                      "Stackable": true
+                    }
+                  },
+                  "LuaScript": "",
+                  "LuaScriptState": "",
+                  "XmlUI": ""
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
