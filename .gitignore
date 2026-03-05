@@ -1,5 +1,8 @@
-# ignore all .kra files
+# ignore all Krita project files
 *.kra
+
+# ignore all temp files created by Krita
+*.*~
 
 # ignore all files in any directory named datasheets
 datasheets/
