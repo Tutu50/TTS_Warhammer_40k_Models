@@ -1,0 +1,1282 @@
+{
+  "SaveName": "",
+  "Date": "",
+  "VersionNumber": "",
+  "GameMode": "",
+  "GameType": "",
+  "GameComplexity": "",
+  "Tags": [],
+  "Gravity": 0.5,
+  "PlayArea": 0.5,
+  "Table": "",
+  "Sky": "",
+  "Note": "",
+  "TabStates": {},
+  "LuaScript": "",
+  "LuaScriptState": "",
+  "XmlUI": "",
+  "ObjectStates": [
+    {
+      "GUID": "7135b6",
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 14.8444548,
+        "posY": 1.14374983,
+        "posZ": 7.359177,
+        "rotX": -9.370135E-07,
+        "rotY": 359.9916,
+        "rotZ": 6.93766935E-07,
+        "scaleX": 1.9,
+        "scaleY": 1.1,
+        "scaleZ": 1.1
+      },
+      "Nickname": "Outrider",
+      "Description": "[00ff00]M    T   Sv   W   Ld   OC  [-]\r\n12\"  5   3+   4    6+   2\n\r\n[ff0000]Ranged Weapons[-]\r\n[c0c0c0]Heavy Bolt Pistol[-]\r\n18\" A:1 BS:3+ S:4 AP:0 D:1 [00ffff][Pistol][-]\r\n[c0c0c0]Twin Bolt Rifle[-]\r\n24\" A:2 BS:3+ S:4 AP:-1 D:1 [00ffff][Twin-Linked][-]\n\r\n[ff0000]Melee Weapons[-]\r\n[c0c0c0]Astartes Chainsword[-]\r\nA:4 WS:3+ S:4 AP:-1 D:1\n\r\n[ff00ff]Abilities[-]\r\nOath of Moment\r\nThunderous Impact",
+      "GMNotes": "",
+      "AltLookAngle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/front/Outrider%202.jpg",
+        "ImageSecondaryURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/back/Outrider%202.jpg",
+        "ImageScalar": 0.55,
+        "WidthScale": 0.0
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "States": {
+        "3": {
+          "GUID": "ae005b",
+          "Name": "Figurine_Custom",
+          "Transform": {
+            "posX": 5.949999,
+            "posY": 1.7836256,
+            "posZ": -5.95000029,
+            "rotX": -2.10110159E-07,
+            "rotY": 6.319222E-05,
+            "rotZ": 2.668041E-07,
+            "scaleX": 1.9,
+            "scaleY": 1.1,
+            "scaleZ": 1.1
+          },
+          "Nickname": "Outrider Sergeant",
+          "Description": "[00ff00]M    T   Sv   W   Ld   OC  [-]\r\n12\"  5   3+   4    6+   2\n\r\n[ff0000]Ranged Weapons[-]\r\n[c0c0c0]Heavy Bolt Pistol[-]\r\n18\" A:1 BS:3+ S:4 AP:0 D:1 [00ffff][Pistol][-]\r\n[c0c0c0]Twin Bolt Rifle[-]\r\n24\" A:2 BS:3+ S:4 AP:-1 D:1 [00ffff][Twin-Linked][-]\n\r\n[ff0000]Melee Weapons[-]\r\n[c0c0c0]Astartes Chainsword[-]\r\nA:4 WS:3+ S:4 AP:-1 D:1\n\r\n[ff00ff]Abilities[-]\r\nOath of Moment\r\nThunderous Impact",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 0.0,
+            "g": 0.0,
+            "b": 0.0
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/front/Outrider%20Sergeant.jpg",
+            "ImageSecondaryURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/front/Outrider%20Sergeant.jpg",
+            "ImageScalar": 0.6,
+            "WidthScale": 0.0
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        "1": {
+          "GUID": "8c18dc",
+          "Name": "Figurine_Custom",
+          "Transform": {
+            "posX": 2.54999924,
+            "posY": 1.78362536,
+            "posZ": -5.95000029,
+            "rotX": -3.63426523E-07,
+            "rotY": 4.748592E-05,
+            "rotZ": -1.25453277E-13,
+            "scaleX": 1.9,
+            "scaleY": 1.1,
+            "scaleZ": 1.1
+          },
+          "Nickname": "Outrider",
+          "Description": "[00ff00]M    T   Sv   W   Ld   OC  [-]\r\n12\"  5   3+   4    6+   2\n\r\n[ff0000]Ranged Weapons[-]\r\n[c0c0c0]Heavy Bolt Pistol[-]\r\n18\" A:1 BS:3+ S:4 AP:0 D:1 [00ffff][Pistol][-]\r\n[c0c0c0]Twin Bolt Rifle[-]\r\n24\" A:2 BS:3+ S:4 AP:-1 D:1 [00ffff][Twin-Linked][-]\n\r\n[ff0000]Melee Weapons[-]\r\n[c0c0c0]Astartes Chainsword[-]\r\nA:4 WS:3+ S:4 AP:-1 D:1\n\r\n[ff00ff]Abilities[-]\r\nOath of Moment\r\nThunderous Impact",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 0.0,
+            "g": 0.0,
+            "b": 0.0
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/front/Outrider%201.jpg",
+            "ImageSecondaryURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/back/Outrider%201.jpg",
+            "ImageScalar": 0.55,
+            "WidthScale": 0.0
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        }
+      }
+    },
+    {
+      "GUID": "8605db",
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 3.96567631,
+        "posY": -1.1920929E-07,
+        "posZ": 1.17786932,
+        "rotX": 8.498545E-07,
+        "rotY": 0.0110428259,
+        "rotZ": -1.0663981E-07,
+        "scaleX": 1.9,
+        "scaleY": 1.1,
+        "scaleZ": 1.1
+      },
+      "Nickname": "Outrider",
+      "Description": "[00ff00]M    T   Sv   W   Ld   OC  [-]\r\n12\"  5   3+   4    6+   2\n\r\n[ff0000]Ranged Weapons[-]\r\n[c0c0c0]Heavy Bolt Pistol[-]\r\n18\" A:1 BS:3+ S:4 AP:0 D:1 [00ffff][Pistol][-]\r\n[c0c0c0]Twin Bolt Rifle[-]\r\n24\" A:2 BS:3+ S:4 AP:-1 D:1 [00ffff][Twin-Linked][-]\n\r\n[ff0000]Melee Weapons[-]\r\n[c0c0c0]Astartes Chainsword[-]\r\nA:4 WS:3+ S:4 AP:-1 D:1\n\r\n[ff00ff]Abilities[-]\r\nOath of Moment\r\nThunderous Impact",
+      "GMNotes": "",
+      "AltLookAngle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/front/Outrider%201.jpg",
+        "ImageSecondaryURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/back/Outrider%201.jpg",
+        "ImageScalar": 0.55,
+        "WidthScale": 0.0
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "States": {
+        "2": {
+          "GUID": "7135b6",
+          "Name": "Figurine_Custom",
+          "Transform": {
+            "posX": 2.54999924,
+            "posY": 1.7836256,
+            "posZ": -5.95000029,
+            "rotX": -3.385884E-07,
+            "rotY": 4.637132E-05,
+            "rotZ": 5.335193E-08,
+            "scaleX": 1.9,
+            "scaleY": 1.1,
+            "scaleZ": 1.1
+          },
+          "Nickname": "Outrider",
+          "Description": "[00ff00]M    T   Sv   W   Ld   OC  [-]\r\n12\"  5   3+   4    6+   2\n\r\n[ff0000]Ranged Weapons[-]\r\n[c0c0c0]Heavy Bolt Pistol[-]\r\n18\" A:1 BS:3+ S:4 AP:0 D:1 [00ffff][Pistol][-]\r\n[c0c0c0]Twin Bolt Rifle[-]\r\n24\" A:2 BS:3+ S:4 AP:-1 D:1 [00ffff][Twin-Linked][-]\n\r\n[ff0000]Melee Weapons[-]\r\n[c0c0c0]Astartes Chainsword[-]\r\nA:4 WS:3+ S:4 AP:-1 D:1\n\r\n[ff00ff]Abilities[-]\r\nOath of Moment\r\nThunderous Impact",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 0.0,
+            "g": 0.0,
+            "b": 0.0
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/front/Outrider%202.jpg",
+            "ImageSecondaryURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/back/Outrider%202.jpg",
+            "ImageScalar": 0.55,
+            "WidthScale": 0.0
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        "3": {
+          "GUID": "ae005b",
+          "Name": "Figurine_Custom",
+          "Transform": {
+            "posX": 5.949999,
+            "posY": 1.7836256,
+            "posZ": -5.95000029,
+            "rotX": -2.10110159E-07,
+            "rotY": 6.319222E-05,
+            "rotZ": 2.668041E-07,
+            "scaleX": 1.9,
+            "scaleY": 1.1,
+            "scaleZ": 1.1
+          },
+          "Nickname": "Outrider Sergeant",
+          "Description": "[00ff00]M    T   Sv   W   Ld   OC  [-]\r\n12\"  5   3+   4    6+   2\n\r\n[ff0000]Ranged Weapons[-]\r\n[c0c0c0]Heavy Bolt Pistol[-]\r\n18\" A:1 BS:3+ S:4 AP:0 D:1 [00ffff][Pistol][-]\r\n[c0c0c0]Twin Bolt Rifle[-]\r\n24\" A:2 BS:3+ S:4 AP:-1 D:1 [00ffff][Twin-Linked][-]\n\r\n[ff0000]Melee Weapons[-]\r\n[c0c0c0]Astartes Chainsword[-]\r\nA:4 WS:3+ S:4 AP:-1 D:1\n\r\n[ff00ff]Abilities[-]\r\nOath of Moment\r\nThunderous Impact",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 0.0,
+            "g": 0.0,
+            "b": 0.0
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/front/Outrider%20Sergeant.jpg",
+            "ImageSecondaryURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/front/Outrider%20Sergeant.jpg",
+            "ImageScalar": 0.6,
+            "WidthScale": 0.0
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        }
+      }
+    },
+    {
+      "GUID": "be2982",
+      "Name": "BlockRectangle",
+      "Transform": {
+        "posX": 3.89913464,
+        "posY": 0.706669569,
+        "posZ": -1.265295,
+        "rotX": 359.4176,
+        "rotY": 89.99281,
+        "rotZ": 359.876465,
+        "scaleX": 2.44846559,
+        "scaleY": 1.73438418,
+        "scaleZ": 1.71356046
+      },
+      "Nickname": "Invader ATV",
+      "Description": "",
+      "GMNotes": "",
+      "AltLookAngle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.201567829,
+        "b": 0.8235294
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "ChildObjects": [
+        {
+          "GUID": "a30e7e",
+          "Name": "Custom_Tile",
+          "Transform": {
+            "posX": -0.00273325015,
+            "posY": 0.499995679,
+            "posZ": -0.00112547493,
+            "rotX": -0.000185814992,
+            "rotY": 90.09223,
+            "rotZ": 5.83801339E-05,
+            "scaleX": 0.5221029,
+            "scaleY": 0.0143976677,
+            "scaleZ": 0.5008541
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/Invader%20ATV.jpg",
+            "ImageSecondaryURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/Invader%20ATV.jpg",
+            "ImageScalar": 1.0,
+            "WidthScale": 0.0,
+            "CustomTile": {
+              "Type": 0,
+              "Thickness": 0.1,
+              "Stackable": false,
+              "Stretch": true
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "GUID": "7e2f46",
+          "Name": "Custom_Tile",
+          "Transform": {
+            "posX": 0.4999867,
+            "posY": -0.00798216,
+            "posZ": 0.0067944983,
+            "rotX": 89.38643,
+            "rotY": 179.914917,
+            "rotZ": 89.9154739,
+            "scaleX": 0.5221119,
+            "scaleY": 0.00494704535,
+            "scaleZ": 0.503405333
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/Invader%20ATV.jpg",
+            "ImageSecondaryURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/Invader%20ATV.jpg",
+            "ImageScalar": 1.0,
+            "WidthScale": 0.0,
+            "CustomTile": {
+              "Type": 0,
+              "Thickness": 0.1,
+              "Stackable": false,
+              "Stretch": true
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "GUID": "1e9afc",
+          "Name": "Custom_Tile",
+          "Transform": {
+            "posX": -0.5023324,
+            "posY": 0.00179736572,
+            "posZ": 0.000185124052,
+            "rotX": 89.76761,
+            "rotY": 120.947723,
+            "rotZ": 210.858,
+            "scaleX": 0.5220836,
+            "scaleY": 0.013461736,
+            "scaleZ": 0.503457
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/Invader%20ATV.jpg",
+            "ImageSecondaryURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/Invader%20ATV.jpg",
+            "ImageScalar": 1.0,
+            "WidthScale": 0.0,
+            "CustomTile": {
+              "Type": 0,
+              "Thickness": 0.1,
+              "Stackable": false,
+              "Stretch": true
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "GUID": "9204f3",
+          "Name": "Custom_Tile",
+          "Transform": {
+            "posX": -0.00446746359,
+            "posY": 0.003147074,
+            "posZ": 0.49999994,
+            "rotX": 89.93147,
+            "rotY": 359.925476,
+            "rotZ": 0.0,
+            "scaleX": 0.5234034,
+            "scaleY": 0.008852622,
+            "scaleZ": 0.499530882
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/Invader%20ATV.jpg",
+            "ImageSecondaryURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/Invader%20ATV.jpg",
+            "ImageScalar": 1.0,
+            "WidthScale": 0.0,
+            "CustomTile": {
+              "Type": 0,
+              "Thickness": 0.1,
+              "Stackable": false,
+              "Stretch": true
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "GUID": "1ccd9e",
+          "Name": "Custom_Tile",
+          "Transform": {
+            "posX": 0.005836689,
+            "posY": -0.00381667,
+            "posZ": -0.4999998,
+            "rotX": 89.87646,
+            "rotY": 89.99861,
+            "rotZ": 269.9984,
+            "scaleX": 0.523403764,
+            "scaleY": 0.002517481,
+            "scaleZ": 0.499530375
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/Invader%20ATV.jpg",
+            "ImageSecondaryURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/Invader%20ATV.jpg",
+            "ImageScalar": 1.0,
+            "WidthScale": 0.0,
+            "CustomTile": {
+              "Type": 0,
+              "Thickness": 0.1,
+              "Stackable": false,
+              "Stretch": true
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        }
+      ]
+    },
+    {
+      "GUID": "a0aa15",
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 0.0,
+        "posY": -1.1920929E-07,
+        "posZ": -1.69999838,
+        "rotX": 1.12600287E-06,
+        "rotY": 359.991516,
+        "rotZ": 1.866865E-07,
+        "scaleX": 1.9,
+        "scaleY": 1.1,
+        "scaleZ": 1.1
+      },
+      "Nickname": "Outrider",
+      "Description": "[00ff00]M    T   Sv   W   Ld   OC  [-]\r\n12\"  5   3+   4    6+   2\n\r\n[ff0000]Ranged Weapons[-]\r\n[c0c0c0]Heavy Bolt Pistol[-]\r\n18\" A:1 BS:3+ S:4 AP:0 D:1 [00ffff][Pistol][-]\r\n[c0c0c0]Twin Bolt Rifle[-]\r\n24\" A:2 BS:3+ S:4 AP:-1 D:1 [00ffff][Twin-Linked][-]\n\r\n[ff0000]Melee Weapons[-]\r\n[c0c0c0]Astartes Chainsword[-]\r\nA:4 WS:3+ S:4 AP:-1 D:1\n\r\n[ff00ff]Abilities[-]\r\nOath of Moment\r\nThunderous Impact",
+      "GMNotes": "",
+      "AltLookAngle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/front/Outrider%201.jpg",
+        "ImageSecondaryURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/back/Outrider%201.jpg",
+        "ImageScalar": 0.55,
+        "WidthScale": 0.0
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "States": {
+        "2": {
+          "GUID": "7135b6",
+          "Name": "Figurine_Custom",
+          "Transform": {
+            "posX": 2.54999924,
+            "posY": 1.7836256,
+            "posZ": -5.95000029,
+            "rotX": -3.385884E-07,
+            "rotY": 4.637132E-05,
+            "rotZ": 5.335193E-08,
+            "scaleX": 1.9,
+            "scaleY": 1.1,
+            "scaleZ": 1.1
+          },
+          "Nickname": "Outrider",
+          "Description": "[00ff00]M    T   Sv   W   Ld   OC  [-]\r\n12\"  5   3+   4    6+   2\n\r\n[ff0000]Ranged Weapons[-]\r\n[c0c0c0]Heavy Bolt Pistol[-]\r\n18\" A:1 BS:3+ S:4 AP:0 D:1 [00ffff][Pistol][-]\r\n[c0c0c0]Twin Bolt Rifle[-]\r\n24\" A:2 BS:3+ S:4 AP:-1 D:1 [00ffff][Twin-Linked][-]\n\r\n[ff0000]Melee Weapons[-]\r\n[c0c0c0]Astartes Chainsword[-]\r\nA:4 WS:3+ S:4 AP:-1 D:1\n\r\n[ff00ff]Abilities[-]\r\nOath of Moment\r\nThunderous Impact",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 0.0,
+            "g": 0.0,
+            "b": 0.0
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/front/Outrider%202.jpg",
+            "ImageSecondaryURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/back/Outrider%202.jpg",
+            "ImageScalar": 0.55,
+            "WidthScale": 0.0
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        "3": {
+          "GUID": "ae005b",
+          "Name": "Figurine_Custom",
+          "Transform": {
+            "posX": 5.949999,
+            "posY": 1.7836256,
+            "posZ": -5.95000029,
+            "rotX": -2.10110159E-07,
+            "rotY": 6.319222E-05,
+            "rotZ": 2.668041E-07,
+            "scaleX": 1.9,
+            "scaleY": 1.1,
+            "scaleZ": 1.1
+          },
+          "Nickname": "Outrider Sergeant",
+          "Description": "[00ff00]M    T   Sv   W   Ld   OC  [-]\r\n12\"  5   3+   4    6+   2\n\r\n[ff0000]Ranged Weapons[-]\r\n[c0c0c0]Heavy Bolt Pistol[-]\r\n18\" A:1 BS:3+ S:4 AP:0 D:1 [00ffff][Pistol][-]\r\n[c0c0c0]Twin Bolt Rifle[-]\r\n24\" A:2 BS:3+ S:4 AP:-1 D:1 [00ffff][Twin-Linked][-]\n\r\n[ff0000]Melee Weapons[-]\r\n[c0c0c0]Astartes Chainsword[-]\r\nA:4 WS:3+ S:4 AP:-1 D:1\n\r\n[ff00ff]Abilities[-]\r\nOath of Moment\r\nThunderous Impact",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 0.0,
+            "g": 0.0,
+            "b": 0.0
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/front/Outrider%20Sergeant.jpg",
+            "ImageSecondaryURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/front/Outrider%20Sergeant.jpg",
+            "ImageScalar": 0.6,
+            "WidthScale": 0.0
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        }
+      }
+    },
+    {
+      "GUID": "df7d7f",
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 7.536044,
+        "posY": -1.1920929E-07,
+        "posZ": -0.227127552,
+        "rotX": 3.987851E-07,
+        "rotY": 0.00533385668,
+        "rotZ": 1.46743741E-06,
+        "scaleX": 1.9,
+        "scaleY": 1.1,
+        "scaleZ": 1.1
+      },
+      "Nickname": "Outrider",
+      "Description": "[00ff00]M    T   Sv   W   Ld   OC  [-]\r\n12\"  5   3+   4    6+   2\n\r\n[ff0000]Ranged Weapons[-]\r\n[c0c0c0]Heavy Bolt Pistol[-]\r\n18\" A:1 BS:3+ S:4 AP:0 D:1 [00ffff][Pistol][-]\r\n[c0c0c0]Twin Bolt Rifle[-]\r\n24\" A:2 BS:3+ S:4 AP:-1 D:1 [00ffff][Twin-Linked][-]\n\r\n[ff0000]Melee Weapons[-]\r\n[c0c0c0]Astartes Chainsword[-]\r\nA:4 WS:3+ S:4 AP:-1 D:1\n\r\n[ff00ff]Abilities[-]\r\nOath of Moment\r\nThunderous Impact",
+      "GMNotes": "",
+      "AltLookAngle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/front/Outrider%201.jpg",
+        "ImageSecondaryURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/back/Outrider%201.jpg",
+        "ImageScalar": 0.55,
+        "WidthScale": 0.0
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "States": {
+        "2": {
+          "GUID": "7135b6",
+          "Name": "Figurine_Custom",
+          "Transform": {
+            "posX": 2.54999924,
+            "posY": 1.7836256,
+            "posZ": -5.95000029,
+            "rotX": -3.385884E-07,
+            "rotY": 4.637132E-05,
+            "rotZ": 5.335193E-08,
+            "scaleX": 1.9,
+            "scaleY": 1.1,
+            "scaleZ": 1.1
+          },
+          "Nickname": "Outrider",
+          "Description": "[00ff00]M    T   Sv   W   Ld   OC  [-]\r\n12\"  5   3+   4    6+   2\n\r\n[ff0000]Ranged Weapons[-]\r\n[c0c0c0]Heavy Bolt Pistol[-]\r\n18\" A:1 BS:3+ S:4 AP:0 D:1 [00ffff][Pistol][-]\r\n[c0c0c0]Twin Bolt Rifle[-]\r\n24\" A:2 BS:3+ S:4 AP:-1 D:1 [00ffff][Twin-Linked][-]\n\r\n[ff0000]Melee Weapons[-]\r\n[c0c0c0]Astartes Chainsword[-]\r\nA:4 WS:3+ S:4 AP:-1 D:1\n\r\n[ff00ff]Abilities[-]\r\nOath of Moment\r\nThunderous Impact",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 0.0,
+            "g": 0.0,
+            "b": 0.0
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/front/Outrider%202.jpg",
+            "ImageSecondaryURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/back/Outrider%202.jpg",
+            "ImageScalar": 0.55,
+            "WidthScale": 0.0
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        "3": {
+          "GUID": "ae005b",
+          "Name": "Figurine_Custom",
+          "Transform": {
+            "posX": 5.949999,
+            "posY": 1.7836256,
+            "posZ": -5.95000029,
+            "rotX": -2.10110159E-07,
+            "rotY": 6.319222E-05,
+            "rotZ": 2.668041E-07,
+            "scaleX": 1.9,
+            "scaleY": 1.1,
+            "scaleZ": 1.1
+          },
+          "Nickname": "Outrider Sergeant",
+          "Description": "[00ff00]M    T   Sv   W   Ld   OC  [-]\r\n12\"  5   3+   4    6+   2\n\r\n[ff0000]Ranged Weapons[-]\r\n[c0c0c0]Heavy Bolt Pistol[-]\r\n18\" A:1 BS:3+ S:4 AP:0 D:1 [00ffff][Pistol][-]\r\n[c0c0c0]Twin Bolt Rifle[-]\r\n24\" A:2 BS:3+ S:4 AP:-1 D:1 [00ffff][Twin-Linked][-]\n\r\n[ff0000]Melee Weapons[-]\r\n[c0c0c0]Astartes Chainsword[-]\r\nA:4 WS:3+ S:4 AP:-1 D:1\n\r\n[ff00ff]Abilities[-]\r\nOath of Moment\r\nThunderous Impact",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 0.0,
+            "g": 0.0,
+            "b": 0.0
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/front/Outrider%20Sergeant.jpg",
+            "ImageSecondaryURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/front/Outrider%20Sergeant.jpg",
+            "ImageScalar": 0.6,
+            "WidthScale": 0.0
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        }
+      }
+    },
+    {
+      "GUID": "53ed84",
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 7.536044,
+        "posY": 0.0,
+        "posZ": -1.92712736,
+        "rotX": 1.42637163E-07,
+        "rotY": 0.0136122592,
+        "rotZ": -6.42911E-07,
+        "scaleX": 1.9,
+        "scaleY": 1.1,
+        "scaleZ": 1.1
+      },
+      "Nickname": "Outrider",
+      "Description": "[00ff00]M    T   Sv   W   Ld   OC  [-]\r\n12\"  5   3+   4    6+   2\n\r\n[ff0000]Ranged Weapons[-]\r\n[c0c0c0]Heavy Bolt Pistol[-]\r\n18\" A:1 BS:3+ S:4 AP:0 D:1 [00ffff][Pistol][-]\r\n[c0c0c0]Twin Bolt Rifle[-]\r\n24\" A:2 BS:3+ S:4 AP:-1 D:1 [00ffff][Twin-Linked][-]\n\r\n[ff0000]Melee Weapons[-]\r\n[c0c0c0]Astartes Chainsword[-]\r\nA:4 WS:3+ S:4 AP:-1 D:1\n\r\n[ff00ff]Abilities[-]\r\nOath of Moment\r\nThunderous Impact",
+      "GMNotes": "",
+      "AltLookAngle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/front/Outrider%202.jpg",
+        "ImageSecondaryURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/back/Outrider%202.jpg",
+        "ImageScalar": 0.55,
+        "WidthScale": 0.0
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "States": {
+        "3": {
+          "GUID": "ae005b",
+          "Name": "Figurine_Custom",
+          "Transform": {
+            "posX": 5.949999,
+            "posY": 1.7836256,
+            "posZ": -5.95000029,
+            "rotX": -2.10110159E-07,
+            "rotY": 6.319222E-05,
+            "rotZ": 2.668041E-07,
+            "scaleX": 1.9,
+            "scaleY": 1.1,
+            "scaleZ": 1.1
+          },
+          "Nickname": "Outrider Sergeant",
+          "Description": "[00ff00]M    T   Sv   W   Ld   OC  [-]\r\n12\"  5   3+   4    6+   2\n\r\n[ff0000]Ranged Weapons[-]\r\n[c0c0c0]Heavy Bolt Pistol[-]\r\n18\" A:1 BS:3+ S:4 AP:0 D:1 [00ffff][Pistol][-]\r\n[c0c0c0]Twin Bolt Rifle[-]\r\n24\" A:2 BS:3+ S:4 AP:-1 D:1 [00ffff][Twin-Linked][-]\n\r\n[ff0000]Melee Weapons[-]\r\n[c0c0c0]Astartes Chainsword[-]\r\nA:4 WS:3+ S:4 AP:-1 D:1\n\r\n[ff00ff]Abilities[-]\r\nOath of Moment\r\nThunderous Impact",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 0.0,
+            "g": 0.0,
+            "b": 0.0
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/front/Outrider%20Sergeant.jpg",
+            "ImageSecondaryURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/front/Outrider%20Sergeant.jpg",
+            "ImageScalar": 0.6,
+            "WidthScale": 0.0
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        "1": {
+          "GUID": "57c9c3",
+          "Name": "Figurine_Custom",
+          "Transform": {
+            "posX": 22.1456356,
+            "posY": 1.14374971,
+            "posZ": 3.137484,
+            "rotX": -7.123774E-07,
+            "rotY": 359.9915,
+            "rotZ": 1.868231E-07,
+            "scaleX": 1.9,
+            "scaleY": 1.1,
+            "scaleZ": 1.1
+          },
+          "Nickname": "Outrider",
+          "Description": "[00ff00]M    T   Sv   W   Ld   OC  [-]\r\n12\"  5   3+   4    6+   2\n\r\n[ff0000]Ranged Weapons[-]\r\n[c0c0c0]Heavy Bolt Pistol[-]\r\n18\" A:1 BS:3+ S:4 AP:0 D:1 [00ffff][Pistol][-]\r\n[c0c0c0]Twin Bolt Rifle[-]\r\n24\" A:2 BS:3+ S:4 AP:-1 D:1 [00ffff][Twin-Linked][-]\n\r\n[ff0000]Melee Weapons[-]\r\n[c0c0c0]Astartes Chainsword[-]\r\nA:4 WS:3+ S:4 AP:-1 D:1\n\r\n[ff00ff]Abilities[-]\r\nOath of Moment\r\nThunderous Impact",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 0.0,
+            "g": 0.0,
+            "b": 0.0
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/front/Outrider%201.jpg",
+            "ImageSecondaryURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/back/Outrider%201.jpg",
+            "ImageScalar": 0.55,
+            "WidthScale": 0.0
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        }
+      }
+    },
+    {
+      "GUID": "ae005b",
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 3.99162579,
+        "posY": -1.1920929E-07,
+        "posZ": -3.80749631,
+        "rotX": -3.48960839E-07,
+        "rotY": 0.02338539,
+        "rotZ": -1.06818959E-07,
+        "scaleX": 1.9,
+        "scaleY": 1.1,
+        "scaleZ": 1.1
+      },
+      "Nickname": "Outrider Sergeant",
+      "Description": "[00ff00]M    T   Sv   W   Ld   OC  [-]\r\n12\"  5   3+   4    6+   2\n\r\n[ff0000]Ranged Weapons[-]\r\n[c0c0c0]Heavy Bolt Pistol[-]\r\n18\" A:1 BS:3+ S:4 AP:0 D:1 [00ffff][Pistol][-]\r\n[c0c0c0]Twin Bolt Rifle[-]\r\n24\" A:2 BS:3+ S:4 AP:-1 D:1 [00ffff][Twin-Linked][-]\n\r\n[ff0000]Melee Weapons[-]\r\n[c0c0c0]Astartes Chainsword[-]\r\nA:4 WS:3+ S:4 AP:-1 D:1\n\r\n[ff00ff]Abilities[-]\r\nOath of Moment\r\nThunderous Impact",
+      "GMNotes": "",
+      "AltLookAngle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/front/Outrider%20Sergeant.jpg",
+        "ImageSecondaryURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/front/Outrider%20Sergeant.jpg",
+        "ImageScalar": 0.6,
+        "WidthScale": 0.0
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "States": {
+        "2": {
+          "GUID": "7135b6",
+          "Name": "Figurine_Custom",
+          "Transform": {
+            "posX": 2.54999924,
+            "posY": 1.7836256,
+            "posZ": -5.95000029,
+            "rotX": -3.385884E-07,
+            "rotY": 4.637132E-05,
+            "rotZ": 5.335193E-08,
+            "scaleX": 1.9,
+            "scaleY": 1.1,
+            "scaleZ": 1.1
+          },
+          "Nickname": "Outrider",
+          "Description": "[00ff00]M    T   Sv   W   Ld   OC  [-]\r\n12\"  5   3+   4    6+   2\n\r\n[ff0000]Ranged Weapons[-]\r\n[c0c0c0]Heavy Bolt Pistol[-]\r\n18\" A:1 BS:3+ S:4 AP:0 D:1 [00ffff][Pistol][-]\r\n[c0c0c0]Twin Bolt Rifle[-]\r\n24\" A:2 BS:3+ S:4 AP:-1 D:1 [00ffff][Twin-Linked][-]\n\r\n[ff0000]Melee Weapons[-]\r\n[c0c0c0]Astartes Chainsword[-]\r\nA:4 WS:3+ S:4 AP:-1 D:1\n\r\n[ff00ff]Abilities[-]\r\nOath of Moment\r\nThunderous Impact",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 0.0,
+            "g": 0.0,
+            "b": 0.0
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/front/Outrider%202.jpg",
+            "ImageSecondaryURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/back/Outrider%202.jpg",
+            "ImageScalar": 0.55,
+            "WidthScale": 0.0
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        "1": {
+          "GUID": "158909",
+          "Name": "Figurine_Custom",
+          "Transform": {
+            "posX": 5.949999,
+            "posY": 1.7836256,
+            "posZ": -5.95000029,
+            "rotX": -2.05615834E-07,
+            "rotY": 5.779256E-05,
+            "rotZ": -2.6680544E-08,
+            "scaleX": 1.9,
+            "scaleY": 1.1,
+            "scaleZ": 1.1
+          },
+          "Nickname": "Outrider",
+          "Description": "[00ff00]M    T   Sv   W   Ld   OC  [-]\r\n12\"  5   3+   4    6+   2\n\r\n[ff0000]Ranged Weapons[-]\r\n[c0c0c0]Heavy Bolt Pistol[-]\r\n18\" A:1 BS:3+ S:4 AP:0 D:1 [00ffff][Pistol][-]\r\n[c0c0c0]Twin Bolt Rifle[-]\r\n24\" A:2 BS:3+ S:4 AP:-1 D:1 [00ffff][Twin-Linked][-]\n\r\n[ff0000]Melee Weapons[-]\r\n[c0c0c0]Astartes Chainsword[-]\r\nA:4 WS:3+ S:4 AP:-1 D:1\n\r\n[ff00ff]Abilities[-]\r\nOath of Moment\r\nThunderous Impact",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 0.0,
+            "g": 0.0,
+            "b": 0.0
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/front/Outrider%201.jpg",
+            "ImageSecondaryURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/back/Outrider%201.jpg",
+            "ImageScalar": 0.55,
+            "WidthScale": 0.0
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        }
+      }
+    }
+  ]
+}

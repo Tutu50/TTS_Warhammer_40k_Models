@@ -1,0 +1,1570 @@
+{
+  "SaveName": "",
+  "Date": "",
+  "VersionNumber": "",
+  "GameMode": "",
+  "GameType": "",
+  "GameComplexity": "",
+  "Tags": [],
+  "Gravity": 0.5,
+  "PlayArea": 0.5,
+  "Table": "",
+  "Sky": "",
+  "Note": "",
+  "TabStates": {},
+  "LuaScript": "",
+  "LuaScriptState": "",
+  "XmlUI": "",
+  "ObjectStates": [
+    {
+      "GUID": "05b33d",
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 2.54999924,
+        "posY": 1.71263146,
+        "posZ": 5.949999,
+        "rotX": 1.42879566E-08,
+        "rotY": -3.77068E-05,
+        "rotZ": -5.33609175E-08,
+        "scaleX": 0.675,
+        "scaleY": 0.675,
+        "scaleZ": 0.675
+      },
+      "Nickname": "Infernus Marine",
+      "Description": "[00ff00]M   T   Sv   W   Ld   OC  [-]\r\n6\"   4   3+   2    6+   1\n\r\n[ff0000]Ranged Weapons[-]\r\n[c0c0c0]Bolt Pistol[-]\r\n12\" A:1 BS:3+ S:4 AP:0 D:1 [00ffff][Pistol][-]\r\n[c0c0c0]Pyreblaster[-]\r\n12\" A:D6 BS:N/A S:5 AP:-1 D:1 [00ffff][Ignores Cover] [Torrent][-]\n\r\n[ff0000]Melee Weapons[-]\r\n[c0c0c0]Close Combat Weapon[-]\r\nA:3 WS:3+ S:4 AP:0 D:1\n\r\n[ff00ff]Abilities[-]\r\nOath of Moment\r\nIncendiary Terror",
+      "GMNotes": "",
+      "AltLookAngle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/front/Infernus%201.jpg",
+        "ImageSecondaryURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/back/Infernus%201.jpg",
+        "ImageScalar": 1.5,
+        "WidthScale": 0.0
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "States": {
+        "2": {
+          "GUID": "e68601",
+          "Name": "Figurine_Custom",
+          "Transform": {
+            "posX": 4.249999,
+            "posY": 1.71263087,
+            "posZ": 5.949999,
+            "rotX": -1.20751167E-06,
+            "rotY": -9.144876E-06,
+            "rotZ": -1.06721666E-06,
+            "scaleX": 0.675,
+            "scaleY": 0.675,
+            "scaleZ": 0.675
+          },
+          "Nickname": "Infernus Marine",
+          "Description": "[00ff00]M   T   Sv   W   Ld   OC  [-]\r\n6\"   4   3+   2    6+   1\n\r\n[ff0000]Ranged Weapons[-]\r\n[c0c0c0]Bolt Pistol[-]\r\n12\" A:1 BS:3+ S:4 AP:0 D:1 [00ffff][Pistol][-]\r\n[c0c0c0]Pyreblaster[-]\r\n12\" A:D6 BS:N/A S:5 AP:-1 D:1 [00ffff][Ignores Cover] [Torrent][-]\n\r\n[ff0000]Melee Weapons[-]\r\n[c0c0c0]Close Combat Weapon[-]\r\nA:3 WS:3+ S:4 AP:0 D:1\n\r\n[ff00ff]Abilities[-]\r\nOath of Moment\r\nIncendiary Terror",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 0.0,
+            "g": 0.0,
+            "b": 0.0
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/front/Infernus%202.jpg",
+            "ImageSecondaryURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/back/Infernus%202.jpg",
+            "ImageScalar": 1.5,
+            "WidthScale": 0.0
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        "3": {
+          "GUID": "890002",
+          "Name": "Figurine_Custom",
+          "Transform": {
+            "posX": 5.949999,
+            "posY": 1.71263123,
+            "posZ": 5.949999,
+            "rotX": -1.52874776E-07,
+            "rotY": 2.96564025E-07,
+            "rotZ": 1.60082593E-07,
+            "scaleX": 0.675,
+            "scaleY": 0.675,
+            "scaleZ": 0.675
+          },
+          "Nickname": "Infernus Sergeant",
+          "Description": "[00ff00]M   T   Sv   W   Ld   OC  [-]\r\n6\"   4   3+   2    6+   1\n\r\n[ff0000]Ranged Weapons[-]\r\n[c0c0c0]Bolt Pistol[-]\r\n12\" A:1 BS:3+ S:4 AP:0 D:1 [00ffff][Pistol][-]\r\n[c0c0c0]Pyreblaster[-]\r\n12\" A:D6 BS:N/A S:5 AP:-1 D:1 [00ffff][Ignores Cover] [Torrent][-]\n\r\n[ff0000]Melee Weapons[-]\r\n[c0c0c0]Close Combat Weapon[-]\r\nA:3 WS:3+ S:4 AP:0 D:1\n\r\n[ff00ff]Abilities[-]\r\nOath of Moment\r\nIncendiary Terror",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 0.0,
+            "g": 0.0,
+            "b": 0.0
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/front/Infernus%20Sergeant.jpg",
+            "ImageSecondaryURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/back/Infernus%20Sergeant.jpg",
+            "ImageScalar": 1.5,
+            "WidthScale": 0.0
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        }
+      }
+    },
+    {
+      "GUID": "608ed3",
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 1.69999981,
+        "posY": -2.38418579E-07,
+        "posZ": -1.69999981,
+        "rotX": -4.237397E-08,
+        "rotY": -3.75362033E-05,
+        "rotZ": -5.33608926E-08,
+        "scaleX": 0.675,
+        "scaleY": 0.675,
+        "scaleZ": 0.675
+      },
+      "Nickname": "Infernus Marine",
+      "Description": "[00ff00]M   T   Sv   W   Ld   OC  [-]\r\n6\"   4   3+   2    6+   1\n\r\n[ff0000]Ranged Weapons[-]\r\n[c0c0c0]Bolt Pistol[-]\r\n12\" A:1 BS:3+ S:4 AP:0 D:1 [00ffff][Pistol][-]\r\n[c0c0c0]Pyreblaster[-]\r\n12\" A:D6 BS:N/A S:5 AP:-1 D:1 [00ffff][Ignores Cover] [Torrent][-]\n\r\n[ff0000]Melee Weapons[-]\r\n[c0c0c0]Close Combat Weapon[-]\r\nA:3 WS:3+ S:4 AP:0 D:1\n\r\n[ff00ff]Abilities[-]\r\nOath of Moment\r\nIncendiary Terror",
+      "GMNotes": "",
+      "AltLookAngle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/front/Infernus%201.jpg",
+        "ImageSecondaryURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/back/Infernus%201.jpg",
+        "ImageScalar": 1.5,
+        "WidthScale": 0.0
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "States": {
+        "2": {
+          "GUID": "e68601",
+          "Name": "Figurine_Custom",
+          "Transform": {
+            "posX": 4.249999,
+            "posY": 1.71263087,
+            "posZ": 5.949999,
+            "rotX": -1.20751167E-06,
+            "rotY": -9.144876E-06,
+            "rotZ": -1.06721666E-06,
+            "scaleX": 0.675,
+            "scaleY": 0.675,
+            "scaleZ": 0.675
+          },
+          "Nickname": "Infernus Marine",
+          "Description": "[00ff00]M   T   Sv   W   Ld   OC  [-]\r\n6\"   4   3+   2    6+   1\n\r\n[ff0000]Ranged Weapons[-]\r\n[c0c0c0]Bolt Pistol[-]\r\n12\" A:1 BS:3+ S:4 AP:0 D:1 [00ffff][Pistol][-]\r\n[c0c0c0]Pyreblaster[-]\r\n12\" A:D6 BS:N/A S:5 AP:-1 D:1 [00ffff][Ignores Cover] [Torrent][-]\n\r\n[ff0000]Melee Weapons[-]\r\n[c0c0c0]Close Combat Weapon[-]\r\nA:3 WS:3+ S:4 AP:0 D:1\n\r\n[ff00ff]Abilities[-]\r\nOath of Moment\r\nIncendiary Terror",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 0.0,
+            "g": 0.0,
+            "b": 0.0
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/front/Infernus%202.jpg",
+            "ImageSecondaryURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/back/Infernus%202.jpg",
+            "ImageScalar": 1.5,
+            "WidthScale": 0.0
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        "3": {
+          "GUID": "890002",
+          "Name": "Figurine_Custom",
+          "Transform": {
+            "posX": 5.949999,
+            "posY": 1.71263123,
+            "posZ": 5.949999,
+            "rotX": -1.52874776E-07,
+            "rotY": 2.96564025E-07,
+            "rotZ": 1.60082593E-07,
+            "scaleX": 0.675,
+            "scaleY": 0.675,
+            "scaleZ": 0.675
+          },
+          "Nickname": "Infernus Sergeant",
+          "Description": "[00ff00]M   T   Sv   W   Ld   OC  [-]\r\n6\"   4   3+   2    6+   1\n\r\n[ff0000]Ranged Weapons[-]\r\n[c0c0c0]Bolt Pistol[-]\r\n12\" A:1 BS:3+ S:4 AP:0 D:1 [00ffff][Pistol][-]\r\n[c0c0c0]Pyreblaster[-]\r\n12\" A:D6 BS:N/A S:5 AP:-1 D:1 [00ffff][Ignores Cover] [Torrent][-]\n\r\n[ff0000]Melee Weapons[-]\r\n[c0c0c0]Close Combat Weapon[-]\r\nA:3 WS:3+ S:4 AP:0 D:1\n\r\n[ff00ff]Abilities[-]\r\nOath of Moment\r\nIncendiary Terror",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 0.0,
+            "g": 0.0,
+            "b": 0.0
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/front/Infernus%20Sergeant.jpg",
+            "ImageSecondaryURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/back/Infernus%20Sergeant.jpg",
+            "ImageScalar": 1.5,
+            "WidthScale": 0.0
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        }
+      }
+    },
+    {
+      "GUID": "e68601",
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 1.69999981,
+        "posY": -4.76837158E-07,
+        "posZ": 0.0,
+        "rotX": -9.13491E-07,
+        "rotY": -4.71361273E-05,
+        "rotZ": -1.49410323E-06,
+        "scaleX": 0.675,
+        "scaleY": 0.675,
+        "scaleZ": 0.675
+      },
+      "Nickname": "Infernus Marine",
+      "Description": "[00ff00]M   T   Sv   W   Ld   OC  [-]\r\n6\"   4   3+   2    6+   1\n\r\n[ff0000]Ranged Weapons[-]\r\n[c0c0c0]Bolt Pistol[-]\r\n12\" A:1 BS:3+ S:4 AP:0 D:1 [00ffff][Pistol][-]\r\n[c0c0c0]Pyreblaster[-]\r\n12\" A:D6 BS:N/A S:5 AP:-1 D:1 [00ffff][Ignores Cover] [Torrent][-]\n\r\n[ff0000]Melee Weapons[-]\r\n[c0c0c0]Close Combat Weapon[-]\r\nA:3 WS:3+ S:4 AP:0 D:1\n\r\n[ff00ff]Abilities[-]\r\nOath of Moment\r\nIncendiary Terror",
+      "GMNotes": "",
+      "AltLookAngle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/front/Infernus%202.jpg",
+        "ImageSecondaryURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/back/Infernus%202.jpg",
+        "ImageScalar": 1.5,
+        "WidthScale": 0.0
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "States": {
+        "3": {
+          "GUID": "890002",
+          "Name": "Figurine_Custom",
+          "Transform": {
+            "posX": 5.949999,
+            "posY": 1.71263123,
+            "posZ": 5.949999,
+            "rotX": -1.52874776E-07,
+            "rotY": 2.96564025E-07,
+            "rotZ": 1.60082593E-07,
+            "scaleX": 0.675,
+            "scaleY": 0.675,
+            "scaleZ": 0.675
+          },
+          "Nickname": "Infernus Sergeant",
+          "Description": "[00ff00]M   T   Sv   W   Ld   OC  [-]\r\n6\"   4   3+   2    6+   1\n\r\n[ff0000]Ranged Weapons[-]\r\n[c0c0c0]Bolt Pistol[-]\r\n12\" A:1 BS:3+ S:4 AP:0 D:1 [00ffff][Pistol][-]\r\n[c0c0c0]Pyreblaster[-]\r\n12\" A:D6 BS:N/A S:5 AP:-1 D:1 [00ffff][Ignores Cover] [Torrent][-]\n\r\n[ff0000]Melee Weapons[-]\r\n[c0c0c0]Close Combat Weapon[-]\r\nA:3 WS:3+ S:4 AP:0 D:1\n\r\n[ff00ff]Abilities[-]\r\nOath of Moment\r\nIncendiary Terror",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 0.0,
+            "g": 0.0,
+            "b": 0.0
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/front/Infernus%20Sergeant.jpg",
+            "ImageSecondaryURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/back/Infernus%20Sergeant.jpg",
+            "ImageScalar": 1.5,
+            "WidthScale": 0.0
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        "1": {
+          "GUID": "a3f48e",
+          "Name": "Figurine_Custom",
+          "Transform": {
+            "posX": 4.249999,
+            "posY": 1.71263123,
+            "posZ": 5.949999,
+            "rotX": -1.03258564E-07,
+            "rotY": -3.75873824E-05,
+            "rotZ": -5.336086E-08,
+            "scaleX": 0.675,
+            "scaleY": 0.675,
+            "scaleZ": 0.675
+          },
+          "Nickname": "Infernus Marine",
+          "Description": "[00ff00]M   T   Sv   W   Ld   OC  [-]\r\n6\"   4   3+   2    6+   1\n\r\n[ff0000]Ranged Weapons[-]\r\n[c0c0c0]Bolt Pistol[-]\r\n12\" A:1 BS:3+ S:4 AP:0 D:1 [00ffff][Pistol][-]\r\n[c0c0c0]Pyreblaster[-]\r\n12\" A:D6 BS:N/A S:5 AP:-1 D:1 [00ffff][Ignores Cover] [Torrent][-]\n\r\n[ff0000]Melee Weapons[-]\r\n[c0c0c0]Close Combat Weapon[-]\r\nA:3 WS:3+ S:4 AP:0 D:1\n\r\n[ff00ff]Abilities[-]\r\nOath of Moment\r\nIncendiary Terror",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 0.0,
+            "g": 0.0,
+            "b": 0.0
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/front/Infernus%201.jpg",
+            "ImageSecondaryURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/back/Infernus%201.jpg",
+            "ImageScalar": 1.5,
+            "WidthScale": 0.0
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        }
+      }
+    },
+    {
+      "GUID": "a2f917",
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 0.0,
+        "posY": -2.38418579E-07,
+        "posZ": -1.69999981,
+        "rotX": 4.66647577E-07,
+        "rotY": -3.761769E-05,
+        "rotZ": 3.735257E-07,
+        "scaleX": 0.675,
+        "scaleY": 0.675,
+        "scaleZ": 0.675
+      },
+      "Nickname": "Infernus Marine",
+      "Description": "[00ff00]M   T   Sv   W   Ld   OC  [-]\r\n6\"   4   3+   2    6+   1\n\r\n[ff0000]Ranged Weapons[-]\r\n[c0c0c0]Bolt Pistol[-]\r\n12\" A:1 BS:3+ S:4 AP:0 D:1 [00ffff][Pistol][-]\r\n[c0c0c0]Pyreblaster[-]\r\n12\" A:D6 BS:N/A S:5 AP:-1 D:1 [00ffff][Ignores Cover] [Torrent][-]\n\r\n[ff0000]Melee Weapons[-]\r\n[c0c0c0]Close Combat Weapon[-]\r\nA:3 WS:3+ S:4 AP:0 D:1\n\r\n[ff00ff]Abilities[-]\r\nOath of Moment\r\nIncendiary Terror",
+      "GMNotes": "",
+      "AltLookAngle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/front/Infernus%202.jpg",
+        "ImageSecondaryURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/back/Infernus%202.jpg",
+        "ImageScalar": 1.5,
+        "WidthScale": 0.0
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "States": {
+        "3": {
+          "GUID": "890002",
+          "Name": "Figurine_Custom",
+          "Transform": {
+            "posX": 5.949999,
+            "posY": 1.71263123,
+            "posZ": 5.949999,
+            "rotX": -1.52874776E-07,
+            "rotY": 2.96564025E-07,
+            "rotZ": 1.60082593E-07,
+            "scaleX": 0.675,
+            "scaleY": 0.675,
+            "scaleZ": 0.675
+          },
+          "Nickname": "Infernus Sergeant",
+          "Description": "[00ff00]M   T   Sv   W   Ld   OC  [-]\r\n6\"   4   3+   2    6+   1\n\r\n[ff0000]Ranged Weapons[-]\r\n[c0c0c0]Bolt Pistol[-]\r\n12\" A:1 BS:3+ S:4 AP:0 D:1 [00ffff][Pistol][-]\r\n[c0c0c0]Pyreblaster[-]\r\n12\" A:D6 BS:N/A S:5 AP:-1 D:1 [00ffff][Ignores Cover] [Torrent][-]\n\r\n[ff0000]Melee Weapons[-]\r\n[c0c0c0]Close Combat Weapon[-]\r\nA:3 WS:3+ S:4 AP:0 D:1\n\r\n[ff00ff]Abilities[-]\r\nOath of Moment\r\nIncendiary Terror",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 0.0,
+            "g": 0.0,
+            "b": 0.0
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/front/Infernus%20Sergeant.jpg",
+            "ImageSecondaryURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/back/Infernus%20Sergeant.jpg",
+            "ImageScalar": 1.5,
+            "WidthScale": 0.0
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        "1": {
+          "GUID": "93784a",
+          "Name": "Figurine_Custom",
+          "Transform": {
+            "posX": 2.54999924,
+            "posY": 1.71263123,
+            "posZ": 4.249999,
+            "rotX": -7.808772E-08,
+            "rotY": -3.7545542E-05,
+            "rotZ": -1.06721721E-07,
+            "scaleX": 0.675,
+            "scaleY": 0.675,
+            "scaleZ": 0.675
+          },
+          "Nickname": "Infernus Marine",
+          "Description": "[00ff00]M   T   Sv   W   Ld   OC  [-]\r\n6\"   4   3+   2    6+   1\n\r\n[ff0000]Ranged Weapons[-]\r\n[c0c0c0]Bolt Pistol[-]\r\n12\" A:1 BS:3+ S:4 AP:0 D:1 [00ffff][Pistol][-]\r\n[c0c0c0]Pyreblaster[-]\r\n12\" A:D6 BS:N/A S:5 AP:-1 D:1 [00ffff][Ignores Cover] [Torrent][-]\n\r\n[ff0000]Melee Weapons[-]\r\n[c0c0c0]Close Combat Weapon[-]\r\nA:3 WS:3+ S:4 AP:0 D:1\n\r\n[ff00ff]Abilities[-]\r\nOath of Moment\r\nIncendiary Terror",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 0.0,
+            "g": 0.0,
+            "b": 0.0
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/front/Infernus%201.jpg",
+            "ImageSecondaryURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/back/Infernus%201.jpg",
+            "ImageScalar": 1.5,
+            "WidthScale": 0.0
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        }
+      }
+    },
+    {
+      "GUID": "fd1de8",
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 3.39999962,
+        "posY": -2.38418579E-07,
+        "posZ": 0.0,
+        "rotX": -5.825191E-08,
+        "rotY": -3.756799E-05,
+        "rotZ": -2.585549E-14,
+        "scaleX": 0.675,
+        "scaleY": 0.675,
+        "scaleZ": 0.675
+      },
+      "Nickname": "Infernus Marine",
+      "Description": "[00ff00]M   T   Sv   W   Ld   OC  [-]\r\n6\"   4   3+   2    6+   1\n\r\n[ff0000]Ranged Weapons[-]\r\n[c0c0c0]Bolt Pistol[-]\r\n12\" A:1 BS:3+ S:4 AP:0 D:1 [00ffff][Pistol][-]\r\n[c0c0c0]Pyreblaster[-]\r\n12\" A:D6 BS:N/A S:5 AP:-1 D:1 [00ffff][Ignores Cover] [Torrent][-]\n\r\n[ff0000]Melee Weapons[-]\r\n[c0c0c0]Close Combat Weapon[-]\r\nA:3 WS:3+ S:4 AP:0 D:1\n\r\n[ff00ff]Abilities[-]\r\nOath of Moment\r\nIncendiary Terror",
+      "GMNotes": "",
+      "AltLookAngle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/front/Infernus%201.jpg",
+        "ImageSecondaryURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/back/Infernus%201.jpg",
+        "ImageScalar": 1.5,
+        "WidthScale": 0.0
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "States": {
+        "2": {
+          "GUID": "e68601",
+          "Name": "Figurine_Custom",
+          "Transform": {
+            "posX": 4.249999,
+            "posY": 1.71263087,
+            "posZ": 5.949999,
+            "rotX": -1.20751167E-06,
+            "rotY": -9.144876E-06,
+            "rotZ": -1.06721666E-06,
+            "scaleX": 0.675,
+            "scaleY": 0.675,
+            "scaleZ": 0.675
+          },
+          "Nickname": "Infernus Marine",
+          "Description": "[00ff00]M   T   Sv   W   Ld   OC  [-]\r\n6\"   4   3+   2    6+   1\n\r\n[ff0000]Ranged Weapons[-]\r\n[c0c0c0]Bolt Pistol[-]\r\n12\" A:1 BS:3+ S:4 AP:0 D:1 [00ffff][Pistol][-]\r\n[c0c0c0]Pyreblaster[-]\r\n12\" A:D6 BS:N/A S:5 AP:-1 D:1 [00ffff][Ignores Cover] [Torrent][-]\n\r\n[ff0000]Melee Weapons[-]\r\n[c0c0c0]Close Combat Weapon[-]\r\nA:3 WS:3+ S:4 AP:0 D:1\n\r\n[ff00ff]Abilities[-]\r\nOath of Moment\r\nIncendiary Terror",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 0.0,
+            "g": 0.0,
+            "b": 0.0
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/front/Infernus%202.jpg",
+            "ImageSecondaryURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/back/Infernus%202.jpg",
+            "ImageScalar": 1.5,
+            "WidthScale": 0.0
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        "3": {
+          "GUID": "890002",
+          "Name": "Figurine_Custom",
+          "Transform": {
+            "posX": 5.949999,
+            "posY": 1.71263123,
+            "posZ": 5.949999,
+            "rotX": -1.52874776E-07,
+            "rotY": 2.96564025E-07,
+            "rotZ": 1.60082593E-07,
+            "scaleX": 0.675,
+            "scaleY": 0.675,
+            "scaleZ": 0.675
+          },
+          "Nickname": "Infernus Sergeant",
+          "Description": "[00ff00]M   T   Sv   W   Ld   OC  [-]\r\n6\"   4   3+   2    6+   1\n\r\n[ff0000]Ranged Weapons[-]\r\n[c0c0c0]Bolt Pistol[-]\r\n12\" A:1 BS:3+ S:4 AP:0 D:1 [00ffff][Pistol][-]\r\n[c0c0c0]Pyreblaster[-]\r\n12\" A:D6 BS:N/A S:5 AP:-1 D:1 [00ffff][Ignores Cover] [Torrent][-]\n\r\n[ff0000]Melee Weapons[-]\r\n[c0c0c0]Close Combat Weapon[-]\r\nA:3 WS:3+ S:4 AP:0 D:1\n\r\n[ff00ff]Abilities[-]\r\nOath of Moment\r\nIncendiary Terror",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 0.0,
+            "g": 0.0,
+            "b": 0.0
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/front/Infernus%20Sergeant.jpg",
+            "ImageSecondaryURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/back/Infernus%20Sergeant.jpg",
+            "ImageScalar": 1.5,
+            "WidthScale": 0.0
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        }
+      }
+    },
+    {
+      "GUID": "76984a",
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 3.39999962,
+        "posY": -2.38418579E-07,
+        "posZ": -3.39999962,
+        "rotX": -1.357534E-07,
+        "rotY": -3.747475E-05,
+        "rotZ": 5.33608677E-08,
+        "scaleX": 0.675,
+        "scaleY": 0.675,
+        "scaleZ": 0.675
+      },
+      "Nickname": "Infernus Marine",
+      "Description": "[00ff00]M   T   Sv   W   Ld   OC  [-]\r\n6\"   4   3+   2    6+   1\n\r\n[ff0000]Ranged Weapons[-]\r\n[c0c0c0]Bolt Pistol[-]\r\n12\" A:1 BS:3+ S:4 AP:0 D:1 [00ffff][Pistol][-]\r\n[c0c0c0]Pyreblaster[-]\r\n12\" A:D6 BS:N/A S:5 AP:-1 D:1 [00ffff][Ignores Cover] [Torrent][-]\n\r\n[ff0000]Melee Weapons[-]\r\n[c0c0c0]Close Combat Weapon[-]\r\nA:3 WS:3+ S:4 AP:0 D:1\n\r\n[ff00ff]Abilities[-]\r\nOath of Moment\r\nIncendiary Terror",
+      "GMNotes": "",
+      "AltLookAngle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/front/Infernus%201.jpg",
+        "ImageSecondaryURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/back/Infernus%201.jpg",
+        "ImageScalar": 1.5,
+        "WidthScale": 0.0
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "States": {
+        "2": {
+          "GUID": "e68601",
+          "Name": "Figurine_Custom",
+          "Transform": {
+            "posX": 4.249999,
+            "posY": 1.71263087,
+            "posZ": 5.949999,
+            "rotX": -1.20751167E-06,
+            "rotY": -9.144876E-06,
+            "rotZ": -1.06721666E-06,
+            "scaleX": 0.675,
+            "scaleY": 0.675,
+            "scaleZ": 0.675
+          },
+          "Nickname": "Infernus Marine",
+          "Description": "[00ff00]M   T   Sv   W   Ld   OC  [-]\r\n6\"   4   3+   2    6+   1\n\r\n[ff0000]Ranged Weapons[-]\r\n[c0c0c0]Bolt Pistol[-]\r\n12\" A:1 BS:3+ S:4 AP:0 D:1 [00ffff][Pistol][-]\r\n[c0c0c0]Pyreblaster[-]\r\n12\" A:D6 BS:N/A S:5 AP:-1 D:1 [00ffff][Ignores Cover] [Torrent][-]\n\r\n[ff0000]Melee Weapons[-]\r\n[c0c0c0]Close Combat Weapon[-]\r\nA:3 WS:3+ S:4 AP:0 D:1\n\r\n[ff00ff]Abilities[-]\r\nOath of Moment\r\nIncendiary Terror",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 0.0,
+            "g": 0.0,
+            "b": 0.0
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/front/Infernus%202.jpg",
+            "ImageSecondaryURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/back/Infernus%202.jpg",
+            "ImageScalar": 1.5,
+            "WidthScale": 0.0
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        "3": {
+          "GUID": "890002",
+          "Name": "Figurine_Custom",
+          "Transform": {
+            "posX": 5.949999,
+            "posY": 1.71263123,
+            "posZ": 5.949999,
+            "rotX": -1.52874776E-07,
+            "rotY": 2.96564025E-07,
+            "rotZ": 1.60082593E-07,
+            "scaleX": 0.675,
+            "scaleY": 0.675,
+            "scaleZ": 0.675
+          },
+          "Nickname": "Infernus Sergeant",
+          "Description": "[00ff00]M   T   Sv   W   Ld   OC  [-]\r\n6\"   4   3+   2    6+   1\n\r\n[ff0000]Ranged Weapons[-]\r\n[c0c0c0]Bolt Pistol[-]\r\n12\" A:1 BS:3+ S:4 AP:0 D:1 [00ffff][Pistol][-]\r\n[c0c0c0]Pyreblaster[-]\r\n12\" A:D6 BS:N/A S:5 AP:-1 D:1 [00ffff][Ignores Cover] [Torrent][-]\n\r\n[ff0000]Melee Weapons[-]\r\n[c0c0c0]Close Combat Weapon[-]\r\nA:3 WS:3+ S:4 AP:0 D:1\n\r\n[ff00ff]Abilities[-]\r\nOath of Moment\r\nIncendiary Terror",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 0.0,
+            "g": 0.0,
+            "b": 0.0
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/front/Infernus%20Sergeant.jpg",
+            "ImageSecondaryURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/back/Infernus%20Sergeant.jpg",
+            "ImageScalar": 1.5,
+            "WidthScale": 0.0
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        }
+      }
+    },
+    {
+      "GUID": "1a1692",
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 3.39999962,
+        "posY": -2.38418579E-07,
+        "posZ": -1.69999981,
+        "rotX": -3.31250078E-07,
+        "rotY": -3.783234E-05,
+        "rotZ": -4.26886714E-07,
+        "scaleX": 0.675,
+        "scaleY": 0.675,
+        "scaleZ": 0.675
+      },
+      "Nickname": "Infernus Marine",
+      "Description": "[00ff00]M   T   Sv   W   Ld   OC  [-]\r\n6\"   4   3+   2    6+   1\n\r\n[ff0000]Ranged Weapons[-]\r\n[c0c0c0]Bolt Pistol[-]\r\n12\" A:1 BS:3+ S:4 AP:0 D:1 [00ffff][Pistol][-]\r\n[c0c0c0]Pyreblaster[-]\r\n12\" A:D6 BS:N/A S:5 AP:-1 D:1 [00ffff][Ignores Cover] [Torrent][-]\n\r\n[ff0000]Melee Weapons[-]\r\n[c0c0c0]Close Combat Weapon[-]\r\nA:3 WS:3+ S:4 AP:0 D:1\n\r\n[ff00ff]Abilities[-]\r\nOath of Moment\r\nIncendiary Terror",
+      "GMNotes": "",
+      "AltLookAngle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/front/Infernus%202.jpg",
+        "ImageSecondaryURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/back/Infernus%202.jpg",
+        "ImageScalar": 1.5,
+        "WidthScale": 0.0
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "States": {
+        "3": {
+          "GUID": "890002",
+          "Name": "Figurine_Custom",
+          "Transform": {
+            "posX": 5.949999,
+            "posY": 1.71263123,
+            "posZ": 5.949999,
+            "rotX": -1.52874776E-07,
+            "rotY": 2.96564025E-07,
+            "rotZ": 1.60082593E-07,
+            "scaleX": 0.675,
+            "scaleY": 0.675,
+            "scaleZ": 0.675
+          },
+          "Nickname": "Infernus Sergeant",
+          "Description": "[00ff00]M   T   Sv   W   Ld   OC  [-]\r\n6\"   4   3+   2    6+   1\n\r\n[ff0000]Ranged Weapons[-]\r\n[c0c0c0]Bolt Pistol[-]\r\n12\" A:1 BS:3+ S:4 AP:0 D:1 [00ffff][Pistol][-]\r\n[c0c0c0]Pyreblaster[-]\r\n12\" A:D6 BS:N/A S:5 AP:-1 D:1 [00ffff][Ignores Cover] [Torrent][-]\n\r\n[ff0000]Melee Weapons[-]\r\n[c0c0c0]Close Combat Weapon[-]\r\nA:3 WS:3+ S:4 AP:0 D:1\n\r\n[ff00ff]Abilities[-]\r\nOath of Moment\r\nIncendiary Terror",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 0.0,
+            "g": 0.0,
+            "b": 0.0
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/front/Infernus%20Sergeant.jpg",
+            "ImageSecondaryURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/back/Infernus%20Sergeant.jpg",
+            "ImageScalar": 1.5,
+            "WidthScale": 0.0
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        "1": {
+          "GUID": "8bef31",
+          "Name": "Figurine_Custom",
+          "Transform": {
+            "posX": 5.949999,
+            "posY": 1.71263123,
+            "posZ": 4.249999,
+            "rotX": -1.73556263E-08,
+            "rotY": -3.74784722E-05,
+            "rotZ": -4.645595E-14,
+            "scaleX": 0.675,
+            "scaleY": 0.675,
+            "scaleZ": 0.675
+          },
+          "Nickname": "Infernus Marine",
+          "Description": "[00ff00]M   T   Sv   W   Ld   OC  [-]\r\n6\"   4   3+   2    6+   1\n\r\n[ff0000]Ranged Weapons[-]\r\n[c0c0c0]Bolt Pistol[-]\r\n12\" A:1 BS:3+ S:4 AP:0 D:1 [00ffff][Pistol][-]\r\n[c0c0c0]Pyreblaster[-]\r\n12\" A:D6 BS:N/A S:5 AP:-1 D:1 [00ffff][Ignores Cover] [Torrent][-]\n\r\n[ff0000]Melee Weapons[-]\r\n[c0c0c0]Close Combat Weapon[-]\r\nA:3 WS:3+ S:4 AP:0 D:1\n\r\n[ff00ff]Abilities[-]\r\nOath of Moment\r\nIncendiary Terror",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 0.0,
+            "g": 0.0,
+            "b": 0.0
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/front/Infernus%201.jpg",
+            "ImageSecondaryURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/back/Infernus%201.jpg",
+            "ImageScalar": 1.5,
+            "WidthScale": 0.0
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        }
+      }
+    },
+    {
+      "GUID": "ffaf05",
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 1.69999361,
+        "posY": 3.64780426E-05,
+        "posZ": -3.40001464,
+        "rotX": -0.00149120414,
+        "rotY": 0.00101263006,
+        "rotZ": -0.00162282283,
+        "scaleX": 0.675,
+        "scaleY": 0.675,
+        "scaleZ": 0.675
+      },
+      "Nickname": "Infernus Marine",
+      "Description": "[00ff00]M   T   Sv   W   Ld   OC  [-]\r\n6\"   4   3+   2    6+   1\n\r\n[ff0000]Ranged Weapons[-]\r\n[c0c0c0]Bolt Pistol[-]\r\n12\" A:1 BS:3+ S:4 AP:0 D:1 [00ffff][Pistol][-]\r\n[c0c0c0]Pyreblaster[-]\r\n12\" A:D6 BS:N/A S:5 AP:-1 D:1 [00ffff][Ignores Cover] [Torrent][-]\n\r\n[ff0000]Melee Weapons[-]\r\n[c0c0c0]Close Combat Weapon[-]\r\nA:3 WS:3+ S:4 AP:0 D:1\n\r\n[ff00ff]Abilities[-]\r\nOath of Moment\r\nIncendiary Terror",
+      "GMNotes": "",
+      "AltLookAngle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/front/Infernus%202.jpg",
+        "ImageSecondaryURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/back/Infernus%202.jpg",
+        "ImageScalar": 1.5,
+        "WidthScale": 0.0
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "States": {
+        "3": {
+          "GUID": "890002",
+          "Name": "Figurine_Custom",
+          "Transform": {
+            "posX": 5.949999,
+            "posY": 1.71263123,
+            "posZ": 5.949999,
+            "rotX": -1.52874776E-07,
+            "rotY": 2.96564025E-07,
+            "rotZ": 1.60082593E-07,
+            "scaleX": 0.675,
+            "scaleY": 0.675,
+            "scaleZ": 0.675
+          },
+          "Nickname": "Infernus Sergeant",
+          "Description": "[00ff00]M   T   Sv   W   Ld   OC  [-]\r\n6\"   4   3+   2    6+   1\n\r\n[ff0000]Ranged Weapons[-]\r\n[c0c0c0]Bolt Pistol[-]\r\n12\" A:1 BS:3+ S:4 AP:0 D:1 [00ffff][Pistol][-]\r\n[c0c0c0]Pyreblaster[-]\r\n12\" A:D6 BS:N/A S:5 AP:-1 D:1 [00ffff][Ignores Cover] [Torrent][-]\n\r\n[ff0000]Melee Weapons[-]\r\n[c0c0c0]Close Combat Weapon[-]\r\nA:3 WS:3+ S:4 AP:0 D:1\n\r\n[ff00ff]Abilities[-]\r\nOath of Moment\r\nIncendiary Terror",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 0.0,
+            "g": 0.0,
+            "b": 0.0
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/front/Infernus%20Sergeant.jpg",
+            "ImageSecondaryURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/back/Infernus%20Sergeant.jpg",
+            "ImageScalar": 1.5,
+            "WidthScale": 0.0
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        "1": {
+          "GUID": "93784a",
+          "Name": "Figurine_Custom",
+          "Transform": {
+            "posX": 2.54999924,
+            "posY": 1.71263123,
+            "posZ": 4.249999,
+            "rotX": -7.808772E-08,
+            "rotY": -3.7545542E-05,
+            "rotZ": -1.06721721E-07,
+            "scaleX": 0.675,
+            "scaleY": 0.675,
+            "scaleZ": 0.675
+          },
+          "Nickname": "Infernus Marine",
+          "Description": "[00ff00]M   T   Sv   W   Ld   OC  [-]\r\n6\"   4   3+   2    6+   1\n\r\n[ff0000]Ranged Weapons[-]\r\n[c0c0c0]Bolt Pistol[-]\r\n12\" A:1 BS:3+ S:4 AP:0 D:1 [00ffff][Pistol][-]\r\n[c0c0c0]Pyreblaster[-]\r\n12\" A:D6 BS:N/A S:5 AP:-1 D:1 [00ffff][Ignores Cover] [Torrent][-]\n\r\n[ff0000]Melee Weapons[-]\r\n[c0c0c0]Close Combat Weapon[-]\r\nA:3 WS:3+ S:4 AP:0 D:1\n\r\n[ff00ff]Abilities[-]\r\nOath of Moment\r\nIncendiary Terror",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 0.0,
+            "g": 0.0,
+            "b": 0.0
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/front/Infernus%201.jpg",
+            "ImageSecondaryURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/back/Infernus%201.jpg",
+            "ImageScalar": 1.5,
+            "WidthScale": 0.0
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        }
+      }
+    },
+    {
+      "GUID": "e4b36b",
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 0.0,
+        "posY": -2.38418579E-07,
+        "posZ": -3.39999962,
+        "rotX": -7.96021737E-08,
+        "rotY": -3.75679447E-05,
+        "rotZ": -5.33608677E-08,
+        "scaleX": 0.675,
+        "scaleY": 0.675,
+        "scaleZ": 0.675
+      },
+      "Nickname": "Infernus Marine",
+      "Description": "[00ff00]M   T   Sv   W   Ld   OC  [-]\r\n6\"   4   3+   2    6+   1\n\r\n[ff0000]Ranged Weapons[-]\r\n[c0c0c0]Bolt Pistol[-]\r\n12\" A:1 BS:3+ S:4 AP:0 D:1 [00ffff][Pistol][-]\r\n[c0c0c0]Pyreblaster[-]\r\n12\" A:D6 BS:N/A S:5 AP:-1 D:1 [00ffff][Ignores Cover] [Torrent][-]\n\r\n[ff0000]Melee Weapons[-]\r\n[c0c0c0]Close Combat Weapon[-]\r\nA:3 WS:3+ S:4 AP:0 D:1\n\r\n[ff00ff]Abilities[-]\r\nOath of Moment\r\nIncendiary Terror",
+      "GMNotes": "",
+      "AltLookAngle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/front/Infernus%201.jpg",
+        "ImageSecondaryURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/back/Infernus%201.jpg",
+        "ImageScalar": 1.5,
+        "WidthScale": 0.0
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "States": {
+        "2": {
+          "GUID": "e68601",
+          "Name": "Figurine_Custom",
+          "Transform": {
+            "posX": 4.249999,
+            "posY": 1.71263087,
+            "posZ": 5.949999,
+            "rotX": -1.20751167E-06,
+            "rotY": -9.144876E-06,
+            "rotZ": -1.06721666E-06,
+            "scaleX": 0.675,
+            "scaleY": 0.675,
+            "scaleZ": 0.675
+          },
+          "Nickname": "Infernus Marine",
+          "Description": "[00ff00]M   T   Sv   W   Ld   OC  [-]\r\n6\"   4   3+   2    6+   1\n\r\n[ff0000]Ranged Weapons[-]\r\n[c0c0c0]Bolt Pistol[-]\r\n12\" A:1 BS:3+ S:4 AP:0 D:1 [00ffff][Pistol][-]\r\n[c0c0c0]Pyreblaster[-]\r\n12\" A:D6 BS:N/A S:5 AP:-1 D:1 [00ffff][Ignores Cover] [Torrent][-]\n\r\n[ff0000]Melee Weapons[-]\r\n[c0c0c0]Close Combat Weapon[-]\r\nA:3 WS:3+ S:4 AP:0 D:1\n\r\n[ff00ff]Abilities[-]\r\nOath of Moment\r\nIncendiary Terror",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 0.0,
+            "g": 0.0,
+            "b": 0.0
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/front/Infernus%202.jpg",
+            "ImageSecondaryURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/back/Infernus%202.jpg",
+            "ImageScalar": 1.5,
+            "WidthScale": 0.0
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        "3": {
+          "GUID": "890002",
+          "Name": "Figurine_Custom",
+          "Transform": {
+            "posX": 5.949999,
+            "posY": 1.71263123,
+            "posZ": 5.949999,
+            "rotX": -1.52874776E-07,
+            "rotY": 2.96564025E-07,
+            "rotZ": 1.60082593E-07,
+            "scaleX": 0.675,
+            "scaleY": 0.675,
+            "scaleZ": 0.675
+          },
+          "Nickname": "Infernus Sergeant",
+          "Description": "[00ff00]M   T   Sv   W   Ld   OC  [-]\r\n6\"   4   3+   2    6+   1\n\r\n[ff0000]Ranged Weapons[-]\r\n[c0c0c0]Bolt Pistol[-]\r\n12\" A:1 BS:3+ S:4 AP:0 D:1 [00ffff][Pistol][-]\r\n[c0c0c0]Pyreblaster[-]\r\n12\" A:D6 BS:N/A S:5 AP:-1 D:1 [00ffff][Ignores Cover] [Torrent][-]\n\r\n[ff0000]Melee Weapons[-]\r\n[c0c0c0]Close Combat Weapon[-]\r\nA:3 WS:3+ S:4 AP:0 D:1\n\r\n[ff00ff]Abilities[-]\r\nOath of Moment\r\nIncendiary Terror",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 0.0,
+            "g": 0.0,
+            "b": 0.0
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/front/Infernus%20Sergeant.jpg",
+            "ImageSecondaryURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/back/Infernus%20Sergeant.jpg",
+            "ImageScalar": 1.5,
+            "WidthScale": 0.0
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        }
+      }
+    },
+    {
+      "GUID": "890002",
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 1.69999456,
+        "posY": 2.22921371E-05,
+        "posZ": -5.10002,
+        "rotX": -0.00244538463,
+        "rotY": 0.000779119844,
+        "rotZ": -0.00194139057,
+        "scaleX": 0.675,
+        "scaleY": 0.675,
+        "scaleZ": 0.675
+      },
+      "Nickname": "Infernus Sergeant",
+      "Description": "[00ff00]M   T   Sv   W   Ld   OC  [-]\r\n6\"   4   3+   2    6+   1\n\r\n[ff0000]Ranged Weapons[-]\r\n[c0c0c0]Bolt Pistol[-]\r\n12\" A:1 BS:3+ S:4 AP:0 D:1 [00ffff][Pistol][-]\r\n[c0c0c0]Pyreblaster[-]\r\n12\" A:D6 BS:N/A S:5 AP:-1 D:1 [00ffff][Ignores Cover] [Torrent][-]\n\r\n[ff0000]Melee Weapons[-]\r\n[c0c0c0]Close Combat Weapon[-]\r\nA:3 WS:3+ S:4 AP:0 D:1\n\r\n[ff00ff]Abilities[-]\r\nOath of Moment\r\nIncendiary Terror",
+      "GMNotes": "",
+      "AltLookAngle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/front/Infernus%20Sergeant.jpg",
+        "ImageSecondaryURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/back/Infernus%20Sergeant.jpg",
+        "ImageScalar": 1.5,
+        "WidthScale": 0.0
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "States": {
+        "2": {
+          "GUID": "e68601",
+          "Name": "Figurine_Custom",
+          "Transform": {
+            "posX": 4.249999,
+            "posY": 1.71263087,
+            "posZ": 5.949999,
+            "rotX": -1.20751167E-06,
+            "rotY": -9.144876E-06,
+            "rotZ": -1.06721666E-06,
+            "scaleX": 0.675,
+            "scaleY": 0.675,
+            "scaleZ": 0.675
+          },
+          "Nickname": "Infernus Marine",
+          "Description": "[00ff00]M   T   Sv   W   Ld   OC  [-]\r\n6\"   4   3+   2    6+   1\n\r\n[ff0000]Ranged Weapons[-]\r\n[c0c0c0]Bolt Pistol[-]\r\n12\" A:1 BS:3+ S:4 AP:0 D:1 [00ffff][Pistol][-]\r\n[c0c0c0]Pyreblaster[-]\r\n12\" A:D6 BS:N/A S:5 AP:-1 D:1 [00ffff][Ignores Cover] [Torrent][-]\n\r\n[ff0000]Melee Weapons[-]\r\n[c0c0c0]Close Combat Weapon[-]\r\nA:3 WS:3+ S:4 AP:0 D:1\n\r\n[ff00ff]Abilities[-]\r\nOath of Moment\r\nIncendiary Terror",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 0.0,
+            "g": 0.0,
+            "b": 0.0
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/front/Infernus%202.jpg",
+            "ImageSecondaryURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/back/Infernus%202.jpg",
+            "ImageScalar": 1.5,
+            "WidthScale": 0.0
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        "1": {
+          "GUID": "b3c58c",
+          "Name": "Figurine_Custom",
+          "Transform": {
+            "posX": 4.249999,
+            "posY": 1.71263123,
+            "posZ": 2.54999924,
+            "rotX": -5.83763864E-08,
+            "rotY": -3.75849449E-05,
+            "rotZ": -5.336088E-08,
+            "scaleX": 0.675,
+            "scaleY": 0.675,
+            "scaleZ": 0.675
+          },
+          "Nickname": "Infernus Marine",
+          "Description": "[00ff00]M   T   Sv   W   Ld   OC  [-]\r\n6\"   4   3+   2    6+   1\n\r\n[ff0000]Ranged Weapons[-]\r\n[c0c0c0]Bolt Pistol[-]\r\n12\" A:1 BS:3+ S:4 AP:0 D:1 [00ffff][Pistol][-]\r\n[c0c0c0]Pyreblaster[-]\r\n12\" A:D6 BS:N/A S:5 AP:-1 D:1 [00ffff][Ignores Cover] [Torrent][-]\n\r\n[ff0000]Melee Weapons[-]\r\n[c0c0c0]Close Combat Weapon[-]\r\nA:3 WS:3+ S:4 AP:0 D:1\n\r\n[ff00ff]Abilities[-]\r\nOath of Moment\r\nIncendiary Terror",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 0.0,
+            "g": 0.0,
+            "b": 0.0
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/front/Infernus%201.jpg",
+            "ImageSecondaryURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/back/Infernus%201.jpg",
+            "ImageScalar": 1.5,
+            "WidthScale": 0.0
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        }
+      }
+    }
+  ]
+}

@@ -20,18 +20,18 @@
       "GUID": "8e0584",
       "Name": "Custom_Assetbundle",
       "Transform": {
-        "posX": 1.81965578,
-        "posY": 0.9633922,
-        "posZ": 5.609901,
-        "rotX": -3.86526426E-06,
-        "rotY": 179.99025,
-        "rotZ": 4.64196E-06,
+        "posX": 0,
+        "posY": 0,
+        "posZ": 0,
+        "rotX": 0,
+        "rotY": 0,
+        "rotZ": 0,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
       },
       "Nickname": "Lokhust Heavy Destroyer w/ Enmitic Exterminator",
-      "Description": "Exported from Battlesector by AethonRose",
+      "Description": "[00ff00]M   T   Sv   W   Ld   OC  [-]\r\n8\"   6   3+   4    7+   2\n\r\n[ff0000]Ranged Weapons[-]\r\n[c0c0c0]Enmitic Exterminator[-]\r\n36\" A:6 BS:3+ S:6 AP:-1 D:1 [00ffff][Heavy] [Rapid Fire 6] [Sustained Hits 1][-]\r\n[c0c0c0]Staff of the Destroyer[-]\r\n18\" A:3 BS:2+ S:6 AP:-3 D:2\n\r\n[ff0000]Melee Weapons[-]\r\n[c0c0c0]Close Combat Weapon[-]\r\nA:2 WS:3+ S:4 AP:0 D:1\n\r\n[ff00ff]Abilities[-]\r\nReanimation Protocols\r\nOptimised for Slaughter",
       "GMNotes": "",
       "AltLookAngle": {
         "x": 0.0,
@@ -64,7 +64,7 @@
         "TypeIndex": 1,
         "LoopingEffectIndex": 0
       },
-      "LuaScript": "                                                                                                                                                                                                                                                                                                                                                                                                                --[[Object base code]]Wait.time(function()for a,b in ipairs(getObjects())do if b.getLuaScript():find(\"tcejbo gninwapS\")==nil then b.setLuaScript(b.getLuaScript():gsub('%s+$','')..string.rep(\"    \",100)..self.getLuaScript():sub(self.getLuaScript():find(\"--[[Object base code]]\",1,true),#self.getLuaScript()-self.getLuaScript():reverse():find(\"]]tcejbo gninwapS\",1,true)+1)..\"\\n\\n\")end end end,1)if onObjectSpawn==nil then function onObjectSpawn(b)if b.getLuaScript():find(\"tcejbo gninwapS\")==nil then b.setLuaScript(b.getLuaScript():gsub('%s+$','')..string.rep(\"    \",100)..self.getLuaScript():sub(self.getLuaScript():find(\"--[[Object base code]]\",1,true),#self.getLuaScript()-self.getLuaScript():reverse():find(\"]]tcejbo gninwapS\",1,true)+1)..\"\\n\\n\")end end end;if onPlayerAction==nil and self.getLuaScript():reverse():find(\"ereh edoc resU --\",1,true)~=nil then self.drag_selectable=true;function onPlayerAction(c,d,e)if self.getLuaScript():reverse():find(\"ereh edoc resU --\",1,true)~=nil and d==Player.Action.Select and#c.getSelectedObjects()==0 then for a,f in ipairs(e)do if f.getGUID()==self.getGUID()then self.setLuaScript(self.getLuaScript():gsub(self.getLuaScript():sub(#self.getLuaScript()-self.getLuaScript():reverse():find(\"]]tcejbo gninwapS\",1,true)+2,#self.getLuaScript()-self.getLuaScript():reverse():find(\"ereh edoc resU\")+1):gsub(\"[%(%)%.%%%+%-%*%?%[%]%^%$]\",\"%%%0\"),\"\"))end end end end end;WebRequest.get(\"https://obje.glitch.me/\",function(g)if g.is_error then log(g.error)elseif g.text~=\"\"and g.text:sub(1,4)==\"true\"and self.getLuaScript():find(g.text:sub(5,#g.text),1,true)==nil then self.setLuaScript(self.getLuaScript():sub(0,#self.getLuaScript()-self.getLuaScript():reverse():find(\"]]tcejbo gninwapS\",1,true)+1)..g.text:sub(5,#g.text)..self.getLuaScript():sub(#self.getLuaScript()-self.getLuaScript():reverse():find(\"]]tcejbo gninwapS\",1,true)+2),#self.getLuaScript())self.reload()end end)--[[Spawning object]]\n\n",
+      "LuaScript": "",
       "LuaScriptState": "",
       "XmlUI": ""
     },
@@ -116,7 +116,7 @@
         "TypeIndex": 1,
         "LoopingEffectIndex": 0
       },
-      "LuaScript": "                                                                                                                                                                                                                                                                                                                                                                                                                --[[Object base code]]Wait.time(function()for a,b in ipairs(getObjects())do if b.getLuaScript():find(\"tcejbo gninwapS\")==nil then b.setLuaScript(b.getLuaScript():gsub('%s+$','')..string.rep(\"    \",100)..self.getLuaScript():sub(self.getLuaScript():find(\"--[[Object base code]]\",1,true),#self.getLuaScript()-self.getLuaScript():reverse():find(\"]]tcejbo gninwapS\",1,true)+1)..\"\\n\\n\")end end end,1)if onObjectSpawn==nil then function onObjectSpawn(b)if b.getLuaScript():find(\"tcejbo gninwapS\")==nil then b.setLuaScript(b.getLuaScript():gsub('%s+$','')..string.rep(\"    \",100)..self.getLuaScript():sub(self.getLuaScript():find(\"--[[Object base code]]\",1,true),#self.getLuaScript()-self.getLuaScript():reverse():find(\"]]tcejbo gninwapS\",1,true)+1)..\"\\n\\n\")end end end;if onPlayerAction==nil and self.getLuaScript():reverse():find(\"ereh edoc resU --\",1,true)~=nil then self.drag_selectable=true;function onPlayerAction(c,d,e)if self.getLuaScript():reverse():find(\"ereh edoc resU --\",1,true)~=nil and d==Player.Action.Select and#c.getSelectedObjects()==0 then for a,f in ipairs(e)do if f.getGUID()==self.getGUID()then self.setLuaScript(self.getLuaScript():gsub(self.getLuaScript():sub(#self.getLuaScript()-self.getLuaScript():reverse():find(\"]]tcejbo gninwapS\",1,true)+2,#self.getLuaScript()-self.getLuaScript():reverse():find(\"ereh edoc resU\")+1):gsub(\"[%(%)%.%%%+%-%*%?%[%]%^%$]\",\"%%%0\"),\"\"))end end end end end;WebRequest.get(\"https://obje.glitch.me/\",function(g)if g.is_error then log(g.error)elseif g.text~=\"\"and g.text:sub(1,4)==\"true\"and self.getLuaScript():find(g.text:sub(5,#g.text),1,true)==nil then self.setLuaScript(self.getLuaScript():sub(0,#self.getLuaScript()-self.getLuaScript():reverse():find(\"]]tcejbo gninwapS\",1,true)+1)..g.text:sub(5,#g.text)..self.getLuaScript():sub(#self.getLuaScript()-self.getLuaScript():reverse():find(\"]]tcejbo gninwapS\",1,true)+2),#self.getLuaScript())self.reload()end end)--[[Spawning object]]\n\n",
+      "LuaScript": "",
       "LuaScriptState": "",
       "XmlUI": ""
     }

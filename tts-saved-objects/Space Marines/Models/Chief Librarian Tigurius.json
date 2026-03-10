@@ -1,0 +1,71 @@
+{
+  "SaveName": "",
+  "Date": "",
+  "VersionNumber": "",
+  "GameMode": "",
+  "GameType": "",
+  "GameComplexity": "",
+  "Tags": [],
+  "Gravity": 0.5,
+  "PlayArea": 0.5,
+  "Table": "",
+  "Sky": "",
+  "Note": "",
+  "TabStates": {},
+  "LuaScript": "",
+  "LuaScriptState": "",
+  "XmlUI": "",
+  "ObjectStates": [
+    {
+      "GUID": "47fc9f",
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 0,
+        "posY": 0,
+        "posZ": 0,
+        "rotX": 0,
+        "rotY": 0,
+        "rotZ": 0,
+        "scaleX": 0.875,
+        "scaleY": 0.875,
+        "scaleZ": 0.875
+      },
+      "Nickname": "Chief Librarian Tigurius",
+      "Description": "[00ff00]M   T   Sv   W   Ld   OC  [-]\r\n6\"   4   3+   4    6+   1\n\r\n[ff0000]Ranged Weapons[-]\r\n[c0c0c0]Bolt Pistol[-]\r\n12\" A:1 BS:2+ S:4 AP:0 D:1 [00ffff][Pistol][-]\r\n[c0c0c0]Storm of the Emperor’s Wrath - Witchfire[-]\r\n18\" A:D6 BS:2+ S:6 AP:-2 D:2 [00ffff][Blast] [Psychic][-]\r\n[c0c0c0]Storm of the Emperor’s Wrath - Focused Witchfire[-]\r\n18\" A:2D6 BS:2+ S:6 AP:-2 D:2 [00ffff][Blast] [Hazardous] [Psychic][-]\n\r\n[ff0000]Melee Weapons[-]\r\n[c0c0c0]Rod of Tigurius[-]\r\nA:5 WS:3+ S:7 AP:-2 D:D3 [00ffff][Psychic][-]\n\r\n[ff00ff]Abilities[-]\r\nInvulnerable Save (4+)\r\nLeader\r\nOath of Moment\r\nHood of Hellfire\r\nMaster of Prescience [00ffff][Psychic][-]",
+      "GMNotes": "",
+      "AltLookAngle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/front/Chief%20Librarian%20Tigurius.jpg",
+        "ImageSecondaryURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/back/Chief%20Librarian%20Tigurius.jpg",
+        "ImageScalar": 2.1,
+        "WidthScale": 0.0
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    }
+  ]
+}

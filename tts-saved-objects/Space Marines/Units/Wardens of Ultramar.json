@@ -1,0 +1,326 @@
+{
+  "SaveName": "",
+  "Date": "",
+  "VersionNumber": "",
+  "GameMode": "",
+  "GameType": "",
+  "GameComplexity": "",
+  "Tags": [],
+  "Gravity": 0.5,
+  "PlayArea": 0.5,
+  "Table": "",
+  "Sky": "",
+  "Note": "",
+  "TabStates": {},
+  "LuaScript": "",
+  "LuaScriptState": "",
+  "XmlUI": "",
+  "ObjectStates": [
+    {
+      "GUID": "7483eb",
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -5.95000029,
+        "posY": 1.70010281,
+        "posZ": -4.25,
+        "rotX": 4.39262436E-07,
+        "rotY": -7.56132249E-06,
+        "rotZ": -1.18625135E-13,
+        "scaleX": 0.6,
+        "scaleY": 0.6,
+        "scaleZ": 0.6
+      },
+      "Nickname": "Gaius Silva",
+      "Description": "[00ff00]M   T   Sv   W   Ld   OC[-]\r\n6\"   3   4+   3    6+   1\n\r\n[ff0000]Ranged Weapons[-]\r\n[c0c0c0]Archeotech Laspistol[-]\r\n12\" A:1 BS:3+ S:4 AP:-1 D:1 [00ffff][Pistol][-]\n\r\n[ff0000]Melee Weapons[-]\r\n[c0c0c0]Power Weapon[-]\r\nA:4 WS:2+ S:4 AP:-2 D:1\n\r\n[ff00ff]Abilities[-]\r\nInvulnerable Save (5+)\r\nOath of Moment\r\nSecond Company Banner\r\nStrategium Command",
+      "GMNotes": "",
+      "AltLookAngle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/front/Gaius%20Silva.jpg",
+        "ImageSecondaryURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/back/Gaius%20Silva.jpg",
+        "ImageScalar": 1.5,
+        "WidthScale": 0.0
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "f92f69",
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 1.70000029,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": -6.953397E-07,
+        "rotY": -5.238361E-07,
+        "rotZ": 1.2694289E-13,
+        "scaleX": 0.6,
+        "scaleY": 0.6,
+        "scaleZ": 0.6
+      },
+      "Nickname": "Aemelia Minervas",
+      "Description": "[00ff00]M   T   Sv   W   Ld   OC[-]\r\n6\"   3   4+   3    6+   1\n\r\n[ff0000]Ranged Weapons[-]\r\n[c0c0c0]Archeotech Laspistol[-]\r\n12\" A:1 BS:3+ S:4 AP:-1 D:1 [00ffff][Pistol][-]\n\r\n[ff0000]Melee Weapons[-]\r\n[c0c0c0]Power Weapon[-]\r\nA:4 WS:2+ S:4 AP:-2 D:1\n\r\n[ff00ff]Abilities[-]\r\nOath of Moment\r\nSecond Company Banner\r\nStrategium Command",
+      "GMNotes": "",
+      "AltLookAngle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/front/Aemelia%20Minervas.jpg",
+        "ImageSecondaryURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/back/Aemelia%20Minervas.jpg",
+        "ImageScalar": 1.8,
+        "WidthScale": 0.0
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "102634",
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 3.40000057,
+        "posY": 1.1920929E-07,
+        "posZ": 9.536743E-07,
+        "rotX": -1.59281535E-06,
+        "rotY": 3.67051121E-06,
+        "rotZ": -2.134434E-06,
+        "scaleX": 0.6,
+        "scaleY": 0.6,
+        "scaleZ": 0.6
+      },
+      "Nickname": "Dainal Kornelius",
+      "Description": "[00ff00]M   T   Sv   W   Ld   OC[-]\r\n6\"   3   4+   3    6+   1\n\r\n[ff0000]Ranged Weapons[-]\r\n[c0c0c0]Astropathic Blast[-]\r\n12\" A:D6 BS:3+ S:4 AP:-1 D:1 [00ffff][Blast] [Psychic][-]\n\r\n[ff0000]Melee Weapons[-]\r\n[c0c0c0]Force Stave[-]\r\nA:1 WS:2+ S:5 AP:-2 D:2\n\r\n[ff00ff]Abilities[-]\r\nOath of Moment\r\nSecond Company Banner\r\nStrategium Command",
+      "GMNotes": "",
+      "AltLookAngle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/front/Dainal%20Kornelius.jpg",
+        "ImageSecondaryURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/back/Dainal%20Kornelius.jpg",
+        "ImageScalar": 2.2,
+        "WidthScale": 0.0
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "374555",
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 5.1,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": -5.80401434E-07,
+        "rotY": 5.33429147E-06,
+        "rotZ": 1.01385626E-06,
+        "scaleX": 0.6,
+        "scaleY": 0.6,
+        "scaleZ": 0.6
+      },
+      "Nickname": "Lucia Vestha",
+      "Description": "[00ff00]M   T   Sv   W   Ld   OC[-]\r\n6\"   3   4+   3    6+   1\n\r\n[ff0000]Ranged Weapons[-]\r\n[c0c0c0]Archeotech Laspistol[-]\r\n12\" A:1 BS:3+ S:4 AP:-1 D:1 [00ffff][Pistol][-]\n\r\n[ff0000]Melee Weapons[-]\r\n[c0c0c0]Close Combat Weapon[-]\r\nA:4 WS:2+ S:4 AP:0 D:1\n\r\n[ff00ff]Abilities[-]\r\nOath of Moment\r\nSecond Company Banner\r\nStrategium Command",
+      "GMNotes": "",
+      "AltLookAngle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/front/Lucia%20Vestha.jpg",
+        "ImageSecondaryURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/back/Lucia%20Vestha.jpg",
+        "ImageScalar": 1.9,
+        "WidthScale": 0.0
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "0de155",
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 4.76837158E-07,
+        "posY": 0.045938015,
+        "posZ": 1.69999933,
+        "rotX": -2.78953326E-06,
+        "rotY": -1.26980831E-06,
+        "rotZ": -3.24167149E-06,
+        "scaleX": 0.875,
+        "scaleY": 0.875,
+        "scaleZ": 0.875
+      },
+      "Nickname": "Ancient Gadriel",
+      "Description": "[00ff00]M   T   Sv   W   Ld   OC[-]\r\n6\"   4   3+   4    6+   1\n\r\n[ff0000]Ranged Weapons[-]\r\n[c0c0c0]Bolt Rifle[-]\r\n24\" A:2 BS:3+ S:4 AP:-1 D:1 [00ffff][Assault] [Heavy][-]\n\r\n[ff0000]Melee Weapons[-]\r\n[c0c0c0]Close Combat Weapon[-]\r\nA:4 WS:2+ S:4 AP:0 D:1\n\r\n[ff00ff]Abilities[-]\r\nOath of Moment\r\nSecond Company Banner\r\nStrategium Command",
+      "GMNotes": "",
+      "AltLookAngle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/front/Ancient%20Gadriel.jpg",
+        "ImageSecondaryURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/back/Ancient%20Gadriel.jpg",
+        "ImageScalar": 2.3,
+        "WidthScale": 0.0
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "25ecf4",
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 3.40000081,
+        "posY": 0.0459378958,
+        "posZ": 1.69999933,
+        "rotX": 1.885161E-06,
+        "rotY": 3.31354E-05,
+        "rotZ": 5.86969634E-07,
+        "scaleX": 0.875,
+        "scaleY": 0.875,
+        "scaleZ": 0.875
+      },
+      "Nickname": "Veteran Sergeant Metaurus",
+      "Description": "[00ff00]M   T   Sv   W   Ld   OC[-]\r\n6\"   4   3+   4    6+   1\n\r\n[ff0000]Ranged Weapons[-]\r\n[c0c0c0]Heavy Bolt Pistol[-]\r\n18\" A:1 BS:3+ S:4 AP:-1 D:1 [00ffff][Pistol][-]\n\r\n[ff0000]Melee Weapons[-]\r\n[c0c0c0]Master-Crafted Power Weapon[-]\r\nA:5 WS:2+ S:5 AP:-2 D:2\n\r\n[ff00ff]Abilities[-]\r\nInvulnerable Save (4+)\r\nOath of Moment\r\nSecond Company Banner\r\nStrategium Command",
+      "GMNotes": "",
+      "AltLookAngle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/front/Veteran%20Sergeant%20Metaurus.jpg",
+        "ImageSecondaryURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/back/Veteran%20Sergeant%20Metaurus.jpg",
+        "ImageScalar": 1.5,
+        "WidthScale": 0.0
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    }
+  ]
+}

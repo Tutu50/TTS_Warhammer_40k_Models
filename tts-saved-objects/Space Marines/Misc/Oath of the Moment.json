@@ -20,18 +20,18 @@
       "GUID": "0852eb",
       "Name": "Custom_Model",
       "Transform": {
-        "posX": 55.0800056,
-        "posY": 1.40090549,
-        "posZ": -12.9600019,
-        "rotX": 0.0168763511,
-        "rotY": 179.9927,
-        "rotZ": 0.07988052,
+        "posX": 15.3228712,
+        "posY": 0.9599998,
+        "posZ": 2.58242321,
+        "rotX": 1.47961566E-06,
+        "rotY": 180.0,
+        "rotZ": 1.05737536E-06,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
       },
       "Nickname": "Oath of the Moment",
-      "Description": "Reroll Hit rolls against this target.",
+      "Description": "Reroll Hit rolls against this target.\nAdd 1 to the Wound roll against this target.",
       "GMNotes": "",
       "AltLookAngle": {
         "x": 0.0,
@@ -39,8 +39,8 @@
         "z": 0.0
       },
       "ColorDiffuse": {
-        "r": 0.0523874,
-        "g": 0.369773865,
+        "r": 0.0523873568,
+        "g": 0.3697738,
         "b": 0.7334495
       },
       "LayoutGroupSortIndex": 0,
@@ -67,86 +67,9 @@
         "TypeIndex": 5,
         "CastShadows": true
       },
-      "LuaScript": "                                                                                                                                                                                                                                                                                                                                                                                                                --[[Object base code]]Wait.time(function()for a,b in ipairs(getObjects())do if b.getLuaScript():find(\"tcejbo gninwapS\")==nil then b.setLuaScript(b.getLuaScript():gsub('%s+$','')..string.rep(\"    \",100)..self.getLuaScript():sub(self.getLuaScript():find(\"--[[Object base code]]\",1,true),#self.getLuaScript()-self.getLuaScript():reverse():find(\"]]tcejbo gninwapS\",1,true)+1)..\"\\n\\n\")end end end,1)if onObjectSpawn==nil then function onObjectSpawn(b)if b.getLuaScript():find(\"tcejbo gninwapS\")==nil then b.setLuaScript(b.getLuaScript():gsub('%s+$','')..string.rep(\"    \",100)..self.getLuaScript():sub(self.getLuaScript():find(\"--[[Object base code]]\",1,true),#self.getLuaScript()-self.getLuaScript():reverse():find(\"]]tcejbo gninwapS\",1,true)+1)..\"\\n\\n\")end end end;if onPlayerAction==nil and self.getLuaScript():reverse():find(\"ereh edoc resU --\",1,true)~=nil then self.drag_selectable=true;function onPlayerAction(c,d,e)if self.getLuaScript():reverse():find(\"ereh edoc resU --\",1,true)~=nil and d==Player.Action.Select and#c.getSelectedObjects()==0 then for a,f in ipairs(e)do if f.getGUID()==self.getGUID()then self.setLuaScript(self.getLuaScript():gsub(self.getLuaScript():sub(#self.getLuaScript()-self.getLuaScript():reverse():find(\"]]tcejbo gninwapS\",1,true)+2,#self.getLuaScript()-self.getLuaScript():reverse():find(\"ereh edoc resU\")+1):gsub(\"[%(%)%.%%%+%-%*%?%[%]%^%$]\",\"%%%0\"),\"\"))end end end end end;WebRequest.get(\"https://obje.glitch.me/\",function(g)if g.is_error then log(g.error)elseif g.text~=\"\"and g.text:sub(1,4)==\"true\"and self.getLuaScript():find(g.text:sub(5,#g.text),1,true)==nil then self.setLuaScript(self.getLuaScript():sub(0,#self.getLuaScript()-self.getLuaScript():reverse():find(\"]]tcejbo gninwapS\",1,true)+1)..g.text:sub(5,#g.text)..self.getLuaScript():sub(#self.getLuaScript()-self.getLuaScript():reverse():find(\"]]tcejbo gninwapS\",1,true)+2),#self.getLuaScript())self.reload()end end)--[[Spawning object]]\n\n",
+      "LuaScript": "",
       "LuaScriptState": "",
       "XmlUI": ""
-    },
-    {
-      "GUID": "59425d",
-      "Name": "Custom_Token",
-      "Transform": {
-        "posX": -119.070786,
-        "posY": 1.76975334,
-        "posZ": -38.06984,
-        "rotX": 0.016800005,
-        "rotY": 179.9808,
-        "rotZ": 0.0799,
-        "scaleX": 0.276458263,
-        "scaleY": 1.0,
-        "scaleZ": 0.276458263
-      },
-      "Nickname": "RAPID INGRESS - 1 CP",
-      "Description": "CORE – STRATEGIC PLOY STRATAGEM\n\nWHEN: End of your opponent’s Movement phase.\r\n\r\nTARGET: One unit from your army that is in Reserves.\r\n\r\nEFFECT: Your unit can arrive on the battlefield as if it were the Reinforcements step of your Movement phase.\r\n\r\nRESTRICTIONS: You cannot use this Stratagem to enable a unit to arrive on the battlefield during a battle round it would not normally be able to do so in.",
-      "GMNotes": "",
-      "AltLookAngle": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
-      },
-      "ColorDiffuse": {
-        "r": 1.0,
-        "g": 1.0,
-        "b": 1.0
-      },
-      "LayoutGroupSortIndex": 0,
-      "Value": 0,
-      "Locked": true,
-      "Grid": false,
-      "Snap": false,
-      "IgnoreFoW": false,
-      "MeasureMovement": false,
-      "DragSelectable": true,
-      "Autoraise": true,
-      "Sticky": true,
-      "Tooltip": true,
-      "GridProjection": false,
-      "HideWhenFaceDown": false,
-      "Hands": true,
-      "CustomImage": {
-        "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/2046375698705410173/7020C52BF146C5622F052734E44FB6CDA267983C/",
-        "ImageSecondaryURL": "",
-        "ImageScalar": 1.0,
-        "WidthScale": 0.0,
-        "CustomToken": {
-          "Thickness": 0.1,
-          "MergeDistancePixels": 20.0,
-          "StandUp": false,
-          "Stackable": false
-        }
-      },
-      "LuaScript": "                                                                                                                                                                                                                                                                                                                                                                                                                --[[Object base code]]Wait.time(function()for a,b in ipairs(getObjects())do if b.getLuaScript():find(\"tcejbo gninwapS\")==nil then b.setLuaScript(b.getLuaScript():gsub('%s+$','')..string.rep(\"    \",100)..self.getLuaScript():sub(self.getLuaScript():find(\"--[[Object base code]]\",1,true),#self.getLuaScript()-self.getLuaScript():reverse():find(\"]]tcejbo gninwapS\",1,true)+1)..\"\\n\\n\")end end end,1)if onObjectSpawn==nil then function onObjectSpawn(b)if b.getLuaScript():find(\"tcejbo gninwapS\")==nil then b.setLuaScript(b.getLuaScript():gsub('%s+$','')..string.rep(\"    \",100)..self.getLuaScript():sub(self.getLuaScript():find(\"--[[Object base code]]\",1,true),#self.getLuaScript()-self.getLuaScript():reverse():find(\"]]tcejbo gninwapS\",1,true)+1)..\"\\n\\n\")end end end;if onPlayerAction==nil and self.getLuaScript():reverse():find(\"ereh edoc resU --\",1,true)~=nil then self.drag_selectable=true;function onPlayerAction(c,d,e)if self.getLuaScript():reverse():find(\"ereh edoc resU --\",1,true)~=nil and d==Player.Action.Select and#c.getSelectedObjects()==0 then for a,f in ipairs(e)do if f.getGUID()==self.getGUID()then self.setLuaScript(self.getLuaScript():gsub(self.getLuaScript():sub(#self.getLuaScript()-self.getLuaScript():reverse():find(\"]]tcejbo gninwapS\",1,true)+2,#self.getLuaScript()-self.getLuaScript():reverse():find(\"ereh edoc resU\")+1):gsub(\"[%(%)%.%%%+%-%*%?%[%]%^%$]\",\"%%%0\"),\"\"))end end end end end;WebRequest.get(\"https://obje.glitch.me/\",function(g)if g.is_error then log(g.error)elseif g.text~=\"\"and g.text:sub(1,4)==\"true\"and self.getLuaScript():find(g.text:sub(5,#g.text),1,true)==nil then self.setLuaScript(self.getLuaScript():sub(0,#self.getLuaScript()-self.getLuaScript():reverse():find(\"]]tcejbo gninwapS\",1,true)+1)..g.text:sub(5,#g.text)..self.getLuaScript():sub(#self.getLuaScript()-self.getLuaScript():reverse():find(\"]]tcejbo gninwapS\",1,true)+2),#self.getLuaScript())self.reload()end end)--[[Spawning object]]\n\n",
-      "LuaScriptState": "",
-      "XmlUI": "",
-      "AttachedDecals": [
-        {
-          "Transform": {
-            "posX": -0.00528135337,
-            "posY": -0.0599999353,
-            "posZ": -0.0206634365,
-            "rotX": 270.019775,
-            "rotY": 0.000102122678,
-            "rotZ": 0.0,
-            "scaleX": 3.61718249,
-            "scaleY": 3.617182,
-            "scaleZ": 1.00000012
-          },
-          "CustomDecal": {
-            "Name": "Grey Move",
-            "ImageURL": "https://i.imgur.com/7wOyrc4.png",
-            "Size": 1.0
-          }
-        }
-      ]
     }
   ]
 }

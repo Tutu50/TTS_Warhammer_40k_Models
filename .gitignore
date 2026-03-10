@@ -4,5 +4,11 @@
 # ignore all temp files created by Krita
 *.*~
 
-# ignore all files in any directory named datasheets
-datasheets/
+# ignore all Libreoffice Writer files
+*.odt*
+
+# ignore all files in datasheets/raw
+datasheets/raw
+
+# ignore all files in datasheets/cropped
+datasheets/cropped

@@ -1,0 +1,1052 @@
+{
+  "SaveName": "",
+  "Date": "",
+  "VersionNumber": "",
+  "GameMode": "",
+  "GameType": "",
+  "GameComplexity": "",
+  "Tags": [],
+  "Gravity": 0.5,
+  "PlayArea": 0.5,
+  "Table": "",
+  "Sky": "",
+  "Note": "",
+  "TabStates": {},
+  "LuaScript": "",
+  "LuaScriptState": "",
+  "XmlUI": "",
+  "ObjectStates": [
+    {
+      "GUID": "3c7e3b",
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -5.95,
+        "posY": 1.74604046,
+        "posZ": 2.549999,
+        "rotX": -2.46912123E-07,
+        "rotY": 5.56538653E-05,
+        "rotZ": -3.255012E-06,
+        "scaleX": 0.875,
+        "scaleY": 0.875,
+        "scaleZ": 0.875
+      },
+      "Nickname": "Victrix Honor Guard",
+      "Description": "[00ff00]M   T   Sv   W   Ld   OC  [-]\r\n6\"   4   2+   3    6+   2\n\r\n[ff0000]Ranged Weapons[-]\r\n[c0c0c0]Master-Crafted Bolt Carbine[-]\r\n24\" A:2 BS:2+ S:4 AP:-1 D:2\n\r\n[ff0000]Melee Weapons[-]\r\n[c0c0c0]Master-Crafted Power Weapon[-]\r\nA:5 WS:2+ S:5 AP:-2 D:2\n\r\n[ff00ff]Abilities[-]\r\nDeep Strike\r\nOath of Moment\r\nUltramarines Honor Guard\r\nGlory of Ultramar",
+      "GMNotes": "",
+      "AltLookAngle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/front/Victrix%20Honor%20Guard%201.jpg",
+        "ImageSecondaryURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/front/Victrix%20Honor%20Guard%201.jpg",
+        "ImageScalar": 1.35,
+        "WidthScale": 0.0
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "States": {
+        "2": {
+          "GUID": "ba47b1",
+          "Name": "Figurine_Custom",
+          "Transform": {
+            "posX": 0.0,
+            "posY": 0.0,
+            "posZ": 0.0,
+            "rotX": 0.0,
+            "rotY": 0.0,
+            "rotZ": 0.0,
+            "scaleX": 0.875,
+            "scaleY": 0.875,
+            "scaleZ": 0.875
+          },
+          "Nickname": "Victrix Honor Guard",
+          "Description": "[00ff00]M   T   Sv   W   Ld   OC  [-]\r\n6\"   4   2+   3    6+   2\n\r\n[ff0000]Ranged Weapons[-]\r\n[c0c0c0]Master-Crafted Bolt Carbine[-]\r\n24\" A:2 BS:2+ S:4 AP:-1 D:2\n\r\n[ff0000]Melee Weapons[-]\r\n[c0c0c0]Master-Crafted Power Weapon[-]\r\nA:5 WS:2+ S:5 AP:-2 D:2\n\r\n[ff00ff]Abilities[-]\r\nDeep Strike\r\nOath of Moment\r\nUltramarines Honor Guard\r\nGlory of Ultramar",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 0.0,
+            "g": 0.0,
+            "b": 0.0
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/front/Victrix%20Honor%20Guard%202.jpg",
+            "ImageSecondaryURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/front/Victrix%20Honor%20Guard%202.jpg",
+            "ImageScalar": 1.35,
+            "WidthScale": 0.0
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        "3": {
+          "GUID": "08eb7c",
+          "Name": "Figurine_Custom",
+          "Transform": {
+            "posX": 0.0,
+            "posY": 0.0,
+            "posZ": 0.0,
+            "rotX": 0.0,
+            "rotY": 0.0,
+            "rotZ": 0.0,
+            "scaleX": 0.875,
+            "scaleY": 0.875,
+            "scaleZ": 0.875
+          },
+          "Nickname": "Victrix Honor Guard",
+          "Description": "[00ff00]M   T   Sv   W   Ld   OC  [-]\r\n6\"   4   2+   3    6+   2\n\r\n[ff0000]Ranged Weapons[-]\r\n[c0c0c0]Master-Crafted Bolt Carbine[-]\r\n24\" A:2 BS:2+ S:4 AP:-1 D:2\n\r\n[ff0000]Melee Weapons[-]\r\n[c0c0c0]Master-Crafted Power Weapon[-]\r\nA:5 WS:2+ S:5 AP:-2 D:2\n\r\n[ff00ff]Abilities[-]\r\nDeep Strike\r\nOath of Moment\r\nUltramarines Honor Guard\r\nGlory of Ultramar",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 0.0,
+            "g": 0.0,
+            "b": 0.0
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/front/Victrix%20Honor%20Guard%203.jpg",
+            "ImageSecondaryURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/front/Victrix%20Honor%20Guard%203.jpg",
+            "ImageScalar": 1.35,
+            "WidthScale": 0.0
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        }
+      }
+    },
+    {
+      "GUID": "e5565b",
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 1.70000744,
+        "posY": -2.38418579E-07,
+        "posZ": -1.69998837,
+        "rotX": 8.66305641E-07,
+        "rotY": -0.000522177259,
+        "rotZ": 5.33556772E-08,
+        "scaleX": 0.875,
+        "scaleY": 0.875,
+        "scaleZ": 0.875
+      },
+      "Nickname": "Victrix Honor Guard",
+      "Description": "[00ff00]M   T   Sv   W   Ld   OC  [-]\r\n6\"   4   2+   3    6+   2\n\r\n[ff0000]Ranged Weapons[-]\r\n[c0c0c0]Master-Crafted Bolt Carbine[-]\r\n24\" A:2 BS:2+ S:4 AP:-1 D:2\n\r\n[ff0000]Melee Weapons[-]\r\n[c0c0c0]Master-Crafted Power Weapon[-]\r\nA:5 WS:2+ S:5 AP:-2 D:2\n\r\n[ff00ff]Abilities[-]\r\nDeep Strike\r\nOath of Moment\r\nUltramarines Honor Guard\r\nGlory of Ultramar",
+      "GMNotes": "",
+      "AltLookAngle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/front/Victrix%20Honor%20Guard%202.jpg",
+        "ImageSecondaryURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/front/Victrix%20Honor%20Guard%202.jpg",
+        "ImageScalar": 1.35,
+        "WidthScale": 0.0
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "States": {
+        "3": {
+          "GUID": "08eb7c",
+          "Name": "Figurine_Custom",
+          "Transform": {
+            "posX": 0.0,
+            "posY": 0.0,
+            "posZ": 0.0,
+            "rotX": 0.0,
+            "rotY": 0.0,
+            "rotZ": 0.0,
+            "scaleX": 0.875,
+            "scaleY": 0.875,
+            "scaleZ": 0.875
+          },
+          "Nickname": "Victrix Honor Guard",
+          "Description": "[00ff00]M   T   Sv   W   Ld   OC  [-]\r\n6\"   4   2+   3    6+   2\n\r\n[ff0000]Ranged Weapons[-]\r\n[c0c0c0]Master-Crafted Bolt Carbine[-]\r\n24\" A:2 BS:2+ S:4 AP:-1 D:2\n\r\n[ff0000]Melee Weapons[-]\r\n[c0c0c0]Master-Crafted Power Weapon[-]\r\nA:5 WS:2+ S:5 AP:-2 D:2\n\r\n[ff00ff]Abilities[-]\r\nDeep Strike\r\nOath of Moment\r\nUltramarines Honor Guard\r\nGlory of Ultramar",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 0.0,
+            "g": 0.0,
+            "b": 0.0
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/front/Victrix%20Honor%20Guard%203.jpg",
+            "ImageSecondaryURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/front/Victrix%20Honor%20Guard%203.jpg",
+            "ImageScalar": 1.35,
+            "WidthScale": 0.0
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        "1": {
+          "GUID": "90dc91",
+          "Name": "Figurine_Custom",
+          "Transform": {
+            "posX": -4.24999237,
+            "posY": 1.7460407,
+            "posZ": 0.850010633,
+            "rotX": 5.73136049E-07,
+            "rotY": -0.000516442,
+            "rotZ": 2.0810694E-06,
+            "scaleX": 0.875,
+            "scaleY": 0.875,
+            "scaleZ": 0.875
+          },
+          "Nickname": "Victrix Honor Guard",
+          "Description": "[00ff00]M   T   Sv   W   Ld   OC  [-]\r\n6\"   4   2+   3    6+   2\n\r\n[ff0000]Ranged Weapons[-]\r\n[c0c0c0]Master-Crafted Bolt Carbine[-]\r\n24\" A:2 BS:2+ S:4 AP:-1 D:2\n\r\n[ff0000]Melee Weapons[-]\r\n[c0c0c0]Master-Crafted Power Weapon[-]\r\nA:5 WS:2+ S:5 AP:-2 D:2\n\r\n[ff00ff]Abilities[-]\r\nDeep Strike\r\nOath of Moment\r\nUltramarines Honor Guard\r\nGlory of Ultramar",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 0.0,
+            "g": 0.0,
+            "b": 0.0
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/front/Victrix%20Honor%20Guard%201.jpg",
+            "ImageSecondaryURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/front/Victrix%20Honor%20Guard%201.jpg",
+            "ImageScalar": 1.35,
+            "WidthScale": 0.0
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        }
+      }
+    },
+    {
+      "GUID": "75a913",
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 1.69999981,
+        "posY": -3.57627869E-07,
+        "posZ": 1.7,
+        "rotX": 3.21670341E-05,
+        "rotY": 0.007488745,
+        "rotZ": 1.79313465E-05,
+        "scaleX": 0.875,
+        "scaleY": 0.875,
+        "scaleZ": 0.875
+      },
+      "Nickname": "Chapter Ancient",
+      "Description": "[00ff00]M   T   Sv   W   Ld   OC  [-]\r\n6\"   4   2+   3    6+   2\n\r\n[ff0000]Melee Weapons[-]\r\n[c0c0c0]Master-Crafted Power Weapon[-]\r\nA:5 WS:2+ S:5 AP:-2 D:2\n\r\n[ff00ff]Abilities[-]\r\nDeep Strike\r\nOath of Moment\r\nUltramarines Honor Guard\r\nGlory of Ultramar\r\nBanner of Macragge",
+      "GMNotes": "",
+      "AltLookAngle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/front/Chapter%20Ancient.jpg",
+        "ImageSecondaryURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/back/Chapter%20Ancient.jpg",
+        "ImageScalar": 3.0,
+        "WidthScale": 0.0
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "16a4cc",
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -4.76837158E-07,
+        "posY": 3.57627869E-07,
+        "posZ": -1.69999981,
+        "rotX": 8.11181735E-07,
+        "rotY": 8.570783E-05,
+        "rotZ": 1.65418692E-06,
+        "scaleX": 0.875,
+        "scaleY": 0.875,
+        "scaleZ": 0.875
+      },
+      "Nickname": "Victrix Honor Guard",
+      "Description": "[00ff00]M   T   Sv   W   Ld   OC  [-]\r\n6\"   4   2+   3    6+   2\n\r\n[ff0000]Ranged Weapons[-]\r\n[c0c0c0]Master-Crafted Bolt Carbine[-]\r\n24\" A:2 BS:2+ S:4 AP:-1 D:2\n\r\n[ff0000]Melee Weapons[-]\r\n[c0c0c0]Master-Crafted Power Weapon[-]\r\nA:5 WS:2+ S:5 AP:-2 D:2\n\r\n[ff00ff]Abilities[-]\r\nDeep Strike\r\nOath of Moment\r\nUltramarines Honor Guard\r\nGlory of Ultramar",
+      "GMNotes": "",
+      "AltLookAngle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/front/Victrix%20Honor%20Guard%201.jpg",
+        "ImageSecondaryURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/front/Victrix%20Honor%20Guard%201.jpg",
+        "ImageScalar": 1.35,
+        "WidthScale": 0.0
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "States": {
+        "2": {
+          "GUID": "ba47b1",
+          "Name": "Figurine_Custom",
+          "Transform": {
+            "posX": 0.0,
+            "posY": 0.0,
+            "posZ": 0.0,
+            "rotX": 0.0,
+            "rotY": 0.0,
+            "rotZ": 0.0,
+            "scaleX": 0.875,
+            "scaleY": 0.875,
+            "scaleZ": 0.875
+          },
+          "Nickname": "Victrix Honor Guard",
+          "Description": "[00ff00]M   T   Sv   W   Ld   OC  [-]\r\n6\"   4   2+   3    6+   2\n\r\n[ff0000]Ranged Weapons[-]\r\n[c0c0c0]Master-Crafted Bolt Carbine[-]\r\n24\" A:2 BS:2+ S:4 AP:-1 D:2\n\r\n[ff0000]Melee Weapons[-]\r\n[c0c0c0]Master-Crafted Power Weapon[-]\r\nA:5 WS:2+ S:5 AP:-2 D:2\n\r\n[ff00ff]Abilities[-]\r\nDeep Strike\r\nOath of Moment\r\nUltramarines Honor Guard\r\nGlory of Ultramar",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 0.0,
+            "g": 0.0,
+            "b": 0.0
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/front/Victrix%20Honor%20Guard%202.jpg",
+            "ImageSecondaryURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/front/Victrix%20Honor%20Guard%202.jpg",
+            "ImageScalar": 1.35,
+            "WidthScale": 0.0
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        "3": {
+          "GUID": "08eb7c",
+          "Name": "Figurine_Custom",
+          "Transform": {
+            "posX": 0.0,
+            "posY": 0.0,
+            "posZ": 0.0,
+            "rotX": 0.0,
+            "rotY": 0.0,
+            "rotZ": 0.0,
+            "scaleX": 0.875,
+            "scaleY": 0.875,
+            "scaleZ": 0.875
+          },
+          "Nickname": "Victrix Honor Guard",
+          "Description": "[00ff00]M   T   Sv   W   Ld   OC  [-]\r\n6\"   4   2+   3    6+   2\n\r\n[ff0000]Ranged Weapons[-]\r\n[c0c0c0]Master-Crafted Bolt Carbine[-]\r\n24\" A:2 BS:2+ S:4 AP:-1 D:2\n\r\n[ff0000]Melee Weapons[-]\r\n[c0c0c0]Master-Crafted Power Weapon[-]\r\nA:5 WS:2+ S:5 AP:-2 D:2\n\r\n[ff00ff]Abilities[-]\r\nDeep Strike\r\nOath of Moment\r\nUltramarines Honor Guard\r\nGlory of Ultramar",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 0.0,
+            "g": 0.0,
+            "b": 0.0
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/front/Victrix%20Honor%20Guard%203.jpg",
+            "ImageSecondaryURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/front/Victrix%20Honor%20Guard%203.jpg",
+            "ImageScalar": 1.35,
+            "WidthScale": 0.0
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        }
+      }
+    },
+    {
+      "GUID": "ba47b1",
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 1.70000029,
+        "posY": -1.1920929E-07,
+        "posZ": 0.0,
+        "rotX": -8.454727E-08,
+        "rotY": 8.36592153E-05,
+        "rotZ": -4.80247536E-07,
+        "scaleX": 0.875,
+        "scaleY": 0.875,
+        "scaleZ": 0.875
+      },
+      "Nickname": "Victrix Honor Guard",
+      "Description": "[00ff00]M   T   Sv   W   Ld   OC  [-]\r\n6\"   4   2+   3    6+   2\n\r\n[ff0000]Ranged Weapons[-]\r\n[c0c0c0]Master-Crafted Bolt Carbine[-]\r\n24\" A:2 BS:2+ S:4 AP:-1 D:2\n\r\n[ff0000]Melee Weapons[-]\r\n[c0c0c0]Master-Crafted Power Weapon[-]\r\nA:5 WS:2+ S:5 AP:-2 D:2\n\r\n[ff00ff]Abilities[-]\r\nDeep Strike\r\nOath of Moment\r\nUltramarines Honor Guard\r\nGlory of Ultramar",
+      "GMNotes": "",
+      "AltLookAngle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/front/Victrix%20Honor%20Guard%202.jpg",
+        "ImageSecondaryURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/front/Victrix%20Honor%20Guard%202.jpg",
+        "ImageScalar": 1.35,
+        "WidthScale": 0.0
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "States": {
+        "3": {
+          "GUID": "08eb7c",
+          "Name": "Figurine_Custom",
+          "Transform": {
+            "posX": 0.0,
+            "posY": 0.0,
+            "posZ": 0.0,
+            "rotX": 0.0,
+            "rotY": 0.0,
+            "rotZ": 0.0,
+            "scaleX": 0.875,
+            "scaleY": 0.875,
+            "scaleZ": 0.875
+          },
+          "Nickname": "Victrix Honor Guard",
+          "Description": "[00ff00]M   T   Sv   W   Ld   OC  [-]\r\n6\"   4   2+   3    6+   2\n\r\n[ff0000]Ranged Weapons[-]\r\n[c0c0c0]Master-Crafted Bolt Carbine[-]\r\n24\" A:2 BS:2+ S:4 AP:-1 D:2\n\r\n[ff0000]Melee Weapons[-]\r\n[c0c0c0]Master-Crafted Power Weapon[-]\r\nA:5 WS:2+ S:5 AP:-2 D:2\n\r\n[ff00ff]Abilities[-]\r\nDeep Strike\r\nOath of Moment\r\nUltramarines Honor Guard\r\nGlory of Ultramar",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 0.0,
+            "g": 0.0,
+            "b": 0.0
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/front/Victrix%20Honor%20Guard%203.jpg",
+            "ImageSecondaryURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/front/Victrix%20Honor%20Guard%203.jpg",
+            "ImageScalar": 1.35,
+            "WidthScale": 0.0
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        "1": {
+          "GUID": "220f14",
+          "Name": "Figurine_Custom",
+          "Transform": {
+            "posX": -4.24999952,
+            "posY": 1.74604082,
+            "posZ": 2.549999,
+            "rotX": 1.565938E-06,
+            "rotY": 8.647673E-05,
+            "rotZ": 3.73526018E-06,
+            "scaleX": 0.875,
+            "scaleY": 0.875,
+            "scaleZ": 0.875
+          },
+          "Nickname": "Victrix Honor Guard",
+          "Description": "[00ff00]M   T   Sv   W   Ld   OC  [-]\r\n6\"   4   2+   3    6+   2\n\r\n[ff0000]Ranged Weapons[-]\r\n[c0c0c0]Master-Crafted Bolt Carbine[-]\r\n24\" A:2 BS:2+ S:4 AP:-1 D:2\n\r\n[ff0000]Melee Weapons[-]\r\n[c0c0c0]Master-Crafted Power Weapon[-]\r\nA:5 WS:2+ S:5 AP:-2 D:2\n\r\n[ff00ff]Abilities[-]\r\nDeep Strike\r\nOath of Moment\r\nUltramarines Honor Guard\r\nGlory of Ultramar",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 0.0,
+            "g": 0.0,
+            "b": 0.0
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/front/Victrix%20Honor%20Guard%201.jpg",
+            "ImageSecondaryURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/front/Victrix%20Honor%20Guard%201.jpg",
+            "ImageScalar": 1.35,
+            "WidthScale": 0.0
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        }
+      }
+    },
+    {
+      "GUID": "455ef8",
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 1.69999981,
+        "posY": -1.1920929E-07,
+        "posZ": -3.39999938,
+        "rotX": -4.6164962E-07,
+        "rotY": 359.973816,
+        "rotZ": 3.735592E-07,
+        "scaleX": 0.875,
+        "scaleY": 0.875,
+        "scaleZ": 0.875
+      },
+      "Nickname": "Chapter Champion",
+      "Description": "[00ff00]M   T   Sv   W   Ld   OC  [-]\r\n6\"   4   2+   3    6+   2\n\r\n[ff0000]Melee Weapons[-]\r\n[c0c0c0]Blades of Honor[-]\r\nA:6 WS:2+ S:5 AP:-2 D:2 [00ffff][Precision] [Twin-Linked][-]\n\r\n[ff00ff]Abilities[-]\r\nDeep Strike\r\nOath of Moment\r\nUltramarines Honor Guard\r\nGlory of Ultramar\r\nBanner of Macragge",
+      "GMNotes": "",
+      "AltLookAngle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/front/Chapter%20Champion.jpg",
+        "ImageSecondaryURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/back/Chapter%20Champion.jpg",
+        "ImageScalar": 1.35,
+        "WidthScale": 0.0
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "08eb7c",
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 3.40000033,
+        "posY": 1.1920929E-07,
+        "posZ": 0.0,
+        "rotX": 1.95372286E-06,
+        "rotY": 8.237674E-05,
+        "rotZ": 2.02771344E-06,
+        "scaleX": 0.875,
+        "scaleY": 0.875,
+        "scaleZ": 0.875
+      },
+      "Nickname": "Victrix Honor Guard",
+      "Description": "[00ff00]M   T   Sv   W   Ld   OC  [-]\r\n6\"   4   2+   3    6+   2\n\r\n[ff0000]Ranged Weapons[-]\r\n[c0c0c0]Master-Crafted Bolt Carbine[-]\r\n24\" A:2 BS:2+ S:4 AP:-1 D:2\n\r\n[ff0000]Melee Weapons[-]\r\n[c0c0c0]Master-Crafted Power Weapon[-]\r\nA:5 WS:2+ S:5 AP:-2 D:2\n\r\n[ff00ff]Abilities[-]\r\nDeep Strike\r\nOath of Moment\r\nUltramarines Honor Guard\r\nGlory of Ultramar",
+      "GMNotes": "",
+      "AltLookAngle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/front/Victrix%20Honor%20Guard%203.jpg",
+        "ImageSecondaryURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/front/Victrix%20Honor%20Guard%203.jpg",
+        "ImageScalar": 1.35,
+        "WidthScale": 0.0
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "States": {
+        "2": {
+          "GUID": "ba47b1",
+          "Name": "Figurine_Custom",
+          "Transform": {
+            "posX": 0.0,
+            "posY": 0.0,
+            "posZ": 0.0,
+            "rotX": 0.0,
+            "rotY": 0.0,
+            "rotZ": 0.0,
+            "scaleX": 0.875,
+            "scaleY": 0.875,
+            "scaleZ": 0.875
+          },
+          "Nickname": "Victrix Honor Guard",
+          "Description": "[00ff00]M   T   Sv   W   Ld   OC  [-]\r\n6\"   4   2+   3    6+   2\n\r\n[ff0000]Ranged Weapons[-]\r\n[c0c0c0]Master-Crafted Bolt Carbine[-]\r\n24\" A:2 BS:2+ S:4 AP:-1 D:2\n\r\n[ff0000]Melee Weapons[-]\r\n[c0c0c0]Master-Crafted Power Weapon[-]\r\nA:5 WS:2+ S:5 AP:-2 D:2\n\r\n[ff00ff]Abilities[-]\r\nDeep Strike\r\nOath of Moment\r\nUltramarines Honor Guard\r\nGlory of Ultramar",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 0.0,
+            "g": 0.0,
+            "b": 0.0
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/front/Victrix%20Honor%20Guard%202.jpg",
+            "ImageSecondaryURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/front/Victrix%20Honor%20Guard%202.jpg",
+            "ImageScalar": 1.35,
+            "WidthScale": 0.0
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        "1": {
+          "GUID": "795b8c",
+          "Name": "Figurine_Custom",
+          "Transform": {
+            "posX": -2.54999971,
+            "posY": 1.74604082,
+            "posZ": 2.549999,
+            "rotX": -7.65807442E-07,
+            "rotY": 6.864825E-05,
+            "rotZ": -3.201653E-07,
+            "scaleX": 0.875,
+            "scaleY": 0.875,
+            "scaleZ": 0.875
+          },
+          "Nickname": "Victrix Honor Guard",
+          "Description": "[00ff00]M   T   Sv   W   Ld   OC  [-]\r\n6\"   4   2+   3    6+   2\n\r\n[ff0000]Ranged Weapons[-]\r\n[c0c0c0]Master-Crafted Bolt Carbine[-]\r\n24\" A:2 BS:2+ S:4 AP:-1 D:2\n\r\n[ff0000]Melee Weapons[-]\r\n[c0c0c0]Master-Crafted Power Weapon[-]\r\nA:5 WS:2+ S:5 AP:-2 D:2\n\r\n[ff00ff]Abilities[-]\r\nDeep Strike\r\nOath of Moment\r\nUltramarines Honor Guard\r\nGlory of Ultramar",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 0.0,
+            "g": 0.0,
+            "b": 0.0
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/front/Victrix%20Honor%20Guard%201.jpg",
+            "ImageSecondaryURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/front/Victrix%20Honor%20Guard%201.jpg",
+            "ImageScalar": 1.35,
+            "WidthScale": 0.0
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        }
+      }
+    },
+    {
+      "GUID": "567dfc",
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 3.40000033,
+        "posY": 1.1920929E-07,
+        "posZ": -1.7,
+        "rotX": 4.402016E-07,
+        "rotY": 9.884907E-05,
+        "rotZ": -4.268863E-07,
+        "scaleX": 0.875,
+        "scaleY": 0.875,
+        "scaleZ": 0.875
+      },
+      "Nickname": "Victrix Honor Guard",
+      "Description": "[00ff00]M   T   Sv   W   Ld   OC  [-]\r\n6\"   4   2+   3    6+   2\n\r\n[ff0000]Ranged Weapons[-]\r\n[c0c0c0]Master-Crafted Bolt Carbine[-]\r\n24\" A:2 BS:2+ S:4 AP:-1 D:2\n\r\n[ff0000]Melee Weapons[-]\r\n[c0c0c0]Master-Crafted Power Weapon[-]\r\nA:5 WS:2+ S:5 AP:-2 D:2\n\r\n[ff00ff]Abilities[-]\r\nDeep Strike\r\nOath of Moment\r\nUltramarines Honor Guard\r\nGlory of Ultramar",
+      "GMNotes": "",
+      "AltLookAngle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/front/Victrix%20Honor%20Guard%203.jpg",
+        "ImageSecondaryURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/front/Victrix%20Honor%20Guard%203.jpg",
+        "ImageScalar": 1.35,
+        "WidthScale": 0.0
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "States": {
+        "2": {
+          "GUID": "ba47b1",
+          "Name": "Figurine_Custom",
+          "Transform": {
+            "posX": 0.0,
+            "posY": 0.0,
+            "posZ": 0.0,
+            "rotX": 0.0,
+            "rotY": 0.0,
+            "rotZ": 0.0,
+            "scaleX": 0.875,
+            "scaleY": 0.875,
+            "scaleZ": 0.875
+          },
+          "Nickname": "Victrix Honor Guard",
+          "Description": "[00ff00]M   T   Sv   W   Ld   OC  [-]\r\n6\"   4   2+   3    6+   2\n\r\n[ff0000]Ranged Weapons[-]\r\n[c0c0c0]Master-Crafted Bolt Carbine[-]\r\n24\" A:2 BS:2+ S:4 AP:-1 D:2\n\r\n[ff0000]Melee Weapons[-]\r\n[c0c0c0]Master-Crafted Power Weapon[-]\r\nA:5 WS:2+ S:5 AP:-2 D:2\n\r\n[ff00ff]Abilities[-]\r\nDeep Strike\r\nOath of Moment\r\nUltramarines Honor Guard\r\nGlory of Ultramar",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 0.0,
+            "g": 0.0,
+            "b": 0.0
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/front/Victrix%20Honor%20Guard%202.jpg",
+            "ImageSecondaryURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/front/Victrix%20Honor%20Guard%202.jpg",
+            "ImageScalar": 1.35,
+            "WidthScale": 0.0
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        "1": {
+          "GUID": "90c5bb",
+          "Name": "Figurine_Custom",
+          "Transform": {
+            "posX": -2.54999971,
+            "posY": 1.74604082,
+            "posZ": 0.849999249,
+            "rotX": -2.910001E-07,
+            "rotY": 7.483204E-05,
+            "rotZ": -6.403302E-07,
+            "scaleX": 0.875,
+            "scaleY": 0.875,
+            "scaleZ": 0.875
+          },
+          "Nickname": "Victrix Honor Guard",
+          "Description": "[00ff00]M   T   Sv   W   Ld   OC  [-]\r\n6\"   4   2+   3    6+   2\n\r\n[ff0000]Ranged Weapons[-]\r\n[c0c0c0]Master-Crafted Bolt Carbine[-]\r\n24\" A:2 BS:2+ S:4 AP:-1 D:2\n\r\n[ff0000]Melee Weapons[-]\r\n[c0c0c0]Master-Crafted Power Weapon[-]\r\nA:5 WS:2+ S:5 AP:-2 D:2\n\r\n[ff00ff]Abilities[-]\r\nDeep Strike\r\nOath of Moment\r\nUltramarines Honor Guard\r\nGlory of Ultramar",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 0.0,
+            "g": 0.0,
+            "b": 0.0
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/front/Victrix%20Honor%20Guard%201.jpg",
+            "ImageSecondaryURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/front/Victrix%20Honor%20Guard%201.jpg",
+            "ImageScalar": 1.35,
+            "WidthScale": 0.0
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        }
+      }
+    }
+  ]
+}

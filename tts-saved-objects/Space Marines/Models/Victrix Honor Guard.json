@@ -1,0 +1,175 @@
+{
+  "SaveName": "",
+  "Date": "",
+  "VersionNumber": "",
+  "GameMode": "",
+  "GameType": "",
+  "GameComplexity": "",
+  "Tags": [],
+  "Gravity": 0.5,
+  "PlayArea": 0.5,
+  "Table": "",
+  "Sky": "",
+  "Note": "",
+  "TabStates": {},
+  "LuaScript": "",
+  "LuaScriptState": "",
+  "XmlUI": "",
+  "ObjectStates": [
+    {
+      "GUID": "3c7e3b",
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 0,
+        "posY": 0,
+        "posZ": 0,
+        "rotX": 0,
+        "rotY": 0,
+        "rotZ": 0,
+        "scaleX": 0.875,
+        "scaleY": 0.875,
+        "scaleZ": 0.875
+      },
+      "Nickname": "Victrix Honor Guard",
+      "Description": "[00ff00]M   T   Sv   W   Ld   OC  [-]\r\n6\"   4   2+   3    6+   2\n\r\n[ff0000]Ranged Weapons[-]\r\n[c0c0c0]Master-Crafted Bolt Carbine[-]\r\n24\" A:2 BS:2+ S:4 AP:-1 D:2\n\r\n[ff0000]Melee Weapons[-]\r\n[c0c0c0]Master-Crafted Power Weapon[-]\r\nA:5 WS:2+ S:5 AP:-2 D:2\n\r\n[ff00ff]Abilities[-]\r\nDeep Strike\r\nOath of Moment\r\nUltramarines Honor Guard\r\nGlory of Ultramar",
+      "GMNotes": "",
+      "AltLookAngle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/front/Victrix%20Honor%20Guard%201.jpg",
+        "ImageSecondaryURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/front/Victrix%20Honor%20Guard%201.jpg",
+        "ImageScalar": 1.35,
+        "WidthScale": 0.0
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "States": {
+        "2": {
+          "GUID": "ba47b1",
+          "Name": "Figurine_Custom",
+          "Transform": {
+            "posX": 0,
+            "posY": 0,
+            "posZ": 0,
+            "rotX": 0,
+            "rotY": 0,
+            "rotZ": 0,
+            "scaleX": 0.875,
+            "scaleY": 0.875,
+            "scaleZ": 0.875
+          },
+          "Nickname": "Victrix Honor Guard",
+          "Description": "[00ff00]M   T   Sv   W   Ld   OC  [-]\r\n6\"   4   2+   3    6+   2\n\r\n[ff0000]Ranged Weapons[-]\r\n[c0c0c0]Master-Crafted Bolt Carbine[-]\r\n24\" A:2 BS:2+ S:4 AP:-1 D:2\n\r\n[ff0000]Melee Weapons[-]\r\n[c0c0c0]Master-Crafted Power Weapon[-]\r\nA:5 WS:2+ S:5 AP:-2 D:2\n\r\n[ff00ff]Abilities[-]\r\nDeep Strike\r\nOath of Moment\r\nUltramarines Honor Guard\r\nGlory of Ultramar",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 0.0,
+            "g": 0.0,
+            "b": 0.0
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/front/Victrix%20Honor%20Guard%202.jpg",
+            "ImageSecondaryURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/front/Victrix%20Honor%20Guard%202.jpg",
+            "ImageScalar": 1.35,
+            "WidthScale": 0.0
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        "3": {
+          "GUID": "08eb7c",
+          "Name": "Figurine_Custom",
+          "Transform": {
+            "posX": 0,
+            "posY": 0,
+            "posZ": 0,
+            "rotX": 0,
+            "rotY": 0,
+            "rotZ": 0,
+            "scaleX": 0.875,
+            "scaleY": 0.875,
+            "scaleZ": 0.875
+          },
+          "Nickname": "Victrix Honor Guard",
+          "Description": "[00ff00]M   T   Sv   W   Ld   OC  [-]\r\n6\"   4   2+   3    6+   2\n\r\n[ff0000]Ranged Weapons[-]\r\n[c0c0c0]Master-Crafted Bolt Carbine[-]\r\n24\" A:2 BS:2+ S:4 AP:-1 D:2\n\r\n[ff0000]Melee Weapons[-]\r\n[c0c0c0]Master-Crafted Power Weapon[-]\r\nA:5 WS:2+ S:5 AP:-2 D:2\n\r\n[ff00ff]Abilities[-]\r\nDeep Strike\r\nOath of Moment\r\nUltramarines Honor Guard\r\nGlory of Ultramar",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 0.0,
+            "g": 0.0,
+            "b": 0.0
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/front/Victrix%20Honor%20Guard%203.jpg",
+            "ImageSecondaryURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/front/Victrix%20Honor%20Guard%203.jpg",
+            "ImageScalar": 1.35,
+            "WidthScale": 0.0
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        }
+      }
+    }
+  ]
+}

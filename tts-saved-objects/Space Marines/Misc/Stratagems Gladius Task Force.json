@@ -1,0 +1,362 @@
+{
+  "SaveName": "",
+  "Date": "",
+  "VersionNumber": "",
+  "GameMode": "",
+  "GameType": "",
+  "GameComplexity": "",
+  "Tags": [],
+  "Gravity": 0.5,
+  "PlayArea": 0.5,
+  "Table": "",
+  "Sky": "",
+  "Note": "",
+  "TabStates": {},
+  "LuaScript": "",
+  "LuaScriptState": "",
+  "XmlUI": "",
+  "ObjectStates": [
+    {
+      "GUID": "923e57",
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": -13.7669373,
+        "posY": 1.01000011,
+        "posZ": -10.0367613,
+        "rotX": 9.494357E-05,
+        "rotY": 180.001389,
+        "rotZ": 180.000092,
+        "scaleX": 0.276458263,
+        "scaleY": 1.0,
+        "scaleZ": 0.276458263
+      },
+      "Nickname": "SQUAD TACTICS - 1 CP",
+      "Description": "GLADIUS TASK FORCE – STRATEGIC PLOY STRATAGEM\n\nWHEN: Your opponent’s Movement phase, just after an enemy unit ends a Normal, Advance or Fall Back move.\r\n\r\nTARGET: One ADEPTUS ASTARTES INFANTRY or ADEPTUS ASTARTES MOUNTED unit from your army that is within 9\" of the enemy unit that just ended that move.\r\n\r\nEFFECT: Your unit can make a Normal move of up to D6\", or a Normal move of up to 6\" instead if it is under the effects of the Tactical Doctrine.\r\n\r\nRESTRICTIONS: You cannot select a unit that is within Engagement Range of one or more enemy units.",
+      "GMNotes": "",
+      "AltLookAngle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": false,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": true,
+      "CustomImage": {
+        "ImageURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/stratagems/opp/movement.png",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 0.1,
+          "MergeDistancePixels": 19.9999981,
+          "StandUp": false,
+          "Stackable": false
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "4dc53a",
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": -2.03976727,
+        "posY": 1.1920929E-07,
+        "posZ": 8.29696655E-05,
+        "rotX": -0.000101208367,
+        "rotY": 180.0188,
+        "rotZ": 179.999954,
+        "scaleX": 0.276458263,
+        "scaleY": 1.0,
+        "scaleZ": 0.276458263
+      },
+      "Nickname": "ADAPTIVE STRATEGY - 1 CP",
+      "Description": "GLADIUS TASK FORCE – STRATEGIC PLOY STRATAGEM\n\nWHEN: Your Command phase.\r\n\r\nTARGET: One ADEPTUS ASTARTES unit from your army.\r\n\r\nEFFECT: Select the Devastator Doctrine, Tactical Doctrine or Assault Doctrine. Until the start of your next Command phase, that Combat Doctrine is active for that unit instead of any other Combat Doctrine that is active for your army, even if you have already selected that doctrine this battle.",
+      "GMNotes": "",
+      "AltLookAngle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": false,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": true,
+      "CustomImage": {
+        "ImageURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/stratagems/you/command.png",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 0.1,
+          "MergeDistancePixels": 20.0,
+          "StandUp": false,
+          "Stackable": false
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "aa9a5c",
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": -1.01997948,
+        "posY": 0.0,
+        "posZ": 3.9100647E-05,
+        "rotX": -5.15470128E-05,
+        "rotY": 180.00029,
+        "rotZ": 179.999878,
+        "scaleX": 0.276458263,
+        "scaleY": 1.0,
+        "scaleZ": 0.276458263
+      },
+      "Nickname": "STORM OF FIRE - 1 CP",
+      "Description": "GLADIUS TASK FORCE – BATTLE TACTIC STRATAGEM\n\nWHEN: Your Shooting phase.\r\n\r\nTARGET: One ADEPTUS ASTARTES unit from your army that has not been selected to shoot this phase.\r\n\r\nEFFECT: Until the end of the phase, ranged weapons equipped by models in your unit have the [IGNORES COVER] ability. If your unit is under the effects of the Devastator Doctrine, until the end of the phase, improve the Armour Penetration characteristic of such weapons by 1 as well.",
+      "GMNotes": "",
+      "AltLookAngle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": false,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": true,
+      "CustomImage": {
+        "ImageURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/stratagems/you/shoot.png",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 0.1,
+          "MergeDistancePixels": 20.0,
+          "StandUp": false,
+          "Stackable": false
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "d4f052",
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": -3.06092262,
+        "posY": -1.1920929E-07,
+        "posZ": 0.0211000443,
+        "rotX": 7.584727E-06,
+        "rotY": 180.01004,
+        "rotZ": 180.0,
+        "scaleX": 0.276458263,
+        "scaleY": 1.0,
+        "scaleZ": 0.276458263
+      },
+      "Nickname": "HONOUR THE CHAPTER - 1 CP",
+      "Description": "GLADIUS TASK FORCE – BATTLE TACTIC STRATAGEM\n\nWHEN: Fight phase.\r\n\r\nTARGET: One ADEPTUS ASTARTES unit from your army.\r\n\r\nEFFECT: Until the end of the phase, melee weapons equipped by models in your unit have the [LANCE] ability. If your unit is under the effects of the Assault Doctrine, until the end of the phase, improve the Armour Penetration characteristic of such weapons by 1 as well.",
+      "GMNotes": "",
+      "AltLookAngle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": false,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": true,
+      "CustomImage": {
+        "ImageURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/stratagems/either/fight.png",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 0.1,
+          "MergeDistancePixels": 20.0,
+          "StandUp": false,
+          "Stackable": false
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "63fdc5",
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": -4.06913757,
+        "posY": -1.1920929E-07,
+        "posZ": 0.04188347,
+        "rotX": 1.94815057E-05,
+        "rotY": 180.008316,
+        "rotZ": 179.999969,
+        "scaleX": 0.276458263,
+        "scaleY": 1.0,
+        "scaleZ": 0.276458263
+      },
+      "Nickname": "ONLY IN DEATH DOES DUTY END - 2 CP",
+      "Description": "GLADIUS TASK FORCE – EPIC DEED STRATAGEM\n\nWHEN: Fight phase, just after an enemy unit has selected its targets.\r\n\r\nTARGET: One ADEPTUS ASTARTES unit from your army that was selected as the target of one or more of the attacking unit’s attacks.\r\n\r\nEFFECT: Until the end of the phase, each time a model in your unit is destroyed, if that model has not fought this phase, do not remove it from play. The destroyed model can fight after the attacking model’s unit has finished making its attacks, and is then removed from play.\r",
+      "GMNotes": "",
+      "AltLookAngle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": false,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": true,
+      "CustomImage": {
+        "ImageURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/stratagems/either/fight.png",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 0.1,
+          "MergeDistancePixels": 20.0,
+          "StandUp": false,
+          "Stackable": false
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "2c1785",
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": -5.089121,
+        "posY": -1.1920929E-07,
+        "posZ": 0.05086708,
+        "rotX": 3.499352E-06,
+        "rotY": 179.999878,
+        "rotZ": 180.0,
+        "scaleX": 0.276458263,
+        "scaleY": 1.0,
+        "scaleZ": 0.276458263
+      },
+      "Nickname": "ARMOR OF CONTEMPT - 1 CP",
+      "Description": "GLADIUS TASK FORCE – BATTLE TACTIC STRATAGEM\n\nWHEN: Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.\r\n\r\nTARGET: One ADEPTUS ASTARTES unit from your army that was selected as the target of one or more of the attacking unit’s attacks.\r\n\r\nEFFECT: Until the attacking unit has finished making its attacks, each time an attack targets your unit, worsen the Armour Penetration characteristic of that attack by 1.",
+      "GMNotes": "",
+      "AltLookAngle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": false,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": true,
+      "CustomImage": {
+        "ImageURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/stratagems/either/shoot.png",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 0.1,
+          "MergeDistancePixels": 20.0,
+          "StandUp": false,
+          "Stackable": false
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    }
+  ]
+}

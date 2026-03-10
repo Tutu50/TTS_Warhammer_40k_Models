@@ -1,0 +1,71 @@
+{
+  "SaveName": "",
+  "Date": "",
+  "VersionNumber": "",
+  "GameMode": "",
+  "GameType": "",
+  "GameComplexity": "",
+  "Tags": [],
+  "Gravity": 0.5,
+  "PlayArea": 0.5,
+  "Table": "",
+  "Sky": "",
+  "Note": "",
+  "TabStates": {},
+  "LuaScript": "",
+  "LuaScriptState": "",
+  "XmlUI": "",
+  "ObjectStates": [
+    {
+      "GUID": "295267",
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 0,
+        "posY": 0,
+        "posZ": 0,
+        "rotX": 0,
+        "rotY": 0,
+        "rotZ": 0,
+        "scaleX": 1.9,
+        "scaleY": 1.9,
+        "scaleZ": 1.9
+      },
+      "Nickname": "Ballistus Dreadnought",
+      "Description": "[00ff00]M   T   Sv   W   Ld   OC[-]\r\n8\"  10  2+  12   6+   4\n\r\n[ff0000]Ranged Weapons[-]\r\n[c0c0c0]Ballistus Missile Launcher - Frag[-]\r\n48\" A:2D6 BS:3+ S:5 AP:0 D:1 [00ffff][Blast][-]\r\n[c0c0c0]Ballistus Missile Launcher - Krak[-]\r\n48\" A:2 BS:3+ S:10 AP:-2 D:D6\r\n[c0c0c0]Ballistus Lascannon[-]\r\n48\" A:2 BS:3+ S:12 AP:-3 D:D6+1\r\n[c0c0c0]Twin Storm Bolter[-]\r\n24\" A:2 BS:3+ S:4 AP:0 D:1 [00ffff][Rapid Fire 2] [Twin-Linked][-]\n\r\n[ff0000]Melee Weapons[-]\r\n[c0c0c0]Armored Feet[-]\r\nA:5 WS:3+ S:7 AP:0 D:1\n\r\n[ff00ff]Abilities[-]\r\nDeadly Demise (D3)\r\nOath of Moment\r\nBallistus Strike\r\nDamaged (<=4)",
+      "GMNotes": "",
+      "AltLookAngle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/front/Ballistus%20Dreadnought.jpg",
+        "ImageSecondaryURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/back/Ballistus%20Dreadnought.jpg",
+        "ImageScalar": 1.15,
+        "WidthScale": 0.0
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    }
+  ]
+}

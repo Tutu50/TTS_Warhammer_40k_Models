@@ -1,0 +1,260 @@
+{
+  "SaveName": "",
+  "Date": "",
+  "VersionNumber": "",
+  "GameMode": "",
+  "GameType": "",
+  "GameComplexity": "",
+  "Tags": [],
+  "Gravity": 0.5,
+  "PlayArea": 0.5,
+  "Table": "",
+  "Sky": "",
+  "Note": "",
+  "TabStates": {},
+  "LuaScript": "",
+  "LuaScriptState": "",
+  "XmlUI": "",
+  "ObjectStates": [
+    {
+      "GUID": "031be0",
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 0,
+        "posY": 0,
+        "posZ": 0,
+        "rotX": 0,
+        "rotY": 180,
+        "rotZ": 0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Lokhust Heavy Destroyer w/ Gauss Destructor",
+      "Description": "[00ff00]M   T   Sv   W   Ld   OC  [-]\r\n8\"   6   3+   4    7+   2\n\r\n[ff0000]Ranged Weapons[-]\r\n[c0c0c0]Gauss Destructor[-]\r\n48\" A:1 BS:3+ S:14 AP:-4 D:6 [00ffff][Heavy] [Lethal Hits][-]\r\n[c0c0c0]Staff of the Destroyer[-]\r\n18\" A:3 BS:2+ S:6 AP:-3 D:2\n\r\n[ff0000]Melee Weapons[-]\r\n[c0c0c0]Close Combat Weapon[-]\r\nA:2 WS:3+ S:4 AP:0 D:1\n\r\n[ff00ff]Abilities[-]\r\nReanimation Protocols\r\nOptimised for Slaughter",
+      "GMNotes": "",
+      "AltLookAngle": {
+        "x": 270.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": true,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "https://steamusercontent-a.akamaihd.net/ugc/1691652211621874150/451048D3CB6B2B4E65E299D718878CB353ED66E2/",
+        "DiffuseURL": "",
+        "NormalURL": "",
+        "ColliderURL": "https://steamusercontent-a.akamaihd.net/ugc/1697279271974530372/18BA2A6B89E9ED6B0411863C19870E9595D53FEE/",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 1,
+        "CustomShader": {
+          "SpecularColor": {
+            "r": 0.875,
+            "g": 0.812880337,
+            "b": 0.7463235
+          },
+          "SpecularIntensity": 0.05,
+          "SpecularSharpness": 2.0,
+          "FresnelStrength": 0.0
+        },
+        "CastShadows": true
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "States": {
+        "2": {
+          "GUID": "9d17d2",
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": 0,
+            "posY": 0,
+            "posZ": 0,
+            "rotX": 0,
+            "rotY": 180,
+            "rotZ": 0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Lokhust Heavy Destroyer w/ Gauss Destructor",
+          "Description": "[00ff00]M   T   Sv   W   Ld   OC  [-]\r\n8\"   6   3+   4    7+   2\n\r\n[ff0000]Ranged Weapons[-]\r\n[c0c0c0]Gauss Destructor[-]\r\n48\" A:1 BS:3+ S:14 AP:-4 D:6 [00ffff][Heavy] [Lethal Hits][-]\r\n[c0c0c0]Staff of the Destroyer[-]\r\n18\" A:3 BS:2+ S:6 AP:-3 D:2\n\r\n[ff0000]Melee Weapons[-]\r\n[c0c0c0]Close Combat Weapon[-]\r\nA:2 WS:3+ S:4 AP:0 D:1\n\r\n[ff00ff]Abilities[-]\r\nReanimation Protocols\r\nOptimised for Slaughter",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 0.0,
+            "g": 0.0,
+            "b": 0.0
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": true,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomMesh": {
+            "MeshURL": "https://steamusercontent-a.akamaihd.net/ugc/1691652211621874150/451048D3CB6B2B4E65E299D718878CB353ED66E2/",
+            "DiffuseURL": "",
+            "NormalURL": "",
+            "ColliderURL": "https://steamusercontent-a.akamaihd.net/ugc/1697279271974530372/18BA2A6B89E9ED6B0411863C19870E9595D53FEE/",
+            "Convex": true,
+            "MaterialIndex": 1,
+            "TypeIndex": 1,
+            "CustomShader": {
+              "SpecularColor": {
+                "r": 0.875,
+                "g": 0.812880337,
+                "b": 0.7463235
+              },
+              "SpecularIntensity": 0.05,
+              "SpecularSharpness": 2.0,
+              "FresnelStrength": 0.0
+            },
+            "CastShadows": true
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "ChildObjects": [
+            {
+              "GUID": "d6ab8d",
+              "Name": "Custom_Assetbundle",
+              "Transform": {
+                "posX": 0.0364143662,
+                "posY": 0.439605534,
+                "posZ": -0.1820544,
+                "rotX": 359.547028,
+                "rotY": 269.983276,
+                "rotZ": 0.212785751,
+                "scaleX": 1.00000012,
+                "scaleY": 1.0,
+                "scaleZ": 1.0
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": false,
+              "Hands": false,
+              "CustomAssetbundle": {
+                "AssetbundleURL": "https://steamusercontent-a.akamaihd.net/ugc/2039618941505313129/FAD9C42C89D6A5930E16C616D85EB826C434CCF1/",
+                "AssetbundleSecondaryURL": "",
+                "MaterialIndex": 0,
+                "TypeIndex": 0,
+                "LoopingEffectIndex": 0
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": ""
+            }
+          ]
+        }
+      },
+      "ChildObjects": [
+        {
+          "GUID": "ef9532",
+          "Name": "Custom_Assetbundle",
+          "Transform": {
+            "posX": 0.690698266,
+            "posY": 0.4556762,
+            "posZ": -0.4877098,
+            "rotX": -0.00129389612,
+            "rotY": 284.991882,
+            "rotZ": 0.000615961966,
+            "scaleX": 0.775000036,
+            "scaleY": 0.775000334,
+            "scaleZ": 0.7750001
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": true,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomAssetbundle": {
+            "AssetbundleURL": "https://steamusercontent-a.akamaihd.net/ugc/2297461440031358884/A4F9557743829FD18DE74B3A2349C6EE654481E4/",
+            "AssetbundleSecondaryURL": "",
+            "MaterialIndex": 0,
+            "TypeIndex": 0,
+            "LoopingEffectIndex": 0
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        }
+      ]
+    }
+  ]
+}

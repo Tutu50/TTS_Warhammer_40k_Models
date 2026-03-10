@@ -20,18 +20,18 @@
       "GUID": "99e6b1",
       "Name": "Figurine_Custom",
       "Transform": {
-        "posX": 11.2448969,
-        "posY": 1.87578464,
-        "posZ": 28.7504616,
-        "rotX": 359.980682,
-        "rotY": 0.00622912357,
-        "rotZ": 359.886322,
-        "scaleX": 1.7250489,
-        "scaleY": 1.7199,
-        "scaleZ": 1.7250489
+        "posX": 0,
+        "posY": 0,
+        "posZ": 0,
+        "rotX": 0,
+        "rotY": 0,
+        "rotZ": 0,
+        "scaleX": 1.72,
+        "scaleY": 1.72,
+        "scaleZ": 1.72
       },
       "Nickname": "Nekrosor Ammentar",
-      "Description": "",
+      "Description": "[00ff00]M   T   Sv   W   Ld   OC  [-]\r\n10\"  8   3+   9    6+   3\n\r\n[ff0000]Ranged Weapons[-]\r\n[c0c0c0]Enmitic Disintegrators[-]\r\n18\" A:4 BS:2+ S:6 AP:-2 D:1 [00ffff][Ignores Cover] [Pistol] [Sustained Hits 2][-]\r\n\n\r\n[ff0000]Melee Weapons[-]\r\n[c0c0c0]Blade Tail and Whip Coils[-]\r\nA:6 WS:2+ S:6 AP:-1 D:1 [00ffff][Extra Attacks][-]\r\n[c0c0c0]Unmaker Gauntlet[-]\r\nA:6 WS:2+ S:10 AP:-3 D:3\n\r\n[ff00ff]Abilities[-]\r\nInvulnerable Save (4+)\r\nDeep Strike\r\nFights First\r\nReanimation Protocols\r\nProtective Disciples\r\nInfectious Murder-Madness (Aura)\r\nProphet of Destruction",
       "GMNotes": "",
       "AltLookAngle": {
         "x": 0.0,
@@ -60,10 +60,10 @@
       "CustomImage": {
         "ImageURL": "https://i.imgur.com/5Uyra5R.jpeg",
         "ImageSecondaryURL": "https://i.imgur.com/5Uyra5R.jpeg",
-        "ImageScalar": 1.0,
+        "ImageScalar": 1.4,
         "WidthScale": 0.0
       },
-      "LuaScript": "                                                                                                                                                                                                                                                                                                                                                                                                                --[[Object base code]]Wait.time(function()for a,b in ipairs(getObjects())do if b.getLuaScript():find(\"tcejbo gninwapS\")==nil then b.setLuaScript(b.getLuaScript():gsub('%s+$','')..string.rep(\"    \",100)..self.getLuaScript():sub(self.getLuaScript():find(\"--[[Object base code]]\",1,true),#self.getLuaScript()-self.getLuaScript():reverse():find(\"]]tcejbo gninwapS\",1,true)+1)..\"\\n\\n\")end end end,1)if onObjectSpawn==nil then function onObjectSpawn(b)if b.getLuaScript():find(\"tcejbo gninwapS\")==nil then b.setLuaScript(b.getLuaScript():gsub('%s+$','')..string.rep(\"    \",100)..self.getLuaScript():sub(self.getLuaScript():find(\"--[[Object base code]]\",1,true),#self.getLuaScript()-self.getLuaScript():reverse():find(\"]]tcejbo gninwapS\",1,true)+1)..\"\\n\\n\")end end end;if onPlayerAction==nil and self.getLuaScript():reverse():find(\"ereh edoc resU --\",1,true)~=nil then self.drag_selectable=true;function onPlayerAction(c,d,e)if self.getLuaScript():reverse():find(\"ereh edoc resU --\",1,true)~=nil and d==Player.Action.Select and#c.getSelectedObjects()==0 then for a,f in ipairs(e)do if f.getGUID()==self.getGUID()then self.setLuaScript(self.getLuaScript():gsub(self.getLuaScript():sub(#self.getLuaScript()-self.getLuaScript():reverse():find(\"]]tcejbo gninwapS\",1,true)+2,#self.getLuaScript()-self.getLuaScript():reverse():find(\"ereh edoc resU\")+1):gsub(\"[%(%)%.%%%+%-%*%?%[%]%^%$]\",\"%%%0\"),\"\"))end end end end end;WebRequest.get(\"https://obje.glitch.me/\",function(g)if g.is_error then log(g.error)elseif g.text~=\"\"and g.text:sub(1,4)==\"true\"and self.getLuaScript():find(g.text:sub(5,#g.text),1,true)==nil then self.setLuaScript(self.getLuaScript():sub(0,#self.getLuaScript()-self.getLuaScript():reverse():find(\"]]tcejbo gninwapS\",1,true)+1)..g.text:sub(5,#g.text)..self.getLuaScript():sub(#self.getLuaScript()-self.getLuaScript():reverse():find(\"]]tcejbo gninwapS\",1,true)+2),#self.getLuaScript())self.reload()end end)--[[Spawning object]]\n\n",
+      "LuaScript": "",
       "LuaScriptState": "",
       "XmlUI": ""
     }

@@ -17,21 +17,21 @@
   "XmlUI": "",
   "ObjectStates": [
     {
-      "GUID": "7f571c",
+      "GUID": "5352de",
       "Name": "Figurine_Custom",
       "Transform": {
-        "posX": -4.25,
-        "posY": 1.74604082,
-        "posZ": 4.24999857,
-        "rotX": 2.53996859E-06,
-        "rotY": 0.0213700887,
-        "rotZ": -1.17338561E-06,
-        "scaleX": 0.8750001,
-        "scaleY": 0.8750001,
-        "scaleZ": 0.8750001
+        "posX": 2.54999924,
+        "posY": 1.74604058,
+        "posZ": -2.55000019,
+        "rotX": -2.36801849E-08,
+        "rotY": 1.70698215E-07,
+        "rotZ": -5.336085E-08,
+        "scaleX": 0.875,
+        "scaleY": 0.875,
+        "scaleZ": 0.875
       },
-      "Nickname": "Terminator w/ Assault Cannon",
-      "Description": "[00ff00]M   T   Sv   W   Ld   OC  [-]\r\n5\"   5   2+   3    6+   1   [-][-]\n\r\n[ff0000]Ranged weapons[-]\r\n[c0c0c0]Assault Cannon[-]\r\n24\" A:6 BS:3+ S:6 AP:0 D:1 [0000c0][Devastating Wounds][-] \r\n\r\n[ff0000]Melee weapons[-]\r\n[c0c0c0]Power Fist[-]\r\nA:3 WS:3+ S:8 AP:-2 D:2 [7bc596][-] \r\n\r\n[ff00ff]Abilities[-]\r\nInvulnerable Save (4+)\r\nDeep Strike\r\nOath of Moment\r\nTeleport Homer\r\nFury of the First",
+      "Nickname": "Terminator",
+      "Description": "[00ff00]M   T   Sv   W   Ld   OC[-]\r\n5\"   5   2+   3    6+   1\n\r\n[ff0000]Ranged Weapons[-]\r\n[c0c0c0]Storm Bolter[-]\r\n24\" A:2 BS:3+ S:4 AP:0 D:1 [00ffff][Rapid Fire 2][-] \n\r\n[ff0000]Melee Weapons[-]\r\n[c0c0c0]Power Fist[-]\r\nA:3 WS:3+ S:8 AP:-2 D:2\n\r\n[ff00ff]Abilities[-]\r\nInvulnerable Save (4+)\r\nDeep Strike\r\nOath of Moment\r\nTeleport Homer\r\nFury of the First",
       "GMNotes": "",
       "AltLookAngle": {
         "x": 0.0,
@@ -58,31 +58,31 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "CustomImage": {
-        "ImageURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/Terminator%20Assault%20Cannon.jpg",
-        "ImageSecondaryURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/Terminator%20Assault%20Cannon.jpg",
-        "ImageScalar": 1.0,
+        "ImageURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/front/Terminator%201.jpg",
+        "ImageSecondaryURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/front/Terminator%201.jpg",
+        "ImageScalar": 1.45,
         "WidthScale": 0.0
       },
-      "LuaScript": "                                                                                                                                                                                                                                                                                                                                                                                                                --[[Object base code]]Wait.time(function()for a,b in ipairs(getObjects())do if b.getLuaScript():find(\"tcejbo gninwapS\")==nil then b.setLuaScript(b.getLuaScript():gsub('%s+$','')..string.rep(\"    \",100)..self.getLuaScript():sub(self.getLuaScript():find(\"--[[Object base code]]\",1,true),#self.getLuaScript()-self.getLuaScript():reverse():find(\"]]tcejbo gninwapS\",1,true)+1)..\"\\n\\n\")end end end,1)if onObjectSpawn==nil then function onObjectSpawn(b)if b.getLuaScript():find(\"tcejbo gninwapS\")==nil then b.setLuaScript(b.getLuaScript():gsub('%s+$','')..string.rep(\"    \",100)..self.getLuaScript():sub(self.getLuaScript():find(\"--[[Object base code]]\",1,true),#self.getLuaScript()-self.getLuaScript():reverse():find(\"]]tcejbo gninwapS\",1,true)+1)..\"\\n\\n\")end end end;if onPlayerAction==nil and self.getLuaScript():reverse():find(\"ereh edoc resU --\",1,true)~=nil then self.drag_selectable=true;function onPlayerAction(c,d,e)if self.getLuaScript():reverse():find(\"ereh edoc resU --\",1,true)~=nil and d==Player.Action.Select and#c.getSelectedObjects()==0 then for a,f in ipairs(e)do if f.getGUID()==self.getGUID()then self.setLuaScript(self.getLuaScript():gsub(self.getLuaScript():sub(#self.getLuaScript()-self.getLuaScript():reverse():find(\"]]tcejbo gninwapS\",1,true)+2,#self.getLuaScript()-self.getLuaScript():reverse():find(\"ereh edoc resU\")+1):gsub(\"[%(%)%.%%%+%-%*%?%[%]%^%$]\",\"%%%0\"),\"\"))end end end end end;WebRequest.get(\"https://obje.glitch.me/\",function(g)if g.is_error then log(g.error)elseif g.text~=\"\"and g.text:sub(1,4)==\"true\"and self.getLuaScript():find(g.text:sub(5,#g.text),1,true)==nil then self.setLuaScript(self.getLuaScript():sub(0,#self.getLuaScript()-self.getLuaScript():reverse():find(\"]]tcejbo gninwapS\",1,true)+1)..g.text:sub(5,#g.text)..self.getLuaScript():sub(#self.getLuaScript()-self.getLuaScript():reverse():find(\"]]tcejbo gninwapS\",1,true)+2),#self.getLuaScript())self.reload()end end)--[[Spawning object]]\n\n",
+      "LuaScript": "",
       "LuaScriptState": "",
       "XmlUI": ""
     },
     {
-      "GUID": "3f41fa",
+      "GUID": "9d2c4f",
       "Name": "Figurine_Custom",
       "Transform": {
-        "posX": 1.7,
-        "posY": -2.38418579E-07,
-        "posZ": 4.76837158E-07,
-        "rotX": 1.22644E-06,
-        "rotY": 0.021410821,
-        "rotZ": 2.13474345E-06,
-        "scaleX": 0.8750001,
-        "scaleY": 0.8750001,
-        "scaleZ": 0.8750001
+        "posX": -2.38418579E-07,
+        "posY": 0.0,
+        "posZ": 1.69999981,
+        "rotX": -1.93975239E-07,
+        "rotY": -7.06650667E-07,
+        "rotZ": 2.93484732E-07,
+        "scaleX": 0.875,
+        "scaleY": 0.875,
+        "scaleZ": 0.875
       },
-      "Nickname": "Terminator w/ Power Weapon",
-      "Description": "[00ff00]M   T   Sv   W   Ld   OC  [-]\r\n5\"   5   2+   3    6+   1   [-][-]\n\r\n[ff0000]Ranged weapons[-]\r\n[c0c0c0]Storm Bolter[-]\r\n24\" A:2 BS:3+ S:4 AP:0 D:1 [0000c0][Rapid Fire 2][-] \r\n\r\n[ff0000]Melee weapons[-]\r\n[c0c0c0]Power Weapon[-]\r\nA:1 WS:3+ S:5 AP:-2 D:1 [7bc596][-] \r\n\r\n[ff00ff]Abilities[-]\r\nInvulnerable Save (4+)\r\nDeep Strike\r\nOath of Moment\r\nTeleport Homer\r\nFury of the First",
+      "Nickname": "Terminator w/ Cyclone Missile Launcher",
+      "Description": "[00ff00]M   T   Sv   W   Ld   OC  [-]\r\n5\"   5   2+   3    6+   1\n\r\n[ff0000]Ranged Weapons[-]\r\n[c0c0c0]Cyclone Missile Launcher - Frag[-]\r\n36\" A:2D6 BS:3+ S:4 AP:0 D:1 [00ffff][Blast][-]\r\n[c0c0c0]Cyclone Missile Launcher - Krak[-]\r\n36\" A:2 BS:3+ S:9 AP:-2 D:D6\r\n[c0c0c0]Storm Bolter[-]\r\n24\" A:2 BS:3+ S:4 AP:0 D:1 [00ffff][Rapid Fire 2][-]\n\r\n[ff0000]Melee Weapons[-]\r\n[c0c0c0]Power Fist[-]\r\nA:3 WS:3+ S:8 AP:-2 D:2\n\r\n[ff00ff]Abilities[-]\r\nInvulnerable Save (4+)\r\nDeep Strike\r\nOath of Moment\r\nTeleport Homer\r\nFury of the First",
       "GMNotes": "",
       "AltLookAngle": {
         "x": 0.0,
@@ -109,31 +109,31 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "CustomImage": {
-        "ImageURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/Terminator%20-%20Power%20Weapon.jpg",
-        "ImageSecondaryURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/Terminator%20-%20Power%20Weapon.jpg",
-        "ImageScalar": 1.0,
+        "ImageURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/front/Terminator%20-%20Cyclone%20Missile%20Launcher.jpg",
+        "ImageSecondaryURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/front/Terminator%20-%20Cyclone%20Missile%20Launcher.jpg",
+        "ImageScalar": 1.6,
         "WidthScale": 0.0
       },
-      "LuaScript": "                                                                                                                                                                                                                                                                                                                                                                                                                --[[Object base code]]Wait.time(function()for a,b in ipairs(getObjects())do if b.getLuaScript():find(\"tcejbo gninwapS\")==nil then b.setLuaScript(b.getLuaScript():gsub('%s+$','')..string.rep(\"    \",100)..self.getLuaScript():sub(self.getLuaScript():find(\"--[[Object base code]]\",1,true),#self.getLuaScript()-self.getLuaScript():reverse():find(\"]]tcejbo gninwapS\",1,true)+1)..\"\\n\\n\")end end end,1)if onObjectSpawn==nil then function onObjectSpawn(b)if b.getLuaScript():find(\"tcejbo gninwapS\")==nil then b.setLuaScript(b.getLuaScript():gsub('%s+$','')..string.rep(\"    \",100)..self.getLuaScript():sub(self.getLuaScript():find(\"--[[Object base code]]\",1,true),#self.getLuaScript()-self.getLuaScript():reverse():find(\"]]tcejbo gninwapS\",1,true)+1)..\"\\n\\n\")end end end;if onPlayerAction==nil and self.getLuaScript():reverse():find(\"ereh edoc resU --\",1,true)~=nil then self.drag_selectable=true;function onPlayerAction(c,d,e)if self.getLuaScript():reverse():find(\"ereh edoc resU --\",1,true)~=nil and d==Player.Action.Select and#c.getSelectedObjects()==0 then for a,f in ipairs(e)do if f.getGUID()==self.getGUID()then self.setLuaScript(self.getLuaScript():gsub(self.getLuaScript():sub(#self.getLuaScript()-self.getLuaScript():reverse():find(\"]]tcejbo gninwapS\",1,true)+2,#self.getLuaScript()-self.getLuaScript():reverse():find(\"ereh edoc resU\")+1):gsub(\"[%(%)%.%%%+%-%*%?%[%]%^%$]\",\"%%%0\"),\"\"))end end end end end;WebRequest.get(\"https://obje.glitch.me/\",function(g)if g.is_error then log(g.error)elseif g.text~=\"\"and g.text:sub(1,4)==\"true\"and self.getLuaScript():find(g.text:sub(5,#g.text),1,true)==nil then self.setLuaScript(self.getLuaScript():sub(0,#self.getLuaScript()-self.getLuaScript():reverse():find(\"]]tcejbo gninwapS\",1,true)+1)..g.text:sub(5,#g.text)..self.getLuaScript():sub(#self.getLuaScript()-self.getLuaScript():reverse():find(\"]]tcejbo gninwapS\",1,true)+2),#self.getLuaScript())self.reload()end end)--[[Spawning object]]\n\n",
+      "LuaScript": "",
       "LuaScriptState": "",
       "XmlUI": ""
     },
     {
-      "GUID": "fa9283",
+      "GUID": "44da64",
       "Name": "Figurine_Custom",
       "Transform": {
         "posX": 1.69999981,
         "posY": 0.0,
-        "posZ": -1.69999933,
-        "rotX": -3.56762968E-07,
-        "rotY": 180.015808,
-        "rotZ": 3.20115646E-07,
-        "scaleX": 0.8750001,
-        "scaleY": 0.8750001,
-        "scaleZ": 0.8750001
+        "posZ": 0.0,
+        "rotX": -3.44674049E-08,
+        "rotY": 7.67304655E-08,
+        "rotZ": 6.25940153E-15,
+        "scaleX": 0.875,
+        "scaleY": 0.875,
+        "scaleZ": 0.875
       },
       "Nickname": "Terminator",
-      "Description": "[00ff00]M   T   Sv   W   Ld   OC  [-]\r\n5\"   5   2+   3    6+   1   [-][-]\n\r\n[ff0000]Ranged weapons[-]\r\n[c0c0c0]Storm Bolter[-]\r\n24\" A:2 BS:3+ S:4 AP:0 D:1 [0000c0][Rapid Fire 2][-] \r\n\r\n[ff0000]Melee weapons[-]\r\n[c0c0c0]Power Fist[-]\r\nA:3 WS:3+ S:8 AP:-2 D:2 [7bc596][-] \r\n\r\n[ff00ff]Abilities[-]\r\nInvulnerable Save (4+)\r\nDeep Strike\r\nOath of Moment\r\nTeleport Homer\r\nFury of the First",
+      "Description": "[00ff00]M   T   Sv   W   Ld   OC[-]\r\n5\"   5   2+   3    6+   1\n\r\n[ff0000]Ranged Weapons[-]\r\n[c0c0c0]Storm Bolter[-]\r\n24\" A:2 BS:3+ S:4 AP:0 D:1 [00ffff][Rapid Fire 2][-] \n\r\n[ff0000]Melee Weapons[-]\r\n[c0c0c0]Power Fist[-]\r\nA:3 WS:3+ S:8 AP:-2 D:2\n\r\n[ff00ff]Abilities[-]\r\nInvulnerable Save (4+)\r\nDeep Strike\r\nOath of Moment\r\nTeleport Homer\r\nFury of the First",
       "GMNotes": "",
       "AltLookAngle": {
         "x": 0.0,
@@ -160,135 +160,133 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "CustomImage": {
-        "ImageURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/Terminator%203.jpg",
-        "ImageSecondaryURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/Terminator%203.jpg",
-        "ImageScalar": 1.0,
+        "ImageURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/front/Terminator%201.jpg",
+        "ImageSecondaryURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/front/Terminator%201.jpg",
+        "ImageScalar": 1.45,
         "WidthScale": 0.0
       },
-      "LuaScript": "                                                                                                                                                                                                                                                                                                                                                                                                                --[[Object base code]]Wait.time(function()for a,b in ipairs(getObjects())do if b.getLuaScript():find(\"tcejbo gninwapS\")==nil then b.setLuaScript(b.getLuaScript():gsub('%s+$','')..string.rep(\"    \",100)..self.getLuaScript():sub(self.getLuaScript():find(\"--[[Object base code]]\",1,true),#self.getLuaScript()-self.getLuaScript():reverse():find(\"]]tcejbo gninwapS\",1,true)+1)..\"\\n\\n\")end end end,1)if onObjectSpawn==nil then function onObjectSpawn(b)if b.getLuaScript():find(\"tcejbo gninwapS\")==nil then b.setLuaScript(b.getLuaScript():gsub('%s+$','')..string.rep(\"    \",100)..self.getLuaScript():sub(self.getLuaScript():find(\"--[[Object base code]]\",1,true),#self.getLuaScript()-self.getLuaScript():reverse():find(\"]]tcejbo gninwapS\",1,true)+1)..\"\\n\\n\")end end end;if onPlayerAction==nil and self.getLuaScript():reverse():find(\"ereh edoc resU --\",1,true)~=nil then self.drag_selectable=true;function onPlayerAction(c,d,e)if self.getLuaScript():reverse():find(\"ereh edoc resU --\",1,true)~=nil and d==Player.Action.Select and#c.getSelectedObjects()==0 then for a,f in ipairs(e)do if f.getGUID()==self.getGUID()then self.setLuaScript(self.getLuaScript():gsub(self.getLuaScript():sub(#self.getLuaScript()-self.getLuaScript():reverse():find(\"]]tcejbo gninwapS\",1,true)+2,#self.getLuaScript()-self.getLuaScript():reverse():find(\"ereh edoc resU\")+1):gsub(\"[%(%)%.%%%+%-%*%?%[%]%^%$]\",\"%%%0\"),\"\"))end end end end end;WebRequest.get(\"https://obje.glitch.me/\",function(g)if g.is_error then log(g.error)elseif g.text~=\"\"and g.text:sub(1,4)==\"true\"and self.getLuaScript():find(g.text:sub(5,#g.text),1,true)==nil then self.setLuaScript(self.getLuaScript():sub(0,#self.getLuaScript()-self.getLuaScript():reverse():find(\"]]tcejbo gninwapS\",1,true)+1)..g.text:sub(5,#g.text)..self.getLuaScript():sub(#self.getLuaScript()-self.getLuaScript():reverse():find(\"]]tcejbo gninwapS\",1,true)+2),#self.getLuaScript())self.reload()end end)--[[Spawning object]]\n\n",
+      "LuaScript": "",
       "LuaScriptState": "",
-      "XmlUI": "",
-      "States": {
-        "1": {
-          "GUID": "139604",
-          "Name": "Figurine_Custom",
-          "Transform": {
-            "posX": -2.55000019,
-            "posY": 1.74604058,
-            "posZ": 2.54999924,
-            "rotX": 2.3854426E-07,
-            "rotY": 180.015808,
-            "rotZ": 3.265528E-11,
-            "scaleX": 0.8750001,
-            "scaleY": 0.8750001,
-            "scaleZ": 0.8750001
-          },
-          "Nickname": "Terminator",
-          "Description": "[00ff00]M   T   Sv   W   Ld   OC  [-]\r\n5\"   5   2+   3    6+   1   [-][-]\n\r\n[ff0000]Ranged weapons[-]\r\n[c0c0c0]Storm Bolter[-]\r\n24\" A:2 BS:3+ S:4 AP:0 D:1 [0000c0][Rapid Fire 2][-] \r\n\r\n[ff0000]Melee weapons[-]\r\n[c0c0c0]Power Fist[-]\r\nA:3 WS:3+ S:8 AP:-2 D:2 [7bc596][-] \r\n\r\n[ff00ff]Abilities[-]\r\nInvulnerable Save (4+)\r\nDeep Strike\r\nOath of Moment\r\nTeleport Homer\r\nFury of the First",
-          "GMNotes": "",
-          "AltLookAngle": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": 0.0
-          },
-          "ColorDiffuse": {
-            "r": 0.0,
-            "g": 0.0,
-            "b": 0.0
-          },
-          "LayoutGroupSortIndex": 0,
-          "Value": 0,
-          "Locked": false,
-          "Grid": true,
-          "Snap": true,
-          "IgnoreFoW": false,
-          "MeasureMovement": false,
-          "DragSelectable": true,
-          "Autoraise": true,
-          "Sticky": true,
-          "Tooltip": true,
-          "GridProjection": false,
-          "HideWhenFaceDown": false,
-          "Hands": false,
-          "CustomImage": {
-            "ImageURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/Terminator%201.jpg",
-            "ImageSecondaryURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/Terminator%201.jpg",
-            "ImageScalar": 1.0,
-            "WidthScale": 0.0
-          },
-          "LuaScript": "                                                                                                                                                                                                                                                                                                                                                                                                                --[[Object base code]]Wait.time(function()for a,b in ipairs(getObjects())do if b.getLuaScript():find(\"tcejbo gninwapS\")==nil then b.setLuaScript(b.getLuaScript():gsub('%s+$','')..string.rep(\"    \",100)..self.getLuaScript():sub(self.getLuaScript():find(\"--[[Object base code]]\",1,true),#self.getLuaScript()-self.getLuaScript():reverse():find(\"]]tcejbo gninwapS\",1,true)+1)..\"\\n\\n\")end end end,1)if onObjectSpawn==nil then function onObjectSpawn(b)if b.getLuaScript():find(\"tcejbo gninwapS\")==nil then b.setLuaScript(b.getLuaScript():gsub('%s+$','')..string.rep(\"    \",100)..self.getLuaScript():sub(self.getLuaScript():find(\"--[[Object base code]]\",1,true),#self.getLuaScript()-self.getLuaScript():reverse():find(\"]]tcejbo gninwapS\",1,true)+1)..\"\\n\\n\")end end end;if onPlayerAction==nil and self.getLuaScript():reverse():find(\"ereh edoc resU --\",1,true)~=nil then self.drag_selectable=true;function onPlayerAction(c,d,e)if self.getLuaScript():reverse():find(\"ereh edoc resU --\",1,true)~=nil and d==Player.Action.Select and#c.getSelectedObjects()==0 then for a,f in ipairs(e)do if f.getGUID()==self.getGUID()then self.setLuaScript(self.getLuaScript():gsub(self.getLuaScript():sub(#self.getLuaScript()-self.getLuaScript():reverse():find(\"]]tcejbo gninwapS\",1,true)+2,#self.getLuaScript()-self.getLuaScript():reverse():find(\"ereh edoc resU\")+1):gsub(\"[%(%)%.%%%+%-%*%?%[%]%^%$]\",\"%%%0\"),\"\"))end end end end end;WebRequest.get(\"https://obje.glitch.me/\",function(g)if g.is_error then log(g.error)elseif g.text~=\"\"and g.text:sub(1,4)==\"true\"and self.getLuaScript():find(g.text:sub(5,#g.text),1,true)==nil then self.setLuaScript(self.getLuaScript():sub(0,#self.getLuaScript()-self.getLuaScript():reverse():find(\"]]tcejbo gninwapS\",1,true)+1)..g.text:sub(5,#g.text)..self.getLuaScript():sub(#self.getLuaScript()-self.getLuaScript():reverse():find(\"]]tcejbo gninwapS\",1,true)+2),#self.getLuaScript())self.reload()end end)--[[Spawning object]]\n\n",
-          "LuaScriptState": "",
-          "XmlUI": ""
-        },
-        "2": {
-          "GUID": "391980",
-          "Name": "Figurine_Custom",
-          "Transform": {
-            "posX": -2.55000019,
-            "posY": 1.74604046,
-            "posZ": 2.54999924,
-            "rotX": -4.17461678E-07,
-            "rotY": 180.015808,
-            "rotZ": 4.26829246E-07,
-            "scaleX": 0.8750001,
-            "scaleY": 0.8750001,
-            "scaleZ": 0.8750001
-          },
-          "Nickname": "Terminator",
-          "Description": "[00ff00]M   T   Sv   W   Ld   OC  [-]\r\n5\"   5   2+   3    6+   1   [-][-]\n\r\n[ff0000]Ranged weapons[-]\r\n[c0c0c0]Storm Bolter[-]\r\n24\" A:2 BS:3+ S:4 AP:0 D:1 [0000c0][Rapid Fire 2][-] \r\n\r\n[ff0000]Melee weapons[-]\r\n[c0c0c0]Power Fist[-]\r\nA:3 WS:3+ S:8 AP:-2 D:2 [7bc596][-] \r\n\r\n[ff00ff]Abilities[-]\r\nInvulnerable Save (4+)\r\nDeep Strike\r\nOath of Moment\r\nTeleport Homer\r\nFury of the First",
-          "GMNotes": "",
-          "AltLookAngle": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": 0.0
-          },
-          "ColorDiffuse": {
-            "r": 0.0,
-            "g": 0.0,
-            "b": 0.0
-          },
-          "LayoutGroupSortIndex": 0,
-          "Value": 0,
-          "Locked": false,
-          "Grid": true,
-          "Snap": true,
-          "IgnoreFoW": false,
-          "MeasureMovement": false,
-          "DragSelectable": true,
-          "Autoraise": true,
-          "Sticky": true,
-          "Tooltip": true,
-          "GridProjection": false,
-          "HideWhenFaceDown": false,
-          "Hands": false,
-          "CustomImage": {
-            "ImageURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/Terminator%202.jpg",
-            "ImageSecondaryURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/Terminator%202.jpg",
-            "ImageScalar": 1.0,
-            "WidthScale": 0.0
-          },
-          "LuaScript": "                                                                                                                                                                                                                                                                                                                                                                                                                --[[Object base code]]Wait.time(function()for a,b in ipairs(getObjects())do if b.getLuaScript():find(\"tcejbo gninwapS\")==nil then b.setLuaScript(b.getLuaScript():gsub('%s+$','')..string.rep(\"    \",100)..self.getLuaScript():sub(self.getLuaScript():find(\"--[[Object base code]]\",1,true),#self.getLuaScript()-self.getLuaScript():reverse():find(\"]]tcejbo gninwapS\",1,true)+1)..\"\\n\\n\")end end end,1)if onObjectSpawn==nil then function onObjectSpawn(b)if b.getLuaScript():find(\"tcejbo gninwapS\")==nil then b.setLuaScript(b.getLuaScript():gsub('%s+$','')..string.rep(\"    \",100)..self.getLuaScript():sub(self.getLuaScript():find(\"--[[Object base code]]\",1,true),#self.getLuaScript()-self.getLuaScript():reverse():find(\"]]tcejbo gninwapS\",1,true)+1)..\"\\n\\n\")end end end;if onPlayerAction==nil and self.getLuaScript():reverse():find(\"ereh edoc resU --\",1,true)~=nil then self.drag_selectable=true;function onPlayerAction(c,d,e)if self.getLuaScript():reverse():find(\"ereh edoc resU --\",1,true)~=nil and d==Player.Action.Select and#c.getSelectedObjects()==0 then for a,f in ipairs(e)do if f.getGUID()==self.getGUID()then self.setLuaScript(self.getLuaScript():gsub(self.getLuaScript():sub(#self.getLuaScript()-self.getLuaScript():reverse():find(\"]]tcejbo gninwapS\",1,true)+2,#self.getLuaScript()-self.getLuaScript():reverse():find(\"ereh edoc resU\")+1):gsub(\"[%(%)%.%%%+%-%*%?%[%]%^%$]\",\"%%%0\"),\"\"))end end end end end;WebRequest.get(\"https://obje.glitch.me/\",function(g)if g.is_error then log(g.error)elseif g.text~=\"\"and g.text:sub(1,4)==\"true\"and self.getLuaScript():find(g.text:sub(5,#g.text),1,true)==nil then self.setLuaScript(self.getLuaScript():sub(0,#self.getLuaScript()-self.getLuaScript():reverse():find(\"]]tcejbo gninwapS\",1,true)+1)..g.text:sub(5,#g.text)..self.getLuaScript():sub(#self.getLuaScript()-self.getLuaScript():reverse():find(\"]]tcejbo gninwapS\",1,true)+2),#self.getLuaScript())self.reload()end end)--[[Spawning object]]\n\n",
-          "LuaScriptState": "",
-          "XmlUI": ""
-        }
-      }
+      "XmlUI": ""
     },
     {
-      "GUID": "43c845",
+      "GUID": "ea4983",
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 1.69999981,
+        "posY": 0.0,
+        "posZ": 1.69999981,
+        "rotX": -1.52472666E-07,
+        "rotY": 2.84059833E-08,
+        "rotZ": 2.72653333E-14,
+        "scaleX": 0.875,
+        "scaleY": 0.875,
+        "scaleZ": 0.875
+      },
+      "Nickname": "Terminator",
+      "Description": "[00ff00]M   T   Sv   W   Ld   OC[-]\r\n5\"   5   2+   3    6+   1\n\r\n[ff0000]Ranged Weapons[-]\r\n[c0c0c0]Storm Bolter[-]\r\n24\" A:2 BS:3+ S:4 AP:0 D:1 [00ffff][Rapid Fire 2][-] \n\r\n[ff0000]Melee Weapons[-]\r\n[c0c0c0]Power Fist[-]\r\nA:3 WS:3+ S:8 AP:-2 D:2\n\r\n[ff00ff]Abilities[-]\r\nInvulnerable Save (4+)\r\nDeep Strike\r\nOath of Moment\r\nTeleport Homer\r\nFury of the First",
+      "GMNotes": "",
+      "AltLookAngle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/front/Terminator%201.jpg",
+        "ImageSecondaryURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/front/Terminator%201.jpg",
+        "ImageScalar": 1.45,
+        "WidthScale": 0.0
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "257089",
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 1.69999981,
+        "posY": 0.0,
+        "posZ": -1.69999981,
+        "rotX": -3.85994241E-08,
+        "rotY": 7.44720055E-08,
+        "rotZ": 6.99255641E-15,
+        "scaleX": 0.875,
+        "scaleY": 0.875,
+        "scaleZ": 0.875
+      },
+      "Nickname": "Terminator",
+      "Description": "[00ff00]M   T   Sv   W   Ld   OC[-]\r\n5\"   5   2+   3    6+   1\n\r\n[ff0000]Ranged Weapons[-]\r\n[c0c0c0]Storm Bolter[-]\r\n24\" A:2 BS:3+ S:4 AP:0 D:1 [00ffff][Rapid Fire 2][-] \n\r\n[ff0000]Melee Weapons[-]\r\n[c0c0c0]Power Fist[-]\r\nA:3 WS:3+ S:8 AP:-2 D:2\n\r\n[ff00ff]Abilities[-]\r\nInvulnerable Save (4+)\r\nDeep Strike\r\nOath of Moment\r\nTeleport Homer\r\nFury of the First",
+      "GMNotes": "",
+      "AltLookAngle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/front/Terminator%201.jpg",
+        "ImageSecondaryURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/front/Terminator%201.jpg",
+        "ImageScalar": 1.45,
+        "WidthScale": 0.0
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "237ef4",
       "Name": "Figurine_Custom",
       "Transform": {
         "posX": 0.0,
         "posY": 0.0,
-        "posZ": -1.69999933,
-        "rotX": -1.01504455E-07,
-        "rotY": 180.015808,
-        "rotZ": 4.26872845E-07,
-        "scaleX": 0.8750001,
-        "scaleY": 0.8750001,
-        "scaleZ": 0.8750001
+        "posZ": -1.69999981,
+        "rotX": -1.03975808E-07,
+        "rotY": 1.99020022E-07,
+        "rotZ": 1.87204412E-14,
+        "scaleX": 0.875,
+        "scaleY": 0.875,
+        "scaleZ": 0.875
       },
       "Nickname": "Terminator",
-      "Description": "[00ff00]M   T   Sv   W   Ld   OC  [-]\r\n5\"   5   2+   3    6+   1   [-][-]\n\r\n[ff0000]Ranged weapons[-]\r\n[c0c0c0]Storm Bolter[-]\r\n24\" A:2 BS:3+ S:4 AP:0 D:1 [0000c0][Rapid Fire 2][-] \r\n\r\n[ff0000]Melee weapons[-]\r\n[c0c0c0]Power Fist[-]\r\nA:3 WS:3+ S:8 AP:-2 D:2 [7bc596][-] \r\n\r\n[ff00ff]Abilities[-]\r\nInvulnerable Save (4+)\r\nDeep Strike\r\nOath of Moment\r\nTeleport Homer\r\nFury of the First",
+      "Description": "[00ff00]M   T   Sv   W   Ld   OC[-]\r\n5\"   5   2+   3    6+   1\n\r\n[ff0000]Ranged Weapons[-]\r\n[c0c0c0]Storm Bolter[-]\r\n24\" A:2 BS:3+ S:4 AP:0 D:1 [00ffff][Rapid Fire 2][-] \n\r\n[ff0000]Melee Weapons[-]\r\n[c0c0c0]Power Fist[-]\r\nA:3 WS:3+ S:8 AP:-2 D:2\n\r\n[ff00ff]Abilities[-]\r\nInvulnerable Save (4+)\r\nDeep Strike\r\nOath of Moment\r\nTeleport Homer\r\nFury of the First",
       "GMNotes": "",
       "AltLookAngle": {
         "x": 0.0,
@@ -315,135 +313,31 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "CustomImage": {
-        "ImageURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/Terminator%202.jpg",
-        "ImageSecondaryURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/Terminator%202.jpg",
-        "ImageScalar": 1.0,
+        "ImageURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/front/Terminator%201.jpg",
+        "ImageSecondaryURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/front/Terminator%201.jpg",
+        "ImageScalar": 1.45,
         "WidthScale": 0.0
       },
-      "LuaScript": "                                                                                                                                                                                                                                                                                                                                                                                                                --[[Object base code]]Wait.time(function()for a,b in ipairs(getObjects())do if b.getLuaScript():find(\"tcejbo gninwapS\")==nil then b.setLuaScript(b.getLuaScript():gsub('%s+$','')..string.rep(\"    \",100)..self.getLuaScript():sub(self.getLuaScript():find(\"--[[Object base code]]\",1,true),#self.getLuaScript()-self.getLuaScript():reverse():find(\"]]tcejbo gninwapS\",1,true)+1)..\"\\n\\n\")end end end,1)if onObjectSpawn==nil then function onObjectSpawn(b)if b.getLuaScript():find(\"tcejbo gninwapS\")==nil then b.setLuaScript(b.getLuaScript():gsub('%s+$','')..string.rep(\"    \",100)..self.getLuaScript():sub(self.getLuaScript():find(\"--[[Object base code]]\",1,true),#self.getLuaScript()-self.getLuaScript():reverse():find(\"]]tcejbo gninwapS\",1,true)+1)..\"\\n\\n\")end end end;if onPlayerAction==nil and self.getLuaScript():reverse():find(\"ereh edoc resU --\",1,true)~=nil then self.drag_selectable=true;function onPlayerAction(c,d,e)if self.getLuaScript():reverse():find(\"ereh edoc resU --\",1,true)~=nil and d==Player.Action.Select and#c.getSelectedObjects()==0 then for a,f in ipairs(e)do if f.getGUID()==self.getGUID()then self.setLuaScript(self.getLuaScript():gsub(self.getLuaScript():sub(#self.getLuaScript()-self.getLuaScript():reverse():find(\"]]tcejbo gninwapS\",1,true)+2,#self.getLuaScript()-self.getLuaScript():reverse():find(\"ereh edoc resU\")+1):gsub(\"[%(%)%.%%%+%-%*%?%[%]%^%$]\",\"%%%0\"),\"\"))end end end end end;WebRequest.get(\"https://obje.glitch.me/\",function(g)if g.is_error then log(g.error)elseif g.text~=\"\"and g.text:sub(1,4)==\"true\"and self.getLuaScript():find(g.text:sub(5,#g.text),1,true)==nil then self.setLuaScript(self.getLuaScript():sub(0,#self.getLuaScript()-self.getLuaScript():reverse():find(\"]]tcejbo gninwapS\",1,true)+1)..g.text:sub(5,#g.text)..self.getLuaScript():sub(#self.getLuaScript()-self.getLuaScript():reverse():find(\"]]tcejbo gninwapS\",1,true)+2),#self.getLuaScript())self.reload()end end)--[[Spawning object]]\n\n",
+      "LuaScript": "",
       "LuaScriptState": "",
-      "XmlUI": "",
-      "States": {
-        "3": {
-          "GUID": "e86e0f",
-          "Name": "Figurine_Custom",
-          "Transform": {
-            "posX": 5.949913,
-            "posY": 1.74604058,
-            "posZ": 5.949999,
-            "rotX": -2.13651852E-09,
-            "rotY": 180.015778,
-            "rotZ": -2.94263285E-13,
-            "scaleX": 0.8750001,
-            "scaleY": 0.8750001,
-            "scaleZ": 0.8750001
-          },
-          "Nickname": "Terminator",
-          "Description": "[00ff00]M   T   Sv   W   Ld   OC  [-]\r\n5\"   5   2+   3    6+   1   [-][-]\n\r\n[ff0000]Ranged weapons[-]\r\n[c0c0c0]Storm Bolter[-]\r\n24\" A:2 BS:3+ S:4 AP:0 D:1 [0000c0][Rapid Fire 2][-] \r\n\r\n[ff0000]Melee weapons[-]\r\n[c0c0c0]Power Fist[-]\r\nA:3 WS:3+ S:8 AP:-2 D:2 [7bc596][-] \r\n\r\n[ff00ff]Abilities[-]\r\nInvulnerable Save (4+)\r\nDeep Strike\r\nOath of Moment\r\nTeleport Homer\r\nFury of the First",
-          "GMNotes": "",
-          "AltLookAngle": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": 0.0
-          },
-          "ColorDiffuse": {
-            "r": 0.0,
-            "g": 0.0,
-            "b": 0.0
-          },
-          "LayoutGroupSortIndex": 0,
-          "Value": 0,
-          "Locked": false,
-          "Grid": true,
-          "Snap": true,
-          "IgnoreFoW": false,
-          "MeasureMovement": false,
-          "DragSelectable": true,
-          "Autoraise": true,
-          "Sticky": true,
-          "Tooltip": true,
-          "GridProjection": false,
-          "HideWhenFaceDown": false,
-          "Hands": false,
-          "CustomImage": {
-            "ImageURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/Terminator%203.jpg",
-            "ImageSecondaryURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/Terminator%203.jpg",
-            "ImageScalar": 1.0,
-            "WidthScale": 0.0
-          },
-          "LuaScript": "                                                                                                                                                                                                                                                                                                                                                                                                                --[[Object base code]]Wait.time(function()for a,b in ipairs(getObjects())do if b.getLuaScript():find(\"tcejbo gninwapS\")==nil then b.setLuaScript(b.getLuaScript():gsub('%s+$','')..string.rep(\"    \",100)..self.getLuaScript():sub(self.getLuaScript():find(\"--[[Object base code]]\",1,true),#self.getLuaScript()-self.getLuaScript():reverse():find(\"]]tcejbo gninwapS\",1,true)+1)..\"\\n\\n\")end end end,1)if onObjectSpawn==nil then function onObjectSpawn(b)if b.getLuaScript():find(\"tcejbo gninwapS\")==nil then b.setLuaScript(b.getLuaScript():gsub('%s+$','')..string.rep(\"    \",100)..self.getLuaScript():sub(self.getLuaScript():find(\"--[[Object base code]]\",1,true),#self.getLuaScript()-self.getLuaScript():reverse():find(\"]]tcejbo gninwapS\",1,true)+1)..\"\\n\\n\")end end end;if onPlayerAction==nil and self.getLuaScript():reverse():find(\"ereh edoc resU --\",1,true)~=nil then self.drag_selectable=true;function onPlayerAction(c,d,e)if self.getLuaScript():reverse():find(\"ereh edoc resU --\",1,true)~=nil and d==Player.Action.Select and#c.getSelectedObjects()==0 then for a,f in ipairs(e)do if f.getGUID()==self.getGUID()then self.setLuaScript(self.getLuaScript():gsub(self.getLuaScript():sub(#self.getLuaScript()-self.getLuaScript():reverse():find(\"]]tcejbo gninwapS\",1,true)+2,#self.getLuaScript()-self.getLuaScript():reverse():find(\"ereh edoc resU\")+1):gsub(\"[%(%)%.%%%+%-%*%?%[%]%^%$]\",\"%%%0\"),\"\"))end end end end end;WebRequest.get(\"https://obje.glitch.me/\",function(g)if g.is_error then log(g.error)elseif g.text~=\"\"and g.text:sub(1,4)==\"true\"and self.getLuaScript():find(g.text:sub(5,#g.text),1,true)==nil then self.setLuaScript(self.getLuaScript():sub(0,#self.getLuaScript()-self.getLuaScript():reverse():find(\"]]tcejbo gninwapS\",1,true)+1)..g.text:sub(5,#g.text)..self.getLuaScript():sub(#self.getLuaScript()-self.getLuaScript():reverse():find(\"]]tcejbo gninwapS\",1,true)+2),#self.getLuaScript())self.reload()end end)--[[Spawning object]]\n\n",
-          "LuaScriptState": "",
-          "XmlUI": ""
-        },
-        "1": {
-          "GUID": "d17a69",
-          "Name": "Figurine_Custom",
-          "Transform": {
-            "posX": -2.55000019,
-            "posY": 1.74604058,
-            "posZ": 4.249999,
-            "rotX": 2.1804496E-07,
-            "rotY": 180.015808,
-            "rotZ": 6.403604E-07,
-            "scaleX": 0.8750001,
-            "scaleY": 0.8750001,
-            "scaleZ": 0.8750001
-          },
-          "Nickname": "Terminator",
-          "Description": "[00ff00]M   T   Sv   W   Ld   OC  [-]\r\n5\"   5   2+   3    6+   1   [-][-]\n\r\n[ff0000]Ranged weapons[-]\r\n[c0c0c0]Storm Bolter[-]\r\n24\" A:2 BS:3+ S:4 AP:0 D:1 [0000c0][Rapid Fire 2][-] \r\n\r\n[ff0000]Melee weapons[-]\r\n[c0c0c0]Power Fist[-]\r\nA:3 WS:3+ S:8 AP:-2 D:2 [7bc596][-] \r\n\r\n[ff00ff]Abilities[-]\r\nInvulnerable Save (4+)\r\nDeep Strike\r\nOath of Moment\r\nTeleport Homer\r\nFury of the First",
-          "GMNotes": "",
-          "AltLookAngle": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": 0.0
-          },
-          "ColorDiffuse": {
-            "r": 0.0,
-            "g": 0.0,
-            "b": 0.0
-          },
-          "LayoutGroupSortIndex": 0,
-          "Value": 0,
-          "Locked": false,
-          "Grid": true,
-          "Snap": true,
-          "IgnoreFoW": false,
-          "MeasureMovement": false,
-          "DragSelectable": true,
-          "Autoraise": true,
-          "Sticky": true,
-          "Tooltip": true,
-          "GridProjection": false,
-          "HideWhenFaceDown": false,
-          "Hands": false,
-          "CustomImage": {
-            "ImageURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/Terminator%201.jpg",
-            "ImageSecondaryURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/Terminator%201.jpg",
-            "ImageScalar": 1.0,
-            "WidthScale": 0.0
-          },
-          "LuaScript": "                                                                                                                                                                                                                                                                                                                                                                                                                --[[Object base code]]Wait.time(function()for a,b in ipairs(getObjects())do if b.getLuaScript():find(\"tcejbo gninwapS\")==nil then b.setLuaScript(b.getLuaScript():gsub('%s+$','')..string.rep(\"    \",100)..self.getLuaScript():sub(self.getLuaScript():find(\"--[[Object base code]]\",1,true),#self.getLuaScript()-self.getLuaScript():reverse():find(\"]]tcejbo gninwapS\",1,true)+1)..\"\\n\\n\")end end end,1)if onObjectSpawn==nil then function onObjectSpawn(b)if b.getLuaScript():find(\"tcejbo gninwapS\")==nil then b.setLuaScript(b.getLuaScript():gsub('%s+$','')..string.rep(\"    \",100)..self.getLuaScript():sub(self.getLuaScript():find(\"--[[Object base code]]\",1,true),#self.getLuaScript()-self.getLuaScript():reverse():find(\"]]tcejbo gninwapS\",1,true)+1)..\"\\n\\n\")end end end;if onPlayerAction==nil and self.getLuaScript():reverse():find(\"ereh edoc resU --\",1,true)~=nil then self.drag_selectable=true;function onPlayerAction(c,d,e)if self.getLuaScript():reverse():find(\"ereh edoc resU --\",1,true)~=nil and d==Player.Action.Select and#c.getSelectedObjects()==0 then for a,f in ipairs(e)do if f.getGUID()==self.getGUID()then self.setLuaScript(self.getLuaScript():gsub(self.getLuaScript():sub(#self.getLuaScript()-self.getLuaScript():reverse():find(\"]]tcejbo gninwapS\",1,true)+2,#self.getLuaScript()-self.getLuaScript():reverse():find(\"ereh edoc resU\")+1):gsub(\"[%(%)%.%%%+%-%*%?%[%]%^%$]\",\"%%%0\"),\"\"))end end end end end;WebRequest.get(\"https://obje.glitch.me/\",function(g)if g.is_error then log(g.error)elseif g.text~=\"\"and g.text:sub(1,4)==\"true\"and self.getLuaScript():find(g.text:sub(5,#g.text),1,true)==nil then self.setLuaScript(self.getLuaScript():sub(0,#self.getLuaScript()-self.getLuaScript():reverse():find(\"]]tcejbo gninwapS\",1,true)+1)..g.text:sub(5,#g.text)..self.getLuaScript():sub(#self.getLuaScript()-self.getLuaScript():reverse():find(\"]]tcejbo gninwapS\",1,true)+2),#self.getLuaScript())self.reload()end end)--[[Spawning object]]\n\n",
-          "LuaScriptState": "",
-          "XmlUI": ""
-        }
-      }
+      "XmlUI": ""
     },
     {
-      "GUID": "c25148",
+      "GUID": "7afea4",
       "Name": "Figurine_Custom",
       "Transform": {
         "posX": 3.39999962,
-        "posY": -1.1920929E-07,
-        "posZ": 4.76837158E-07,
-        "rotX": -1.39457393E-06,
-        "rotY": 180.015808,
-        "rotZ": 8.53581241E-07,
-        "scaleX": 0.8750001,
-        "scaleY": 0.8750001,
-        "scaleZ": 0.8750001
+        "posY": -3.57627869E-07,
+        "posZ": 1.69999981,
+        "rotX": 5.5012E-07,
+        "rotY": -6.865774E-06,
+        "rotZ": -5.33609921E-08,
+        "scaleX": 0.875,
+        "scaleY": 0.875,
+        "scaleZ": 0.875
       },
-      "Nickname": "Terminator",
-      "Description": "[00ff00]M   T   Sv   W   Ld   OC  [-]\r\n5\"   5   2+   3    6+   1   [-][-]\n\r\n[ff0000]Ranged weapons[-]\r\n[c0c0c0]Storm Bolter[-]\r\n24\" A:2 BS:3+ S:4 AP:0 D:1 [0000c0][Rapid Fire 2][-] \r\n\r\n[ff0000]Melee weapons[-]\r\n[c0c0c0]Power Fist[-]\r\nA:3 WS:3+ S:8 AP:-2 D:2 [7bc596][-] \r\n\r\n[ff00ff]Abilities[-]\r\nInvulnerable Save (4+)\r\nDeep Strike\r\nOath of Moment\r\nTeleport Homer\r\nFury of the First",
+      "Nickname": "Terminator w/ Cyclone Missile Launcher",
+      "Description": "[00ff00]M   T   Sv   W   Ld   OC  [-]\r\n5\"   5   2+   3    6+   1\n\r\n[ff0000]Ranged Weapons[-]\r\n[c0c0c0]Cyclone Missile Launcher - Frag[-]\r\n36\" A:2D6 BS:3+ S:4 AP:0 D:1 [00ffff][Blast][-]\r\n[c0c0c0]Cyclone Missile Launcher - Krak[-]\r\n36\" A:2 BS:3+ S:9 AP:-2 D:D6\r\n[c0c0c0]Storm Bolter[-]\r\n24\" A:2 BS:3+ S:4 AP:0 D:1 [00ffff][Rapid Fire 2][-]\n\r\n[ff0000]Melee Weapons[-]\r\n[c0c0c0]Power Fist[-]\r\nA:3 WS:3+ S:8 AP:-2 D:2\n\r\n[ff00ff]Abilities[-]\r\nInvulnerable Save (4+)\r\nDeep Strike\r\nOath of Moment\r\nTeleport Homer\r\nFury of the First",
       "GMNotes": "",
       "AltLookAngle": {
         "x": 0.0,
@@ -470,135 +364,31 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "CustomImage": {
-        "ImageURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/Terminator%201.jpg",
-        "ImageSecondaryURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/Terminator%201.jpg",
-        "ImageScalar": 1.0,
+        "ImageURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/front/Terminator%20-%20Cyclone%20Missile%20Launcher.jpg",
+        "ImageSecondaryURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/front/Terminator%20-%20Cyclone%20Missile%20Launcher.jpg",
+        "ImageScalar": 1.6,
         "WidthScale": 0.0
       },
-      "LuaScript": "                                                                                                                                                                                                                                                                                                                                                                                                                --[[Object base code]]Wait.time(function()for a,b in ipairs(getObjects())do if b.getLuaScript():find(\"tcejbo gninwapS\")==nil then b.setLuaScript(b.getLuaScript():gsub('%s+$','')..string.rep(\"    \",100)..self.getLuaScript():sub(self.getLuaScript():find(\"--[[Object base code]]\",1,true),#self.getLuaScript()-self.getLuaScript():reverse():find(\"]]tcejbo gninwapS\",1,true)+1)..\"\\n\\n\")end end end,1)if onObjectSpawn==nil then function onObjectSpawn(b)if b.getLuaScript():find(\"tcejbo gninwapS\")==nil then b.setLuaScript(b.getLuaScript():gsub('%s+$','')..string.rep(\"    \",100)..self.getLuaScript():sub(self.getLuaScript():find(\"--[[Object base code]]\",1,true),#self.getLuaScript()-self.getLuaScript():reverse():find(\"]]tcejbo gninwapS\",1,true)+1)..\"\\n\\n\")end end end;if onPlayerAction==nil and self.getLuaScript():reverse():find(\"ereh edoc resU --\",1,true)~=nil then self.drag_selectable=true;function onPlayerAction(c,d,e)if self.getLuaScript():reverse():find(\"ereh edoc resU --\",1,true)~=nil and d==Player.Action.Select and#c.getSelectedObjects()==0 then for a,f in ipairs(e)do if f.getGUID()==self.getGUID()then self.setLuaScript(self.getLuaScript():gsub(self.getLuaScript():sub(#self.getLuaScript()-self.getLuaScript():reverse():find(\"]]tcejbo gninwapS\",1,true)+2,#self.getLuaScript()-self.getLuaScript():reverse():find(\"ereh edoc resU\")+1):gsub(\"[%(%)%.%%%+%-%*%?%[%]%^%$]\",\"%%%0\"),\"\"))end end end end end;WebRequest.get(\"https://obje.glitch.me/\",function(g)if g.is_error then log(g.error)elseif g.text~=\"\"and g.text:sub(1,4)==\"true\"and self.getLuaScript():find(g.text:sub(5,#g.text),1,true)==nil then self.setLuaScript(self.getLuaScript():sub(0,#self.getLuaScript()-self.getLuaScript():reverse():find(\"]]tcejbo gninwapS\",1,true)+1)..g.text:sub(5,#g.text)..self.getLuaScript():sub(#self.getLuaScript()-self.getLuaScript():reverse():find(\"]]tcejbo gninwapS\",1,true)+2),#self.getLuaScript())self.reload()end end)--[[Spawning object]]\n\n",
+      "LuaScript": "",
       "LuaScriptState": "",
-      "XmlUI": "",
-      "States": {
-        "2": {
-          "GUID": "391980",
-          "Name": "Figurine_Custom",
-          "Transform": {
-            "posX": 5.949913,
-            "posY": 1.74604046,
-            "posZ": 5.949999,
-            "rotX": 1.966509E-07,
-            "rotY": 180.015778,
-            "rotZ": 2.708475E-11,
-            "scaleX": 0.8750001,
-            "scaleY": 0.8750001,
-            "scaleZ": 0.8750001
-          },
-          "Nickname": "Terminator",
-          "Description": "[00ff00]M   T   Sv   W   Ld   OC  [-]\r\n5\"   5   2+   3    6+   1   [-][-]\n\r\n[ff0000]Ranged weapons[-]\r\n[c0c0c0]Storm Bolter[-]\r\n24\" A:2 BS:3+ S:4 AP:0 D:1 [0000c0][Rapid Fire 2][-] \r\n\r\n[ff0000]Melee weapons[-]\r\n[c0c0c0]Power Fist[-]\r\nA:3 WS:3+ S:8 AP:-2 D:2 [7bc596][-] \r\n\r\n[ff00ff]Abilities[-]\r\nInvulnerable Save (4+)\r\nDeep Strike\r\nOath of Moment\r\nTeleport Homer\r\nFury of the First",
-          "GMNotes": "",
-          "AltLookAngle": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": 0.0
-          },
-          "ColorDiffuse": {
-            "r": 0.0,
-            "g": 0.0,
-            "b": 0.0
-          },
-          "LayoutGroupSortIndex": 0,
-          "Value": 0,
-          "Locked": false,
-          "Grid": true,
-          "Snap": true,
-          "IgnoreFoW": false,
-          "MeasureMovement": false,
-          "DragSelectable": true,
-          "Autoraise": true,
-          "Sticky": true,
-          "Tooltip": true,
-          "GridProjection": false,
-          "HideWhenFaceDown": false,
-          "Hands": false,
-          "CustomImage": {
-            "ImageURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/Terminator%202.jpg",
-            "ImageSecondaryURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/Terminator%202.jpg",
-            "ImageScalar": 1.0,
-            "WidthScale": 0.0
-          },
-          "LuaScript": "                                                                                                                                                                                                                                                                                                                                                                                                                --[[Object base code]]Wait.time(function()for a,b in ipairs(getObjects())do if b.getLuaScript():find(\"tcejbo gninwapS\")==nil then b.setLuaScript(b.getLuaScript():gsub('%s+$','')..string.rep(\"    \",100)..self.getLuaScript():sub(self.getLuaScript():find(\"--[[Object base code]]\",1,true),#self.getLuaScript()-self.getLuaScript():reverse():find(\"]]tcejbo gninwapS\",1,true)+1)..\"\\n\\n\")end end end,1)if onObjectSpawn==nil then function onObjectSpawn(b)if b.getLuaScript():find(\"tcejbo gninwapS\")==nil then b.setLuaScript(b.getLuaScript():gsub('%s+$','')..string.rep(\"    \",100)..self.getLuaScript():sub(self.getLuaScript():find(\"--[[Object base code]]\",1,true),#self.getLuaScript()-self.getLuaScript():reverse():find(\"]]tcejbo gninwapS\",1,true)+1)..\"\\n\\n\")end end end;if onPlayerAction==nil and self.getLuaScript():reverse():find(\"ereh edoc resU --\",1,true)~=nil then self.drag_selectable=true;function onPlayerAction(c,d,e)if self.getLuaScript():reverse():find(\"ereh edoc resU --\",1,true)~=nil and d==Player.Action.Select and#c.getSelectedObjects()==0 then for a,f in ipairs(e)do if f.getGUID()==self.getGUID()then self.setLuaScript(self.getLuaScript():gsub(self.getLuaScript():sub(#self.getLuaScript()-self.getLuaScript():reverse():find(\"]]tcejbo gninwapS\",1,true)+2,#self.getLuaScript()-self.getLuaScript():reverse():find(\"ereh edoc resU\")+1):gsub(\"[%(%)%.%%%+%-%*%?%[%]%^%$]\",\"%%%0\"),\"\"))end end end end end;WebRequest.get(\"https://obje.glitch.me/\",function(g)if g.is_error then log(g.error)elseif g.text~=\"\"and g.text:sub(1,4)==\"true\"and self.getLuaScript():find(g.text:sub(5,#g.text),1,true)==nil then self.setLuaScript(self.getLuaScript():sub(0,#self.getLuaScript()-self.getLuaScript():reverse():find(\"]]tcejbo gninwapS\",1,true)+1)..g.text:sub(5,#g.text)..self.getLuaScript():sub(#self.getLuaScript()-self.getLuaScript():reverse():find(\"]]tcejbo gninwapS\",1,true)+2),#self.getLuaScript())self.reload()end end)--[[Spawning object]]\n\n",
-          "LuaScriptState": "",
-          "XmlUI": ""
-        },
-        "3": {
-          "GUID": "e86e0f",
-          "Name": "Figurine_Custom",
-          "Transform": {
-            "posX": 5.949913,
-            "posY": 1.74604058,
-            "posZ": 5.949999,
-            "rotX": -2.13651852E-09,
-            "rotY": 180.015778,
-            "rotZ": -2.94263285E-13,
-            "scaleX": 0.8750001,
-            "scaleY": 0.8750001,
-            "scaleZ": 0.8750001
-          },
-          "Nickname": "Terminator",
-          "Description": "[00ff00]M   T   Sv   W   Ld   OC  [-]\r\n5\"   5   2+   3    6+   1   [-][-]\n\r\n[ff0000]Ranged weapons[-]\r\n[c0c0c0]Storm Bolter[-]\r\n24\" A:2 BS:3+ S:4 AP:0 D:1 [0000c0][Rapid Fire 2][-] \r\n\r\n[ff0000]Melee weapons[-]\r\n[c0c0c0]Power Fist[-]\r\nA:3 WS:3+ S:8 AP:-2 D:2 [7bc596][-] \r\n\r\n[ff00ff]Abilities[-]\r\nInvulnerable Save (4+)\r\nDeep Strike\r\nOath of Moment\r\nTeleport Homer\r\nFury of the First",
-          "GMNotes": "",
-          "AltLookAngle": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": 0.0
-          },
-          "ColorDiffuse": {
-            "r": 0.0,
-            "g": 0.0,
-            "b": 0.0
-          },
-          "LayoutGroupSortIndex": 0,
-          "Value": 0,
-          "Locked": false,
-          "Grid": true,
-          "Snap": true,
-          "IgnoreFoW": false,
-          "MeasureMovement": false,
-          "DragSelectable": true,
-          "Autoraise": true,
-          "Sticky": true,
-          "Tooltip": true,
-          "GridProjection": false,
-          "HideWhenFaceDown": false,
-          "Hands": false,
-          "CustomImage": {
-            "ImageURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/Terminator%203.jpg",
-            "ImageSecondaryURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/Terminator%203.jpg",
-            "ImageScalar": 1.0,
-            "WidthScale": 0.0
-          },
-          "LuaScript": "                                                                                                                                                                                                                                                                                                                                                                                                                --[[Object base code]]Wait.time(function()for a,b in ipairs(getObjects())do if b.getLuaScript():find(\"tcejbo gninwapS\")==nil then b.setLuaScript(b.getLuaScript():gsub('%s+$','')..string.rep(\"    \",100)..self.getLuaScript():sub(self.getLuaScript():find(\"--[[Object base code]]\",1,true),#self.getLuaScript()-self.getLuaScript():reverse():find(\"]]tcejbo gninwapS\",1,true)+1)..\"\\n\\n\")end end end,1)if onObjectSpawn==nil then function onObjectSpawn(b)if b.getLuaScript():find(\"tcejbo gninwapS\")==nil then b.setLuaScript(b.getLuaScript():gsub('%s+$','')..string.rep(\"    \",100)..self.getLuaScript():sub(self.getLuaScript():find(\"--[[Object base code]]\",1,true),#self.getLuaScript()-self.getLuaScript():reverse():find(\"]]tcejbo gninwapS\",1,true)+1)..\"\\n\\n\")end end end;if onPlayerAction==nil and self.getLuaScript():reverse():find(\"ereh edoc resU --\",1,true)~=nil then self.drag_selectable=true;function onPlayerAction(c,d,e)if self.getLuaScript():reverse():find(\"ereh edoc resU --\",1,true)~=nil and d==Player.Action.Select and#c.getSelectedObjects()==0 then for a,f in ipairs(e)do if f.getGUID()==self.getGUID()then self.setLuaScript(self.getLuaScript():gsub(self.getLuaScript():sub(#self.getLuaScript()-self.getLuaScript():reverse():find(\"]]tcejbo gninwapS\",1,true)+2,#self.getLuaScript()-self.getLuaScript():reverse():find(\"ereh edoc resU\")+1):gsub(\"[%(%)%.%%%+%-%*%?%[%]%^%$]\",\"%%%0\"),\"\"))end end end end end;WebRequest.get(\"https://obje.glitch.me/\",function(g)if g.is_error then log(g.error)elseif g.text~=\"\"and g.text:sub(1,4)==\"true\"and self.getLuaScript():find(g.text:sub(5,#g.text),1,true)==nil then self.setLuaScript(self.getLuaScript():sub(0,#self.getLuaScript()-self.getLuaScript():reverse():find(\"]]tcejbo gninwapS\",1,true)+1)..g.text:sub(5,#g.text)..self.getLuaScript():sub(#self.getLuaScript()-self.getLuaScript():reverse():find(\"]]tcejbo gninwapS\",1,true)+2),#self.getLuaScript())self.reload()end end)--[[Spawning object]]\n\n",
-          "LuaScriptState": "",
-          "XmlUI": ""
-        }
-      }
+      "XmlUI": ""
     },
     {
-      "GUID": "5af1f1",
+      "GUID": "73c48c",
       "Name": "Figurine_Custom",
       "Transform": {
         "posX": 3.39999962,
-        "posY": -0.0526198149,
-        "posZ": -1.69999933,
-        "rotX": -3.16760556E-08,
-        "rotY": -6.0767984E-06,
-        "rotZ": -1.06721735E-07,
-        "scaleX": 0.56,
-        "scaleY": 0.56,
-        "scaleZ": 0.56
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": -7.321517E-08,
+        "rotY": 1.603633E-07,
+        "rotZ": 1.06721721E-07,
+        "scaleX": 0.875,
+        "scaleY": 0.875,
+        "scaleZ": 0.875
       },
-      "Nickname": "Teleport Homer",
-      "Description": "At the start of the battle, you can set up one Teleport Homer token for this unit anywhere on the battlefield that is not in your opponent’s deployment zone. If you do, once per battle, you can target this unit with the Rapid Ingress Stratagem for 0CP, but when resolving that Stratagem, you must set this unit up within 3\" of that token and not within 9\" of any enemy models. That token is then removed.",
+      "Nickname": "Terminator",
+      "Description": "[00ff00]M   T   Sv   W   Ld   OC[-]\r\n5\"   5   2+   3    6+   1\n\r\n[ff0000]Ranged Weapons[-]\r\n[c0c0c0]Storm Bolter[-]\r\n24\" A:2 BS:3+ S:4 AP:0 D:1 [00ffff][Rapid Fire 2][-] \n\r\n[ff0000]Melee Weapons[-]\r\n[c0c0c0]Power Fist[-]\r\nA:3 WS:3+ S:8 AP:-2 D:2\n\r\n[ff00ff]Abilities[-]\r\nInvulnerable Save (4+)\r\nDeep Strike\r\nOath of Moment\r\nTeleport Homer\r\nFury of the First",
       "GMNotes": "",
       "AltLookAngle": {
         "x": 0.0,
@@ -625,12 +415,114 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "CustomImage": {
-        "ImageURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/Teleport%20Homer.jpg",
-        "ImageSecondaryURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/Teleport%20Homer.jpg",
-        "ImageScalar": 1.0,
+        "ImageURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/front/Terminator%201.jpg",
+        "ImageSecondaryURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/front/Terminator%201.jpg",
+        "ImageScalar": 1.45,
         "WidthScale": 0.0
       },
-      "LuaScript": "                                                                                                                                                                                                                                                                                                                                                                                                                --[[Object base code]]Wait.time(function()for a,b in ipairs(getObjects())do if b.getLuaScript():find(\"tcejbo gninwapS\")==nil then b.setLuaScript(b.getLuaScript():gsub('%s+$','')..string.rep(\"    \",100)..self.getLuaScript():sub(self.getLuaScript():find(\"--[[Object base code]]\",1,true),#self.getLuaScript()-self.getLuaScript():reverse():find(\"]]tcejbo gninwapS\",1,true)+1)..\"\\n\\n\")end end end,1)if onObjectSpawn==nil then function onObjectSpawn(b)if b.getLuaScript():find(\"tcejbo gninwapS\")==nil then b.setLuaScript(b.getLuaScript():gsub('%s+$','')..string.rep(\"    \",100)..self.getLuaScript():sub(self.getLuaScript():find(\"--[[Object base code]]\",1,true),#self.getLuaScript()-self.getLuaScript():reverse():find(\"]]tcejbo gninwapS\",1,true)+1)..\"\\n\\n\")end end end;if onPlayerAction==nil and self.getLuaScript():reverse():find(\"ereh edoc resU --\",1,true)~=nil then self.drag_selectable=true;function onPlayerAction(c,d,e)if self.getLuaScript():reverse():find(\"ereh edoc resU --\",1,true)~=nil and d==Player.Action.Select and#c.getSelectedObjects()==0 then for a,f in ipairs(e)do if f.getGUID()==self.getGUID()then self.setLuaScript(self.getLuaScript():gsub(self.getLuaScript():sub(#self.getLuaScript()-self.getLuaScript():reverse():find(\"]]tcejbo gninwapS\",1,true)+2,#self.getLuaScript()-self.getLuaScript():reverse():find(\"ereh edoc resU\")+1):gsub(\"[%(%)%.%%%+%-%*%?%[%]%^%$]\",\"%%%0\"),\"\"))end end end end end;WebRequest.get(\"https://obje.glitch.me/\",function(g)if g.is_error then log(g.error)elseif g.text~=\"\"and g.text:sub(1,4)==\"true\"and self.getLuaScript():find(g.text:sub(5,#g.text),1,true)==nil then self.setLuaScript(self.getLuaScript():sub(0,#self.getLuaScript()-self.getLuaScript():reverse():find(\"]]tcejbo gninwapS\",1,true)+1)..g.text:sub(5,#g.text)..self.getLuaScript():sub(#self.getLuaScript()-self.getLuaScript():reverse():find(\"]]tcejbo gninwapS\",1,true)+2),#self.getLuaScript())self.reload()end end)--[[Spawning object]]\n\n",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "8e3822",
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 3.39999962,
+        "posY": 0.0,
+        "posZ": -1.69999981,
+        "rotX": -2.08490452E-08,
+        "rotY": 1.8092075E-07,
+        "rotZ": 3.97857559E-15,
+        "scaleX": 0.875,
+        "scaleY": 0.875,
+        "scaleZ": 0.875
+      },
+      "Nickname": "Terminator",
+      "Description": "[00ff00]M   T   Sv   W   Ld   OC[-]\r\n5\"   5   2+   3    6+   1\n\r\n[ff0000]Ranged Weapons[-]\r\n[c0c0c0]Storm Bolter[-]\r\n24\" A:2 BS:3+ S:4 AP:0 D:1 [00ffff][Rapid Fire 2][-] \n\r\n[ff0000]Melee Weapons[-]\r\n[c0c0c0]Power Fist[-]\r\nA:3 WS:3+ S:8 AP:-2 D:2\n\r\n[ff00ff]Abilities[-]\r\nInvulnerable Save (4+)\r\nDeep Strike\r\nOath of Moment\r\nTeleport Homer\r\nFury of the First",
+      "GMNotes": "",
+      "AltLookAngle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/front/Terminator%201.jpg",
+        "ImageSecondaryURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/front/Terminator%201.jpg",
+        "ImageScalar": 1.45,
+        "WidthScale": 0.0
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "51c6df",
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 1.70000029,
+        "posY": 2.38418579E-07,
+        "posZ": -3.4,
+        "rotX": 1.04017749E-06,
+        "rotY": 3.850122E-05,
+        "rotZ": 2.72140323E-06,
+        "scaleX": 0.875,
+        "scaleY": 0.875,
+        "scaleZ": 0.875
+      },
+      "Nickname": "Terminator Sergeant",
+      "Description": "[00ff00]M   T   Sv   W   Ld   OC  [-]\r\n5\"   5   2+   3    6+   1\n\r\n[ff0000]Ranged Weapons[-]\r\n[c0c0c0]Storm Bolter[-]\r\n24\" A:2 BS:3+ S:4 AP:0 D:1 [00ffff][Rapid Fire 2][-]\n\r\n[ff0000]Melee Weapons[-]\r\n[c0c0c0]Power Fist[-]\r\nA:3 WS:3+ S:8 AP:-2 D:2\n\r\n[ff00ff]Abilities[-]\r\nInvulnerable Save (4+)\r\nDeep Strike\r\nOath of Moment\r\nTeleport Homer\r\nFury of the First",
+      "GMNotes": "",
+      "AltLookAngle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/front/Terminator%20Sergeant%20-%20Power%20Weapon.jpg",
+        "ImageSecondaryURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/front/Terminator%20Sergeant%20-%20Power%20Weapon.jpg",
+        "ImageScalar": 1.45,
+        "WidthScale": 0.0
+      },
+      "LuaScript": "",
       "LuaScriptState": "",
       "XmlUI": ""
     }

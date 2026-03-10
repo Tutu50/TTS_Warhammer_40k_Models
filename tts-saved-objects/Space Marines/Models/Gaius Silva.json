@@ -1,0 +1,71 @@
+{
+  "SaveName": "",
+  "Date": "",
+  "VersionNumber": "",
+  "GameMode": "",
+  "GameType": "",
+  "GameComplexity": "",
+  "Tags": [],
+  "Gravity": 0.5,
+  "PlayArea": 0.5,
+  "Table": "",
+  "Sky": "",
+  "Note": "",
+  "TabStates": {},
+  "LuaScript": "",
+  "LuaScriptState": "",
+  "XmlUI": "",
+  "ObjectStates": [
+    {
+      "GUID": "7483eb",
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 0,
+        "posY": 0,
+        "posZ": 0,
+        "rotX": 0,
+        "rotY": 0,
+        "rotZ": 0,
+        "scaleX": 0.6,
+        "scaleY": 0.6,
+        "scaleZ": 0.6
+      },
+      "Nickname": "Gaius Silva",
+      "Description": "[00ff00]M   T   Sv   W   Ld   OC[-]\r\n6\"   3   4+   3    6+   1\n\r\n[ff0000]Ranged Weapons[-]\r\n[c0c0c0]Archeotech Laspistol[-]\r\n12\" A:1 BS:3+ S:4 AP:-1 D:1 [00ffff][Pistol][-]\n\r\n[ff0000]Melee Weapons[-]\r\n[c0c0c0]Power Weapon[-]\r\nA:4 WS:2+ S:4 AP:-2 D:1\n\r\n[ff00ff]Abilities[-]\r\nInvulnerable Save (5+)\r\nOath of Moment\r\nSecond Company Banner\r\nStrategium Command",
+      "GMNotes": "",
+      "AltLookAngle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/front/Gaius%20Silva.jpg",
+        "ImageSecondaryURL": "https://raw.githubusercontent.com/Tutu50/TTS_Warhammer_40k_Models/refs/heads/main/images/space%20marines/back/Gaius%20Silva.jpg",
+        "ImageScalar": 1.5,
+        "WidthScale": 0.0
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    }
+  ]
+}
